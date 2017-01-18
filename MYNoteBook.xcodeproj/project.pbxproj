@@ -2535,6 +2535,8 @@
 					D6EE1EEB1DCAA616003F14CD = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 3TQC24HTXA;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -3029,7 +3031,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImages;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: 伟南 陈 (R78F78EBXD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 伟南 陈 (R78F78EBXD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3TQC24HTXA;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3047,7 +3050,7 @@
 				);
 				GCC_PREFIX_HEADER = "MYNoteBook/Books/IOS编程随记1/创建Framework静态库/Header/MYNetwork-prefix.pch";
 				INFOPLIST_FILE = MYNoteBook/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3066,9 +3069,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenweinan.MYNoteBook;
 				PRODUCT_MODULE_NAME = OC_Swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f180bb1d-5deb-4140-9484-db08a259ebd0";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MYNoteBook/Books/IOS编程随记1/Swift_OC混编/Swift_OC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -3080,6 +3084,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3TQC24HTXA;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3097,7 +3102,7 @@
 				);
 				GCC_PREFIX_HEADER = "MYNoteBook/Books/IOS编程随记1/创建Framework静态库/Header/MYNetwork-prefix.pch";
 				INFOPLIST_FILE = MYNoteBook/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3116,8 +3121,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenweinan.MYNoteBook;
 				PRODUCT_MODULE_NAME = OC_Swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f180bb1d-5deb-4140-9484-db08a259ebd0";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MYNoteBook/Books/IOS编程随记1/Swift_OC混编/Swift_OC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

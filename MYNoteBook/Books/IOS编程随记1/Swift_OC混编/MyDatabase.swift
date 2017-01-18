@@ -15,22 +15,22 @@ var database :FMDatabase!
 class MyDatabase: NSObject {
     //MARK: 数据库创建
     class func getDatabase()->FMDatabase{
-        let fileManager = NSFileManager.defaultManager()
+        let fileManager = FileManager.default
         let databasePath = self.getDatabasePath()
         
-        if !fileManager.fileExistsAtPath(databasePath) {
+        if !fileManager.fileExists(atPath: databasePath) {
             let db = FMDatabase(path: databasePath)//创建数据库
             if db == nil {
                 NSLog("数据库创建失败")
             }
-            if db.open() {
+            if (db?.open())! {
                 let sql = "CREATE TABLE IF NOT EXISTS \(T_Person) (ID INTEGER PRIMARY KEY, NAME TEXT, PHONE TEXT)"
-                if !db.executeStatements(sql) {
+                if !(db?.executeStatements(sql))! {
                      NSLog("Person表创建失败")
                 }
-                db.close()
+                db?.close()
             } else {
-                NSLog("Error: \(db.lastErrorMessage())")
+                NSLog("Error: \(db?.lastErrorMessage())")
             }
         }
         if (database != nil){
@@ -38,7 +38,7 @@ class MyDatabase: NSObject {
         }else{
           let db = FMDatabase(path: databasePath)
           database = db
-          return db
+          return db!
         }
     }
     
@@ -46,7 +46,7 @@ class MyDatabase: NSObject {
     func insertObjectUsingSQL(sql:String, withArgumentsInArray arguments:[AnyObject])->Bool{
         let db = MyDatabase.getDatabase()
         db.open()
-        let isdown = db.executeUpdate(sql, withArgumentsInArray: arguments)
+        let isdown = db.executeUpdate(sql, withArgumentsIn: arguments)
         db.close()
         if isdown == false{
              NSLog("\(db.lastErrorMessage())",[]);
@@ -59,7 +59,7 @@ class MyDatabase: NSObject {
     func updateObjectUsingSQL(sql:String, withArgumentsInArray arguments:[AnyObject])->Bool{
         let db = MyDatabase.getDatabase()
         db.open()
-        let isdown = db.executeUpdate(sql, withArgumentsInArray: arguments)
+        let isdown = db.executeUpdate(sql, withArgumentsIn: arguments)
         db.close()
         if isdown == false{
              NSLog("\(db.lastErrorMessage())",[]);
@@ -72,7 +72,7 @@ class MyDatabase: NSObject {
     func removeObjectUsintSQL(sql:String, withArgumentsInArray arguments:[AnyObject])->Bool{
         let db = MyDatabase.getDatabase()
         db.open()
-        let isdown = db.executeUpdate(sql, withArgumentsInArray: arguments)
+        let isdown = db.executeUpdate(sql, withArgumentsIn: arguments)
         db.close()
         if isdown == false{
             NSLog("\(db.lastErrorMessage())",[]);
@@ -85,8 +85,8 @@ class MyDatabase: NSObject {
     func selectObjectUsingSQL(sql:String, withArgumentsInArray arguments:[AnyObject])->FMResultSet{
         let db = MyDatabase.getDatabase()
         db.open()
-        let resultSet = db.executeQuery(sql, withArgumentsInArray: arguments)
-        return resultSet
+        let resultSet = db.executeQuery(sql, withArgumentsIn: arguments)
+        return resultSet!
     }
     
     func closeDatabaseAfterQueryDown(){
@@ -96,9 +96,9 @@ class MyDatabase: NSObject {
     
     //MARK: 私有方法
     private class func getDatabasePath() -> String{
-        let path = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)
+        let path = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true)
         let documentPath = path[0] as NSString
-        let databasePath = documentPath.stringByAppendingPathComponent("\(MYDatabaseName).db")
+        let databasePath = documentPath.appendingPathComponent("\(MYDatabaseName).db")
         return databasePath
     }
     

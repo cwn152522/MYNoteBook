@@ -153,27 +153,27 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 
 #pragma mark APNs通知回调方法
 
-#ifdef NSFoundationVersionNumber_iOS_9_x_Max
-// iOS 10 Support
-- (void)jpushNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(NSInteger))completionHandler {
-    // Required
-    NSDictionary * userInfo = notification.request.content.userInfo;
-    if([notification.request.trigger isKindOfClass:[UNPushNotificationTrigger class]]) {
-        [JPUSHService handleRemoteNotification:userInfo];
-    }
-    completionHandler(UNNotificationPresentationOptionAlert); // 需要执行这个方法，选择是否提醒用户，有Badge、Sound、Alert三种类型可以选择设置
-}
+//#ifdef NSFoundationVersionNumber_iOS_9_x_Max
+//// iOS 10 Support
+//- (void)jpushNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(NSInteger))completionHandler {
+//    // Required
+//    NSDictionary * userInfo = notification.request.content.userInfo;
+//    if([notification.request.trigger isKindOfClass:[UNPushNotificationTrigger class]]) {
+//        [JPUSHService handleRemoteNotification:userInfo];
+//    }
+//    completionHandler(UNNotificationPresentationOptionAlert); // 需要执行这个方法，选择是否提醒用户，有Badge、Sound、Alert三种类型可以选择设置
+//}
 
-// iOS 10 Support
-- (void)jpushNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)())completionHandler {
-    // Required
-    NSDictionary * userInfo = response.notification.request.content.userInfo;
-    if([response.notification.request.trigger isKindOfClass:[UNPushNotificationTrigger class]]) {
-        [JPUSHService handleRemoteNotification:userInfo];
-    }
-    completionHandler();  // 系统要求执行这个方法
-}
-#endif
+//// iOS 10 Support
+//- (void)jpushNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)())completionHandler {
+//    // Required
+//    NSDictionary * userInfo = response.notification.request.content.userInfo;
+//    if([response.notification.request.trigger isKindOfClass:[UNPushNotificationTrigger class]]) {
+//        [JPUSHService handleRemoteNotification:userInfo];
+//    }
+//    completionHandler();  // 系统要求执行这个方法
+//}
+//#endif
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
     
