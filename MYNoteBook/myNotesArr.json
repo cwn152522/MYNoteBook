@@ -27,6 +27,7 @@
  {"ID":218, "Name":"实现NavigationBar的alpha渐变", "ParentID":2, "storyboardName":"", "storyboardId":""},
  {"ID":219, "Name":"关于IOS动画", "ParentID":2, "storyboardName":"CoreAnimation", "storyboardId":"coreAnimation"},
  {"ID":220, "Name":"绘制进度由0-1交替的旋转动画", "ParentID":2, "storyboardName":"", "storyboardId":""},
+ {"ID":221, "Name":"启动页消失组合动画(alpha+scale)", "ParentID":2, "storyboardName":"", "storyboardId":""},
  
  {"ID":3, "Name":"IOS编程随记1", "ParentID":0, "storyboardName":"", "storyboardId":""},
  {"ID":31, "Name":"系统定位", "ParentID":3, "storyboardName":"CLLocation", "storyboardId":"CLLocation"},

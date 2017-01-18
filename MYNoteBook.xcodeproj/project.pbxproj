@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BED12B4C1E2F5326005D6042 /* 使用autolayout后获取frame不正确.docx in Resources */ = {isa = PBXBuildFile; fileRef = BED12B4B1E2F52DF005D6042 /* 使用autolayout后获取frame不正确.docx */; };
+		BED12B4E1E2F854D005D6042 /* 启动页消失组合动画(alpha+scale).docx in Resources */ = {isa = PBXBuildFile; fileRef = BED12B4D1E2F8540005D6042 /* 启动页消失组合动画(alpha+scale).docx */; };
 		D60018681DECDC2F003017E3 /* myNotesArr.json in Resources */ = {isa = PBXBuildFile; fileRef = D60018671DECDC2F003017E3 /* myNotesArr.json */; };
 		D600186D1DECFE61003017E3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D600186C1DECFE61003017E3 /* WebKit.framework */; };
 		D600EA0E1DF497A70054495C /* SearchHistory+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D600EA0B1DF497A70054495C /* SearchHistory+CoreDataProperties.m */; };
@@ -362,6 +363,7 @@
 
 /* Begin PBXFileReference section */
 		BED12B4B1E2F52DF005D6042 /* 使用autolayout后获取frame不正确.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "使用autolayout后获取frame不正确.docx"; sourceTree = "<group>"; };
+		BED12B4D1E2F8540005D6042 /* 启动页消失组合动画(alpha+scale).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "启动页消失组合动画(alpha+scale).docx"; sourceTree = "<group>"; };
 		D60018671DECDC2F003017E3 /* myNotesArr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myNotesArr.json; sourceTree = "<group>"; };
 		D600186C1DECFE61003017E3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D600EA0A1DF497A70054495C /* SearchHistory+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SearchHistory+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -989,6 +991,7 @@
 		D60018641DECDBD4003017E3 /* 绘图和动画 */ = {
 			isa = PBXGroup;
 			children = (
+				BED12B4D1E2F8540005D6042 /* 启动页消失组合动画(alpha+scale).docx */,
 				D64E72DD1DEF14CB00CE20BA /* 关于IOS动画.docx */,
 				D645FBFC1DEDEEF400067E89 /* 绘制进度由0-1交替的旋转动画.docx */,
 				D645FBFB1DEDED3500067E89 /* 实现NavigationBar的alpha渐变.docx */,
@@ -2584,6 +2587,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED12B4E1E2F854D005D6042 /* 启动页消失组合动画(alpha+scale).docx in Resources */,
 				BED12B4C1E2F5326005D6042 /* 使用autolayout后获取frame不正确.docx in Resources */,
 				D605B1C71E09AC54006CA8A1 /* IOS相关基础知识整理.docx in Resources */,
 				D61D02541E081D6000D0795B /* 关于面向对象编程.docx in Resources */,
