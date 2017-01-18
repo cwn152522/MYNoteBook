@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Custom Navigation Controller-->
+        <scene sceneID="KeI-Jb-Lib">
+            <objects>
+                <navigationController storyboardIdentifier="first" id="ffx-sh-LoF" customClass="MYCustomNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ii6-Xp-e27">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="znr-qi-qda" kind="relationship" relationship="rootViewController" id="W5V-vf-SAD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MRS-9S-mIV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-715.5" y="-81"/>
+        </scene>
+        <!--ControllerAnimatedTransitioning-->
+        <scene sceneID="5RV-pY-pEq">
+            <objects>
+                <viewController id="znr-qi-qda" customClass="ViewController_CustomNavController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LFt-4a-U0g"/>
+                        <viewControllerLayoutGuide type="bottom" id="TqH-9h-7J7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c6z-eZ-lK4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UET-Ty-Eyq">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="PushViewController"/>
+                                <connections>
+                                    <action selector="onClickPushViewController:" destination="znr-qi-qda" eventType="touchUpInside" id="RFe-L2-seC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEs-ue-lwn">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="PopViewController"/>
+                                <connections>
+                                    <action selector="popViewController:" destination="znr-qi-qda" eventType="touchUpInside" id="QN8-wG-GCx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lEs-ue-lwn" firstAttribute="top" secondItem="UET-Ty-Eyq" secondAttribute="bottom" constant="17" id="Frg-xj-1xC"/>
+                            <constraint firstItem="UET-Ty-Eyq" firstAttribute="centerX" secondItem="c6z-eZ-lK4" secondAttribute="centerX" id="Jiw-2t-UoR"/>
+                            <constraint firstItem="lEs-ue-lwn" firstAttribute="centerX" secondItem="UET-Ty-Eyq" secondAttribute="centerX" id="Rtr-pq-XVS"/>
+                            <constraint firstItem="UET-Ty-Eyq" firstAttribute="centerY" secondItem="c6z-eZ-lK4" secondAttribute="centerY" id="ZAy-lL-qeZ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="UET-Ty-Eyq"/>
+                                <exclude reference="lEs-ue-lwn"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Jiw-2t-UoR"/>
+                                <exclude reference="ZAy-lL-qeZ"/>
+                                <exclude reference="Frg-xj-1xC"/>
+                                <exclude reference="Rtr-pq-XVS"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="UET-Ty-Eyq"/>
+                                <include reference="lEs-ue-lwn"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Jiw-2t-UoR"/>
+                                <include reference="ZAy-lL-qeZ"/>
+                                <include reference="Frg-xj-1xC"/>
+                                <include reference="Rtr-pq-XVS"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="ControllerAnimatedTransitioning" id="778-Cn-Z4s"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jlC-uh-tpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="166" y="244"/>
+        </scene>
+        <!--View ControllerMY Custom Nav ControllerV2-->
+        <scene sceneID="d7m-Yv-hHP">
+            <objects>
+                <viewController storyboardIdentifier="second" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ge2-ha-8Vn" customClass="ViewController_MYCustomNavControllerV2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Dl-YM-aAZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="az2-bm-jp8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wm5-VL-3CR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAW-bB-ruP">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="popViewController"/>
+                                <connections>
+                                    <action selector="onClickDismissViewController:" destination="ge2-ha-8Vn" eventType="touchUpInside" id="0Di-id-SjB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVZ-SY-3KU">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="pushViewController"/>
+                                <connections>
+                                    <segue destination="VGQ-mr-fYp" kind="show" id="JvQ-gf-oyI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bVZ-SY-3KU" firstAttribute="centerX" secondItem="BAW-bB-ruP" secondAttribute="centerX" id="GGc-p9-Q5b"/>
+                            <constraint firstItem="BAW-bB-ruP" firstAttribute="centerX" secondItem="wm5-VL-3CR" secondAttribute="centerX" id="N8u-Qj-qcg"/>
+                            <constraint firstItem="bVZ-SY-3KU" firstAttribute="top" secondItem="BAW-bB-ruP" secondAttribute="bottom" constant="36" id="XU2-bA-DmD"/>
+                            <constraint firstItem="BAW-bB-ruP" firstAttribute="centerY" secondItem="wm5-VL-3CR" secondAttribute="centerY" id="bYV-Nw-EcL"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="BAW-bB-ruP"/>
+                                <exclude reference="bVZ-SY-3KU"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="N8u-Qj-qcg"/>
+                                <exclude reference="bYV-Nw-EcL"/>
+                                <exclude reference="GGc-p9-Q5b"/>
+                                <exclude reference="XU2-bA-DmD"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="BAW-bB-ruP"/>
+                                <include reference="bVZ-SY-3KU"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="N8u-Qj-qcg"/>
+                                <include reference="bYV-Nw-EcL"/>
+                                <include reference="GGc-p9-Q5b"/>
+                                <include reference="XU2-bA-DmD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HeG-zE-Pyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View ControllerMY Custom Nav ControllerV3-->
+        <scene sceneID="B5G-kc-RBc">
+            <objects>
+                <viewController id="VGQ-mr-fYp" customClass="ViewController_MYCustomNavControllerV3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kmm-RS-BTF"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sr3-Nu-YDO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H00-lT-ZAJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z91-9A-3dy">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="PopToRootViewController"/>
+                                <connections>
+                                    <action selector="popToRootViewController:" destination="VGQ-mr-fYp" eventType="touchUpInside" id="Lkm-3T-n6L"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Z91-9A-3dy" firstAttribute="centerY" secondItem="H00-lT-ZAJ" secondAttribute="centerY" id="fFK-5o-oin"/>
+                            <constraint firstItem="Z91-9A-3dy" firstAttribute="centerX" secondItem="H00-lT-ZAJ" secondAttribute="centerX" id="zf5-tm-ozD"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Z91-9A-3dy"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="fFK-5o-oin"/>
+                                <exclude reference="zf5-tm-ozD"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Z91-9A-3dy"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="fFK-5o-oin"/>
+                                <include reference="zf5-tm-ozD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sEc-NV-qgk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="880.5" y="786.75"/>
+        </scene>
+    </scenes>
+</document>
