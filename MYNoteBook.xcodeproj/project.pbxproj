@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BED12B4C1E2F5326005D6042 /* 使用autolayout后获取frame不正确.docx in Resources */ = {isa = PBXBuildFile; fileRef = BED12B4B1E2F52DF005D6042 /* 使用autolayout后获取frame不正确.docx */; };
 		D60018681DECDC2F003017E3 /* myNotesArr.json in Resources */ = {isa = PBXBuildFile; fileRef = D60018671DECDC2F003017E3 /* myNotesArr.json */; };
 		D600186D1DECFE61003017E3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D600186C1DECFE61003017E3 /* WebKit.framework */; };
 		D600EA0E1DF497A70054495C /* SearchHistory+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D600EA0B1DF497A70054495C /* SearchHistory+CoreDataProperties.m */; };
@@ -360,6 +361,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BED12B4B1E2F52DF005D6042 /* 使用autolayout后获取frame不正确.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "使用autolayout后获取frame不正确.docx"; sourceTree = "<group>"; };
 		D60018671DECDC2F003017E3 /* myNotesArr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myNotesArr.json; sourceTree = "<group>"; };
 		D600186C1DECFE61003017E3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D600EA0A1DF497A70054495C /* SearchHistory+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SearchHistory+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -1072,6 +1074,7 @@
 				D64A20121E073904008AFFB7 /* 关于苹果APNs推送机制(3).docx */,
 				D61D02531E081D5300D0795B /* 关于面向对象编程.docx */,
 				D605B1C61E09AC39006CA8A1 /* IOS相关基础知识整理.docx */,
+				BED12B4B1E2F52DF005D6042 /* 使用autolayout后获取frame不正确.docx */,
 			);
 			name = "IOS编程随记3";
 			path = "word文档/IOS编程随记3";
@@ -2581,6 +2584,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED12B4C1E2F5326005D6042 /* 使用autolayout后获取frame不正确.docx in Resources */,
 				D605B1C71E09AC54006CA8A1 /* IOS相关基础知识整理.docx in Resources */,
 				D61D02541E081D6000D0795B /* 关于面向对象编程.docx in Resources */,
 				D64A20131E073A1A008AFFB7 /* AppStore审核指南.docx in Resources */,
