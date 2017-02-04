@@ -78,6 +78,6 @@
  {"ID":57, "Name":"IOS相关基础知识整理", "ParentID":5, "storyboardName":"", "storyboardId":""},
  {"ID":58, "Name":"使用autolayout后获取frame不正确", "ParentID":5, "storyboardName":"", "storyboardId":""},
  {"ID":59, "Name":"UITextView显示网页内容(富文本)", "ParentID":5, "storyboardName":"", "storyboardId":""},
- {"ID":60, "Name":"UITableView刷新cell闪烁问题", "ParentID":5, "storyboardName":"", "storyboardId":""}
-
+ {"ID":60, "Name":"UITableView刷新cell闪烁问题", "ParentID":5, "storyboardName":"", "storyboardId":""},
+ {"ID":61, "Name":"输入框部分文本模糊匹配", "ParentID":5, "storyboardName":"", "storyboardId":""}
  ]

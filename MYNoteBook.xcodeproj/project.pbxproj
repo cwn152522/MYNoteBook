@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BE0E10541E3093F40077FDFD /* UITextView显示网页内容(富文本).docx in Resources */ = {isa = PBXBuildFile; fileRef = BE0E10531E3093BD0077FDFD /* UITextView显示网页内容(富文本).docx */; };
 		BE65350A1E375D7500E16EC0 /* UITableView刷新cell闪烁问题.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE6535091E375D5900E16EC0 /* UITableView刷新cell闪烁问题.docx */; };
+		BEA052CE1E45CAFF005900F3 /* 输入框部分文本模糊匹配.docx in Resources */ = {isa = PBXBuildFile; fileRef = BEA052CD1E45CABD005900F3 /* 输入框部分文本模糊匹配.docx */; };
 		BED12B4C1E2F5326005D6042 /* 使用autolayout后获取frame不正确.docx in Resources */ = {isa = PBXBuildFile; fileRef = BED12B4B1E2F52DF005D6042 /* 使用autolayout后获取frame不正确.docx */; };
 		BED12B4E1E2F854D005D6042 /* 启动页消失组合动画(alpha+scale).docx in Resources */ = {isa = PBXBuildFile; fileRef = BED12B4D1E2F8540005D6042 /* 启动页消失组合动画(alpha+scale).docx */; };
 		D60018681DECDC2F003017E3 /* myNotesArr.json in Resources */ = {isa = PBXBuildFile; fileRef = D60018671DECDC2F003017E3 /* myNotesArr.json */; };
@@ -366,6 +367,7 @@
 /* Begin PBXFileReference section */
 		BE0E10531E3093BD0077FDFD /* UITextView显示网页内容(富文本).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UITextView显示网页内容(富文本).docx"; sourceTree = "<group>"; };
 		BE6535091E375D5900E16EC0 /* UITableView刷新cell闪烁问题.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UITableView刷新cell闪烁问题.docx"; sourceTree = "<group>"; };
+		BEA052CD1E45CABD005900F3 /* 输入框部分文本模糊匹配.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "输入框部分文本模糊匹配.docx"; sourceTree = "<group>"; };
 		BED12B4B1E2F52DF005D6042 /* 使用autolayout后获取frame不正确.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "使用autolayout后获取frame不正确.docx"; sourceTree = "<group>"; };
 		BED12B4D1E2F8540005D6042 /* 启动页消失组合动画(alpha+scale).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "启动页消失组合动画(alpha+scale).docx"; sourceTree = "<group>"; };
 		D60018671DECDC2F003017E3 /* myNotesArr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myNotesArr.json; sourceTree = "<group>"; };
@@ -1084,6 +1086,7 @@
 				BED12B4B1E2F52DF005D6042 /* 使用autolayout后获取frame不正确.docx */,
 				BE0E10531E3093BD0077FDFD /* UITextView显示网页内容(富文本).docx */,
 				BE6535091E375D5900E16EC0 /* UITableView刷新cell闪烁问题.docx */,
+				BEA052CD1E45CABD005900F3 /* 输入框部分文本模糊匹配.docx */,
 			);
 			name = "IOS编程随记3";
 			path = "word文档/IOS编程随记3";
@@ -2593,6 +2596,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA052CE1E45CAFF005900F3 /* 输入框部分文本模糊匹配.docx in Resources */,
 				BE65350A1E375D7500E16EC0 /* UITableView刷新cell闪烁问题.docx in Resources */,
 				BE0E10541E3093F40077FDFD /* UITextView显示网页内容(富文本).docx in Resources */,
 				BED12B4E1E2F854D005D6042 /* 启动页消失组合动画(alpha+scale).docx in Resources */,
