@@ -40,7 +40,15 @@
     [self.resultEmptyLabel setText:@"未搜索到结果\n请说出您的关键词重新搜搜索"];
     
     // Do any additional setup after loading the view.
+    
+    id target = self.navigationController.navigationController.interactivePopGestureRecognizer.delegate;
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:target action:@selector(handleNavigationTransition:)];
+    [self.view addGestureRecognizer:pan];
+    self.navigationController.navigationController.interactivePopGestureRecognizer.enabled = NO;
+    // Do any additional setup after loading the view.
 }
+
+- (void)handleNavigationTransition:(UIPanGestureRecognizer *)gesture{};
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];

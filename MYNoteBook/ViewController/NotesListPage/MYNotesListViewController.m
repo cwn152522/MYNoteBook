@@ -46,7 +46,15 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    id target = self.navigationController.navigationController.interactivePopGestureRecognizer.delegate;
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:target action:@selector(handleNavigationTransition:)];
+    [self.view addGestureRecognizer:pan];
+    self.navigationController.navigationController.interactivePopGestureRecognizer.enabled = NO;
+    // Do any additional setup after loading the view.
 }
+
+- (void)handleNavigationTransition:(UIPanGestureRecognizer *)gesture{};
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
