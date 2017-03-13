@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller draw Line-->
+        <scene sceneID="bLN-57-OLA">
+            <objects>
+                <viewController storyboardIdentifier="drawLine" id="rHS-mn-4h9" customClass="ViewController_drawLine" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bGI-J8-ei3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tvu-ax-tJm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I11-bJ-zuj">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iyx-y0-ydC" customClass="MYLineView">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="hg0-km-PpT"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="hg0-km-PpT"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="hg0-km-PpT"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="375-hq-sIL" customClass="MYDashLineView">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="2" id="CPw-d4-rs8"/>
+                                    <constraint firstAttribute="height" constant="474" id="rEt-wq-aE8"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="CPw-d4-rs8"/>
+                                        <exclude reference="rEt-wq-aE8"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="CPw-d4-rs8"/>
+                                        <include reference="rEt-wq-aE8"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iyx-y0-ydC" firstAttribute="centerY" secondItem="I11-bJ-zuj" secondAttribute="centerY" id="NQs-sr-FIR"/>
+                            <constraint firstItem="375-hq-sIL" firstAttribute="centerX" secondItem="I11-bJ-zuj" secondAttribute="centerX" id="Yp6-yQ-gIR"/>
+                            <constraint firstItem="iyx-y0-ydC" firstAttribute="leading" secondItem="I11-bJ-zuj" secondAttribute="leading" id="b8u-JJ-jw6"/>
+                            <constraint firstItem="iyx-y0-ydC" firstAttribute="centerX" secondItem="I11-bJ-zuj" secondAttribute="centerX" id="i58-9y-Sfx"/>
+                            <constraint firstItem="375-hq-sIL" firstAttribute="centerY" secondItem="I11-bJ-zuj" secondAttribute="centerY" id="sdB-OT-VtC"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="iyx-y0-ydC"/>
+                                <exclude reference="375-hq-sIL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Yp6-yQ-gIR"/>
+                                <exclude reference="sdB-OT-VtC"/>
+                                <exclude reference="NQs-sr-FIR"/>
+                                <exclude reference="b8u-JJ-jw6"/>
+                                <exclude reference="i58-9y-Sfx"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="iyx-y0-ydC"/>
+                                <include reference="375-hq-sIL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Yp6-yQ-gIR"/>
+                                <include reference="sdB-OT-VtC"/>
+                                <include reference="NQs-sr-FIR"/>
+                                <include reference="b8u-JJ-jw6"/>
+                                <include reference="i58-9y-Sfx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nnA-7x-xKP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="264" y="250.5"/>
+        </scene>
+    </scenes>
+</document>

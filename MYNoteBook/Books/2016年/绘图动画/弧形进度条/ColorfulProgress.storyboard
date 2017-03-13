@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller Colorful Progress View-->
+        <scene sceneID="Mfv-5I-mn6">
+            <objects>
+                <viewController storyboardIdentifier="colorfulProgress" id="4SJ-C9-xlK" customClass="ViewController_ColorfulProgressView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Eat-0M-ZEK"/>
+                        <viewControllerLayoutGuide type="bottom" id="8zP-hY-eu9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mfZ-zD-g2Q">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HIv-jY-E8g">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="4SJ-C9-xlK" id="mSh-PE-Ohn"/>
+                                    <outlet property="delegate" destination="4SJ-C9-xlK" id="dhZ-Fc-Wqc"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1eR-KK-XJb" customClass="MYColorfulCircleProgressView">
+                                <rect key="frame" x="288" y="25" width="25" height="25"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1eR-KK-XJb" secondAttribute="height" multiplier="1:1" id="HVK-eT-Q4m"/>
+                                    <constraint firstAttribute="width" constant="25" id="SZx-Bx-faR"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2MS-xy-BAh" customClass="MYNormalCircleProgressView">
+                                <rect key="frame" x="288" y="25" width="25" height="25"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="HUI-7I-Ah3"/>
+                                    <constraint firstAttribute="width" secondItem="2MS-xy-BAh" secondAttribute="height" multiplier="1:1" id="kSC-gA-o0B"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTm-Fc-xdp">
+                                <rect key="frame" x="251" y="88" width="99" height="30"/>
+                                <state key="normal" title="stopAnimation"/>
+                                <connections>
+                                    <action selector="onClickStopAnimating:" destination="4SJ-C9-xlK" eventType="touchUpInside" id="lYp-JX-1NU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5x8-f4-4VK">
+                                <rect key="frame" x="240" y="134" width="120" height="30"/>
+                                <state key="normal" title="resumeAnimation"/>
+                                <connections>
+                                    <action selector="onClickResumeAnimating:" destination="4SJ-C9-xlK" eventType="touchUpInside" id="tmE-Rw-N5R"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jiM-Ty-9rb" customClass="MYCustomCircleProgressView">
+                                <rect key="frame" x="288" y="25" width="25" height="25"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="iFH-w5-ft2"/>
+                                    <constraint firstAttribute="width" secondItem="jiM-Ty-9rb" secondAttribute="height" multiplier="1:1" id="nu0-85-m1a"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1eR-KK-XJb" firstAttribute="centerX" secondItem="mfZ-zD-g2Q" secondAttribute="centerX" id="7E9-iT-rAl"/>
+                            <constraint firstItem="5x8-f4-4VK" firstAttribute="centerX" secondItem="DTm-Fc-xdp" secondAttribute="centerX" id="7os-dS-pXS"/>
+                            <constraint firstAttribute="trailing" secondItem="HIv-jY-E8g" secondAttribute="trailing" id="HE9-lZ-TOd"/>
+                            <constraint firstItem="2MS-xy-BAh" firstAttribute="width" secondItem="2MS-xy-BAh" secondAttribute="height" multiplier="1:1" id="JFe-ou-grD"/>
+                            <constraint firstItem="2MS-xy-BAh" firstAttribute="centerY" secondItem="1eR-KK-XJb" secondAttribute="centerY" id="MRw-2C-aix"/>
+                            <constraint firstItem="HIv-jY-E8g" firstAttribute="top" secondItem="Eat-0M-ZEK" secondAttribute="bottom" id="NoF-bj-eID"/>
+                            <constraint firstItem="2MS-xy-BAh" firstAttribute="leading" secondItem="1eR-KK-XJb" secondAttribute="trailing" constant="15" id="Si0-0S-gKd"/>
+                            <constraint firstItem="1eR-KK-XJb" firstAttribute="leading" secondItem="jiM-Ty-9rb" secondAttribute="trailing" constant="15" id="Wi2-rw-0lV"/>
+                            <constraint firstItem="8zP-hY-eu9" firstAttribute="top" secondItem="HIv-jY-E8g" secondAttribute="bottom" id="dSm-eo-TSR"/>
+                            <constraint firstItem="jiM-Ty-9rb" firstAttribute="width" secondItem="jiM-Ty-9rb" secondAttribute="height" multiplier="1:1" id="dtv-7h-sGJ"/>
+                            <constraint firstItem="jiM-Ty-9rb" firstAttribute="centerY" secondItem="1eR-KK-XJb" secondAttribute="centerY" id="g7b-wc-NyR"/>
+                            <constraint firstItem="1eR-KK-XJb" firstAttribute="top" secondItem="Eat-0M-ZEK" secondAttribute="bottom" constant="5" id="jkp-Q3-l5Y"/>
+                            <constraint firstItem="5x8-f4-4VK" firstAttribute="top" secondItem="DTm-Fc-xdp" secondAttribute="bottom" constant="16" id="mgY-YX-T9S"/>
+                            <constraint firstItem="HIv-jY-E8g" firstAttribute="leading" secondItem="mfZ-zD-g2Q" secondAttribute="leading" id="o9j-HD-eNY"/>
+                            <constraint firstItem="1eR-KK-XJb" firstAttribute="width" secondItem="1eR-KK-XJb" secondAttribute="height" multiplier="1:1" id="oT5-Fa-TZh"/>
+                            <constraint firstItem="DTm-Fc-xdp" firstAttribute="top" secondItem="1eR-KK-XJb" secondAttribute="bottom" constant="20" id="qKV-X0-QBx"/>
+                            <constraint firstItem="jiM-Ty-9rb" firstAttribute="width" secondItem="jiM-Ty-9rb" secondAttribute="height" multiplier="1:1" id="tsY-n0-qhR"/>
+                            <constraint firstItem="2MS-xy-BAh" firstAttribute="width" secondItem="2MS-xy-BAh" secondAttribute="height" multiplier="1:1" id="uO6-5w-4Bf"/>
+                            <constraint firstItem="DTm-Fc-xdp" firstAttribute="centerX" secondItem="1eR-KK-XJb" secondAttribute="centerX" id="wzT-0J-uoS"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="HIv-jY-E8g"/>
+                                <exclude reference="1eR-KK-XJb"/>
+                                <exclude reference="2MS-xy-BAh"/>
+                                <exclude reference="DTm-Fc-xdp"/>
+                                <exclude reference="5x8-f4-4VK"/>
+                                <exclude reference="jiM-Ty-9rb"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="HE9-lZ-TOd"/>
+                                <exclude reference="NoF-bj-eID"/>
+                                <exclude reference="o9j-HD-eNY"/>
+                                <exclude reference="qKV-X0-QBx"/>
+                                <exclude reference="wzT-0J-uoS"/>
+                                <exclude reference="7os-dS-pXS"/>
+                                <exclude reference="mgY-YX-T9S"/>
+                                <exclude reference="dtv-7h-sGJ"/>
+                                <exclude reference="g7b-wc-NyR"/>
+                                <exclude reference="tsY-n0-qhR"/>
+                                <exclude reference="7E9-iT-rAl"/>
+                                <exclude reference="Wi2-rw-0lV"/>
+                                <exclude reference="jkp-Q3-l5Y"/>
+                                <exclude reference="oT5-Fa-TZh"/>
+                                <exclude reference="JFe-ou-grD"/>
+                                <exclude reference="MRw-2C-aix"/>
+                                <exclude reference="Si0-0S-gKd"/>
+                                <exclude reference="uO6-5w-4Bf"/>
+                                <exclude reference="dSm-eo-TSR"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="HIv-jY-E8g"/>
+                                <include reference="1eR-KK-XJb"/>
+                                <include reference="2MS-xy-BAh"/>
+                                <include reference="DTm-Fc-xdp"/>
+                                <include reference="5x8-f4-4VK"/>
+                                <include reference="jiM-Ty-9rb"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="HE9-lZ-TOd"/>
+                                <include reference="NoF-bj-eID"/>
+                                <include reference="o9j-HD-eNY"/>
+                                <include reference="qKV-X0-QBx"/>
+                                <include reference="wzT-0J-uoS"/>
+                                <include reference="7os-dS-pXS"/>
+                                <include reference="mgY-YX-T9S"/>
+                                <include reference="dtv-7h-sGJ"/>
+                                <include reference="g7b-wc-NyR"/>
+                                <include reference="tsY-n0-qhR"/>
+                                <include reference="7E9-iT-rAl"/>
+                                <include reference="Wi2-rw-0lV"/>
+                                <include reference="jkp-Q3-l5Y"/>
+                                <include reference="oT5-Fa-TZh"/>
+                                <include reference="JFe-ou-grD"/>
+                                <include reference="MRw-2C-aix"/>
+                                <include reference="Si0-0S-gKd"/>
+                                <include reference="uO6-5w-4Bf"/>
+                                <include reference="dSm-eo-TSR"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="customCircleProgressView" destination="jiM-Ty-9rb" id="Kks-EA-HWw"/>
+                        <outlet property="normalCircleProgressView" destination="2MS-xy-BAh" id="uYW-YR-fDb"/>
+                        <outlet property="progressView" destination="1eR-KK-XJb" id="Gaf-hq-hEZ"/>
+                        <outlet property="tableView" destination="HIv-jY-E8g" id="7DG-bl-8MM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OET-sg-ypG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="283.5" y="189.75"/>
+        </scene>
+    </scenes>
+</document>
