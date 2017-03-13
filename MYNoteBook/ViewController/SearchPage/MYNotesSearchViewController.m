@@ -105,7 +105,7 @@
     if(![keyword length])
         return;
     
-    self.data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"(ParentID != 0) AND (Name CONTAINS[c] %@)", keyword]];
+    self.data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"(ParentID > 0) AND (Name CONTAINS[c] %@)", keyword]];
     
     [self.tableView reloadData];
 }

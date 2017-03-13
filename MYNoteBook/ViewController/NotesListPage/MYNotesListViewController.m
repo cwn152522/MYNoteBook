@@ -114,6 +114,20 @@
 #pragma mark UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if( [self.title rangeOfString:@"(\\d)*年" options:NSRegularExpressionSearch].location != NSNotFound){
+        MYNotesListViewController *controller = [[self storyboard] instantiateViewControllerWithIdentifier:@"NotesListViewController"];
+        NSArray *data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:[NSString stringWithFormat:@"ParentID=%ld", (long)[[_data[indexPath.row] objectForKey:@"ID"] integerValue]]]];
+        controller.data = data;
+        controller.navigationTitle = [[_data objectAtIndex:indexPath.row] valueForKey:@"Name"];
+        
+        CATransition *animation = [CATransition animation];
+        animation.type = @"rippleEffect";
+        animation.duration = 0.33;
+        [self.navigationController.navigationController.view.layer addAnimation:animation forKey:nil];
+        [self.navigationController pushViewController:controller animated:NO];
+        return;
+    }
+    
     id item = [_data objectAtIndex:indexPath.row];
         NSString *storyName = [item objectForKey:@"storyboardName"];
         if([storyName length]){
