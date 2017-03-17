@@ -252,6 +252,8 @@
 		BE83AA651E7666030012C540 /* CLLocation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE83AA201E7666030012C540 /* CLLocation.storyboard */; };
 		BE83AA661E7666030012C540 /* MYLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83AA221E7666030012C540 /* MYLocationManager.m */; };
 		BE83AA671E7666030012C540 /* ViewController_CLLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83AA241E7666030012C540 /* ViewController_CLLocation.m */; };
+		BE8598271E7BD300006705DA /* 怎么让个别页面支持旋转.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE8598261E7BD2D3006705DA /* 怎么让个别页面支持旋转.docx */; };
+		BE8598291E7BDDE3006705DA /* ipad运行项目，部分页面显示不了.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE8598281E7BDDC0006705DA /* ipad运行项目，部分页面显示不了.docx */; };
 		BE93BE531E78E0C200349670 /* 关于scrollview自动布局约束问题.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE93BE521E78E09A00349670 /* 关于scrollview自动布局约束问题.docx */; };
 		BE93BE551E78F78100349670 /* 排序接口返回乱序的字典数据.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE93BE541E78F76C00349670 /* 排序接口返回乱序的字典数据.docx */; };
 		D60018681DECDC2F003017E3 /* myNotesArr.json in Resources */ = {isa = PBXBuildFile; fileRef = D60018671DECDC2F003017E3 /* myNotesArr.json */; };
@@ -770,6 +772,8 @@
 		BE83AA221E7666030012C540 /* MYLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYLocationManager.m; sourceTree = "<group>"; };
 		BE83AA231E7666030012C540 /* ViewController_CLLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_CLLocation.h; sourceTree = "<group>"; };
 		BE83AA241E7666030012C540 /* ViewController_CLLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_CLLocation.m; sourceTree = "<group>"; };
+		BE8598261E7BD2D3006705DA /* 怎么让个别页面支持旋转.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "怎么让个别页面支持旋转.docx"; sourceTree = "<group>"; };
+		BE8598281E7BDDC0006705DA /* ipad运行项目，部分页面显示不了.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ipad运行项目，部分页面显示不了.docx"; sourceTree = "<group>"; };
 		BE93BE521E78E09A00349670 /* 关于scrollview自动布局约束问题.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "关于scrollview自动布局约束问题.docx"; sourceTree = "<group>"; };
 		BE93BE541E78F76C00349670 /* 排序接口返回乱序的字典数据.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "排序接口返回乱序的字典数据.docx"; sourceTree = "<group>"; };
 		D60018671DECDC2F003017E3 /* myNotesArr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myNotesArr.json; sourceTree = "<group>"; };
@@ -1029,6 +1033,8 @@
 				BE741B261E77EC1A001FD2CF /* 改变列表头部的frame无效.docx */,
 				BE93BE521E78E09A00349670 /* 关于scrollview自动布局约束问题.docx */,
 				BE93BE541E78F76C00349670 /* 排序接口返回乱序的字典数据.docx */,
+				BE8598261E7BD2D3006705DA /* 怎么让个别页面支持旋转.docx */,
+				BE8598281E7BDDC0006705DA /* ipad运行项目，部分页面显示不了.docx */,
 			);
 			path = "IOS编程随记2";
 			sourceTree = "<group>";
@@ -2670,6 +2676,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8598291E7BDDE3006705DA /* ipad运行项目，部分页面显示不了.docx in Resources */,
+				BE8598271E7BD300006705DA /* 怎么让个别页面支持旋转.docx in Resources */,
 				BE93BE551E78F78100349670 /* 排序接口返回乱序的字典数据.docx in Resources */,
 				BE93BE531E78E0C200349670 /* 关于scrollview自动布局约束问题.docx in Resources */,
 				BE741B271E77EC2A001FD2CF /* 改变列表头部的frame无效.docx in Resources */,
