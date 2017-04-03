@@ -284,6 +284,14 @@
 		D6B88F531E060A7700741102 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B88F521E060A7700741102 /* CoreFoundation.framework */; };
 		D6B88F551E060A8F00741102 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B88F541E060A8F00741102 /* UIKit.framework */; };
 		D6B88F571E060AA200741102 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B88F561E060AA200741102 /* libresolv.tbd */; };
+		D6CC2AFC1E91D02400E8C444 /* RunHorseLampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC2AFA1E91D02400E8C444 /* RunHorseLampViewController.m */; };
+		D6CC2B001E91D06000E8C444 /* RunHorseLampView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC2AFF1E91D06000E8C444 /* RunHorseLampView.m */; };
+		D6CC2B071E91D07800E8C444 /* RunHorseLamp_Normal.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC2B021E91D07800E8C444 /* RunHorseLamp_Normal.m */; };
+		D6CC2B081E91D07800E8C444 /* RunHorseLamp_Normal.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6CC2B031E91D07800E8C444 /* RunHorseLamp_Normal.xib */; };
+		D6CC2B091E91D07800E8C444 /* RunHorseLamp_Imediately.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC2B051E91D07800E8C444 /* RunHorseLamp_Imediately.m */; };
+		D6CC2B0A1E91D07800E8C444 /* RunHorseLamp_Imediately.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6CC2B061E91D07800E8C444 /* RunHorseLamp_Imediately.xib */; };
+		D6CC2B0C1E91D2E600E8C444 /* 跑马灯动画.docx in Resources */ = {isa = PBXBuildFile; fileRef = D6CC2B0B1E91D2BC00E8C444 /* 跑马灯动画.docx */; };
+		D6CC2B0E1E91D3CF00E8C444 /* RunHorseLamp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CC2B0D1E91D3CF00E8C444 /* RunHorseLamp.storyboard */; };
 		D6DC80B51E03573A00F25651 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DC808F1E03573A00F25651 /* libSocialQQ.a */; };
 		D6DC80B61E03573A00F25651 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DC80901E03573A00F25651 /* TencentOpenAPI.framework */; };
 		D6DC80B71E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6DC80911E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle */; };
@@ -346,7 +354,7 @@
 		D6F774901E005EDB0089E7E9 /* MYImageScanScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F7743C1E005EDA0089E7E9 /* MYImageScanScrollView.m */; };
 		D6F774911E005EDB0089E7E9 /* MYImageScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F7743E1E005EDA0089E7E9 /* MYImageScanViewController.m */; };
 		D6F774921E005EDB0089E7E9 /* NSArray+SafeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F774401E005EDB0089E7E9 /* NSArray+SafeMethod.m */; };
-		D6F774931E005EDB0089E7E9 /* UIView+YXHView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F774421E005EDB0089E7E9 /* UIView+YXHView.m */; };
+		D6F774931E005EDB0089E7E9 /* UIView+CWNView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F774421E005EDB0089E7E9 /* UIView+CWNView.m */; };
 		D6F774941E005EDB0089E7E9 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6F774441E005EDB0089E7E9 /* SVProgressHUD.bundle */; };
 		D6F774951E005EDB0089E7E9 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F774461E005EDB0089E7E9 /* SVProgressHUD.m */; };
 		D6F774A61E00622E0089E7E9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F774A51E00622E0089E7E9 /* SystemConfiguration.framework */; };
@@ -394,7 +402,7 @@
 		BE83A7AB1E7664170012C540 /* 创建framework静态库.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "创建framework静态库.docx"; sourceTree = "<group>"; };
 		BE83A7AC1E7664170012C540 /* 多线程.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "多线程.docx"; sourceTree = "<group>"; };
 		BE83A7AD1E7664170012C540 /* 应用打包发布.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "应用打包发布.docx"; sourceTree = "<group>"; };
-		BE83A7AE1E7664170012C540 /* 数据持久化.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "数据持久化.docx"; sourceTree = "<group>"; };
+		BE83A7AE1E7664170012C540 /* 数据持久化.docx */ = {isa = PBXFileReference; lastKnownFileType = text; path = "数据持久化.docx"; sourceTree = "<group>"; };
 		BE83A7AF1E7664170012C540 /* 正则表达式.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "正则表达式.docx"; sourceTree = "<group>"; };
 		BE83A7B01E7664170012C540 /* 版本控制.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "版本控制.docx"; sourceTree = "<group>"; };
 		BE83A7B11E7664170012C540 /* 系统定位.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "系统定位.docx"; sourceTree = "<group>"; };
@@ -819,6 +827,18 @@
 		D6B88F521E060A7700741102 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		D6B88F541E060A8F00741102 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D6B88F561E060AA200741102 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		D6CC2AF91E91D02400E8C444 /* RunHorseLampViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunHorseLampViewController.h; sourceTree = "<group>"; };
+		D6CC2AFA1E91D02400E8C444 /* RunHorseLampViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunHorseLampViewController.m; sourceTree = "<group>"; };
+		D6CC2AFE1E91D06000E8C444 /* RunHorseLampView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunHorseLampView.h; sourceTree = "<group>"; };
+		D6CC2AFF1E91D06000E8C444 /* RunHorseLampView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunHorseLampView.m; sourceTree = "<group>"; };
+		D6CC2B011E91D07800E8C444 /* RunHorseLamp_Normal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunHorseLamp_Normal.h; sourceTree = "<group>"; };
+		D6CC2B021E91D07800E8C444 /* RunHorseLamp_Normal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunHorseLamp_Normal.m; sourceTree = "<group>"; };
+		D6CC2B031E91D07800E8C444 /* RunHorseLamp_Normal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunHorseLamp_Normal.xib; sourceTree = "<group>"; };
+		D6CC2B041E91D07800E8C444 /* RunHorseLamp_Imediately.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunHorseLamp_Imediately.h; sourceTree = "<group>"; };
+		D6CC2B051E91D07800E8C444 /* RunHorseLamp_Imediately.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunHorseLamp_Imediately.m; sourceTree = "<group>"; };
+		D6CC2B061E91D07800E8C444 /* RunHorseLamp_Imediately.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunHorseLamp_Imediately.xib; sourceTree = "<group>"; };
+		D6CC2B0B1E91D2BC00E8C444 /* 跑马灯动画.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "跑马灯动画.docx"; sourceTree = "<group>"; };
+		D6CC2B0D1E91D3CF00E8C444 /* RunHorseLamp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RunHorseLamp.storyboard; sourceTree = "<group>"; };
 		D6DC808F1E03573A00F25651 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
 		D6DC80901E03573A00F25651 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		D6DC80911E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
@@ -935,8 +955,8 @@
 		D6F7743E1E005EDA0089E7E9 /* MYImageScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYImageScanViewController.m; sourceTree = "<group>"; };
 		D6F7743F1E005EDA0089E7E9 /* NSArray+SafeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeMethod.h"; sourceTree = "<group>"; };
 		D6F774401E005EDB0089E7E9 /* NSArray+SafeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SafeMethod.m"; sourceTree = "<group>"; };
-		D6F774411E005EDB0089E7E9 /* UIView+YXHView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YXHView.h"; sourceTree = "<group>"; };
-		D6F774421E005EDB0089E7E9 /* UIView+YXHView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YXHView.m"; sourceTree = "<group>"; };
+		D6F774411E005EDB0089E7E9 /* UIView+CWNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CWNView.h"; sourceTree = "<group>"; };
+		D6F774421E005EDB0089E7E9 /* UIView+CWNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CWNView.m"; sourceTree = "<group>"; };
 		D6F774441E005EDB0089E7E9 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		D6F774451E005EDB0089E7E9 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		D6F774461E005EDB0089E7E9 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
@@ -1035,6 +1055,7 @@
 				BE93BE541E78F76C00349670 /* 排序接口返回乱序的字典数据.docx */,
 				BE8598261E7BD2D3006705DA /* 怎么让个别页面支持旋转.docx */,
 				BE8598281E7BDDC0006705DA /* ipad运行项目，部分页面显示不了.docx */,
+				D6CC2B0B1E91D2BC00E8C444 /* 跑马灯动画.docx */,
 			);
 			path = "IOS编程随记2";
 			sourceTree = "<group>";
@@ -1173,21 +1194,6 @@
 				BE83A7FA1E7664180012C540 /* 输入框部分文本模糊匹配.docx */,
 				BE741B1D1E7788E0001FD2CF /* 使用mutable属性注意事项.docx */,
 				BE741B1F1E778C02001FD2CF /* 系统pop手势失效.docx */,
-			);
-			path = "IOS编程随记1";
-			sourceTree = "<group>";
-		};
-		BE83A84D1E7664A50012C540 /* 2017年 */ = {
-			isa = PBXGroup;
-			children = (
-				BE83A84E1E7664A50012C540 /* IOS编程随记1 */,
-			);
-			path = "2017年";
-			sourceTree = "<group>";
-		};
-		BE83A84E1E7664A50012C540 /* IOS编程随记1 */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = "IOS编程随记1";
 			sourceTree = "<group>";
@@ -2136,7 +2142,7 @@
 			isa = PBXGroup;
 			children = (
 				BE83A84F1E7665290012C540 /* 2016年 */,
-				BE83A84D1E7664A50012C540 /* 2017年 */,
+				D6CC2AF51E91CFA400E8C444 /* 2017年 */,
 			);
 			path = Books;
 			sourceTree = "<group>";
@@ -2183,6 +2189,48 @@
 			);
 			name = "科大讯飞语音识别v1.146";
 			path = "../../常用第三方/科大讯飞语音识别v1.146";
+			sourceTree = "<group>";
+		};
+		D6CC2AF51E91CFA400E8C444 /* 2017年 */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC2AF61E91CFA400E8C444 /* IOS编程随记1 */,
+				D6CC2AF71E91CFA400E8C444 /* IOS编程随记2 */,
+			);
+			path = "2017年";
+			sourceTree = "<group>";
+		};
+		D6CC2AF61E91CFA400E8C444 /* IOS编程随记1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "IOS编程随记1";
+			sourceTree = "<group>";
+		};
+		D6CC2AF71E91CFA400E8C444 /* IOS编程随记2 */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC2AF81E91CFFB00E8C444 /* 跑马灯动画 */,
+			);
+			path = "IOS编程随记2";
+			sourceTree = "<group>";
+		};
+		D6CC2AF81E91CFFB00E8C444 /* 跑马灯动画 */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC2AFE1E91D06000E8C444 /* RunHorseLampView.h */,
+				D6CC2AFF1E91D06000E8C444 /* RunHorseLampView.m */,
+				D6CC2AF91E91D02400E8C444 /* RunHorseLampViewController.h */,
+				D6CC2AFA1E91D02400E8C444 /* RunHorseLampViewController.m */,
+				D6CC2B0D1E91D3CF00E8C444 /* RunHorseLamp.storyboard */,
+				D6CC2B011E91D07800E8C444 /* RunHorseLamp_Normal.h */,
+				D6CC2B021E91D07800E8C444 /* RunHorseLamp_Normal.m */,
+				D6CC2B031E91D07800E8C444 /* RunHorseLamp_Normal.xib */,
+				D6CC2B041E91D07800E8C444 /* RunHorseLamp_Imediately.h */,
+				D6CC2B051E91D07800E8C444 /* RunHorseLamp_Imediately.m */,
+				D6CC2B061E91D07800E8C444 /* RunHorseLamp_Imediately.xib */,
+			);
+			path = "跑马灯动画";
 			sourceTree = "<group>";
 		};
 		D6DC808C1E03573A00F25651 /* UMSocial */ = {
@@ -2546,8 +2594,8 @@
 				D6F7743E1E005EDA0089E7E9 /* MYImageScanViewController.m */,
 				D6F7743F1E005EDA0089E7E9 /* NSArray+SafeMethod.h */,
 				D6F774401E005EDB0089E7E9 /* NSArray+SafeMethod.m */,
-				D6F774411E005EDB0089E7E9 /* UIView+YXHView.h */,
-				D6F774421E005EDB0089E7E9 /* UIView+YXHView.m */,
+				D6F774411E005EDB0089E7E9 /* UIView+CWNView.h */,
+				D6F774421E005EDB0089E7E9 /* UIView+CWNView.m */,
 			);
 			path = MYImageScan;
 			sourceTree = "<group>";
@@ -2676,6 +2724,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6CC2B0C1E91D2E600E8C444 /* 跑马灯动画.docx in Resources */,
 				BE8598291E7BDDE3006705DA /* ipad运行项目，部分页面显示不了.docx in Resources */,
 				BE8598271E7BD300006705DA /* 怎么让个别页面支持旋转.docx in Resources */,
 				BE93BE551E78F78100349670 /* 排序接口返回乱序的字典数据.docx in Resources */,
@@ -2751,6 +2800,8 @@
 				BE83A82A1E7664180012C540 /* 将Image绘制到指定的区域.docx in Resources */,
 				BE83A82B1E7664180012C540 /* 根据UIColor绘制相应纯色Image.docx in Resources */,
 				BE83A8401E7664180012C540 /* 使用autolayout后获取frame不正确.docx in Resources */,
+				D6CC2B0A1E91D07800E8C444 /* RunHorseLamp_Imediately.xib in Resources */,
+				D6CC2B0E1E91D3CF00E8C444 /* RunHorseLamp.storyboard in Resources */,
 				BE83A8371E7664180012C540 /* 绘制虚线.docx in Resources */,
 				BE83A8361E7664180012C540 /* 绘制纯背景的UISearchBar.docx in Resources */,
 				BE83A8221E7664180012C540 /* 百度地图v3.1.0.docx in Resources */,
@@ -2788,6 +2839,7 @@
 				BE83A94C1E7665A50012C540 /* ColorfulProgress.storyboard in Resources */,
 				BE83A8301E7664180012C540 /* 绘制圆形进度条.docx in Resources */,
 				BE83A8021E7664180012C540 /* 创建framework静态库.docx in Resources */,
+				D6CC2B081E91D07800E8C444 /* RunHorseLamp_Normal.xib in Resources */,
 				BE83A8251E7664180012C540 /* MJRefresh用法熟悉.docx in Resources */,
 				BE83A8461E7664180012C540 /* 关于面向对象编程.docx in Resources */,
 				D63EDA2A1DCBC24800144278 /* myNotes.json in Resources */,
@@ -2885,6 +2937,7 @@
 				D6F774831E005EDB0089E7E9 /* MJRefreshGifHeader.m in Sources */,
 				BE83AA441E7666030012C540 /* UIButton+WebCache.m in Sources */,
 				BE83A9371E7665A50012C540 /* CAKeyframeAnimationViewController.m in Sources */,
+				D6CC2AFC1E91D02400E8C444 /* RunHorseLampViewController.m in Sources */,
 				BE83A9481E7665A50012C540 /* NSArray+ExtraMethod.m in Sources */,
 				BE83A9461E7665A50012C540 /* MYBannerImageView.m in Sources */,
 				BE83AA4F1E7666030012C540 /* Ticket.m in Sources */,
@@ -2898,6 +2951,7 @@
 				D6F774911E005EDB0089E7E9 /* MYImageScanViewController.m in Sources */,
 				BE83A87D1E7665290012C540 /* MYRouteDetailViewController.m in Sources */,
 				BE83AA421E7666030012C540 /* SDWebImageDownloaderOperation.m in Sources */,
+				D6CC2B001E91D06000E8C444 /* RunHorseLampView.m in Sources */,
 				BE83AA531E7666030012C540 /* Person.m in Sources */,
 				BE83A9811E7665A50012C540 /* SliderViewControllerV2.m in Sources */,
 				BE83AA411E7666030012C540 /* SDWebImageDownloader.m in Sources */,
@@ -2906,7 +2960,7 @@
 				BE83A9731E7665A50012C540 /* MYViewControllerAnimatedTransitioning.m in Sources */,
 				D6F7748D1E005EDB0089E7E9 /* MYImageScanCollectionViewCell.m in Sources */,
 				BE83A87E1E7665290012C540 /* MYRouteViewControllerViewController.m in Sources */,
-				D6F774931E005EDB0089E7E9 /* UIView+YXHView.m in Sources */,
+				D6F774931E005EDB0089E7E9 /* UIView+CWNView.m in Sources */,
 				D6F7747C1E005EDB0089E7E9 /* MJRefreshHeader.m in Sources */,
 				D61625361DF46B960091DCC6 /* ViewController.m in Sources */,
 				BE83A9721E7665A50012C540 /* MYNavControllerTransitioningDelegate.m in Sources */,
@@ -2931,6 +2985,7 @@
 				BE83A9341E7665A50012C540 /* UIImage+ImageEffects.m in Sources */,
 				BE83AA5E1E7666030012C540 /* ViewController_FMDB.m in Sources */,
 				BE83AA5A1E7666030012C540 /* FMResultSet.m in Sources */,
+				D6CC2B071E91D07800E8C444 /* RunHorseLamp_Normal.m in Sources */,
 				BE83AA301E7666030012C540 /* PersonHelper.m in Sources */,
 				BE83A9541E7665A50012C540 /* MYImageButton.m in Sources */,
 				BE83A9551E7665A50012C540 /* MYStateArrowView.m in Sources */,
@@ -2977,6 +3032,7 @@
 				BE83A9421E7665A50012C540 /* MYRefreshHeader.m in Sources */,
 				BE83AA431E7666030012C540 /* SDWebImageManager.m in Sources */,
 				D6F774811E005EDB0089E7E9 /* MJRefreshBackNormalFooter.m in Sources */,
+				D6CC2B091E91D07800E8C444 /* RunHorseLamp_Imediately.m in Sources */,
 				D600EA0E1DF497A70054495C /* SearchHistory+CoreDataProperties.m in Sources */,
 				BE83AA521E7666030012C540 /* Person+CoreDataProperties.m in Sources */,
 				D61625371DF46B960091DCC6 /* IndexPageViewController.m in Sources */,
@@ -3070,8 +3126,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: 伟南 陈 (R78F78EBXD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 伟南 陈 (R78F78EBXD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -3093,7 +3149,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "f180bb1d-5deb-4140-9484-db08a259ebd0";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3117,8 +3173,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -3133,7 +3189,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "f180bb1d-5deb-4140-9484-db08a259ebd0";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3146,7 +3202,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImages;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: 伟南 陈 (R78F78EBXD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3TQC24HTXA;
 				ENABLE_BITCODE = NO;
@@ -3198,8 +3254,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImages;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 3TQC24HTXA;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (

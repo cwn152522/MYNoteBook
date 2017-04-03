@@ -2,20 +2,22 @@
 //  UIView+YXHView.m
 //  NSLayout封装
 //
-//  Created by 姚旭辉 on 15/12/29.
-//  Copyright © 2015年 姚旭辉. All rights reserved.
+//  Created by 陈伟南 on 15/12/29.
+//  Copyright © 2015年 陈伟南. All rights reserved.
 //
 
-#import "UIView+YXHView.h"
+#import "UIView+CWNView.h"
 
-@implementation UIView (YXHView)
+@implementation UIView (CWNView)
 
-- (void)setLayoutWidth:(CGFloat)width
+- (NSLayoutConstraint *)setLayoutWidth:(CGFloat)width
 {
+    NSLayoutConstraint *constraint;
     if (self.superview != nil) {
-        NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:width];
+        constraint = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0f constant:width];
         [self.superview addConstraint:constraint];
     }
+    return constraint;
 }
 
 - (void)setLayoutHeight:(CGFloat)height
@@ -26,12 +28,14 @@
     }
 }
 
-- (void)setLayoutLeft:(UIView *)targetView multiplier:(CGFloat)multiplier constant:(CGFloat)c
+- (NSLayoutConstraint *)setLayoutLeft:(UIView *)targetView multiplier:(CGFloat)multiplier constant:(CGFloat)c
 {
+    NSLayoutConstraint *constraint;
     if (self.superview != nil) {
-        NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:targetView attribute:NSLayoutAttributeRight multiplier:multiplier constant:c];
+        constraint = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:targetView attribute:NSLayoutAttributeRight multiplier:multiplier constant:c];
         [self.superview addConstraint:constraint];
     }
+    return constraint;
 }
 
 - (void)setLayoutRight:(UIView *)targetView multiplier:(CGFloat)multiplier constant:(CGFloat)c

@@ -7,7 +7,7 @@
 //
 
 #import "MYCompanyPaopaoView.h"
-#import "UIView+YXHView.h"
+#import "UIView+CWNView.h"
 
 @implementation MYCompanyPaopaoView
 

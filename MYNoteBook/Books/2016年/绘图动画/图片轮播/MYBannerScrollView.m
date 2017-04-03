@@ -8,7 +8,7 @@
 
 #import "MYBannerScrollView.h"
 #import "MYBannerImageView.h"
-#import "UIView+YXHView.h"
+#import "UIView+CWNView.h"
 #import "NSTimer+Addition.h"
 #import "NSArray+ExtraMethod.h"
 

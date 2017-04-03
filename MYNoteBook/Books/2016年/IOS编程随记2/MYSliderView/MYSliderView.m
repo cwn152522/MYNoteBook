@@ -7,7 +7,7 @@
 //
 
 #import "MYSliderView.h"
-#import "UIView+YXHView.h"
+#import "UIView+CWNView.h"
 
 typedef NS_ENUM(NSInteger, MYSliderViewControllerRemoveOption) {
     MYSliderViewControllerRemoveOptionAll,

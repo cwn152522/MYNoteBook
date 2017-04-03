@@ -2,19 +2,19 @@
 //  UIView+YXHView.h
 //  NSLayout封装
 //
-//  Created by 姚旭辉 on 15/12/29.
-//  Copyright © 2015年 姚旭辉. All rights reserved.
+//  Created by 陈伟南 on 15/12/29.
+//  Copyright © 2015年 陈伟南. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (YXHView)
+@interface UIView (CWNView)
 
-- (void)setLayoutWidth:(CGFloat)width;
+- (NSLayoutConstraint *)setLayoutWidth:(CGFloat)width;
 
 - (void)setLayoutHeight:(CGFloat)height;
 
-- (void)setLayoutLeft:(UIView *)targetView multiplier:(CGFloat)multiplier constant:(CGFloat)c;
+- (NSLayoutConstraint *)setLayoutLeft:(UIView *)targetView multiplier:(CGFloat)multiplier constant:(CGFloat)c;
 
 - (void)setLayoutRight:(UIView *)targetView multiplier:(CGFloat)multiplier constant:(CGFloat)c;
 

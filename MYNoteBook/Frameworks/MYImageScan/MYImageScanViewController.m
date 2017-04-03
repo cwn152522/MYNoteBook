@@ -8,7 +8,7 @@
 
 #import "MYImageScanViewController.h"
 #import "MYImageScanCollectionViewCell.h"
-#import "UIView+YXHView.h"
+#import "UIView+CWNView.h"
 #import "NSArray+SafeMethod.h"
 #import "FrontView.h"
 #import "MYImageScanProgressView.h"
