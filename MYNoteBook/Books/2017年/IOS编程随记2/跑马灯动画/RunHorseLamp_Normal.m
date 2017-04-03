@@ -48,7 +48,7 @@
 
 - (void)requestTips{
     //请求成功，注意更换文本时调用的不是startRuning，而是stopRuning，然后在block回调里进行startRuning
-    NSString *text = @"恭喜福州陈先生成功定制专业版6880            恭喜苏州王先生成功定制专业版6880            恭喜泉州金先生成功定制专业版6880            ";
+    NSString *text = @"请求结果：恭喜福州陈先生成功定制专业版6880            恭喜苏州王先生成功定制专业版6880            恭喜泉州金先生成功定制专业版6880            ";
     if([self.lampView.text length] == 0){//初始化文本
         self.lampView.text = text;
         [self.lampView startRuning];
@@ -68,4 +68,8 @@
     [self.lampView stopRuning];
 }
 
+- (IBAction)onClickRequest:(UIButton *)sender {
+     self.lampView.text = @"";
+    [self requestTips];
+}
 @end

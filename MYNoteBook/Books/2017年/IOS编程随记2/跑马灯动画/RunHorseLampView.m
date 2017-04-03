@@ -162,11 +162,11 @@
     [UIView animateWithDuration:_options.duration delay:delay options:UIViewAnimationOptionCurveLinear animations:^{
         [weakSelf layoutIfNeeded];
     } completion:^(BOOL finished) {
-        weakSelf.runLabelLeft.constant = 0;
-        [weakSelf layoutIfNeeded];
-        
         if(finished == NO)//应用挂起或强制移除动画后finished＝NO
             return ;
+        
+        weakSelf.runLabelLeft.constant = 0;
+        [weakSelf layoutIfNeeded];
         
         //递归调用临界条件
         if(weakSelf.options.shouldStop == YES){//(1)当动画停止类型为RunHorseLampStopNormally时用户请求停止动画
@@ -192,11 +192,11 @@
     [UIView animateWithDuration:self.options.duration delay:delay options:UIViewAnimationOptionCurveLinear animations:^{
         [weakSelf layoutIfNeeded];
     } completion:^(BOOL finished) {
-        weakSelf.runLabelV2Left.constant = 0;
-        [weakSelf layoutIfNeeded];
-        
         if(finished == NO) //应用挂起或强制移除动画后finished＝NO
             return ;
+        
+        weakSelf.runLabelV2Left.constant = 0;
+        [weakSelf layoutIfNeeded];
         
         //递归调用临界条件
         if(weakSelf.options.shouldStop == YES){// (1)当动画停止类型为RunHorseLampStopNormally时用户请求停止动画

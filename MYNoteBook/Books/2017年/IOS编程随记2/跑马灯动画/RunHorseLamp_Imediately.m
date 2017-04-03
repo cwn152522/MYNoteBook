@@ -35,7 +35,7 @@
 
 - (void)requestTips{
     //请求成功
-    self.lampView.text = @"恭喜福州陈先生成功定制专业版6880            恭喜苏州王先生成功定制专业版6880            恭喜泉州金先生成功定制专业版6880            ";
+    self.lampView.text = @"请求结果：恭喜福州陈先生成功定制专业版6880            恭喜苏州王先生成功定制专业版6880            恭喜泉州金先生成功定制专业版6880            ";
     [self.lampView stopRuning];
     [self.lampView startRuning];
 }
@@ -50,4 +50,7 @@
     [self.lampView stopRuning];
 }
 
+- (IBAction)onClickRequest:(UIButton *)sender {
+    [self requestTips];
+}
 @end

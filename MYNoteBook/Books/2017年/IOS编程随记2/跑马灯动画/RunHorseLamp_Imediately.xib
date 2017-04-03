@@ -33,13 +33,22 @@
                         <action selector="onClickStop:" destination="-1" eventType="touchUpInside" id="Ox3-w9-H08"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oqw-p5-66N">
+                    <rect key="frame" x="161" y="263" width="53" height="30"/>
+                    <state key="normal" title="request"/>
+                    <connections>
+                        <action selector="onClickRequest:" destination="-1" eventType="touchUpInside" id="pXT-R2-oEA"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="Rgo-4l-Q4U" firstAttribute="centerY" secondItem="R9z-nR-qRf" secondAttribute="centerY" id="Gl1-Xk-VzX"/>
                 <constraint firstItem="R9z-nR-qRf" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Pnd-h4-SOY"/>
+                <constraint firstItem="Oqw-p5-66N" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eod-O2-Cgk"/>
                 <constraint firstItem="Rgo-4l-Q4U" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="60" id="fXe-YG-DpI"/>
                 <constraint firstItem="R9z-nR-qRf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-60" id="oNK-uB-Pi7"/>
+                <constraint firstItem="R9z-nR-qRf" firstAttribute="top" secondItem="Oqw-p5-66N" secondAttribute="bottom" constant="25.5" id="uqC-Qo-GhB"/>
             </constraints>
         </view>
     </objects>
