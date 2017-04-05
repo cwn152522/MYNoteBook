@@ -11,6 +11,8 @@
 		BE741B201E778C69001FD2CF /* 系统pop手势失效.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE741B1F1E778C02001FD2CF /* 系统pop手势失效.docx */; };
 		BE741B251E77EA2E001FD2CF /* ios10系统app一直提示无网络.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE741B241E77EA2E001FD2CF /* ios10系统app一直提示无网络.docx */; };
 		BE741B271E77EC2A001FD2CF /* 改变列表头部的frame无效.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE741B261E77EC1A001FD2CF /* 改变列表头部的frame无效.docx */; };
+		BE75A1B01E951BFA007AD9E5 /* html富文本高度的正确计算.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE75A1AF1E951BC8007AD9E5 /* html富文本高度的正确计算.docx */; };
+		BE75A1B21E952550007AD9E5 /* 列表滑动卡顿问题.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE75A1B11E952521007AD9E5 /* 列表滑动卡顿问题.docx */; };
 		BE83A7FB1E7664180012C540 /* autoLayout自动布局.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7A41E7664170012C540 /* autoLayout自动布局.docx */; };
 		BE83A7FC1E7664180012C540 /* JavaScriptCore实现JS交互.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7A51E7664170012C540 /* JavaScriptCore实现JS交互.docx */; };
 		BE83A7FD1E7664180012C540 /* PHP简单接口编写.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7A61E7664170012C540 /* PHP简单接口编写.docx */; };
@@ -393,6 +395,8 @@
 		BE741B1F1E778C02001FD2CF /* 系统pop手势失效.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "系统pop手势失效.docx"; sourceTree = "<group>"; };
 		BE741B241E77EA2E001FD2CF /* ios10系统app一直提示无网络.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ios10系统app一直提示无网络.docx"; sourceTree = "<group>"; };
 		BE741B261E77EC1A001FD2CF /* 改变列表头部的frame无效.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "改变列表头部的frame无效.docx"; sourceTree = "<group>"; };
+		BE75A1AF1E951BC8007AD9E5 /* html富文本高度的正确计算.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "html富文本高度的正确计算.docx"; sourceTree = "<group>"; };
+		BE75A1B11E952521007AD9E5 /* 列表滑动卡顿问题.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "列表滑动卡顿问题.docx"; sourceTree = "<group>"; };
 		BE83A7A41E7664170012C540 /* autoLayout自动布局.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "autoLayout自动布局.docx"; sourceTree = "<group>"; };
 		BE83A7A51E7664170012C540 /* JavaScriptCore实现JS交互.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JavaScriptCore实现JS交互.docx"; sourceTree = "<group>"; };
 		BE83A7A61E7664170012C540 /* PHP简单接口编写.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PHP简单接口编写.docx"; sourceTree = "<group>"; };
@@ -1056,6 +1060,8 @@
 				BE8598261E7BD2D3006705DA /* 怎么让个别页面支持旋转.docx */,
 				BE8598281E7BDDC0006705DA /* ipad运行项目，部分页面显示不了.docx */,
 				D6CC2B0B1E91D2BC00E8C444 /* 跑马灯动画.docx */,
+				BE75A1AF1E951BC8007AD9E5 /* html富文本高度的正确计算.docx */,
+				BE75A1B11E952521007AD9E5 /* 列表滑动卡顿问题.docx */,
 			);
 			path = "IOS编程随记2";
 			sourceTree = "<group>";
@@ -2724,6 +2730,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE75A1B21E952550007AD9E5 /* 列表滑动卡顿问题.docx in Resources */,
+				BE75A1B01E951BFA007AD9E5 /* html富文本高度的正确计算.docx in Resources */,
 				D6CC2B0C1E91D2E600E8C444 /* 跑马灯动画.docx in Resources */,
 				BE8598291E7BDDE3006705DA /* ipad运行项目，部分页面显示不了.docx in Resources */,
 				BE8598271E7BD300006705DA /* 怎么让个别页面支持旋转.docx in Resources */,

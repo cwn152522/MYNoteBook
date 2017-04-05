@@ -102,4 +102,6 @@
  {"ID":64, "Name":"怎么让个别页面支持旋转", "ParentID":6, "storyboardName":"", "storyboardId":""},
  {"ID":65, "Name":"ipad运行项目，部分页面显示不了", "ParentID":6, "storyboardName":"", "storyboardId":""},
  {"ID":66, "Name":"跑马灯动画", "ParentID":6, "storyboardName":"RunHorseLamp", "storyboardId":"RunHorseLamp"},
+ {"ID":67, "Name":"html富文本高度的正确计算", "ParentID":6, "storyboardName":"", "storyboardId":""},
+ {"ID":68, "Name":"列表滑动卡顿问题", "ParentID":6, "storyboardName":"", "storyboardId":""},
  ]
