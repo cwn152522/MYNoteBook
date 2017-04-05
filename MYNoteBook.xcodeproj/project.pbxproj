@@ -315,6 +315,7 @@
 		D6DC80D51E03604900F25651 /* libBaiduMobStat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DC80D41E03604900F25651 /* libBaiduMobStat.a */; };
 		D6DC80D71E03707900F25651 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DC80D61E03707800F25651 /* libstdc++.tbd */; };
 		D6DC80D91E03708000F25651 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DC80D81E03708000F25651 /* libz.1.2.5.tbd */; };
+		D6E707141E95B7B700D98060 /* 怎么给View添加阴影.docx in Resources */ = {isa = PBXBuildFile; fileRef = D6E707131E95B77E00D98060 /* 怎么给View添加阴影.docx */; };
 		D6EE1EF11DCAA616003F14CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EE1EF01DCAA616003F14CD /* main.m */; };
 		D6EE1EF41DCAA616003F14CD /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = D6EE1EF31DCAA616003F14CD /* AppDelegate.mm */; };
 		D6EE1EFA1DCAA616003F14CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6EE1EF81DCAA616003F14CD /* Main.storyboard */; };
@@ -883,6 +884,7 @@
 		D6DC80D41E03604900F25651 /* libBaiduMobStat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStat.a; sourceTree = "<group>"; };
 		D6DC80D61E03707800F25651 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		D6DC80D81E03708000F25651 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		D6E707131E95B77E00D98060 /* 怎么给View添加阴影.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "怎么给View添加阴影.docx"; sourceTree = "<group>"; };
 		D6EE1EEC1DCAA616003F14CD /* MYNoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYNoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6EE1EF01DCAA616003F14CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6EE1EF21DCAA616003F14CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1062,6 +1064,7 @@
 				D6CC2B0B1E91D2BC00E8C444 /* 跑马灯动画.docx */,
 				BE75A1AF1E951BC8007AD9E5 /* html富文本高度的正确计算.docx */,
 				BE75A1B11E952521007AD9E5 /* 列表滑动卡顿问题.docx */,
+				D6E707131E95B77E00D98060 /* 怎么给View添加阴影.docx */,
 			);
 			path = "IOS编程随记2";
 			sourceTree = "<group>";
@@ -2730,6 +2733,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E707141E95B7B700D98060 /* 怎么给View添加阴影.docx in Resources */,
 				BE75A1B21E952550007AD9E5 /* 列表滑动卡顿问题.docx in Resources */,
 				BE75A1B01E951BFA007AD9E5 /* html富文本高度的正确计算.docx in Resources */,
 				D6CC2B0C1E91D2E600E8C444 /* 跑马灯动画.docx in Resources */,

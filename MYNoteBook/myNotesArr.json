@@ -104,4 +104,5 @@
  {"ID":66, "Name":"跑马灯动画", "ParentID":6, "storyboardName":"RunHorseLamp", "storyboardId":"RunHorseLamp"},
  {"ID":67, "Name":"html富文本高度的正确计算", "ParentID":6, "storyboardName":"", "storyboardId":""},
  {"ID":68, "Name":"列表滑动卡顿问题", "ParentID":6, "storyboardName":"", "storyboardId":""},
+ {"ID":69, "Name":"怎么给View添加阴影", "ParentID":6, "storyboardName":"", "storyboardId":""},
  ]
