@@ -9,6 +9,9 @@
 #ifndef my_MYLaborGlobal_h
 #define my_MYLaborGlobal_h
 
+#define ShiPeiWidth(x) [UIScreen mainScreen].bounds.size.width / 320 * x
+#define ShiPeiHeight(x) [UIScreen mainScreen].bounds.size.height / 568 * x
+
 #ifdef DEBUG
 #	define DLog(fmt, ...) NSLog((@"%s #%d " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
 #else

@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View ControllerUM Social-->
@@ -14,52 +18,41 @@
                         <viewControllerLayoutGuide type="bottom" id="WkT-Ph-73l"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YcH-Wd-LLr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeZ-tM-31e">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <rect key="frame" x="172" y="319" width="31" height="30"/>
                                 <state key="normal" title="分享"/>
                                 <connections>
                                     <action selector="onClickShare:" destination="7Bi-vf-wpH" eventType="touchUpInside" id="RUi-x8-L6w"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVO-86-cqV">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <rect key="frame" x="172" y="369" width="31" height="30"/>
                                 <state key="normal" title="授权"/>
                                 <connections>
                                     <action selector="onClickAuthorization:" destination="7Bi-vf-wpH" eventType="touchUpInside" id="9JY-Jw-Ppl"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="RVO-86-cqV" firstAttribute="top" secondItem="oeZ-tM-31e" secondAttribute="bottom" constant="20" id="1WQ-iO-VdO"/>
                             <constraint firstItem="RVO-86-cqV" firstAttribute="centerX" secondItem="oeZ-tM-31e" secondAttribute="centerX" id="OvI-rl-Jnz"/>
                             <constraint firstItem="oeZ-tM-31e" firstAttribute="centerX" secondItem="YcH-Wd-LLr" secondAttribute="centerX" id="i1y-nf-Qey"/>
                             <constraint firstItem="oeZ-tM-31e" firstAttribute="centerY" secondItem="YcH-Wd-LLr" secondAttribute="centerY" id="oWU-SF-AVh"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="oeZ-tM-31e"/>
-                                <exclude reference="RVO-86-cqV"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="i1y-nf-Qey"/>
-                                <exclude reference="oWU-SF-AVh"/>
-                                <exclude reference="1WQ-iO-VdO"/>
-                                <exclude reference="OvI-rl-Jnz"/>
-                            </mask>
-                        </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="oeZ-tM-31e"/>
                                 <include reference="RVO-86-cqV"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="i1y-nf-Qey"/>
-                                <include reference="oWU-SF-AVh"/>
                                 <include reference="1WQ-iO-VdO"/>
                                 <include reference="OvI-rl-Jnz"/>
+                                <include reference="i1y-nf-Qey"/>
+                                <include reference="oWU-SF-AVh"/>
                             </mask>
                         </variation>
                     </view>

@@ -24,7 +24,14 @@
     [super viewDidLoad];
     self.title = @"友盟分享和授权测试";
     // Do any additional setup after loading the view.
+    id target = self.navigationController.navigationController.interactivePopGestureRecognizer.delegate;
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:target action:@selector(handleNavigationTransition:)];
+    [self.view addGestureRecognizer:pan];
+    self.navigationController.navigationController.interactivePopGestureRecognizer.enabled = NO;
+    // Do any additional setup after loading the view.
 }
+
+- (void)handleNavigationTransition:(UIPanGestureRecognizer *)gesture{};
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -33,7 +40,8 @@
 
 - (IBAction)onClickShare:(UIButton *)sender {
     if(!_shareView){
-        _shareView = [[MYUShareView alloc]initWithFrame:CGRectMake(0,[[UIScreen mainScreen] bounds].size.height - 245,[[UIScreen mainScreen] bounds].size.width, 245)];
+        CGFloat btnWidth = ([[UIScreen mainScreen] bounds].size.width - 0 - 0)/5;
+        _shareView = [[MYUShareView alloc]initWithFrame:CGRectMake(0,[[UIScreen mainScreen] bounds].size.height - btnWidth * 2 - 10 - 10 - 85,[[UIScreen mainScreen] bounds].size.width, btnWidth * 2 + 10 + 10 + 85)];
     }
     
     NSArray *btnImages = @[@"wo_wdezhanewm_qq",@"wo_wdezhanewm_komgjian",@"wo_wdezhanewm_weixin",@"wo_wdezhanewm_pengyouquan",@"fx_duanxin"];
