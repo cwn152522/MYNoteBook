@@ -60,7 +60,7 @@
 }
 
 - (void)configTableView{
-    self.tableView = [[MYDoubleTableView alloc] initWithFrame:CGRectMake(0, 64, CGRectGetWidth([UIScreen mainScreen].bounds), CGRectGetHeight([UIScreen mainScreen].bounds) - 64) mainTableCellClass:[UITableViewCell class] subTableCellClass:[UITableViewCell class]];
+    self.tableView = [[MYDoubleTableView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth([UIScreen mainScreen].bounds), CGRectGetHeight([UIScreen mainScreen].bounds) - 64) mainTableCellClass:[UITableViewCell class] subTableCellClass:[UITableViewCell class]];
     [self.view addSubview:self.tableView];
     
     self.tableView.cellConfigBlock = ^(UITableView *tableView, id tableCell, id item, NSIndexPath *indexPath){
