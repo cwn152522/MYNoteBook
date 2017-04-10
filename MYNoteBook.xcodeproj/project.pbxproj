@@ -258,6 +258,7 @@
 		BE8598291E7BDDE3006705DA /* ipad运行项目，部分页面显示不了.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE8598281E7BDDC0006705DA /* ipad运行项目，部分页面显示不了.docx */; };
 		BE93BE531E78E0C200349670 /* 关于scrollview自动布局约束问题.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE93BE521E78E09A00349670 /* 关于scrollview自动布局约束问题.docx */; };
 		BE93BE551E78F78100349670 /* 排序接口返回乱序的字典数据.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE93BE541E78F76C00349670 /* 排序接口返回乱序的字典数据.docx */; };
+		BE9D43BE1E9B7D1800152593 /* 解析线上app崩溃报告.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE9D43BD1E9B7CB600152593 /* 解析线上app崩溃报告.docx */; };
 		BEFF33AA1E96042900E2A05E /* 如何使用xib方式加载cell.docx in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33A91E9603DB00E2A05E /* 如何使用xib方式加载cell.docx */; };
 		BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */; };
 		BEFF33B01E96051800E2A05E /* DoubleTable_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */; };
@@ -795,6 +796,7 @@
 		BE8598281E7BDDC0006705DA /* ipad运行项目，部分页面显示不了.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ipad运行项目，部分页面显示不了.docx"; sourceTree = "<group>"; };
 		BE93BE521E78E09A00349670 /* 关于scrollview自动布局约束问题.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "关于scrollview自动布局约束问题.docx"; sourceTree = "<group>"; };
 		BE93BE541E78F76C00349670 /* 排序接口返回乱序的字典数据.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "排序接口返回乱序的字典数据.docx"; sourceTree = "<group>"; };
+		BE9D43BD1E9B7CB600152593 /* 解析线上app崩溃报告.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "解析线上app崩溃报告.docx"; sourceTree = "<group>"; };
 		BEFF33A91E9603DB00E2A05E /* 如何使用xib方式加载cell.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "如何使用xib方式加载cell.docx"; sourceTree = "<group>"; };
 		BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoubleTable.storyboard; sourceTree = "<group>"; };
 		BEFF33AE1E96051800E2A05E /* DoubleTable_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTable_ViewController.h; sourceTree = "<group>"; };
@@ -1082,6 +1084,7 @@
 				D6E707131E95B77E00D98060 /* 怎么给View添加阴影.docx */,
 				BEFF33A91E9603DB00E2A05E /* 如何使用xib方式加载cell.docx */,
 				BEFF33B81E96119D00E2A05E /* 主从列表封装思想.docx */,
+				BE9D43BD1E9B7CB600152593 /* 解析线上app崩溃报告.docx */,
 			);
 			path = "IOS编程随记2";
 			sourceTree = "<group>";
@@ -2773,6 +2776,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9D43BE1E9B7D1800152593 /* 解析线上app崩溃报告.docx in Resources */,
 				BEFF33B91E9611B000E2A05E /* 主从列表封装思想.docx in Resources */,
 				BEFF33AA1E96042900E2A05E /* 如何使用xib方式加载cell.docx in Resources */,
 				D6E707141E95B7B700D98060 /* 怎么给View添加阴影.docx in Resources */,

@@ -107,4 +107,5 @@
  {"ID":69, "Name":"怎么给View添加阴影", "ParentID":6, "storyboardName":"", "storyboardId":""},
  {"ID":70, "Name":"如何使用xib方式加载cell", "ParentID":6, "storyboardName":"", "storyboardId":""},
  {"ID":71, "Name":"主从列表封装思想", "ParentID":6, "storyboardName":"DoubleTable", "storyboardId":"DoubleTable"},
+ {"ID":72, "Name":"解析线上app崩溃报告", "ParentID":6, "storyboardName":"", "storyboardId":""},
  ]
