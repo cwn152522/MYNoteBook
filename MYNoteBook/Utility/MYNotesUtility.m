@@ -51,7 +51,7 @@ static MYNotesUtility *instance;
     return [array filteredArrayUsingPredicate:predicate];
 }
 
-+(NSString *)getDocxFileWithDocxName:(NSString *)fileName{
++(NSString *)getFileWithFileName:(NSString *)fileName{
     NSString *filPath = [[NSBundle mainBundle] pathForResource:fileName ofType:nil];
     return filPath;
 }
