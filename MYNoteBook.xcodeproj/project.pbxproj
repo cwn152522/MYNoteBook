@@ -108,6 +108,7 @@
 		BE8115E51EA72E5E002071AD /* Label富文本显示不全.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115E41EA72E5E002071AD /* Label富文本显示不全.pdf */; };
 		BE8115E71EA73236002071AD /* 正则匹配去除文本的html标签.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115E61EA73236002071AD /* 正则匹配去除文本的html标签.pdf */; };
 		BE8115E91EA75FF1002071AD /* 链式编程原理与应用(Autolayout).pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115E81EA75FF1002071AD /* 链式编程原理与应用(Autolayout).pdf */; };
+		BE8115EB1EA77E9F002071AD /* 使用CodeLibrary提高开发效率.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115EA1EA77E9F002071AD /* 使用CodeLibrary提高开发效率.pdf */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
 		BE83A8761E7665290012C540 /* MYUShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8571E7665290012C540 /* MYUShareManager.m */; };
 		BE83A8771E7665290012C540 /* MYUShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A85A1E7665290012C540 /* MYUShareButton.m */; };
@@ -507,6 +508,7 @@
 		BE8115E41EA72E5E002071AD /* Label富文本显示不全.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Label富文本显示不全.pdf"; sourceTree = "<group>"; };
 		BE8115E61EA73236002071AD /* 正则匹配去除文本的html标签.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "正则匹配去除文本的html标签.pdf"; sourceTree = "<group>"; };
 		BE8115E81EA75FF1002071AD /* 链式编程原理与应用(Autolayout).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "链式编程原理与应用(Autolayout).pdf"; sourceTree = "<group>"; };
+		BE8115EA1EA77E9F002071AD /* 使用CodeLibrary提高开发效率.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "使用CodeLibrary提高开发效率.pdf"; sourceTree = "<group>"; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -1104,6 +1106,7 @@
 				BE8115E41EA72E5E002071AD /* Label富文本显示不全.pdf */,
 				BE8115E61EA73236002071AD /* 正则匹配去除文本的html标签.pdf */,
 				BE8115E81EA75FF1002071AD /* 链式编程原理与应用(Autolayout).pdf */,
+				BE8115EA1EA77E9F002071AD /* 使用CodeLibrary提高开发效率.pdf */,
 			);
 			path = "IOS编程随记2";
 			sourceTree = "<group>";
@@ -2893,6 +2896,7 @@
 				BE8115CF1EA7063E002071AD /* 使用BundleURL找不到文件.pdf in Resources */,
 				BE8115B21EA6FAFB002071AD /* 应用打包发布.pdf in Resources */,
 				BE629DE41EA5C805005CC9BA /* 解析线上app崩溃报告.pdf in Resources */,
+				BE8115EB1EA77E9F002071AD /* 使用CodeLibrary提高开发效率.pdf in Resources */,
 				BE8115911EA6F218002071AD /* MJRefresh用法熟悉.pdf in Resources */,
 				D6F774861E005EDB0089E7E9 /* MJRefresh.bundle in Resources */,
 				BE8115841EA6F218002071AD /* 绘制带填充色的圆角箭头标签.pdf in Resources */,
