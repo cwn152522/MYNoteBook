@@ -104,6 +104,7 @@
 		BE8115DF1EA7063E002071AD /* Xcode7运行Xcode8项目xib问题.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115CA1EA7063E002071AD /* Xcode7运行Xcode8项目xib问题.pdf */; };
 		BE8115E01EA7063E002071AD /* Xcode8项目兼容IOS7设备.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115CB1EA7063E002071AD /* Xcode8项目兼容IOS7设备.pdf */; };
 		BE8115E11EA7063E002071AD /* YYModel-Json解析.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115CC1EA7063E002071AD /* YYModel-Json解析.pdf */; };
+		BE8115E31EA72835002071AD /* 输入框部分文本模糊匹配.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115E21EA72835002071AD /* 输入框部分文本模糊匹配.pdf */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
 		BE83A8761E7665290012C540 /* MYUShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8571E7665290012C540 /* MYUShareManager.m */; };
 		BE83A8771E7665290012C540 /* MYUShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A85A1E7665290012C540 /* MYUShareButton.m */; };
@@ -499,6 +500,7 @@
 		BE8115CA1EA7063E002071AD /* Xcode7运行Xcode8项目xib问题.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Xcode7运行Xcode8项目xib问题.pdf"; sourceTree = "<group>"; };
 		BE8115CB1EA7063E002071AD /* Xcode8项目兼容IOS7设备.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Xcode8项目兼容IOS7设备.pdf"; sourceTree = "<group>"; };
 		BE8115CC1EA7063E002071AD /* YYModel-Json解析.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "YYModel-Json解析.pdf"; sourceTree = "<group>"; };
+		BE8115E21EA72835002071AD /* 输入框部分文本模糊匹配.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "输入框部分文本模糊匹配.pdf"; path = "MYNoteBook/word文档/2017年/IOS编程随记1/输入框部分文本模糊匹配.pdf"; sourceTree = SOURCE_ROOT; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -1078,6 +1080,7 @@
 		BE741B231E77EA2E001FD2CF /* IOS编程随记2 */ = {
 			isa = PBXGroup;
 			children = (
+				BE8115E21EA72835002071AD /* 输入框部分文本模糊匹配.pdf */,
 				BE629DD41EA5C805005CC9BA /* 改变列表头部的frame无效.pdf */,
 				BE629DD51EA5C805005CC9BA /* 关于scrollview自动布局约束问题.pdf */,
 				BE629DD61EA5C805005CC9BA /* 解析线上app崩溃报告.pdf */,
@@ -2894,6 +2897,7 @@
 				BE629E151EA61F10005CC9BA /* 系统pop手势失效.pdf in Resources */,
 				BE629DE61EA5C805005CC9BA /* 排序接口返回乱序的字典数据.pdf in Resources */,
 				BE8115AA1EA6FAFB002071AD /* 版本控制.pdf in Resources */,
+				BE8115E31EA72835002071AD /* 输入框部分文本模糊匹配.pdf in Resources */,
 				BE629E141EA61F10005CC9BA /* 使用mutable属性注意事项.pdf in Resources */,
 				BE8115B41EA6FAFB002071AD /* autoLayout自动布局.pdf in Resources */,
 				BE8115D11EA7063E002071AD /* IOS10-动态类型DynamicType.pdf in Resources */,
