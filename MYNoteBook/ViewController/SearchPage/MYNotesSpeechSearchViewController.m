@@ -142,7 +142,7 @@
 - (void)requestResult:(NSString *)keyWords {
     [self searchManagerLoading];
     
-    NSArray *array = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"(ParentID != 0) AND (Name CONTAINS[c] %@)", keyWords]];
+    NSArray *array = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"(ParentID > 0) AND (Name CONTAINS[c] %@)", keyWords]];
      [self hideRecongizering];
     if([array count]){
         [self performSelector:@selector(popViewController) withObject:nil afterDelay:0.33];

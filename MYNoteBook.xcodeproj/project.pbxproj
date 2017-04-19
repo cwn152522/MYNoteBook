@@ -43,67 +43,67 @@
 		BE629E191EA61F10005CC9BA /* IOS相关基础知识整理.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE629E061EA61F10005CC9BA /* IOS相关基础知识整理.pdf */; };
 		BE629E1A1EA61F10005CC9BA /* UITableView刷新cell闪烁问题.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE629E071EA61F10005CC9BA /* UITableView刷新cell闪烁问题.pdf */; };
 		BE629E1B1EA61F10005CC9BA /* UITextView显示网页内容(富文本).pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE629E081EA61F10005CC9BA /* UITextView显示网页内容(富文本).pdf */; };
-		BE83A7FB1E7664180012C540 /* autoLayout自动布局.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7A41E7664170012C540 /* autoLayout自动布局.docx */; };
-		BE83A7FC1E7664180012C540 /* JavaScriptCore实现JS交互.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7A51E7664170012C540 /* JavaScriptCore实现JS交互.docx */; };
-		BE83A7FD1E7664180012C540 /* PHP简单接口编写.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7A61E7664170012C540 /* PHP简单接口编写.docx */; };
-		BE83A7FE1E7664180012C540 /* Swift_OC混编.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7A71E7664170012C540 /* Swift_OC混编.docx */; };
-		BE83A8001E7664180012C540 /* 了解RunTime运行机制.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7A91E7664170012C540 /* 了解RunTime运行机制.docx */; };
-		BE83A8011E7664180012C540 /* 内存管理.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7AA1E7664170012C540 /* 内存管理.docx */; };
-		BE83A8021E7664180012C540 /* 创建framework静态库.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7AB1E7664170012C540 /* 创建framework静态库.docx */; };
-		BE83A8031E7664180012C540 /* 多线程.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7AC1E7664170012C540 /* 多线程.docx */; };
-		BE83A8041E7664180012C540 /* 应用打包发布.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7AD1E7664170012C540 /* 应用打包发布.docx */; };
-		BE83A8051E7664180012C540 /* 数据持久化.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7AE1E7664170012C540 /* 数据持久化.docx */; };
-		BE83A8061E7664180012C540 /* 正则表达式.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7AF1E7664170012C540 /* 正则表达式.docx */; };
-		BE83A8071E7664180012C540 /* 版本控制.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7B01E7664170012C540 /* 版本控制.docx */; };
-		BE83A8081E7664180012C540 /* 系统定位.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7B11E7664170012C540 /* 系统定位.docx */; };
-		BE83A8091E7664180012C540 /* 编码规范.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7B21E7664170012C540 /* 编码规范.docx */; };
-		BE83A80A1E7664180012C540 /* IOS10-iMessage扩展.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7B41E7664170012C540 /* IOS10-iMessage扩展.docx */; };
-		BE83A80B1E7664180012C540 /* IOS10-ScrollView下拉刷新.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7B51E7664170012C540 /* IOS10-ScrollView下拉刷新.docx */; };
-		BE83A80C1E7664180012C540 /* IOS10-动态类型DynamicType.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7B61E7664170012C540 /* IOS10-动态类型DynamicType.docx */; };
-		BE83A80D1E7664180012C540 /* IOS10-地图默认导航.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7B71E7664170012C540 /* IOS10-地图默认导航.docx */; };
-		BE83A80E1E7664180012C540 /* IOS10-属性动画器.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7B81E7664170012C540 /* IOS10-属性动画器.docx */; };
-		BE83A80F1E7664180012C540 /* IOS10-语音识别.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7B91E7664170012C540 /* IOS10-语音识别.docx */; };
-		BE83A8101E7664180012C540 /* IOS10-通知框架UserNotification.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7BA1E7664170012C540 /* IOS10-通知框架UserNotification.docx */; };
-		BE83A8111E7664180012C540 /* IOS下关于cookie的使用管理.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7BB1E7664170012C540 /* IOS下关于cookie的使用管理.docx */; };
-		BE83A8121E7664180012C540 /* MVC、MVVM浅谈.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7BC1E7664170012C540 /* MVC、MVVM浅谈.docx */; };
-		BE83A8131E7664180012C540 /* MYNavigationController封装.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7BD1E7664170012C540 /* MYNavigationController封装.docx */; };
-		BE83A8141E7664180012C540 /* MYNetwork网络库(基于AFNetworking).docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7BE1E7664170012C540 /* MYNetwork网络库(基于AFNetworking).docx */; };
-		BE83A8151E7664180012C540 /* MYNetwork网络库1.0版.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7BF1E7664170012C540 /* MYNetwork网络库1.0版.docx */; };
-		BE83A8161E7664180012C540 /* MYSliderView封装.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7C01E7664170012C540 /* MYSliderView封装.docx */; };
-		BE83A8171E7664180012C540 /* UIViewControllerTransitioning.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7C11E7664170012C540 /* UIViewControllerTransitioning.docx */; };
-		BE83A8181E7664180012C540 /* Xcode7调试IOS10设备.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7C21E7664170012C540 /* Xcode7调试IOS10设备.docx */; };
-		BE83A8191E7664180012C540 /* Xcode7运行Xcode8项目xib问题.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7C31E7664170012C540 /* Xcode7运行Xcode8项目xib问题.docx */; };
-		BE83A81A1E7664180012C540 /* Xcode8项目兼容IOS7设备.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7C41E7664170012C540 /* Xcode8项目兼容IOS7设备.docx */; };
-		BE83A81B1E7664180012C540 /* YYModel-Json解析.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7C51E7664170012C540 /* YYModel-Json解析.docx */; };
-		BE83A81C1E7664180012C540 /* 使用BundleURL找不到文件.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7C61E7664170012C540 /* 使用BundleURL找不到文件.docx */; };
-		BE83A81D1E7664180012C540 /* 列表数据请求框架搭建.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7C71E7664170012C540 /* 列表数据请求框架搭建.docx */; };
-		BE83A81E1E7664180012C540 /* 利用NSCache提升效率.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7C81E7664170012C540 /* 利用NSCache提升效率.docx */; };
-		BE83A8201E7664180012C540 /* 友盟社区化组件v6.1.1.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7CB1E7664170012C540 /* 友盟社区化组件v6.1.1.docx */; };
-		BE83A8211E7664180012C540 /* 极光推送v3.0.0.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7CC1E7664170012C540 /* 极光推送v3.0.0.docx */; };
-		BE83A8221E7664180012C540 /* 百度地图v3.1.0.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7CD1E7664170012C540 /* 百度地图v3.1.0.docx */; };
-		BE83A8231E7664180012C540 /* 百度统计v4.3.0.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7CE1E7664170012C540 /* 百度统计v4.3.0.docx */; };
-		BE83A8241E7664180012C540 /* 科大讯飞语音识别v1.146.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7CF1E7664170012C540 /* 科大讯飞语音识别v1.146.docx */; };
-		BE83A8251E7664180012C540 /* MJRefresh用法熟悉.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7D11E7664170012C540 /* MJRefresh用法熟悉.docx */; };
-		BE83A8261E7664180012C540 /* 关于IOS动画.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7D21E7664170012C540 /* 关于IOS动画.docx */; };
-		BE83A8271E7664180012C540 /* 启动页消失组合动画(alpha+scale).docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7D31E7664170012C540 /* 启动页消失组合动画(alpha+scale).docx */; };
-		BE83A8281E7664180012C540 /* 图片轮播.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7D41E7664170012C540 /* 图片轮播.docx */; };
-		BE83A8291E7664180012C540 /* 实现NavigationBar的alpha渐变.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7D51E7664170012C540 /* 实现NavigationBar的alpha渐变.docx */; };
-		BE83A82A1E7664180012C540 /* 将Image绘制到指定的区域.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7D61E7664170012C540 /* 将Image绘制到指定的区域.docx */; };
-		BE83A82B1E7664180012C540 /* 根据UIColor绘制相应纯色Image.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7D71E7664170012C540 /* 根据UIColor绘制相应纯色Image.docx */; };
-		BE83A82C1E7664180012C540 /* 根据UIView绘制出相应Image.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7D81E7664170012C540 /* 根据UIView绘制出相应Image.docx */; };
-		BE83A82D1E7664180012C540 /* 根据缩放系数绘制缩放后的Image.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7D91E7664170012C540 /* 根据缩放系数绘制缩放后的Image.docx */; };
-		BE83A82E1E7664180012C540 /* 绘制不带填充色的圆角边框标签.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7DA1E7664170012C540 /* 绘制不带填充色的圆角边框标签.docx */; };
-		BE83A82F1E7664180012C540 /* 绘制可自定义图片和标签位置的按钮.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7DB1E7664170012C540 /* 绘制可自定义图片和标签位置的按钮.docx */; };
-		BE83A8301E7664180012C540 /* 绘制圆形进度条.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7DC1E7664170012C540 /* 绘制圆形进度条.docx */; };
-		BE83A8311E7664180012C540 /* 绘制对话框样式的标签.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7DD1E7664170012C540 /* 绘制对话框样式的标签.docx */; };
-		BE83A8321E7664180012C540 /* 绘制带填充色的圆角标签.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7DE1E7664170012C540 /* 绘制带填充色的圆角标签.docx */; };
-		BE83A8331E7664180012C540 /* 绘制带填充色的圆角箭头标签.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7DF1E7664170012C540 /* 绘制带填充色的圆角箭头标签.docx */; };
-		BE83A8341E7664180012C540 /* 绘制正弦波形.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7E01E7664170012C540 /* 绘制正弦波形.docx */; };
-		BE83A8351E7664180012C540 /* 绘制直线.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7E11E7664180012C540 /* 绘制直线.docx */; };
-		BE83A8361E7664180012C540 /* 绘制纯背景的UISearchBar.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7E21E7664180012C540 /* 绘制纯背景的UISearchBar.docx */; };
-		BE83A8371E7664180012C540 /* 绘制虚线.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7E31E7664180012C540 /* 绘制虚线.docx */; };
-		BE83A8381E7664180012C540 /* 绘制进度由0-1交替的旋转动画.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7E41E7664180012C540 /* 绘制进度由0-1交替的旋转动画.docx */; };
-		BE83A8391E7664180012C540 /* 统一弹窗视图控制器.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE83A7E51E7664180012C540 /* 统一弹窗视图控制器.docx */; };
+		BE81157D1EA6F218002071AD /* 根据缩放系数绘制缩放后的Image.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115681EA6F218002071AD /* 根据缩放系数绘制缩放后的Image.pdf */; };
+		BE81157E1EA6F218002071AD /* 根据UIColor绘制相应纯色Image.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115691EA6F218002071AD /* 根据UIColor绘制相应纯色Image.pdf */; };
+		BE81157F1EA6F218002071AD /* 根据UIView绘制出相应Image.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE81156A1EA6F218002071AD /* 根据UIView绘制出相应Image.pdf */; };
+		BE8115801EA6F218002071AD /* 关于IOS动画.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE81156B1EA6F218002071AD /* 关于IOS动画.pdf */; };
+		BE8115811EA6F218002071AD /* 绘制不带填充色的圆角边框标签.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE81156C1EA6F218002071AD /* 绘制不带填充色的圆角边框标签.pdf */; };
+		BE8115821EA6F218002071AD /* 绘制纯背景的UISearchBar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE81156D1EA6F218002071AD /* 绘制纯背景的UISearchBar.pdf */; };
+		BE8115831EA6F218002071AD /* 绘制带填充色的圆角标签.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE81156E1EA6F218002071AD /* 绘制带填充色的圆角标签.pdf */; };
+		BE8115841EA6F218002071AD /* 绘制带填充色的圆角箭头标签.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE81156F1EA6F218002071AD /* 绘制带填充色的圆角箭头标签.pdf */; };
+		BE8115851EA6F218002071AD /* 绘制对话框样式的标签.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115701EA6F218002071AD /* 绘制对话框样式的标签.pdf */; };
+		BE8115861EA6F218002071AD /* 绘制进度由0-1交替的旋转动画.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115711EA6F218002071AD /* 绘制进度由0-1交替的旋转动画.pdf */; };
+		BE8115871EA6F218002071AD /* 绘制可自定义图片和标签位置的按钮.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115721EA6F218002071AD /* 绘制可自定义图片和标签位置的按钮.pdf */; };
+		BE8115881EA6F218002071AD /* 绘制虚线.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115731EA6F218002071AD /* 绘制虚线.pdf */; };
+		BE8115891EA6F218002071AD /* 绘制圆形进度条.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115741EA6F218002071AD /* 绘制圆形进度条.pdf */; };
+		BE81158A1EA6F218002071AD /* 绘制正弦波形.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115751EA6F218002071AD /* 绘制正弦波形.pdf */; };
+		BE81158B1EA6F218002071AD /* 绘制直线.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115761EA6F218002071AD /* 绘制直线.pdf */; };
+		BE81158C1EA6F218002071AD /* 将Image绘制到指定的区域.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115771EA6F218002071AD /* 将Image绘制到指定的区域.pdf */; };
+		BE81158D1EA6F218002071AD /* 启动页消失组合动画(alpha+scale).pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115781EA6F218002071AD /* 启动页消失组合动画(alpha+scale).pdf */; };
+		BE81158E1EA6F218002071AD /* 实现NavigationBar的alpha渐变.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115791EA6F218002071AD /* 实现NavigationBar的alpha渐变.pdf */; };
+		BE81158F1EA6F218002071AD /* 统一弹窗视图控制器.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE81157A1EA6F218002071AD /* 统一弹窗视图控制器.pdf */; };
+		BE8115901EA6F218002071AD /* 图片轮播.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE81157B1EA6F218002071AD /* 图片轮播.pdf */; };
+		BE8115911EA6F218002071AD /* MJRefresh用法熟悉.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE81157C1EA6F218002071AD /* MJRefresh用法熟悉.pdf */; };
+		BE8115971EA6F88A002071AD /* 百度地图v3.1.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115921EA6F88A002071AD /* 百度地图v3.1.0.pdf */; };
+		BE8115981EA6F88A002071AD /* 百度统计v4.3.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115931EA6F88A002071AD /* 百度统计v4.3.0.pdf */; };
+		BE8115991EA6F88A002071AD /* 极光推送v3.0.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115941EA6F88A002071AD /* 极光推送v3.0.0.pdf */; };
+		BE81159A1EA6F88A002071AD /* 科大讯飞语音识别v1.146.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115951EA6F88A002071AD /* 科大讯飞语音识别v1.146.pdf */; };
+		BE81159B1EA6F88A002071AD /* 友盟社区化组件v6.1.1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115961EA6F88A002071AD /* 友盟社区化组件v6.1.1.pdf */; };
+		BE8115AA1EA6FAFB002071AD /* 版本控制.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE81159C1EA6FAFB002071AD /* 版本控制.pdf */; };
+		BE8115AB1EA6FAFB002071AD /* 编码规范.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE81159D1EA6FAFB002071AD /* 编码规范.pdf */; };
+		BE8115AC1EA6FAFB002071AD /* 创建framework静态库.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE81159E1EA6FAFB002071AD /* 创建framework静态库.pdf */; };
+		BE8115AD1EA6FAFB002071AD /* 多线程.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE81159F1EA6FAFB002071AD /* 多线程.pdf */; };
+		BE8115AE1EA6FAFB002071AD /* 了解RunTime运行机制.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115A01EA6FAFB002071AD /* 了解RunTime运行机制.pdf */; };
+		BE8115AF1EA6FAFB002071AD /* 内存管理.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115A11EA6FAFB002071AD /* 内存管理.pdf */; };
+		BE8115B01EA6FAFB002071AD /* 数据持久化.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115A21EA6FAFB002071AD /* 数据持久化.pdf */; };
+		BE8115B11EA6FAFB002071AD /* 系统定位.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115A31EA6FAFB002071AD /* 系统定位.pdf */; };
+		BE8115B21EA6FAFB002071AD /* 应用打包发布.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115A41EA6FAFB002071AD /* 应用打包发布.pdf */; };
+		BE8115B31EA6FAFB002071AD /* 正则表达式.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115A51EA6FAFB002071AD /* 正则表达式.pdf */; };
+		BE8115B41EA6FAFB002071AD /* autoLayout自动布局.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115A61EA6FAFB002071AD /* autoLayout自动布局.pdf */; };
+		BE8115B51EA6FAFB002071AD /* JavaScriptCore实现JS交互.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115A71EA6FAFB002071AD /* JavaScriptCore实现JS交互.pdf */; };
+		BE8115B61EA6FAFB002071AD /* PHP简单接口编写.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115A81EA6FAFB002071AD /* PHP简单接口编写.pdf */; };
+		BE8115B71EA6FAFB002071AD /* Swift_OC混编.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115A91EA6FAFB002071AD /* Swift_OC混编.pdf */; };
+		BE8115CD1EA7063E002071AD /* 利用NSCache提升效率.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115B81EA7063E002071AD /* 利用NSCache提升效率.pdf */; };
+		BE8115CE1EA7063E002071AD /* 列表数据请求框架搭建.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115B91EA7063E002071AD /* 列表数据请求框架搭建.pdf */; };
+		BE8115CF1EA7063E002071AD /* 使用BundleURL找不到文件.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115BA1EA7063E002071AD /* 使用BundleURL找不到文件.pdf */; };
+		BE8115D01EA7063E002071AD /* IOS10-地图默认导航.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115BB1EA7063E002071AD /* IOS10-地图默认导航.pdf */; };
+		BE8115D11EA7063E002071AD /* IOS10-动态类型DynamicType.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115BC1EA7063E002071AD /* IOS10-动态类型DynamicType.pdf */; };
+		BE8115D21EA7063E002071AD /* IOS10-属性动画器.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115BD1EA7063E002071AD /* IOS10-属性动画器.pdf */; };
+		BE8115D31EA7063E002071AD /* IOS10-通知框架UserNotification.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115BE1EA7063E002071AD /* IOS10-通知框架UserNotification.pdf */; };
+		BE8115D41EA7063E002071AD /* IOS10-语音识别.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115BF1EA7063E002071AD /* IOS10-语音识别.pdf */; };
+		BE8115D51EA7063E002071AD /* IOS10-iMessage扩展.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115C01EA7063E002071AD /* IOS10-iMessage扩展.pdf */; };
+		BE8115D61EA7063E002071AD /* IOS10-ScrollView下拉刷新.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115C11EA7063E002071AD /* IOS10-ScrollView下拉刷新.pdf */; };
+		BE8115D71EA7063E002071AD /* IOS下关于cookie的使用管理.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115C21EA7063E002071AD /* IOS下关于cookie的使用管理.pdf */; };
+		BE8115D81EA7063E002071AD /* MVC、MVVM浅谈.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115C31EA7063E002071AD /* MVC、MVVM浅谈.pdf */; };
+		BE8115D91EA7063E002071AD /* MYNavigationController封装.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115C41EA7063E002071AD /* MYNavigationController封装.pdf */; };
+		BE8115DA1EA7063E002071AD /* MYNetwork网络库(基于AFNetworking).pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115C51EA7063E002071AD /* MYNetwork网络库(基于AFNetworking).pdf */; };
+		BE8115DB1EA7063E002071AD /* MYNetwork网络库1.0版.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115C61EA7063E002071AD /* MYNetwork网络库1.0版.pdf */; };
+		BE8115DC1EA7063E002071AD /* MYSliderView封装.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115C71EA7063E002071AD /* MYSliderView封装.pdf */; };
+		BE8115DD1EA7063E002071AD /* UIViewControllerTransitioning.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115C81EA7063E002071AD /* UIViewControllerTransitioning.pdf */; };
+		BE8115DE1EA7063E002071AD /* Xcode7调试IOS10设备.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115C91EA7063E002071AD /* Xcode7调试IOS10设备.pdf */; };
+		BE8115DF1EA7063E002071AD /* Xcode7运行Xcode8项目xib问题.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115CA1EA7063E002071AD /* Xcode7运行Xcode8项目xib问题.pdf */; };
+		BE8115E01EA7063E002071AD /* Xcode8项目兼容IOS7设备.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115CB1EA7063E002071AD /* Xcode8项目兼容IOS7设备.pdf */; };
+		BE8115E11EA7063E002071AD /* YYModel-Json解析.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115CC1EA7063E002071AD /* YYModel-Json解析.pdf */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
 		BE83A8761E7665290012C540 /* MYUShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8571E7665290012C540 /* MYUShareManager.m */; };
 		BE83A8771E7665290012C540 /* MYUShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A85A1E7665290012C540 /* MYUShareButton.m */; };
@@ -438,67 +438,67 @@
 		BE629E061EA61F10005CC9BA /* IOS相关基础知识整理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IOS相关基础知识整理.pdf"; sourceTree = "<group>"; };
 		BE629E071EA61F10005CC9BA /* UITableView刷新cell闪烁问题.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "UITableView刷新cell闪烁问题.pdf"; sourceTree = "<group>"; };
 		BE629E081EA61F10005CC9BA /* UITextView显示网页内容(富文本).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "UITextView显示网页内容(富文本).pdf"; sourceTree = "<group>"; };
-		BE83A7A41E7664170012C540 /* autoLayout自动布局.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "autoLayout自动布局.docx"; sourceTree = "<group>"; };
-		BE83A7A51E7664170012C540 /* JavaScriptCore实现JS交互.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JavaScriptCore实现JS交互.docx"; sourceTree = "<group>"; };
-		BE83A7A61E7664170012C540 /* PHP简单接口编写.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PHP简单接口编写.docx"; sourceTree = "<group>"; };
-		BE83A7A71E7664170012C540 /* Swift_OC混编.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Swift_OC混编.docx"; sourceTree = "<group>"; };
-		BE83A7A91E7664170012C540 /* 了解RunTime运行机制.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "了解RunTime运行机制.docx"; sourceTree = "<group>"; };
-		BE83A7AA1E7664170012C540 /* 内存管理.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "内存管理.docx"; sourceTree = "<group>"; };
-		BE83A7AB1E7664170012C540 /* 创建framework静态库.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "创建framework静态库.docx"; sourceTree = "<group>"; };
-		BE83A7AC1E7664170012C540 /* 多线程.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "多线程.docx"; sourceTree = "<group>"; };
-		BE83A7AD1E7664170012C540 /* 应用打包发布.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "应用打包发布.docx"; sourceTree = "<group>"; };
-		BE83A7AE1E7664170012C540 /* 数据持久化.docx */ = {isa = PBXFileReference; lastKnownFileType = text; path = "数据持久化.docx"; sourceTree = "<group>"; };
-		BE83A7AF1E7664170012C540 /* 正则表达式.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "正则表达式.docx"; sourceTree = "<group>"; };
-		BE83A7B01E7664170012C540 /* 版本控制.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "版本控制.docx"; sourceTree = "<group>"; };
-		BE83A7B11E7664170012C540 /* 系统定位.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "系统定位.docx"; sourceTree = "<group>"; };
-		BE83A7B21E7664170012C540 /* 编码规范.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "编码规范.docx"; sourceTree = "<group>"; };
-		BE83A7B41E7664170012C540 /* IOS10-iMessage扩展.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IOS10-iMessage扩展.docx"; sourceTree = "<group>"; };
-		BE83A7B51E7664170012C540 /* IOS10-ScrollView下拉刷新.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IOS10-ScrollView下拉刷新.docx"; sourceTree = "<group>"; };
-		BE83A7B61E7664170012C540 /* IOS10-动态类型DynamicType.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IOS10-动态类型DynamicType.docx"; sourceTree = "<group>"; };
-		BE83A7B71E7664170012C540 /* IOS10-地图默认导航.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IOS10-地图默认导航.docx"; sourceTree = "<group>"; };
-		BE83A7B81E7664170012C540 /* IOS10-属性动画器.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IOS10-属性动画器.docx"; sourceTree = "<group>"; };
-		BE83A7B91E7664170012C540 /* IOS10-语音识别.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IOS10-语音识别.docx"; sourceTree = "<group>"; };
-		BE83A7BA1E7664170012C540 /* IOS10-通知框架UserNotification.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IOS10-通知框架UserNotification.docx"; sourceTree = "<group>"; };
-		BE83A7BB1E7664170012C540 /* IOS下关于cookie的使用管理.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IOS下关于cookie的使用管理.docx"; sourceTree = "<group>"; };
-		BE83A7BC1E7664170012C540 /* MVC、MVVM浅谈.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MVC、MVVM浅谈.docx"; sourceTree = "<group>"; };
-		BE83A7BD1E7664170012C540 /* MYNavigationController封装.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYNavigationController封装.docx"; sourceTree = "<group>"; };
-		BE83A7BE1E7664170012C540 /* MYNetwork网络库(基于AFNetworking).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYNetwork网络库(基于AFNetworking).docx"; sourceTree = "<group>"; };
-		BE83A7BF1E7664170012C540 /* MYNetwork网络库1.0版.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYNetwork网络库1.0版.docx"; sourceTree = "<group>"; };
-		BE83A7C01E7664170012C540 /* MYSliderView封装.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MYSliderView封装.docx"; sourceTree = "<group>"; };
-		BE83A7C11E7664170012C540 /* UIViewControllerTransitioning.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = UIViewControllerTransitioning.docx; sourceTree = "<group>"; };
-		BE83A7C21E7664170012C540 /* Xcode7调试IOS10设备.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Xcode7调试IOS10设备.docx"; sourceTree = "<group>"; };
-		BE83A7C31E7664170012C540 /* Xcode7运行Xcode8项目xib问题.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Xcode7运行Xcode8项目xib问题.docx"; sourceTree = "<group>"; };
-		BE83A7C41E7664170012C540 /* Xcode8项目兼容IOS7设备.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Xcode8项目兼容IOS7设备.docx"; sourceTree = "<group>"; };
-		BE83A7C51E7664170012C540 /* YYModel-Json解析.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YYModel-Json解析.docx"; sourceTree = "<group>"; };
-		BE83A7C61E7664170012C540 /* 使用BundleURL找不到文件.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "使用BundleURL找不到文件.docx"; sourceTree = "<group>"; };
-		BE83A7C71E7664170012C540 /* 列表数据请求框架搭建.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "列表数据请求框架搭建.docx"; sourceTree = "<group>"; };
-		BE83A7C81E7664170012C540 /* 利用NSCache提升效率.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "利用NSCache提升效率.docx"; sourceTree = "<group>"; };
-		BE83A7CB1E7664170012C540 /* 友盟社区化组件v6.1.1.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "友盟社区化组件v6.1.1.docx"; sourceTree = "<group>"; };
-		BE83A7CC1E7664170012C540 /* 极光推送v3.0.0.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "极光推送v3.0.0.docx"; sourceTree = "<group>"; };
-		BE83A7CD1E7664170012C540 /* 百度地图v3.1.0.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "百度地图v3.1.0.docx"; sourceTree = "<group>"; };
-		BE83A7CE1E7664170012C540 /* 百度统计v4.3.0.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "百度统计v4.3.0.docx"; sourceTree = "<group>"; };
-		BE83A7CF1E7664170012C540 /* 科大讯飞语音识别v1.146.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "科大讯飞语音识别v1.146.docx"; sourceTree = "<group>"; };
-		BE83A7D11E7664170012C540 /* MJRefresh用法熟悉.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MJRefresh用法熟悉.docx"; sourceTree = "<group>"; };
-		BE83A7D21E7664170012C540 /* 关于IOS动画.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "关于IOS动画.docx"; sourceTree = "<group>"; };
-		BE83A7D31E7664170012C540 /* 启动页消失组合动画(alpha+scale).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "启动页消失组合动画(alpha+scale).docx"; sourceTree = "<group>"; };
-		BE83A7D41E7664170012C540 /* 图片轮播.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "图片轮播.docx"; sourceTree = "<group>"; };
-		BE83A7D51E7664170012C540 /* 实现NavigationBar的alpha渐变.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "实现NavigationBar的alpha渐变.docx"; sourceTree = "<group>"; };
-		BE83A7D61E7664170012C540 /* 将Image绘制到指定的区域.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "将Image绘制到指定的区域.docx"; sourceTree = "<group>"; };
-		BE83A7D71E7664170012C540 /* 根据UIColor绘制相应纯色Image.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "根据UIColor绘制相应纯色Image.docx"; sourceTree = "<group>"; };
-		BE83A7D81E7664170012C540 /* 根据UIView绘制出相应Image.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "根据UIView绘制出相应Image.docx"; sourceTree = "<group>"; };
-		BE83A7D91E7664170012C540 /* 根据缩放系数绘制缩放后的Image.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "根据缩放系数绘制缩放后的Image.docx"; sourceTree = "<group>"; };
-		BE83A7DA1E7664170012C540 /* 绘制不带填充色的圆角边框标签.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "绘制不带填充色的圆角边框标签.docx"; sourceTree = "<group>"; };
-		BE83A7DB1E7664170012C540 /* 绘制可自定义图片和标签位置的按钮.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "绘制可自定义图片和标签位置的按钮.docx"; sourceTree = "<group>"; };
-		BE83A7DC1E7664170012C540 /* 绘制圆形进度条.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "绘制圆形进度条.docx"; sourceTree = "<group>"; };
-		BE83A7DD1E7664170012C540 /* 绘制对话框样式的标签.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "绘制对话框样式的标签.docx"; sourceTree = "<group>"; };
-		BE83A7DE1E7664170012C540 /* 绘制带填充色的圆角标签.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "绘制带填充色的圆角标签.docx"; sourceTree = "<group>"; };
-		BE83A7DF1E7664170012C540 /* 绘制带填充色的圆角箭头标签.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "绘制带填充色的圆角箭头标签.docx"; sourceTree = "<group>"; };
-		BE83A7E01E7664170012C540 /* 绘制正弦波形.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "绘制正弦波形.docx"; sourceTree = "<group>"; };
-		BE83A7E11E7664180012C540 /* 绘制直线.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "绘制直线.docx"; sourceTree = "<group>"; };
-		BE83A7E21E7664180012C540 /* 绘制纯背景的UISearchBar.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "绘制纯背景的UISearchBar.docx"; sourceTree = "<group>"; };
-		BE83A7E31E7664180012C540 /* 绘制虚线.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "绘制虚线.docx"; sourceTree = "<group>"; };
-		BE83A7E41E7664180012C540 /* 绘制进度由0-1交替的旋转动画.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "绘制进度由0-1交替的旋转动画.docx"; sourceTree = "<group>"; };
-		BE83A7E51E7664180012C540 /* 统一弹窗视图控制器.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "统一弹窗视图控制器.docx"; sourceTree = "<group>"; };
+		BE8115681EA6F218002071AD /* 根据缩放系数绘制缩放后的Image.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "根据缩放系数绘制缩放后的Image.pdf"; sourceTree = "<group>"; };
+		BE8115691EA6F218002071AD /* 根据UIColor绘制相应纯色Image.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "根据UIColor绘制相应纯色Image.pdf"; sourceTree = "<group>"; };
+		BE81156A1EA6F218002071AD /* 根据UIView绘制出相应Image.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "根据UIView绘制出相应Image.pdf"; sourceTree = "<group>"; };
+		BE81156B1EA6F218002071AD /* 关于IOS动画.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于IOS动画.pdf"; sourceTree = "<group>"; };
+		BE81156C1EA6F218002071AD /* 绘制不带填充色的圆角边框标签.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "绘制不带填充色的圆角边框标签.pdf"; sourceTree = "<group>"; };
+		BE81156D1EA6F218002071AD /* 绘制纯背景的UISearchBar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "绘制纯背景的UISearchBar.pdf"; sourceTree = "<group>"; };
+		BE81156E1EA6F218002071AD /* 绘制带填充色的圆角标签.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "绘制带填充色的圆角标签.pdf"; sourceTree = "<group>"; };
+		BE81156F1EA6F218002071AD /* 绘制带填充色的圆角箭头标签.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "绘制带填充色的圆角箭头标签.pdf"; sourceTree = "<group>"; };
+		BE8115701EA6F218002071AD /* 绘制对话框样式的标签.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "绘制对话框样式的标签.pdf"; sourceTree = "<group>"; };
+		BE8115711EA6F218002071AD /* 绘制进度由0-1交替的旋转动画.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "绘制进度由0-1交替的旋转动画.pdf"; sourceTree = "<group>"; };
+		BE8115721EA6F218002071AD /* 绘制可自定义图片和标签位置的按钮.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "绘制可自定义图片和标签位置的按钮.pdf"; sourceTree = "<group>"; };
+		BE8115731EA6F218002071AD /* 绘制虚线.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "绘制虚线.pdf"; sourceTree = "<group>"; };
+		BE8115741EA6F218002071AD /* 绘制圆形进度条.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "绘制圆形进度条.pdf"; sourceTree = "<group>"; };
+		BE8115751EA6F218002071AD /* 绘制正弦波形.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "绘制正弦波形.pdf"; sourceTree = "<group>"; };
+		BE8115761EA6F218002071AD /* 绘制直线.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "绘制直线.pdf"; sourceTree = "<group>"; };
+		BE8115771EA6F218002071AD /* 将Image绘制到指定的区域.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "将Image绘制到指定的区域.pdf"; sourceTree = "<group>"; };
+		BE8115781EA6F218002071AD /* 启动页消失组合动画(alpha+scale).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "启动页消失组合动画(alpha+scale).pdf"; sourceTree = "<group>"; };
+		BE8115791EA6F218002071AD /* 实现NavigationBar的alpha渐变.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "实现NavigationBar的alpha渐变.pdf"; sourceTree = "<group>"; };
+		BE81157A1EA6F218002071AD /* 统一弹窗视图控制器.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "统一弹窗视图控制器.pdf"; sourceTree = "<group>"; };
+		BE81157B1EA6F218002071AD /* 图片轮播.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "图片轮播.pdf"; sourceTree = "<group>"; };
+		BE81157C1EA6F218002071AD /* MJRefresh用法熟悉.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MJRefresh用法熟悉.pdf"; sourceTree = "<group>"; };
+		BE8115921EA6F88A002071AD /* 百度地图v3.1.0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "百度地图v3.1.0.pdf"; sourceTree = "<group>"; };
+		BE8115931EA6F88A002071AD /* 百度统计v4.3.0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "百度统计v4.3.0.pdf"; sourceTree = "<group>"; };
+		BE8115941EA6F88A002071AD /* 极光推送v3.0.0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "极光推送v3.0.0.pdf"; sourceTree = "<group>"; };
+		BE8115951EA6F88A002071AD /* 科大讯飞语音识别v1.146.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "科大讯飞语音识别v1.146.pdf"; sourceTree = "<group>"; };
+		BE8115961EA6F88A002071AD /* 友盟社区化组件v6.1.1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "友盟社区化组件v6.1.1.pdf"; sourceTree = "<group>"; };
+		BE81159C1EA6FAFB002071AD /* 版本控制.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "版本控制.pdf"; sourceTree = "<group>"; };
+		BE81159D1EA6FAFB002071AD /* 编码规范.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "编码规范.pdf"; sourceTree = "<group>"; };
+		BE81159E1EA6FAFB002071AD /* 创建framework静态库.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "创建framework静态库.pdf"; sourceTree = "<group>"; };
+		BE81159F1EA6FAFB002071AD /* 多线程.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "多线程.pdf"; sourceTree = "<group>"; };
+		BE8115A01EA6FAFB002071AD /* 了解RunTime运行机制.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "了解RunTime运行机制.pdf"; sourceTree = "<group>"; };
+		BE8115A11EA6FAFB002071AD /* 内存管理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "内存管理.pdf"; sourceTree = "<group>"; };
+		BE8115A21EA6FAFB002071AD /* 数据持久化.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据持久化.pdf"; sourceTree = "<group>"; };
+		BE8115A31EA6FAFB002071AD /* 系统定位.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "系统定位.pdf"; sourceTree = "<group>"; };
+		BE8115A41EA6FAFB002071AD /* 应用打包发布.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "应用打包发布.pdf"; sourceTree = "<group>"; };
+		BE8115A51EA6FAFB002071AD /* 正则表达式.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "正则表达式.pdf"; sourceTree = "<group>"; };
+		BE8115A61EA6FAFB002071AD /* autoLayout自动布局.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "autoLayout自动布局.pdf"; sourceTree = "<group>"; };
+		BE8115A71EA6FAFB002071AD /* JavaScriptCore实现JS交互.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "JavaScriptCore实现JS交互.pdf"; sourceTree = "<group>"; };
+		BE8115A81EA6FAFB002071AD /* PHP简单接口编写.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP简单接口编写.pdf"; sourceTree = "<group>"; };
+		BE8115A91EA6FAFB002071AD /* Swift_OC混编.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Swift_OC混编.pdf"; sourceTree = "<group>"; };
+		BE8115B81EA7063E002071AD /* 利用NSCache提升效率.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "利用NSCache提升效率.pdf"; sourceTree = "<group>"; };
+		BE8115B91EA7063E002071AD /* 列表数据请求框架搭建.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "列表数据请求框架搭建.pdf"; sourceTree = "<group>"; };
+		BE8115BA1EA7063E002071AD /* 使用BundleURL找不到文件.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "使用BundleURL找不到文件.pdf"; sourceTree = "<group>"; };
+		BE8115BB1EA7063E002071AD /* IOS10-地图默认导航.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IOS10-地图默认导航.pdf"; sourceTree = "<group>"; };
+		BE8115BC1EA7063E002071AD /* IOS10-动态类型DynamicType.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IOS10-动态类型DynamicType.pdf"; sourceTree = "<group>"; };
+		BE8115BD1EA7063E002071AD /* IOS10-属性动画器.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IOS10-属性动画器.pdf"; sourceTree = "<group>"; };
+		BE8115BE1EA7063E002071AD /* IOS10-通知框架UserNotification.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IOS10-通知框架UserNotification.pdf"; sourceTree = "<group>"; };
+		BE8115BF1EA7063E002071AD /* IOS10-语音识别.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IOS10-语音识别.pdf"; sourceTree = "<group>"; };
+		BE8115C01EA7063E002071AD /* IOS10-iMessage扩展.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IOS10-iMessage扩展.pdf"; sourceTree = "<group>"; };
+		BE8115C11EA7063E002071AD /* IOS10-ScrollView下拉刷新.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IOS10-ScrollView下拉刷新.pdf"; sourceTree = "<group>"; };
+		BE8115C21EA7063E002071AD /* IOS下关于cookie的使用管理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IOS下关于cookie的使用管理.pdf"; sourceTree = "<group>"; };
+		BE8115C31EA7063E002071AD /* MVC、MVVM浅谈.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MVC、MVVM浅谈.pdf"; sourceTree = "<group>"; };
+		BE8115C41EA7063E002071AD /* MYNavigationController封装.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MYNavigationController封装.pdf"; sourceTree = "<group>"; };
+		BE8115C51EA7063E002071AD /* MYNetwork网络库(基于AFNetworking).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MYNetwork网络库(基于AFNetworking).pdf"; sourceTree = "<group>"; };
+		BE8115C61EA7063E002071AD /* MYNetwork网络库1.0版.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MYNetwork网络库1.0版.pdf"; sourceTree = "<group>"; };
+		BE8115C71EA7063E002071AD /* MYSliderView封装.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MYSliderView封装.pdf"; sourceTree = "<group>"; };
+		BE8115C81EA7063E002071AD /* UIViewControllerTransitioning.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = UIViewControllerTransitioning.pdf; sourceTree = "<group>"; };
+		BE8115C91EA7063E002071AD /* Xcode7调试IOS10设备.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Xcode7调试IOS10设备.pdf"; sourceTree = "<group>"; };
+		BE8115CA1EA7063E002071AD /* Xcode7运行Xcode8项目xib问题.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Xcode7运行Xcode8项目xib问题.pdf"; sourceTree = "<group>"; };
+		BE8115CB1EA7063E002071AD /* Xcode8项目兼容IOS7设备.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Xcode8项目兼容IOS7设备.pdf"; sourceTree = "<group>"; };
+		BE8115CC1EA7063E002071AD /* YYModel-Json解析.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "YYModel-Json解析.pdf"; sourceTree = "<group>"; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -1111,20 +1111,20 @@
 		BE83A7A31E7664170012C540 /* IOS编程随记1 */ = {
 			isa = PBXGroup;
 			children = (
-				BE83A7A41E7664170012C540 /* autoLayout自动布局.docx */,
-				BE83A7A51E7664170012C540 /* JavaScriptCore实现JS交互.docx */,
-				BE83A7A61E7664170012C540 /* PHP简单接口编写.docx */,
-				BE83A7A71E7664170012C540 /* Swift_OC混编.docx */,
-				BE83A7A91E7664170012C540 /* 了解RunTime运行机制.docx */,
-				BE83A7AA1E7664170012C540 /* 内存管理.docx */,
-				BE83A7AB1E7664170012C540 /* 创建framework静态库.docx */,
-				BE83A7AC1E7664170012C540 /* 多线程.docx */,
-				BE83A7AD1E7664170012C540 /* 应用打包发布.docx */,
-				BE83A7AE1E7664170012C540 /* 数据持久化.docx */,
-				BE83A7AF1E7664170012C540 /* 正则表达式.docx */,
-				BE83A7B01E7664170012C540 /* 版本控制.docx */,
-				BE83A7B11E7664170012C540 /* 系统定位.docx */,
-				BE83A7B21E7664170012C540 /* 编码规范.docx */,
+				BE81159C1EA6FAFB002071AD /* 版本控制.pdf */,
+				BE81159D1EA6FAFB002071AD /* 编码规范.pdf */,
+				BE81159E1EA6FAFB002071AD /* 创建framework静态库.pdf */,
+				BE81159F1EA6FAFB002071AD /* 多线程.pdf */,
+				BE8115A01EA6FAFB002071AD /* 了解RunTime运行机制.pdf */,
+				BE8115A11EA6FAFB002071AD /* 内存管理.pdf */,
+				BE8115A21EA6FAFB002071AD /* 数据持久化.pdf */,
+				BE8115A31EA6FAFB002071AD /* 系统定位.pdf */,
+				BE8115A41EA6FAFB002071AD /* 应用打包发布.pdf */,
+				BE8115A51EA6FAFB002071AD /* 正则表达式.pdf */,
+				BE8115A61EA6FAFB002071AD /* autoLayout自动布局.pdf */,
+				BE8115A71EA6FAFB002071AD /* JavaScriptCore实现JS交互.pdf */,
+				BE8115A81EA6FAFB002071AD /* PHP简单接口编写.pdf */,
+				BE8115A91EA6FAFB002071AD /* Swift_OC混编.pdf */,
 			);
 			path = "IOS编程随记1";
 			sourceTree = "<group>";
@@ -1132,27 +1132,27 @@
 		BE83A7B31E7664170012C540 /* IOS编程随记2 */ = {
 			isa = PBXGroup;
 			children = (
-				BE83A7B41E7664170012C540 /* IOS10-iMessage扩展.docx */,
-				BE83A7B51E7664170012C540 /* IOS10-ScrollView下拉刷新.docx */,
-				BE83A7B61E7664170012C540 /* IOS10-动态类型DynamicType.docx */,
-				BE83A7B71E7664170012C540 /* IOS10-地图默认导航.docx */,
-				BE83A7B81E7664170012C540 /* IOS10-属性动画器.docx */,
-				BE83A7B91E7664170012C540 /* IOS10-语音识别.docx */,
-				BE83A7BA1E7664170012C540 /* IOS10-通知框架UserNotification.docx */,
-				BE83A7BB1E7664170012C540 /* IOS下关于cookie的使用管理.docx */,
-				BE83A7BC1E7664170012C540 /* MVC、MVVM浅谈.docx */,
-				BE83A7BD1E7664170012C540 /* MYNavigationController封装.docx */,
-				BE83A7BE1E7664170012C540 /* MYNetwork网络库(基于AFNetworking).docx */,
-				BE83A7BF1E7664170012C540 /* MYNetwork网络库1.0版.docx */,
-				BE83A7C01E7664170012C540 /* MYSliderView封装.docx */,
-				BE83A7C11E7664170012C540 /* UIViewControllerTransitioning.docx */,
-				BE83A7C21E7664170012C540 /* Xcode7调试IOS10设备.docx */,
-				BE83A7C31E7664170012C540 /* Xcode7运行Xcode8项目xib问题.docx */,
-				BE83A7C41E7664170012C540 /* Xcode8项目兼容IOS7设备.docx */,
-				BE83A7C51E7664170012C540 /* YYModel-Json解析.docx */,
-				BE83A7C61E7664170012C540 /* 使用BundleURL找不到文件.docx */,
-				BE83A7C71E7664170012C540 /* 列表数据请求框架搭建.docx */,
-				BE83A7C81E7664170012C540 /* 利用NSCache提升效率.docx */,
+				BE8115B81EA7063E002071AD /* 利用NSCache提升效率.pdf */,
+				BE8115B91EA7063E002071AD /* 列表数据请求框架搭建.pdf */,
+				BE8115BA1EA7063E002071AD /* 使用BundleURL找不到文件.pdf */,
+				BE8115BB1EA7063E002071AD /* IOS10-地图默认导航.pdf */,
+				BE8115BC1EA7063E002071AD /* IOS10-动态类型DynamicType.pdf */,
+				BE8115BD1EA7063E002071AD /* IOS10-属性动画器.pdf */,
+				BE8115BE1EA7063E002071AD /* IOS10-通知框架UserNotification.pdf */,
+				BE8115BF1EA7063E002071AD /* IOS10-语音识别.pdf */,
+				BE8115C01EA7063E002071AD /* IOS10-iMessage扩展.pdf */,
+				BE8115C11EA7063E002071AD /* IOS10-ScrollView下拉刷新.pdf */,
+				BE8115C21EA7063E002071AD /* IOS下关于cookie的使用管理.pdf */,
+				BE8115C31EA7063E002071AD /* MVC、MVVM浅谈.pdf */,
+				BE8115C41EA7063E002071AD /* MYNavigationController封装.pdf */,
+				BE8115C51EA7063E002071AD /* MYNetwork网络库(基于AFNetworking).pdf */,
+				BE8115C61EA7063E002071AD /* MYNetwork网络库1.0版.pdf */,
+				BE8115C71EA7063E002071AD /* MYSliderView封装.pdf */,
+				BE8115C81EA7063E002071AD /* UIViewControllerTransitioning.pdf */,
+				BE8115C91EA7063E002071AD /* Xcode7调试IOS10设备.pdf */,
+				BE8115CA1EA7063E002071AD /* Xcode7运行Xcode8项目xib问题.pdf */,
+				BE8115CB1EA7063E002071AD /* Xcode8项目兼容IOS7设备.pdf */,
+				BE8115CC1EA7063E002071AD /* YYModel-Json解析.pdf */,
 			);
 			path = "IOS编程随记2";
 			sourceTree = "<group>";
@@ -1160,11 +1160,11 @@
 		BE83A7C91E7664170012C540 /* 常用第三方 */ = {
 			isa = PBXGroup;
 			children = (
-				BE83A7CB1E7664170012C540 /* 友盟社区化组件v6.1.1.docx */,
-				BE83A7CC1E7664170012C540 /* 极光推送v3.0.0.docx */,
-				BE83A7CD1E7664170012C540 /* 百度地图v3.1.0.docx */,
-				BE83A7CE1E7664170012C540 /* 百度统计v4.3.0.docx */,
-				BE83A7CF1E7664170012C540 /* 科大讯飞语音识别v1.146.docx */,
+				BE8115921EA6F88A002071AD /* 百度地图v3.1.0.pdf */,
+				BE8115931EA6F88A002071AD /* 百度统计v4.3.0.pdf */,
+				BE8115941EA6F88A002071AD /* 极光推送v3.0.0.pdf */,
+				BE8115951EA6F88A002071AD /* 科大讯飞语音识别v1.146.pdf */,
+				BE8115961EA6F88A002071AD /* 友盟社区化组件v6.1.1.pdf */,
 			);
 			path = "常用第三方";
 			sourceTree = "<group>";
@@ -1172,27 +1172,27 @@
 		BE83A7D01E7664170012C540 /* 绘图和动画 */ = {
 			isa = PBXGroup;
 			children = (
-				BE83A7D11E7664170012C540 /* MJRefresh用法熟悉.docx */,
-				BE83A7D21E7664170012C540 /* 关于IOS动画.docx */,
-				BE83A7D31E7664170012C540 /* 启动页消失组合动画(alpha+scale).docx */,
-				BE83A7D41E7664170012C540 /* 图片轮播.docx */,
-				BE83A7D51E7664170012C540 /* 实现NavigationBar的alpha渐变.docx */,
-				BE83A7D61E7664170012C540 /* 将Image绘制到指定的区域.docx */,
-				BE83A7D71E7664170012C540 /* 根据UIColor绘制相应纯色Image.docx */,
-				BE83A7D81E7664170012C540 /* 根据UIView绘制出相应Image.docx */,
-				BE83A7D91E7664170012C540 /* 根据缩放系数绘制缩放后的Image.docx */,
-				BE83A7DA1E7664170012C540 /* 绘制不带填充色的圆角边框标签.docx */,
-				BE83A7DB1E7664170012C540 /* 绘制可自定义图片和标签位置的按钮.docx */,
-				BE83A7DC1E7664170012C540 /* 绘制圆形进度条.docx */,
-				BE83A7DD1E7664170012C540 /* 绘制对话框样式的标签.docx */,
-				BE83A7DE1E7664170012C540 /* 绘制带填充色的圆角标签.docx */,
-				BE83A7DF1E7664170012C540 /* 绘制带填充色的圆角箭头标签.docx */,
-				BE83A7E01E7664170012C540 /* 绘制正弦波形.docx */,
-				BE83A7E11E7664180012C540 /* 绘制直线.docx */,
-				BE83A7E21E7664180012C540 /* 绘制纯背景的UISearchBar.docx */,
-				BE83A7E31E7664180012C540 /* 绘制虚线.docx */,
-				BE83A7E41E7664180012C540 /* 绘制进度由0-1交替的旋转动画.docx */,
-				BE83A7E51E7664180012C540 /* 统一弹窗视图控制器.docx */,
+				BE8115681EA6F218002071AD /* 根据缩放系数绘制缩放后的Image.pdf */,
+				BE8115691EA6F218002071AD /* 根据UIColor绘制相应纯色Image.pdf */,
+				BE81156A1EA6F218002071AD /* 根据UIView绘制出相应Image.pdf */,
+				BE81156B1EA6F218002071AD /* 关于IOS动画.pdf */,
+				BE81156C1EA6F218002071AD /* 绘制不带填充色的圆角边框标签.pdf */,
+				BE81156D1EA6F218002071AD /* 绘制纯背景的UISearchBar.pdf */,
+				BE81156E1EA6F218002071AD /* 绘制带填充色的圆角标签.pdf */,
+				BE81156F1EA6F218002071AD /* 绘制带填充色的圆角箭头标签.pdf */,
+				BE8115701EA6F218002071AD /* 绘制对话框样式的标签.pdf */,
+				BE8115711EA6F218002071AD /* 绘制进度由0-1交替的旋转动画.pdf */,
+				BE8115721EA6F218002071AD /* 绘制可自定义图片和标签位置的按钮.pdf */,
+				BE8115731EA6F218002071AD /* 绘制虚线.pdf */,
+				BE8115741EA6F218002071AD /* 绘制圆形进度条.pdf */,
+				BE8115751EA6F218002071AD /* 绘制正弦波形.pdf */,
+				BE8115761EA6F218002071AD /* 绘制直线.pdf */,
+				BE8115771EA6F218002071AD /* 将Image绘制到指定的区域.pdf */,
+				BE8115781EA6F218002071AD /* 启动页消失组合动画(alpha+scale).pdf */,
+				BE8115791EA6F218002071AD /* 实现NavigationBar的alpha渐变.pdf */,
+				BE81157A1EA6F218002071AD /* 统一弹窗视图控制器.pdf */,
+				BE81157B1EA6F218002071AD /* 图片轮播.pdf */,
+				BE81157C1EA6F218002071AD /* MJRefresh用法熟悉.pdf */,
 			);
 			path = "绘图和动画";
 			sourceTree = "<group>";
@@ -2786,140 +2786,140 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE83A93B1E7665A50012C540 /* CoreAnimation.storyboard in Resources */,
-				BE83A8291E7664180012C540 /* 实现NavigationBar的alpha渐变.docx in Resources */,
+				BE8115B61EA6FAFB002071AD /* PHP简单接口编写.pdf in Resources */,
+				BE8115B71EA6FAFB002071AD /* Swift_OC混编.pdf in Resources */,
 				BE629E131EA61F10005CC9BA /* 使用frame怎么实现autolayout.pdf in Resources */,
 				BE83AA2D1E7666030012C540 /* Swift_OC.storyboard in Resources */,
-				BE83A8351E7664180012C540 /* 绘制直线.docx in Resources */,
-				BE83A8011E7664180012C540 /* 内存管理.docx in Resources */,
 				BE629E121EA61F10005CC9BA /* 使用autolayout后获取frame不正确.pdf in Resources */,
+				BE8115811EA6F218002071AD /* 绘制不带填充色的圆角边框标签.pdf in Resources */,
+				BE8115891EA6F218002071AD /* 绘制圆形进度条.pdf in Resources */,
+				BE8115AC1EA6FAFB002071AD /* 创建framework静态库.pdf in Resources */,
+				BE8115AF1EA6FAFB002071AD /* 内存管理.pdf in Resources */,
 				BE629DED1EA5C805005CC9BA /* html富文本高度的正确计算.pdf in Resources */,
+				BE8115E11EA7063E002071AD /* YYModel-Json解析.pdf in Resources */,
+				BE8115901EA6F218002071AD /* 图片轮播.pdf in Resources */,
+				BE8115D41EA7063E002071AD /* IOS10-语音识别.pdf in Resources */,
 				D6F774BC1E0066040089E7E9 /* mapapi.bundle in Resources */,
 				BE83A9681E7665A50012C540 /* Tips.storyboard in Resources */,
 				BE629E111EA61F10005CC9BA /* 模糊搜索数据加载出错问题.pdf in Resources */,
 				BE83AA5B1E7666030012C540 /* Info.plist in Resources */,
+				BE8115801EA6F218002071AD /* 关于IOS动画.pdf in Resources */,
+				BE8115991EA6F88A002071AD /* 极光推送v3.0.0.pdf in Resources */,
 				BE83A9401E7665A50012C540 /* MJRefresh.storyboard in Resources */,
-				BE83A8171E7664180012C540 /* UIViewControllerTransitioning.docx in Resources */,
-				BE83A82F1E7664180012C540 /* 绘制可自定义图片和标签位置的按钮.docx in Resources */,
 				BE629DE51EA5C805005CC9BA /* 列表滑动卡顿问题.pdf in Resources */,
+				BE8115AB1EA6FAFB002071AD /* 编码规范.pdf in Resources */,
 				BE629DE71EA5C805005CC9BA /* 跑马灯动画.pdf in Resources */,
 				BE629DEF1EA5C805005CC9BA /* ipad运行项目，部分页面显示不了.pdf in Resources */,
-				BE83A8001E7664180012C540 /* 了解RunTime运行机制.docx in Resources */,
-				BE83A82C1E7664180012C540 /* 根据UIView绘制出相应Image.docx in Resources */,
+				BE81157F1EA6F218002071AD /* 根据UIView绘制出相应Image.pdf in Resources */,
+				BE8115D51EA7063E002071AD /* IOS10-iMessage扩展.pdf in Resources */,
+				BE81158C1EA6F218002071AD /* 将Image绘制到指定的区域.pdf in Resources */,
 				BE629DF41EA5D3CB005CC9BA /* UITableView刷新cell闪烁问题.pdf in Resources */,
-				BE83A81A1E7664180012C540 /* Xcode8项目兼容IOS7设备.docx in Resources */,
-				BE83A8231E7664180012C540 /* 百度统计v4.3.0.docx in Resources */,
 				BE83A9701E7665A50012C540 /* CustomNav.storyboard in Resources */,
-				BE83A8391E7664180012C540 /* 统一弹窗视图控制器.docx in Resources */,
+				BE8115881EA6F218002071AD /* 绘制虚线.pdf in Resources */,
+				BE8115CD1EA7063E002071AD /* 利用NSCache提升效率.pdf in Resources */,
+				BE81158A1EA6F218002071AD /* 绘制正弦波形.pdf in Resources */,
+				BE8115DF1EA7063E002071AD /* Xcode7运行Xcode8项目xib问题.pdf in Resources */,
 				D6DC80C21E03573A00F25651 /* UMSocialSDKResources.bundle in Resources */,
-				BE83A8271E7664180012C540 /* 启动页消失组合动画(alpha+scale).docx in Resources */,
+				BE8115D91EA7063E002071AD /* MYNavigationController封装.pdf in Resources */,
 				BE83AA651E7666030012C540 /* CLLocation.storyboard in Resources */,
+				BE8115DB1EA7063E002071AD /* MYNetwork网络库1.0版.pdf in Resources */,
+				BE8115DC1EA7063E002071AD /* MYSliderView封装.pdf in Resources */,
 				BE629DE91EA5C805005CC9BA /* 线上app闪退问题反馈流程.pdf in Resources */,
+				BE8115D01EA7063E002071AD /* IOS10-地图默认导航.pdf in Resources */,
 				BE83A87A1E7665290012C540 /* UMSocial.storyboard in Resources */,
+				BE8115DE1EA7063E002071AD /* Xcode7调试IOS10设备.pdf in Resources */,
 				BE83A9791E7665A50012C540 /* MYNavigationControllerImage.xcassets in Resources */,
 				BE629DEA1EA5C805005CC9BA /* 怎么给View添加阴影.pdf in Resources */,
+				BE8115B51EA6FAFB002071AD /* JavaScriptCore实现JS交互.pdf in Resources */,
 				BE83AA4E1E7666030012C540 /* MultiThread.storyboard in Resources */,
-				BE83A8051E7664180012C540 /* 数据持久化.docx in Resources */,
-				BE83A8101E7664180012C540 /* IOS10-通知框架UserNotification.docx in Resources */,
 				BE83A9451E7665A50012C540 /* Banner.storyboard in Resources */,
-				BE83A7FE1E7664180012C540 /* Swift_OC混编.docx in Resources */,
 				BE629DE21EA5C805005CC9BA /* 改变列表头部的frame无效.pdf in Resources */,
-				BE83A8241E7664180012C540 /* 科大讯飞语音识别v1.146.docx in Resources */,
-				BE83A8081E7664180012C540 /* 系统定位.docx in Resources */,
 				BE629DF51EA5D3CB005CC9BA /* UITextView显示网页内容(富文本).pdf in Resources */,
-				BE83A8041E7664180012C540 /* 应用打包发布.docx in Resources */,
-				BE83A8091E7664180012C540 /* 编码规范.docx in Resources */,
-				BE83A8321E7664180012C540 /* 绘制带填充色的圆角标签.docx in Resources */,
 				BE629E1B1EA61F10005CC9BA /* UITextView显示网页内容(富文本).pdf in Resources */,
-				BE83A81C1E7664180012C540 /* 使用BundleURL找不到文件.docx in Resources */,
 				BE83AA281E7666030012C540 /* JavaScriptCore.storyboard in Resources */,
 				D6F774941E005EDB0089E7E9 /* SVProgressHUD.bundle in Resources */,
+				BE8115D31EA7063E002071AD /* IOS10-通知框架UserNotification.pdf in Resources */,
 				BE83A9581E7665A50012C540 /* LoadingAnimation.storyboard in Resources */,
-				BE83A80D1E7664180012C540 /* IOS10-地图默认导航.docx in Resources */,
 				BE629E101EA61F10005CC9BA /* 列表数据本地化思想.pdf in Resources */,
-				BE83A8211E7664180012C540 /* 极光推送v3.0.0.docx in Resources */,
+				BE8115861EA6F218002071AD /* 绘制进度由0-1交替的旋转动画.pdf in Resources */,
 				BE83AA631E7666030012C540 /* RegularExpression.storyboard in Resources */,
-				BE83A8381E7664180012C540 /* 绘制进度由0-1交替的旋转动画.docx in Resources */,
-				BE83A8201E7664180012C540 /* 友盟社区化组件v6.1.1.docx in Resources */,
-				BE83A80E1E7664180012C540 /* IOS10-属性动画器.docx in Resources */,
-				BE83A8191E7664180012C540 /* Xcode7运行Xcode8项目xib问题.docx in Resources */,
+				BE8115AE1EA6FAFB002071AD /* 了解RunTime运行机制.pdf in Resources */,
 				BE629DEC1EA5C805005CC9BA /* 主从列表封装思想.pdf in Resources */,
-				BE83A8131E7664180012C540 /* MYNavigationController封装.docx in Resources */,
+				BE8115D71EA7063E002071AD /* IOS下关于cookie的使用管理.pdf in Resources */,
 				BE83AA251E7666030012C540 /* radioImage.jpg in Resources */,
-				BE83A8161E7664180012C540 /* MYSliderView封装.docx in Resources */,
 				BE629E091EA61F10005CC9BA /* 按钮快速点击重复请求问题.pdf in Resources */,
-				BE83A7FD1E7664180012C540 /* PHP简单接口编写.docx in Resources */,
+				BE81158D1EA6F218002071AD /* 启动页消失组合动画(alpha+scale).pdf in Resources */,
 				BE83A9631E7665A50012C540 /* SearchBar.storyboard in Resources */,
 				BE629DF31EA5D3CB005CC9BA /* IOS相关基础知识整理.pdf in Resources */,
+				BE8115CE1EA7063E002071AD /* 列表数据请求框架搭建.pdf in Resources */,
 				D6DC80BE1E03573A00F25651 /* read_me.txt in Resources */,
-				BE83A80C1E7664180012C540 /* IOS10-动态类型DynamicType.docx in Resources */,
+				BE8115B01EA6FAFB002071AD /* 数据持久化.pdf in Resources */,
+				BE8115AD1EA6FAFB002071AD /* 多线程.pdf in Resources */,
 				BE629E171EA61F10005CC9BA /* AppStore审核指南.pdf in Resources */,
 				D6DC80B71E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				BE629DE81EA5C805005CC9BA /* 如何使用xib方式加载cell.pdf in Resources */,
-				BE83A8261E7664180012C540 /* 关于IOS动画.docx in Resources */,
 				BE629E181EA61F10005CC9BA /* cell渐变色背景闪烁动画及重用问题.pdf in Resources */,
+				BE8115B31EA6FAFB002071AD /* 正则表达式.pdf in Resources */,
 				D6DC80BA1E03573A00F25651 /* WeiboSDK.bundle in Resources */,
-				BE83A82D1E7664180012C540 /* 根据缩放系数绘制缩放后的Image.docx in Resources */,
+				BE8115D21EA7063E002071AD /* IOS10-属性动画器.pdf in Resources */,
+				BE81159B1EA6F88A002071AD /* 友盟社区化组件v6.1.1.pdf in Resources */,
 				BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */,
-				BE83A8331E7664180012C540 /* 绘制带填充色的圆角箭头标签.docx in Resources */,
-				BE83A82A1E7664180012C540 /* 将Image绘制到指定的区域.docx in Resources */,
-				BE83A82B1E7664180012C540 /* 根据UIColor绘制相应纯色Image.docx in Resources */,
+				BE81159A1EA6F88A002071AD /* 科大讯飞语音识别v1.146.pdf in Resources */,
+				BE8115DD1EA7063E002071AD /* UIViewControllerTransitioning.pdf in Resources */,
 				D6CC2B0A1E91D07800E8C444 /* RunHorseLamp_Imediately.xib in Resources */,
 				D6CC2B0E1E91D3CF00E8C444 /* RunHorseLamp.storyboard in Resources */,
-				BE83A8371E7664180012C540 /* 绘制虚线.docx in Resources */,
-				BE83A8361E7664180012C540 /* 绘制纯背景的UISearchBar.docx in Resources */,
-				BE83A8221E7664180012C540 /* 百度地图v3.1.0.docx in Resources */,
+				BE8115871EA6F218002071AD /* 绘制可自定义图片和标签位置的按钮.pdf in Resources */,
+				BE8115B11EA6FAFB002071AD /* 系统定位.pdf in Resources */,
 				BE629E0D1EA61F10005CC9BA /* 关于苹果APNs推送机制(2).pdf in Resources */,
-				BE83A8151E7664180012C540 /* MYNetwork网络库1.0版.docx in Resources */,
+				BE81158B1EA6F218002071AD /* 绘制直线.pdf in Resources */,
+				BE81158F1EA6F218002071AD /* 统一弹窗视图控制器.pdf in Resources */,
+				BE81157D1EA6F218002071AD /* 根据缩放系数绘制缩放后的Image.pdf in Resources */,
 				D6DC80BF1E03573A00F25651 /* README.txt in Resources */,
+				BE8115DA1EA7063E002071AD /* MYNetwork网络库(基于AFNetworking).pdf in Resources */,
+				BE8115CF1EA7063E002071AD /* 使用BundleURL找不到文件.pdf in Resources */,
+				BE8115B21EA6FAFB002071AD /* 应用打包发布.pdf in Resources */,
 				BE629DE41EA5C805005CC9BA /* 解析线上app崩溃报告.pdf in Resources */,
+				BE8115911EA6F218002071AD /* MJRefresh用法熟悉.pdf in Resources */,
 				D6F774861E005EDB0089E7E9 /* MJRefresh.bundle in Resources */,
-				BE83A8071E7664180012C540 /* 版本控制.docx in Resources */,
-				BE83A8111E7664180012C540 /* IOS下关于cookie的使用管理.docx in Resources */,
+				BE8115841EA6F218002071AD /* 绘制带填充色的圆角箭头标签.pdf in Resources */,
 				BE629DEB1EA5C805005CC9BA /* 怎么让个别页面支持旋转.pdf in Resources */,
 				BE629E1A1EA61F10005CC9BA /* UITableView刷新cell闪烁问题.pdf in Resources */,
+				BE81158E1EA6F218002071AD /* 实现NavigationBar的alpha渐变.pdf in Resources */,
+				BE8115831EA6F218002071AD /* 绘制带填充色的圆角标签.pdf in Resources */,
+				BE81157E1EA6F218002071AD /* 根据UIColor绘制相应纯色Image.pdf in Resources */,
 				BE83A87C1E7665290012C540 /* BaiduMap.storyboard in Resources */,
-				BE83A8281E7664180012C540 /* 图片轮播.docx in Resources */,
-				BE83A8181E7664180012C540 /* Xcode7调试IOS10设备.docx in Resources */,
-				BE83A8121E7664180012C540 /* MVC、MVVM浅谈.docx in Resources */,
-				BE83A8031E7664180012C540 /* 多线程.docx in Resources */,
+				BE8115821EA6F218002071AD /* 绘制纯背景的UISearchBar.pdf in Resources */,
 				BE629E0C1EA61F10005CC9BA /* 关于苹果APNs推送机制(1).pdf in Resources */,
 				BE629E0A1EA61F10005CC9BA /* 单元测试.pdf in Resources */,
 				BE629E151EA61F10005CC9BA /* 系统pop手势失效.pdf in Resources */,
 				BE629DE61EA5C805005CC9BA /* 排序接口返回乱序的字典数据.pdf in Resources */,
+				BE8115AA1EA6FAFB002071AD /* 版本控制.pdf in Resources */,
 				BE629E141EA61F10005CC9BA /* 使用mutable属性注意事项.pdf in Resources */,
-				BE83A81B1E7664180012C540 /* YYModel-Json解析.docx in Resources */,
-				BE83A80F1E7664180012C540 /* IOS10-语音识别.docx in Resources */,
+				BE8115B41EA6FAFB002071AD /* autoLayout自动布局.pdf in Resources */,
+				BE8115D11EA7063E002071AD /* IOS10-动态类型DynamicType.pdf in Resources */,
 				D60018681DECDC2F003017E3 /* myNotesArr.json in Resources */,
 				BE629DEE1EA5C805005CC9BA /* ios10系统app一直提示无网络.pdf in Resources */,
-				BE83A7FC1E7664180012C540 /* JavaScriptCore实现JS交互.docx in Resources */,
 				BE83AA2B1E7666030012C540 /* RequestUserInfo.php in Resources */,
 				BE629E0B1EA61F10005CC9BA /* 关于面向对象编程.pdf in Resources */,
 				BE83A9521E7665A50012C540 /* Labels.storyboard in Resources */,
-				BE83A8311E7664180012C540 /* 绘制对话框样式的标签.docx in Resources */,
 				BE629E0F1EA61F10005CC9BA /* 关于cell编辑状态的应用.pdf in Resources */,
-				BE83A81E1E7664180012C540 /* 利用NSCache提升效率.docx in Resources */,
-				BE83A81D1E7664180012C540 /* 列表数据请求框架搭建.docx in Resources */,
 				BE629DE31EA5C805005CC9BA /* 关于scrollview自动布局约束问题.pdf in Resources */,
-				BE83A82E1E7664180012C540 /* 绘制不带填充色的圆角边框标签.docx in Resources */,
-				BE83A80B1E7664180012C540 /* IOS10-ScrollView下拉刷新.docx in Resources */,
+				BE8115D61EA7063E002071AD /* IOS10-ScrollView下拉刷新.pdf in Resources */,
+				BE8115D81EA7063E002071AD /* MVC、MVVM浅谈.pdf in Resources */,
 				BE629E161EA61F10005CC9BA /* 怎么正确绘制一像素线.pdf in Resources */,
-				BE83A8061E7664180012C540 /* 正则表达式.docx in Resources */,
-				BE83A8341E7664180012C540 /* 绘制正弦波形.docx in Resources */,
+				BE8115981EA6F88A002071AD /* 百度统计v4.3.0.pdf in Resources */,
+				BE8115E01EA7063E002071AD /* Xcode8项目兼容IOS7设备.pdf in Resources */,
 				BE83A97F1E7665A50012C540 /* SliderView.storyboard in Resources */,
 				BE629E191EA61F10005CC9BA /* IOS相关基础知识整理.pdf in Resources */,
-				BE83A7FB1E7664180012C540 /* autoLayout自动布局.docx in Resources */,
 				BE83A94C1E7665A50012C540 /* ColorfulProgress.storyboard in Resources */,
-				BE83A8301E7664180012C540 /* 绘制圆形进度条.docx in Resources */,
-				BE83A8021E7664180012C540 /* 创建framework静态库.docx in Resources */,
 				D6CC2B081E91D07800E8C444 /* RunHorseLamp_Normal.xib in Resources */,
-				BE83A8251E7664180012C540 /* MJRefresh用法熟悉.docx in Resources */,
 				D63EDA2A1DCBC24800144278 /* myNotes.json in Resources */,
 				BE629E0E1EA61F10005CC9BA /* 关于苹果APNs推送机制(3).pdf in Resources */,
 				D6EE1EFC1DCAA616003F14CD /* Assets.xcassets in Resources */,
+				BE8115851EA6F218002071AD /* 绘制对话框样式的标签.pdf in Resources */,
+				BE8115971EA6F88A002071AD /* 百度地图v3.1.0.pdf in Resources */,
 				BE83AA291E7666030012C540 /* JSCallOC.html in Resources */,
-				BE83A8141E7664180012C540 /* MYNetwork网络库(基于AFNetworking).docx in Resources */,
 				BE83AA551E7666030012C540 /* DataStorage.storyboard in Resources */,
-				BE83A80A1E7664180012C540 /* IOS10-iMessage扩展.docx in Resources */,
 				BE83A95E1E7665A50012C540 /* DrawLine.storyboard in Resources */,
 				D6EE1EFA1DCAA616003F14CD /* Main.storyboard in Resources */,
 			);

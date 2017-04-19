@@ -143,9 +143,7 @@
             [[[UIAlertView alloc] initWithTitle:@"提示" message:@"请选择笔记查看或者项目演示" delegate:self cancelButtonTitle:@"笔记" otherButtonTitles:@"演示", nil] show];
         }else{
             MYNoteDetailWebViewController *controller = [[MYNoteDetailWebViewController alloc] init];
-            controller.filePath = [MYNotesUtility getFileWithFileName:[NSString stringWithFormat:@"%@.docx", [item objectForKey:@"Name"]]];
-            if(controller.filePath == nil)
-                controller.filePath = [MYNotesUtility getFileWithFileName:[NSString stringWithFormat:@"%@.pdf", [item objectForKey:@"Name"]]];
+            controller.filePath = [MYNotesUtility getFileWithFileName:[NSString stringWithFormat:@"%@.pdf", [item objectForKey:@"Name"]]];
             [self.navigationController pushViewController:controller animated:NO];
         }
 }
@@ -170,9 +168,7 @@
     switch (buttonIndex) {
         case 0:{
             MYNoteDetailWebViewController *controller = [[MYNoteDetailWebViewController alloc] init];
-            controller.filePath = [MYNotesUtility getFileWithFileName:[NSString stringWithFormat:@"%@.docx", [_selectItem objectForKey:@"Name"]]];
-            if(controller.filePath == nil)
-                controller.filePath = [MYNotesUtility getFileWithFileName:[NSString stringWithFormat:@"%@.pdf", [_selectItem objectForKey:@"Name"]]];
+            controller.filePath = [MYNotesUtility getFileWithFileName:[NSString stringWithFormat:@"%@.pdf", [_selectItem objectForKey:@"Name"]]];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;

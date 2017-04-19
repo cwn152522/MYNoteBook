@@ -23,7 +23,7 @@
     self.title = @"笔记详情";
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor lightGrayColor];
     [self configWebView];
     
     
