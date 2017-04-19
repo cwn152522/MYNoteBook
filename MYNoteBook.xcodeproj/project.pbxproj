@@ -105,6 +105,9 @@
 		BE8115E01EA7063E002071AD /* Xcode8项目兼容IOS7设备.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115CB1EA7063E002071AD /* Xcode8项目兼容IOS7设备.pdf */; };
 		BE8115E11EA7063E002071AD /* YYModel-Json解析.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115CC1EA7063E002071AD /* YYModel-Json解析.pdf */; };
 		BE8115E31EA72835002071AD /* 输入框部分文本模糊匹配.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115E21EA72835002071AD /* 输入框部分文本模糊匹配.pdf */; };
+		BE8115E51EA72E5E002071AD /* Label富文本显示不全.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115E41EA72E5E002071AD /* Label富文本显示不全.pdf */; };
+		BE8115E71EA73236002071AD /* 正则匹配去除文本的html标签.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115E61EA73236002071AD /* 正则匹配去除文本的html标签.pdf */; };
+		BE8115E91EA75FF1002071AD /* 链式编程原理与应用(Autolayout).pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8115E81EA75FF1002071AD /* 链式编程原理与应用(Autolayout).pdf */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
 		BE83A8761E7665290012C540 /* MYUShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8571E7665290012C540 /* MYUShareManager.m */; };
 		BE83A8771E7665290012C540 /* MYUShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A85A1E7665290012C540 /* MYUShareButton.m */; };
@@ -501,6 +504,9 @@
 		BE8115CB1EA7063E002071AD /* Xcode8项目兼容IOS7设备.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Xcode8项目兼容IOS7设备.pdf"; sourceTree = "<group>"; };
 		BE8115CC1EA7063E002071AD /* YYModel-Json解析.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "YYModel-Json解析.pdf"; sourceTree = "<group>"; };
 		BE8115E21EA72835002071AD /* 输入框部分文本模糊匹配.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "输入框部分文本模糊匹配.pdf"; path = "MYNoteBook/word文档/2017年/IOS编程随记1/输入框部分文本模糊匹配.pdf"; sourceTree = SOURCE_ROOT; };
+		BE8115E41EA72E5E002071AD /* Label富文本显示不全.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Label富文本显示不全.pdf"; sourceTree = "<group>"; };
+		BE8115E61EA73236002071AD /* 正则匹配去除文本的html标签.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "正则匹配去除文本的html标签.pdf"; sourceTree = "<group>"; };
+		BE8115E81EA75FF1002071AD /* 链式编程原理与应用(Autolayout).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "链式编程原理与应用(Autolayout).pdf"; sourceTree = "<group>"; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -1095,6 +1101,9 @@
 				BE629DDF1EA5C805005CC9BA /* html富文本高度的正确计算.pdf */,
 				BE629DE01EA5C805005CC9BA /* ios10系统app一直提示无网络.pdf */,
 				BE629DE11EA5C805005CC9BA /* ipad运行项目，部分页面显示不了.pdf */,
+				BE8115E41EA72E5E002071AD /* Label富文本显示不全.pdf */,
+				BE8115E61EA73236002071AD /* 正则匹配去除文本的html标签.pdf */,
+				BE8115E81EA75FF1002071AD /* 链式编程原理与应用(Autolayout).pdf */,
 			);
 			path = "IOS编程随记2";
 			sourceTree = "<group>";
@@ -2833,6 +2842,7 @@
 				BE8115DE1EA7063E002071AD /* Xcode7调试IOS10设备.pdf in Resources */,
 				BE83A9791E7665A50012C540 /* MYNavigationControllerImage.xcassets in Resources */,
 				BE629DEA1EA5C805005CC9BA /* 怎么给View添加阴影.pdf in Resources */,
+				BE8115E71EA73236002071AD /* 正则匹配去除文本的html标签.pdf in Resources */,
 				BE8115B51EA6FAFB002071AD /* JavaScriptCore实现JS交互.pdf in Resources */,
 				BE83AA4E1E7666030012C540 /* MultiThread.storyboard in Resources */,
 				BE83A9451E7665A50012C540 /* Banner.storyboard in Resources */,
@@ -2845,6 +2855,7 @@
 				BE83A9581E7665A50012C540 /* LoadingAnimation.storyboard in Resources */,
 				BE629E101EA61F10005CC9BA /* 列表数据本地化思想.pdf in Resources */,
 				BE8115861EA6F218002071AD /* 绘制进度由0-1交替的旋转动画.pdf in Resources */,
+				BE8115E91EA75FF1002071AD /* 链式编程原理与应用(Autolayout).pdf in Resources */,
 				BE83AA631E7666030012C540 /* RegularExpression.storyboard in Resources */,
 				BE8115AE1EA6FAFB002071AD /* 了解RunTime运行机制.pdf in Resources */,
 				BE629DEC1EA5C805005CC9BA /* 主从列表封装思想.pdf in Resources */,
@@ -2924,6 +2935,7 @@
 				BE8115971EA6F88A002071AD /* 百度地图v3.1.0.pdf in Resources */,
 				BE83AA291E7666030012C540 /* JSCallOC.html in Resources */,
 				BE83AA551E7666030012C540 /* DataStorage.storyboard in Resources */,
+				BE8115E51EA72E5E002071AD /* Label富文本显示不全.pdf in Resources */,
 				BE83A95E1E7665A50012C540 /* DrawLine.storyboard in Resources */,
 				D6EE1EFA1DCAA616003F14CD /* Main.storyboard in Resources */,
 			);
