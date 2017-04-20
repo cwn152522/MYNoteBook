@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE5AC5951EA87A73003E477F /* 给绘图添加过程动画.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5AC5941EA87A73003E477F /* 给绘图添加过程动画.pdf */; };
+		BE5AC5981EA87B0A003E477F /* DrawAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */; };
+		BE5AC59B1EA87B3B003E477F /* DrawAnimation_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */; };
 		BE629DE21EA5C805005CC9BA /* 改变列表头部的frame无效.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE629DD41EA5C805005CC9BA /* 改变列表头部的frame无效.pdf */; };
 		BE629DE31EA5C805005CC9BA /* 关于scrollview自动布局约束问题.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE629DD51EA5C805005CC9BA /* 关于scrollview自动布局约束问题.pdf */; };
 		BE629DE41EA5C805005CC9BA /* 解析线上app崩溃报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE629DD61EA5C805005CC9BA /* 解析线上app崩溃报告.pdf */; };
@@ -407,6 +410,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE5AC5941EA87A73003E477F /* 给绘图添加过程动画.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "给绘图添加过程动画.pdf"; sourceTree = "<group>"; };
+		BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DrawAnimation.storyboard; sourceTree = "<group>"; };
+		BE5AC5991EA87B3B003E477F /* DrawAnimation_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawAnimation_ViewController.h; sourceTree = "<group>"; };
+		BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawAnimation_ViewController.m; sourceTree = "<group>"; };
 		BE629DD41EA5C805005CC9BA /* 改变列表头部的frame无效.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "改变列表头部的frame无效.pdf"; sourceTree = "<group>"; };
 		BE629DD51EA5C805005CC9BA /* 关于scrollview自动布局约束问题.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于scrollview自动布局约束问题.pdf"; sourceTree = "<group>"; };
 		BE629DD61EA5C805005CC9BA /* 解析线上app崩溃报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "解析线上app崩溃报告.pdf"; sourceTree = "<group>"; };
@@ -1085,6 +1092,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE5AC5961EA87ADA003E477F /* 绘图过程动画的实现 */ = {
+			isa = PBXGroup;
+			children = (
+				BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */,
+				BE5AC5991EA87B3B003E477F /* DrawAnimation_ViewController.h */,
+				BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */,
+			);
+			path = "绘图过程动画的实现";
+			sourceTree = "<group>";
+		};
 		BE741B231E77EA2E001FD2CF /* IOS编程随记2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1107,6 +1124,7 @@
 				BE8115E61EA73236002071AD /* 正则匹配去除文本的html标签.pdf */,
 				BE8115E81EA75FF1002071AD /* 链式编程原理与应用(Autolayout).pdf */,
 				BE8115EA1EA77E9F002071AD /* 使用CodeLibrary提高开发效率.pdf */,
+				BE5AC5941EA87A73003E477F /* 给绘图添加过程动画.pdf */,
 			);
 			path = "IOS编程随记2";
 			sourceTree = "<group>";
@@ -2287,6 +2305,7 @@
 			children = (
 				D6CC2AF81E91CFFB00E8C444 /* 跑马灯动画 */,
 				BEFF33AB1E9604C900E2A05E /* 主从列表 */,
+				BE5AC5961EA87ADA003E477F /* 绘图过程动画的实现 */,
 			);
 			path = "IOS编程随记2";
 			sourceTree = "<group>";
@@ -2845,6 +2864,7 @@
 				BE8115DE1EA7063E002071AD /* Xcode7调试IOS10设备.pdf in Resources */,
 				BE83A9791E7665A50012C540 /* MYNavigationControllerImage.xcassets in Resources */,
 				BE629DEA1EA5C805005CC9BA /* 怎么给View添加阴影.pdf in Resources */,
+				BE5AC5981EA87B0A003E477F /* DrawAnimation.storyboard in Resources */,
 				BE8115E71EA73236002071AD /* 正则匹配去除文本的html标签.pdf in Resources */,
 				BE8115B51EA6FAFB002071AD /* JavaScriptCore实现JS交互.pdf in Resources */,
 				BE83AA4E1E7666030012C540 /* MultiThread.storyboard in Resources */,
@@ -2914,6 +2934,7 @@
 				BE8115AA1EA6FAFB002071AD /* 版本控制.pdf in Resources */,
 				BE8115E31EA72835002071AD /* 输入框部分文本模糊匹配.pdf in Resources */,
 				BE629E141EA61F10005CC9BA /* 使用mutable属性注意事项.pdf in Resources */,
+				BE5AC5951EA87A73003E477F /* 给绘图添加过程动画.pdf in Resources */,
 				BE8115B41EA6FAFB002071AD /* autoLayout自动布局.pdf in Resources */,
 				BE8115D11EA7063E002071AD /* IOS10-动态类型DynamicType.pdf in Resources */,
 				D60018681DECDC2F003017E3 /* myNotesArr.json in Resources */,
@@ -2989,6 +3010,7 @@
 				BE83AA661E7666030012C540 /* MYLocationManager.m in Sources */,
 				BE83A94D1E7665A50012C540 /* MYColorfulCircleProgressView.m in Sources */,
 				BE83A97A1E7665A50012C540 /* MYWrapNavigationController.m in Sources */,
+				BE5AC59B1EA87B3B003E477F /* DrawAnimation_ViewController.m in Sources */,
 				BE83A93C1E7665A50012C540 /* UIBasicAnimationViewController.m in Sources */,
 				D6F774851E005EDB0089E7E9 /* MJRefreshStateHeader.m in Sources */,
 				BE83A93A1E7665A50012C540 /* UIViewControllerAnimatingManager.m in Sources */,

@@ -112,4 +112,5 @@
  {"ID":74, "Name":"Label富文本显示不全", "ParentID":6, "storyboardName":"", "storyboardId":""},
  {"ID":75, "Name":"链式编程原理与应用(Autolayout)", "ParentID":6, "storyboardName":"", "storyboardId":""},
  {"ID":76, "Name":"使用CodeLibrary提高开发效率", "ParentID":6, "storyboardName":"", "storyboardId":""},
+ {"ID":77, "Name":"给绘图添加过程动画", "ParentID":6, "storyboardName":"DrawAnimation", "storyboardId":"DrawAnimation"},
  ]
