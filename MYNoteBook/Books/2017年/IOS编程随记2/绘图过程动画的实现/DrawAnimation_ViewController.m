@@ -21,7 +21,7 @@
     self.title = @"绘图过程动画的实现";
     
     self.shapLayer = [CAShapeLayer layer];
-    self.shapLayer.frame = CGRectMake(0, 300, CGRectGetWidth([UIScreen mainScreen].bounds), 40);
+    self.shapLayer.frame = CGRectMake(0, 200, CGRectGetWidth([UIScreen mainScreen].bounds), 40);
     
     self.shapLayer.lineWidth = 1;
     self.shapLayer.strokeColor = [UIColor redColor].CGColor;
@@ -29,8 +29,15 @@
     
     [self.view.layer addSublayer:self.shapLayer];
     
+    id target = self.navigationController.navigationController.interactivePopGestureRecognizer.delegate;
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:target action:@selector(handleNavigationTransition:)];
+    [self.view addGestureRecognizer:pan];
+    self.navigationController.navigationController.interactivePopGestureRecognizer.enabled = NO;
     // Do any additional setup after loading the view.
 }
+
+- (void)handleNavigationTransition:(UIPanGestureRecognizer *)gesture{};
+
 - (void)drawPath{
     //用贝塞尔曲线绘制
     UIBezierPath *path = [UIBezierPath bezierPath];
