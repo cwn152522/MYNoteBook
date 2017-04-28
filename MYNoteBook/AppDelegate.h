@@ -12,6 +12,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic,assign)NSInteger allowRotate;
+
 - (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size;
 
 @end

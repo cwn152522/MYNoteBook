@@ -44,7 +44,15 @@
     self.searchModel = [[MYSearchHisttoryModel alloc] init];
     [self.searchModel loadHistoryData];
     // Do any additional setup after loading the view.
+    
+    id target = self.navigationController.navigationController.interactivePopGestureRecognizer.delegate;
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:target action:@selector(handleNavigationTransition:)];
+    [self.view addGestureRecognizer:pan];
+    self.navigationController.navigationController.interactivePopGestureRecognizer.enabled = NO;
+    // Do any additional setup after loading the view.
 }
+
+- (void)handleNavigationTransition:(UIPanGestureRecognizer *)gesture{};
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
@@ -105,7 +113,7 @@
     if(![keyword length])
         return;
     
-    self.data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"(ParentID != 0) AND (Name CONTAINS[c] %@)", keyword]];
+    self.data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"(ParentID > 0) AND (Name CONTAINS[c] %@)", keyword]];
     
     [self.tableView reloadData];
 }
@@ -231,7 +239,7 @@
         [[[UIAlertView alloc] initWithTitle:@"提示" message:@"请选择笔记查看或者项目演示" delegate:self cancelButtonTitle:@"笔记" otherButtonTitles:@"演示", nil] show];
     }else{
         MYNoteDetailWebViewController *controller = [[MYNoteDetailWebViewController alloc] init];
-        controller.filePath = [MYNotesUtility getDocxFileWithDocxName:[NSString stringWithFormat:@"%@.docx", [item objectForKey:@"Name"]]];
+        controller.filePath = [MYNotesUtility getFileWithFileName:[NSString stringWithFormat:@"%@.pdf", [item objectForKey:@"Name"]]];
         [self.navigationController pushViewController:controller animated:YES];
     }
 }
@@ -248,7 +256,7 @@
     switch (buttonIndex) {
         case 0:{
             MYNoteDetailWebViewController *controller = [[MYNoteDetailWebViewController alloc] init];
-            controller.filePath = [MYNotesUtility getDocxFileWithDocxName:[NSString stringWithFormat:@"%@.docx", [_selectItem objectForKey:@"Name"]]];
+            controller.filePath = [MYNotesUtility getFileWithFileName:[NSString stringWithFormat:@"%@.pdf", [_selectItem objectForKey:@"Name"]]];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;

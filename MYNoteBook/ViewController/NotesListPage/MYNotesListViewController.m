@@ -46,7 +46,15 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    id target = self.navigationController.navigationController.interactivePopGestureRecognizer.delegate;
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:target action:@selector(handleNavigationTransition:)];
+    [self.view addGestureRecognizer:pan];
+    self.navigationController.navigationController.interactivePopGestureRecognizer.enabled = NO;
+    // Do any additional setup after loading the view.
 }
+
+- (void)handleNavigationTransition:(UIPanGestureRecognizer *)gesture{};
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
@@ -114,6 +122,20 @@
 #pragma mark UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if( [self.title rangeOfString:@"(\\d)*年" options:NSRegularExpressionSearch].location != NSNotFound){
+        MYNotesListViewController *controller = [[self storyboard] instantiateViewControllerWithIdentifier:@"NotesListViewController"];
+        NSArray *data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:[NSString stringWithFormat:@"ParentID=%ld", (long)[[_data[indexPath.row] objectForKey:@"ID"] integerValue]]]];
+        controller.data = data;
+        controller.navigationTitle = [[_data objectAtIndex:indexPath.row] valueForKey:@"Name"];
+        
+        CATransition *animation = [CATransition animation];
+        animation.type = @"rippleEffect";
+        animation.duration = 0.33;
+        [self.navigationController.navigationController.view.layer addAnimation:animation forKey:nil];
+        [self.navigationController pushViewController:controller animated:NO];
+        return;
+    }
+    
     id item = [_data objectAtIndex:indexPath.row];
         NSString *storyName = [item objectForKey:@"storyboardName"];
         if([storyName length]){
@@ -121,8 +143,8 @@
             [[[UIAlertView alloc] initWithTitle:@"提示" message:@"请选择笔记查看或者项目演示" delegate:self cancelButtonTitle:@"笔记" otherButtonTitles:@"演示", nil] show];
         }else{
             MYNoteDetailWebViewController *controller = [[MYNoteDetailWebViewController alloc] init];
-            controller.filePath = [MYNotesUtility getDocxFileWithDocxName:[NSString stringWithFormat:@"%@.docx", [item objectForKey:@"Name"]]];
-            [self.navigationController pushViewController:controller animated:YES];
+            controller.filePath = [MYNotesUtility getFileWithFileName:[NSString stringWithFormat:@"%@.pdf", [item objectForKey:@"Name"]]];
+            [self.navigationController pushViewController:controller animated:NO];
         }
 }
 
@@ -146,7 +168,7 @@
     switch (buttonIndex) {
         case 0:{
             MYNoteDetailWebViewController *controller = [[MYNoteDetailWebViewController alloc] init];
-            controller.filePath = [MYNotesUtility getDocxFileWithDocxName:[NSString stringWithFormat:@"%@.docx", [_selectItem objectForKey:@"Name"]]];
+            controller.filePath = [MYNotesUtility getFileWithFileName:[NSString stringWithFormat:@"%@.pdf", [_selectItem objectForKey:@"Name"]]];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;

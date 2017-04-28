@@ -6,6 +6,12 @@
 //  Copyright © 2016年 chenweinan. All rights reserved.
 //
 
+/**
+ *  陈伟南 17/04/28    更新内容：所有文档采用pdf格式替换word格式
+ *
+ * @note 文档使用pdf格式代替word格式，因为webview显示word存在排版、字体错乱，文件较大等问题。
+ */
+
 #import "ViewController.h"
 #import "MYNotesListViewController.h"
 #import "MYNotesUtility.h"
@@ -26,7 +32,7 @@
     [self configNavigationBar];
 //    NSArray *temp = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"Name CONTAINS '绘制'"]];
 
-        self.data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"ParentID=0"]];
+        self.data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"ParentID=-100"]];
         [self.tableView reloadData];
 
     self.tableView.tableFooterView = [[UIView alloc] init];

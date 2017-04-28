@@ -16,6 +16,6 @@
 
 + (NSArray *)array:(NSMutableArray *)array filterWithPredicate:(NSPredicate *)predicate;
 
-+ (NSString *)getDocxFileWithDocxName:(NSString *)fileName;
++ (NSString *)getFileWithFileName:(NSString *)fileName;
 
 @end

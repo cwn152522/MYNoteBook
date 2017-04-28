@@ -221,4 +221,14 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     return image;
 }
 
+-(UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window{
+    if (_allowRotate == 1) {
+                return UIInterfaceOrientationMaskAll;
+//        return UIInterfaceOrientationMaskPortrait;
+    }
+    else{
+        return UIInterfaceOrientationMaskPortrait;
+    }
+}
+
 @end
