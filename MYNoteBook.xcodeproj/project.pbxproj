@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE2FE42B1EE0191A00A69298 /* 版本控制之gitlab服务器的搭建.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE2FE42A1EE0191A00A69298 /* 版本控制之gitlab服务器的搭建.pdf */; };
 		BE5AC5951EA87A73003E477F /* 给绘图添加过程动画.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5AC5941EA87A73003E477F /* 给绘图添加过程动画.pdf */; };
 		BE5AC5981EA87B0A003E477F /* DrawAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */; };
 		BE5AC59B1EA87B3B003E477F /* DrawAnimation_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */; };
@@ -410,6 +411,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE2FE42A1EE0191A00A69298 /* 版本控制之gitlab服务器的搭建.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "版本控制之gitlab服务器的搭建.pdf"; sourceTree = "<group>"; };
 		BE5AC5941EA87A73003E477F /* 给绘图添加过程动画.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "给绘图添加过程动画.pdf"; sourceTree = "<group>"; };
 		BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DrawAnimation.storyboard; sourceTree = "<group>"; };
 		BE5AC5991EA87B3B003E477F /* DrawAnimation_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawAnimation_ViewController.h; sourceTree = "<group>"; };
@@ -1092,6 +1094,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE2FE4291EDFE7E500A69298 /* IOS编程随机3 */ = {
+			isa = PBXGroup;
+			children = (
+				BE2FE42A1EE0191A00A69298 /* 版本控制之gitlab服务器的搭建.pdf */,
+			);
+			path = "IOS编程随机3";
+			sourceTree = "<group>";
+		};
 		BE5AC5961EA87ADA003E477F /* 绘图过程动画的实现 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1235,6 +1245,7 @@
 			children = (
 				BE83A7E71E7664180012C540 /* IOS编程随记1 */,
 				BE741B231E77EA2E001FD2CF /* IOS编程随记2 */,
+				BE2FE4291EDFE7E500A69298 /* IOS编程随机3 */,
 			);
 			name = "2017年";
 			path = "word文档/2017年";
@@ -2839,6 +2850,7 @@
 				BE83AA5B1E7666030012C540 /* Info.plist in Resources */,
 				BE8115801EA6F218002071AD /* 关于IOS动画.pdf in Resources */,
 				BE8115991EA6F88A002071AD /* 极光推送v3.0.0.pdf in Resources */,
+				BE2FE42B1EE0191A00A69298 /* 版本控制之gitlab服务器的搭建.pdf in Resources */,
 				BE83A9401E7665A50012C540 /* MJRefresh.storyboard in Resources */,
 				BE629DE51EA5C805005CC9BA /* 列表滑动卡顿问题.pdf in Resources */,
 				BE8115AB1EA6FAFB002071AD /* 编码规范.pdf in Resources */,
