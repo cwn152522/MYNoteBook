@@ -276,14 +276,6 @@
 		BE83AA671E7666030012C540 /* ViewController_CLLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83AA241E7666030012C540 /* ViewController_CLLocation.m */; };
 		BE8F0B3C1EE4E675008E47D9 /* 版本控制之gitlab服务器的搭建.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B3A1EE4E675008E47D9 /* 版本控制之gitlab服务器的搭建.pdf */; };
 		BE8F0B3D1EE4E675008E47D9 /* 版本控制之svn服务器的搭建.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B3B1EE4E675008E47D9 /* 版本控制之svn服务器的搭建.pdf */; };
-		BE8F0B3F1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B3E1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf */; };
-		BE8F0B411EE52F49008E47D9 /* UIView加阴影的情况下动画很卡.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B401EE52F49008E47D9 /* UIView加阴影的情况下动画很卡.pdf */; };
-		BE8F0B431EE53529008E47D9 /* webView视频如何实现全屏播放.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B421EE53529008E47D9 /* webView视频如何实现全屏播放.pdf */; };
-		BE8F0B451EE5368E008E47D9 /* 怎么正确获取当前时间.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B441EE5368E008E47D9 /* 怎么正确获取当前时间.pdf */; };
-		BE8F0B471EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B461EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf */; };
-		BE8F0B491EE5421C008E47D9 /* 可能出现内存泄漏的几种情况.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B481EE5421C008E47D9 /* 可能出现内存泄漏的几种情况.pdf */; };
-		BE8F0B4B1EE54547008E47D9 /* 页面编写习惯.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B4A1EE54547008E47D9 /* 页面编写习惯.pdf */; };
-		BE8F0B4D1EE56556008E47D9 /* 本地sqlite数据库框架搭建过程.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B4C1EE56556008E47D9 /* 本地sqlite数据库框架搭建过程.pdf */; };
 		BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */; };
 		BEFF33B01E96051800E2A05E /* DoubleTable_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */; };
 		BEFF33B61E9608F700E2A05E /* MYDoubleTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33B31E9608F700E2A05E /* MYDoubleTableModel.m */; };
@@ -310,6 +302,12 @@
 		D64B50881E00369700E4BD41 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D64B50871E00369700E4BD41 /* libsqlite3.0.tbd */; };
 		D64B508A1E0036C000E4BD41 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D64B50891E0036C000E4BD41 /* libstdc++.6.0.9.tbd */; };
 		D64B50931E003C2400E4BD41 /* JCLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B50921E003C2400E4BD41 /* JCLineView.m */; };
+		D692DEF81EE61D25004CF87C /* NavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D692DEF71EE61D25004CF87C /* NavigationView.m */; };
+		D692DEFC1EE61E0F004CF87C /* UIView+FrameProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D692DEFB1EE61E0F004CF87C /* UIView+FrameProperty.m */; };
+		D692DF011EE62259004CF87C /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = D692DEFD1EE62259004CF87C /* image1.png */; };
+		D692DF021EE62259004CF87C /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = D692DEFE1EE62259004CF87C /* image2.png */; };
+		D692DF031EE62259004CF87C /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = D692DEFF1EE62259004CF87C /* image3.png */; };
+		D692DF041EE62259004CF87C /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = D692DF001EE62259004CF87C /* image4.png */; };
 		D6B88F4E1E060A3B00741102 /* jcore-ios-1.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B88F4B1E060A3B00741102 /* jcore-ios-1.0.0.a */; };
 		D6B88F4F1E060A3B00741102 /* jpush-ios-3.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B88F4C1E060A3B00741102 /* jpush-ios-3.0.0.a */; };
 		D6B88F511E060A6F00741102 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B88F501E060A6F00741102 /* CFNetwork.framework */; };
@@ -323,6 +321,23 @@
 		D6CC2B091E91D07800E8C444 /* RunHorseLamp_Imediately.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC2B051E91D07800E8C444 /* RunHorseLamp_Imediately.m */; };
 		D6CC2B0A1E91D07800E8C444 /* RunHorseLamp_Imediately.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6CC2B061E91D07800E8C444 /* RunHorseLamp_Imediately.xib */; };
 		D6CC2B0E1E91D3CF00E8C444 /* RunHorseLamp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CC2B0D1E91D3CF00E8C444 /* RunHorseLamp.storyboard */; };
+		D6D3FD551EE6090200D628A6 /* UIView加阴影的情况下动画很卡.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6D3FD4D1EE6090200D628A6 /* UIView加阴影的情况下动画很卡.pdf */; };
+		D6D3FD561EE6090200D628A6 /* webView视频如何实现全屏播放.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6D3FD4E1EE6090200D628A6 /* webView视频如何实现全屏播放.pdf */; };
+		D6D3FD571EE6090200D628A6 /* 关于NumberWithInteger和NumberWithInt.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6D3FD4F1EE6090200D628A6 /* 关于NumberWithInteger和NumberWithInt.pdf */; };
+		D6D3FD581EE6090200D628A6 /* 可能出现内存泄漏的几种情况.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6D3FD501EE6090200D628A6 /* 可能出现内存泄漏的几种情况.pdf */; };
+		D6D3FD591EE6090200D628A6 /* 如何以xib方式创建自定义view.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6D3FD511EE6090200D628A6 /* 如何以xib方式创建自定义view.pdf */; };
+		D6D3FD5A1EE6090200D628A6 /* 怎么正确获取当前时间.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6D3FD521EE6090200D628A6 /* 怎么正确获取当前时间.pdf */; };
+		D6D3FD5B1EE6090200D628A6 /* 本地sqlite数据库框架搭建过程.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6D3FD531EE6090200D628A6 /* 本地sqlite数据库框架搭建过程.pdf */; };
+		D6D3FD5C1EE6090200D628A6 /* 页面编写习惯.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6D3FD541EE6090200D628A6 /* 页面编写习惯.pdf */; };
+		D6D3FD661EE6199100D628A6 /* MYNav.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D3FD5F1EE6199100D628A6 /* MYNav.xcassets */; };
+		D6D3FD671EE6199100D628A6 /* MYNavControllerTransitioningDelegateV2.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D3FD611EE6199100D628A6 /* MYNavControllerTransitioningDelegateV2.m */; };
+		D6D3FD681EE6199100D628A6 /* MYNavigationControllerV2.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D3FD631EE6199100D628A6 /* MYNavigationControllerV2.m */; };
+		D6D3FD691EE6199100D628A6 /* MYViewControllerAnimatedTransitioningV2.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D3FD651EE6199100D628A6 /* MYViewControllerAnimatedTransitioningV2.m */; };
+		D6D3FD6B1EE61A3A00D628A6 /* MYNav.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D3FD6A1EE61A3A00D628A6 /* MYNav.storyboard */; };
+		D6D3FD761EE61AF400D628A6 /* ViewController_MYNav.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D3FD6F1EE61AF400D628A6 /* ViewController_MYNav.m */; };
+		D6D3FD771EE61AF400D628A6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D3FD711EE61AF400D628A6 /* SecondViewController.m */; };
+		D6D3FD781EE61AF400D628A6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D3FD731EE61AF400D628A6 /* ThirdViewController.m */; };
+		D6D3FD791EE61AF400D628A6 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D3FD751EE61AF400D628A6 /* FourthViewController.m */; };
 		D6DC80B51E03573A00F25651 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DC808F1E03573A00F25651 /* libSocialQQ.a */; };
 		D6DC80B61E03573A00F25651 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DC80901E03573A00F25651 /* TencentOpenAPI.framework */; };
 		D6DC80B71E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6DC80911E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle */; };
@@ -836,14 +851,6 @@
 		BE83AA241E7666030012C540 /* ViewController_CLLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_CLLocation.m; sourceTree = "<group>"; };
 		BE8F0B3A1EE4E675008E47D9 /* 版本控制之gitlab服务器的搭建.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "版本控制之gitlab服务器的搭建.pdf"; sourceTree = "<group>"; };
 		BE8F0B3B1EE4E675008E47D9 /* 版本控制之svn服务器的搭建.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "版本控制之svn服务器的搭建.pdf"; sourceTree = "<group>"; };
-		BE8F0B3E1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "如何以xib方式创建自定义view.pdf"; sourceTree = "<group>"; };
-		BE8F0B401EE52F49008E47D9 /* UIView加阴影的情况下动画很卡.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "UIView加阴影的情况下动画很卡.pdf"; sourceTree = "<group>"; };
-		BE8F0B421EE53529008E47D9 /* webView视频如何实现全屏播放.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "webView视频如何实现全屏播放.pdf"; sourceTree = "<group>"; };
-		BE8F0B441EE5368E008E47D9 /* 怎么正确获取当前时间.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "怎么正确获取当前时间.pdf"; sourceTree = "<group>"; };
-		BE8F0B461EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于NumberWithInteger和NumberWithInt.pdf"; sourceTree = "<group>"; };
-		BE8F0B481EE5421C008E47D9 /* 可能出现内存泄漏的几种情况.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "可能出现内存泄漏的几种情况.pdf"; sourceTree = "<group>"; };
-		BE8F0B4A1EE54547008E47D9 /* 页面编写习惯.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "页面编写习惯.pdf"; sourceTree = "<group>"; };
-		BE8F0B4C1EE56556008E47D9 /* 本地sqlite数据库框架搭建过程.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "本地sqlite数据库框架搭建过程.pdf"; sourceTree = "<group>"; };
 		BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoubleTable.storyboard; sourceTree = "<group>"; };
 		BEFF33AE1E96051800E2A05E /* DoubleTable_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTable_ViewController.h; sourceTree = "<group>"; };
 		BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTable_ViewController.m; sourceTree = "<group>"; };
@@ -887,6 +894,14 @@
 		D64B50891E0036C000E4BD41 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		D64B50911E003C2400E4BD41 /* JCLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLineView.h; sourceTree = "<group>"; };
 		D64B50921E003C2400E4BD41 /* JCLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLineView.m; sourceTree = "<group>"; };
+		D692DEF61EE61D25004CF87C /* NavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationView.h; sourceTree = "<group>"; };
+		D692DEF71EE61D25004CF87C /* NavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationView.m; sourceTree = "<group>"; };
+		D692DEFA1EE61E0F004CF87C /* UIView+FrameProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameProperty.h"; sourceTree = "<group>"; };
+		D692DEFB1EE61E0F004CF87C /* UIView+FrameProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameProperty.m"; sourceTree = "<group>"; };
+		D692DEFD1EE62259004CF87C /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		D692DEFE1EE62259004CF87C /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		D692DEFF1EE62259004CF87C /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		D692DF001EE62259004CF87C /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
 		D6B88F4B1E060A3B00741102 /* jcore-ios-1.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.0.0.a"; sourceTree = "<group>"; };
 		D6B88F4C1E060A3B00741102 /* jpush-ios-3.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.0.0.a"; sourceTree = "<group>"; };
 		D6B88F4D1E060A3B00741102 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
@@ -905,6 +920,30 @@
 		D6CC2B051E91D07800E8C444 /* RunHorseLamp_Imediately.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunHorseLamp_Imediately.m; sourceTree = "<group>"; };
 		D6CC2B061E91D07800E8C444 /* RunHorseLamp_Imediately.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunHorseLamp_Imediately.xib; sourceTree = "<group>"; };
 		D6CC2B0D1E91D3CF00E8C444 /* RunHorseLamp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RunHorseLamp.storyboard; sourceTree = "<group>"; };
+		D6D3FD4D1EE6090200D628A6 /* UIView加阴影的情况下动画很卡.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "UIView加阴影的情况下动画很卡.pdf"; sourceTree = "<group>"; };
+		D6D3FD4E1EE6090200D628A6 /* webView视频如何实现全屏播放.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "webView视频如何实现全屏播放.pdf"; sourceTree = "<group>"; };
+		D6D3FD4F1EE6090200D628A6 /* 关于NumberWithInteger和NumberWithInt.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于NumberWithInteger和NumberWithInt.pdf"; sourceTree = "<group>"; };
+		D6D3FD501EE6090200D628A6 /* 可能出现内存泄漏的几种情况.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "可能出现内存泄漏的几种情况.pdf"; sourceTree = "<group>"; };
+		D6D3FD511EE6090200D628A6 /* 如何以xib方式创建自定义view.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "如何以xib方式创建自定义view.pdf"; sourceTree = "<group>"; };
+		D6D3FD521EE6090200D628A6 /* 怎么正确获取当前时间.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "怎么正确获取当前时间.pdf"; sourceTree = "<group>"; };
+		D6D3FD531EE6090200D628A6 /* 本地sqlite数据库框架搭建过程.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "本地sqlite数据库框架搭建过程.pdf"; sourceTree = "<group>"; };
+		D6D3FD541EE6090200D628A6 /* 页面编写习惯.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "页面编写习惯.pdf"; sourceTree = "<group>"; };
+		D6D3FD5F1EE6199100D628A6 /* MYNav.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MYNav.xcassets; sourceTree = "<group>"; };
+		D6D3FD601EE6199100D628A6 /* MYNavControllerTransitioningDelegateV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNavControllerTransitioningDelegateV2.h; sourceTree = "<group>"; };
+		D6D3FD611EE6199100D628A6 /* MYNavControllerTransitioningDelegateV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNavControllerTransitioningDelegateV2.m; sourceTree = "<group>"; };
+		D6D3FD621EE6199100D628A6 /* MYNavigationControllerV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNavigationControllerV2.h; sourceTree = "<group>"; };
+		D6D3FD631EE6199100D628A6 /* MYNavigationControllerV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNavigationControllerV2.m; sourceTree = "<group>"; };
+		D6D3FD641EE6199100D628A6 /* MYViewControllerAnimatedTransitioningV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYViewControllerAnimatedTransitioningV2.h; sourceTree = "<group>"; };
+		D6D3FD651EE6199100D628A6 /* MYViewControllerAnimatedTransitioningV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYViewControllerAnimatedTransitioningV2.m; sourceTree = "<group>"; };
+		D6D3FD6A1EE61A3A00D628A6 /* MYNav.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MYNav.storyboard; sourceTree = "<group>"; };
+		D6D3FD6E1EE61AF400D628A6 /* ViewController_MYNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_MYNav.h; sourceTree = "<group>"; };
+		D6D3FD6F1EE61AF400D628A6 /* ViewController_MYNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_MYNav.m; sourceTree = "<group>"; };
+		D6D3FD701EE61AF400D628A6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D6D3FD711EE61AF400D628A6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D6D3FD721EE61AF400D628A6 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		D6D3FD731EE61AF400D628A6 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		D6D3FD741EE61AF400D628A6 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		D6D3FD751EE61AF400D628A6 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		D6DC808F1E03573A00F25651 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
 		D6DC80901E03573A00F25651 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		D6DC80911E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
@@ -1112,22 +1151,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE2FE4291EDFE7E500A69298 /* IOS编程随记3 */ = {
-			isa = PBXGroup;
-			children = (
-				BE8F0B3E1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf */,
-				BE8F0B401EE52F49008E47D9 /* UIView加阴影的情况下动画很卡.pdf */,
-				BE8F0B421EE53529008E47D9 /* webView视频如何实现全屏播放.pdf */,
-				BE8F0B441EE5368E008E47D9 /* 怎么正确获取当前时间.pdf */,
-				BE8F0B461EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf */,
-				BE8F0B481EE5421C008E47D9 /* 可能出现内存泄漏的几种情况.pdf */,
-				BE8F0B4A1EE54547008E47D9 /* 页面编写习惯.pdf */,
-				BE8F0B4C1EE56556008E47D9 /* 本地sqlite数据库框架搭建过程.pdf */,
-			);
-			name = "IOS编程随记3";
-			path = "IOS编程随机3";
-			sourceTree = "<group>";
-		};
 		BE5AC5961EA87ADA003E477F /* 绘图过程动画的实现 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1273,7 +1296,7 @@
 			children = (
 				BE83A7E71E7664180012C540 /* IOS编程随记1 */,
 				BE741B231E77EA2E001FD2CF /* IOS编程随记2 */,
-				BE2FE4291EDFE7E500A69298 /* IOS编程随记3 */,
+				D6D3FD4C1EE6090200D628A6 /* IOS编程随记3 */,
 			);
 			name = "2017年";
 			path = "word文档/2017年";
@@ -2297,6 +2320,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D692DEF91EE61DF4004CF87C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D692DEFA1EE61E0F004CF87C /* UIView+FrameProperty.h */,
+				D692DEFB1EE61E0F004CF87C /* UIView+FrameProperty.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		D6B88F4A1E060A3B00741102 /* JPush */ = {
 			isa = PBXGroup;
 			children = (
@@ -2328,6 +2360,7 @@
 			children = (
 				D6CC2AF61E91CFA400E8C444 /* IOS编程随记1 */,
 				D6CC2AF71E91CFA400E8C444 /* IOS编程随记2 */,
+				D6D3FD5D1EE6199100D628A6 /* IOS编程随记3 */,
 			);
 			path = "2017年";
 			sourceTree = "<group>";
@@ -2365,6 +2398,75 @@
 				D6CC2B061E91D07800E8C444 /* RunHorseLamp_Imediately.xib */,
 			);
 			path = "跑马灯动画";
+			sourceTree = "<group>";
+		};
+		D6D3FD4C1EE6090200D628A6 /* IOS编程随记3 */ = {
+			isa = PBXGroup;
+			children = (
+				D6D3FD4D1EE6090200D628A6 /* UIView加阴影的情况下动画很卡.pdf */,
+				D6D3FD4E1EE6090200D628A6 /* webView视频如何实现全屏播放.pdf */,
+				D6D3FD4F1EE6090200D628A6 /* 关于NumberWithInteger和NumberWithInt.pdf */,
+				D6D3FD501EE6090200D628A6 /* 可能出现内存泄漏的几种情况.pdf */,
+				D6D3FD511EE6090200D628A6 /* 如何以xib方式创建自定义view.pdf */,
+				D6D3FD521EE6090200D628A6 /* 怎么正确获取当前时间.pdf */,
+				D6D3FD531EE6090200D628A6 /* 本地sqlite数据库框架搭建过程.pdf */,
+				D6D3FD541EE6090200D628A6 /* 页面编写习惯.pdf */,
+			);
+			path = "IOS编程随记3";
+			sourceTree = "<group>";
+		};
+		D6D3FD5D1EE6199100D628A6 /* IOS编程随记3 */ = {
+			isa = PBXGroup;
+			children = (
+				D6D3FD5E1EE6199100D628A6 /* MYNavigationController */,
+			);
+			path = "IOS编程随记3";
+			sourceTree = "<group>";
+		};
+		D6D3FD5E1EE6199100D628A6 /* MYNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				D6D3FD6D1EE61AE000D628A6 /* Controller */,
+				D6D3FD6C1EE61ACD00D628A6 /* View */,
+				D692DEF91EE61DF4004CF87C /* Category */,
+				D6D3FD6A1EE61A3A00D628A6 /* MYNav.storyboard */,
+				D692DEFD1EE62259004CF87C /* image1.png */,
+				D692DEFE1EE62259004CF87C /* image2.png */,
+				D692DEFF1EE62259004CF87C /* image3.png */,
+				D692DF001EE62259004CF87C /* image4.png */,
+			);
+			path = MYNavigationController;
+			sourceTree = "<group>";
+		};
+		D6D3FD6C1EE61ACD00D628A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6D3FD621EE6199100D628A6 /* MYNavigationControllerV2.h */,
+				D6D3FD631EE6199100D628A6 /* MYNavigationControllerV2.m */,
+				D6D3FD601EE6199100D628A6 /* MYNavControllerTransitioningDelegateV2.h */,
+				D6D3FD611EE6199100D628A6 /* MYNavControllerTransitioningDelegateV2.m */,
+				D6D3FD641EE6199100D628A6 /* MYViewControllerAnimatedTransitioningV2.h */,
+				D6D3FD651EE6199100D628A6 /* MYViewControllerAnimatedTransitioningV2.m */,
+				D692DEF61EE61D25004CF87C /* NavigationView.h */,
+				D692DEF71EE61D25004CF87C /* NavigationView.m */,
+				D6D3FD5F1EE6199100D628A6 /* MYNav.xcassets */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D6D3FD6D1EE61AE000D628A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6D3FD6E1EE61AF400D628A6 /* ViewController_MYNav.h */,
+				D6D3FD6F1EE61AF400D628A6 /* ViewController_MYNav.m */,
+				D6D3FD701EE61AF400D628A6 /* SecondViewController.h */,
+				D6D3FD711EE61AF400D628A6 /* SecondViewController.m */,
+				D6D3FD721EE61AF400D628A6 /* ThirdViewController.h */,
+				D6D3FD731EE61AF400D628A6 /* ThirdViewController.m */,
+				D6D3FD741EE61AF400D628A6 /* FourthViewController.h */,
+				D6D3FD751EE61AF400D628A6 /* FourthViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		D6DC808C1E03573A00F25651 /* UMSocial */ = {
@@ -2859,7 +2961,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE83A93B1E7665A50012C540 /* CoreAnimation.storyboard in Resources */,
-				BE8F0B4B1EE54547008E47D9 /* 页面编写习惯.pdf in Resources */,
 				BE8115B61EA6FAFB002071AD /* PHP简单接口编写.pdf in Resources */,
 				BE8115B71EA6FAFB002071AD /* Swift_OC混编.pdf in Resources */,
 				BE629E131EA61F10005CC9BA /* 使用frame怎么实现autolayout.pdf in Resources */,
@@ -2878,13 +2979,14 @@
 				BE629E111EA61F10005CC9BA /* 模糊搜索数据加载出错问题.pdf in Resources */,
 				BE83AA5B1E7666030012C540 /* Info.plist in Resources */,
 				BE8115801EA6F218002071AD /* 关于IOS动画.pdf in Resources */,
+				D6D3FD5C1EE6090200D628A6 /* 页面编写习惯.pdf in Resources */,
 				BE8115991EA6F88A002071AD /* 极光推送v3.0.0.pdf in Resources */,
 				BE8F0B3C1EE4E675008E47D9 /* 版本控制之gitlab服务器的搭建.pdf in Resources */,
 				BE83A9401E7665A50012C540 /* MJRefresh.storyboard in Resources */,
 				BE629DE51EA5C805005CC9BA /* 列表滑动卡顿问题.pdf in Resources */,
+				D6D3FD661EE6199100D628A6 /* MYNav.xcassets in Resources */,
 				BE8115AB1EA6FAFB002071AD /* 编码规范.pdf in Resources */,
 				BE629DE71EA5C805005CC9BA /* 跑马灯动画.pdf in Resources */,
-				BE8F0B471EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf in Resources */,
 				BE629DEF1EA5C805005CC9BA /* ipad运行项目，部分页面显示不了.pdf in Resources */,
 				BE81157F1EA6F218002071AD /* 根据UIView绘制出相应Image.pdf in Resources */,
 				BE8115D51EA7063E002071AD /* IOS10-iMessage扩展.pdf in Resources */,
@@ -2892,7 +2994,6 @@
 				BE629DF41EA5D3CB005CC9BA /* UITableView刷新cell闪烁问题.pdf in Resources */,
 				BE83A9701E7665A50012C540 /* CustomNav.storyboard in Resources */,
 				BE8115881EA6F218002071AD /* 绘制虚线.pdf in Resources */,
-				BE8F0B411EE52F49008E47D9 /* UIView加阴影的情况下动画很卡.pdf in Resources */,
 				BE8115CD1EA7063E002071AD /* 利用NSCache提升效率.pdf in Resources */,
 				BE81158A1EA6F218002071AD /* 绘制正弦波形.pdf in Resources */,
 				BE8115DF1EA7063E002071AD /* Xcode7运行Xcode8项目xib问题.pdf in Resources */,
@@ -2904,6 +3005,7 @@
 				BE629DE91EA5C805005CC9BA /* 线上app闪退问题反馈流程.pdf in Resources */,
 				BE8115D01EA7063E002071AD /* IOS10-地图默认导航.pdf in Resources */,
 				BE83A87A1E7665290012C540 /* UMSocial.storyboard in Resources */,
+				D692DF011EE62259004CF87C /* image1.png in Resources */,
 				BE8115DE1EA7063E002071AD /* Xcode7调试IOS10设备.pdf in Resources */,
 				BE83A9791E7665A50012C540 /* MYNavigationControllerImage.xcassets in Resources */,
 				BE629DEA1EA5C805005CC9BA /* 怎么给View添加阴影.pdf in Resources */,
@@ -2913,23 +3015,22 @@
 				BE83AA4E1E7666030012C540 /* MultiThread.storyboard in Resources */,
 				BE83A9451E7665A50012C540 /* Banner.storyboard in Resources */,
 				BE629DE21EA5C805005CC9BA /* 改变列表头部的frame无效.pdf in Resources */,
+				D6D3FD5A1EE6090200D628A6 /* 怎么正确获取当前时间.pdf in Resources */,
 				BE8F0B3D1EE4E675008E47D9 /* 版本控制之svn服务器的搭建.pdf in Resources */,
 				BE629DF51EA5D3CB005CC9BA /* UITextView显示网页内容(富文本).pdf in Resources */,
 				BE629E1B1EA61F10005CC9BA /* UITextView显示网页内容(富文本).pdf in Resources */,
 				BE83AA281E7666030012C540 /* JavaScriptCore.storyboard in Resources */,
+				D6D3FD561EE6090200D628A6 /* webView视频如何实现全屏播放.pdf in Resources */,
 				D6F774941E005EDB0089E7E9 /* SVProgressHUD.bundle in Resources */,
 				BE8115D31EA7063E002071AD /* IOS10-通知框架UserNotification.pdf in Resources */,
-				BE8F0B3F1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf in Resources */,
 				BE83A9581E7665A50012C540 /* LoadingAnimation.storyboard in Resources */,
 				BE629E101EA61F10005CC9BA /* 列表数据本地化思想.pdf in Resources */,
 				BE8115861EA6F218002071AD /* 绘制进度由0-1交替的旋转动画.pdf in Resources */,
 				BE8115E91EA75FF1002071AD /* 链式编程原理与应用(Autolayout).pdf in Resources */,
 				BE83AA631E7666030012C540 /* RegularExpression.storyboard in Resources */,
-				BE8F0B491EE5421C008E47D9 /* 可能出现内存泄漏的几种情况.pdf in Resources */,
 				BE8115AE1EA6FAFB002071AD /* 了解RunTime运行机制.pdf in Resources */,
 				BE629DEC1EA5C805005CC9BA /* 主从列表封装思想.pdf in Resources */,
 				BE8115D71EA7063E002071AD /* IOS下关于cookie的使用管理.pdf in Resources */,
-				BE8F0B451EE5368E008E47D9 /* 怎么正确获取当前时间.pdf in Resources */,
 				BE83AA251E7666030012C540 /* radioImage.jpg in Resources */,
 				BE629E091EA61F10005CC9BA /* 按钮快速点击重复请求问题.pdf in Resources */,
 				BE81158D1EA6F218002071AD /* 启动页消失组合动画(alpha+scale).pdf in Resources */,
@@ -2950,16 +3051,18 @@
 				BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */,
 				BE81159A1EA6F88A002071AD /* 科大讯飞语音识别v1.146.pdf in Resources */,
 				BE8115DD1EA7063E002071AD /* UIViewControllerTransitioning.pdf in Resources */,
+				D6D3FD6B1EE61A3A00D628A6 /* MYNav.storyboard in Resources */,
 				D6CC2B0A1E91D07800E8C444 /* RunHorseLamp_Imediately.xib in Resources */,
-				BE8F0B431EE53529008E47D9 /* webView视频如何实现全屏播放.pdf in Resources */,
 				D6CC2B0E1E91D3CF00E8C444 /* RunHorseLamp.storyboard in Resources */,
 				BE8115871EA6F218002071AD /* 绘制可自定义图片和标签位置的按钮.pdf in Resources */,
 				BE8115B11EA6FAFB002071AD /* 系统定位.pdf in Resources */,
+				D6D3FD591EE6090200D628A6 /* 如何以xib方式创建自定义view.pdf in Resources */,
 				BE629E0D1EA61F10005CC9BA /* 关于苹果APNs推送机制(2).pdf in Resources */,
 				BE81158B1EA6F218002071AD /* 绘制直线.pdf in Resources */,
 				BE81158F1EA6F218002071AD /* 统一弹窗视图控制器.pdf in Resources */,
 				BE81157D1EA6F218002071AD /* 根据缩放系数绘制缩放后的Image.pdf in Resources */,
 				D6DC80BF1E03573A00F25651 /* README.txt in Resources */,
+				D6D3FD571EE6090200D628A6 /* 关于NumberWithInteger和NumberWithInt.pdf in Resources */,
 				BE8115DA1EA7063E002071AD /* MYNetwork网络库(基于AFNetworking).pdf in Resources */,
 				BE8115CF1EA7063E002071AD /* 使用BundleURL找不到文件.pdf in Resources */,
 				BE8115B21EA6FAFB002071AD /* 应用打包发布.pdf in Resources */,
@@ -2973,8 +3076,10 @@
 				BE81158E1EA6F218002071AD /* 实现NavigationBar的alpha渐变.pdf in Resources */,
 				BE8115831EA6F218002071AD /* 绘制带填充色的圆角标签.pdf in Resources */,
 				BE81157E1EA6F218002071AD /* 根据UIColor绘制相应纯色Image.pdf in Resources */,
+				D692DF041EE62259004CF87C /* image4.png in Resources */,
 				BE83A87C1E7665290012C540 /* BaiduMap.storyboard in Resources */,
 				BE8115821EA6F218002071AD /* 绘制纯背景的UISearchBar.pdf in Resources */,
+				D692DF021EE62259004CF87C /* image2.png in Resources */,
 				BE629E0C1EA61F10005CC9BA /* 关于苹果APNs推送机制(1).pdf in Resources */,
 				BE629E0A1EA61F10005CC9BA /* 单元测试.pdf in Resources */,
 				BE629E151EA61F10005CC9BA /* 系统pop手势失效.pdf in Resources */,
@@ -2987,12 +3092,13 @@
 				BE8115D11EA7063E002071AD /* IOS10-动态类型DynamicType.pdf in Resources */,
 				D60018681DECDC2F003017E3 /* myNotesArr.json in Resources */,
 				BE629DEE1EA5C805005CC9BA /* ios10系统app一直提示无网络.pdf in Resources */,
-				BE8F0B4D1EE56556008E47D9 /* 本地sqlite数据库框架搭建过程.pdf in Resources */,
+				D6D3FD551EE6090200D628A6 /* UIView加阴影的情况下动画很卡.pdf in Resources */,
 				BE83AA2B1E7666030012C540 /* RequestUserInfo.php in Resources */,
 				BE629E0B1EA61F10005CC9BA /* 关于面向对象编程.pdf in Resources */,
 				BE83A9521E7665A50012C540 /* Labels.storyboard in Resources */,
 				BE629E0F1EA61F10005CC9BA /* 关于cell编辑状态的应用.pdf in Resources */,
 				BE629DE31EA5C805005CC9BA /* 关于scrollview自动布局约束问题.pdf in Resources */,
+				D6D3FD581EE6090200D628A6 /* 可能出现内存泄漏的几种情况.pdf in Resources */,
 				BE8115D61EA7063E002071AD /* IOS10-ScrollView下拉刷新.pdf in Resources */,
 				BE8115D81EA7063E002071AD /* MVC、MVVM浅谈.pdf in Resources */,
 				BE629E161EA61F10005CC9BA /* 怎么正确绘制一像素线.pdf in Resources */,
@@ -3002,6 +3108,8 @@
 				BE629E191EA61F10005CC9BA /* IOS相关基础知识整理.pdf in Resources */,
 				BE83A94C1E7665A50012C540 /* ColorfulProgress.storyboard in Resources */,
 				D6CC2B081E91D07800E8C444 /* RunHorseLamp_Normal.xib in Resources */,
+				D6D3FD5B1EE6090200D628A6 /* 本地sqlite数据库框架搭建过程.pdf in Resources */,
+				D692DF031EE62259004CF87C /* image3.png in Resources */,
 				D63EDA2A1DCBC24800144278 /* myNotes.json in Resources */,
 				BE629E0E1EA61F10005CC9BA /* 关于苹果APNs推送机制(3).pdf in Resources */,
 				D6EE1EFC1DCAA616003F14CD /* Assets.xcassets in Resources */,
@@ -3044,6 +3152,7 @@
 				BE83A9781E7665A50012C540 /* MYNavigationController.m in Sources */,
 				D6EE1EF41DCAA616003F14CD /* AppDelegate.mm in Sources */,
 				BE83AA331E7666030012C540 /* MYDownloadRequester.m in Sources */,
+				D6D3FD681EE6199100D628A6 /* MYNavigationControllerV2.m in Sources */,
 				D6F7747E1E005EDB0089E7E9 /* MJRefreshAutoNormalFooter.m in Sources */,
 				BE83AA311E7666030012C540 /* MYNetworkProxy.m in Sources */,
 				BE83AA451E7666030012C540 /* UIImage+MultiFormat.m in Sources */,
@@ -3095,6 +3204,7 @@
 				BE83AA671E7666030012C540 /* ViewController_CLLocation.m in Sources */,
 				D64B50741E00349C00E4BD41 /* UITabBarItem+Universal.m in Sources */,
 				BE83A9531E7665A50012C540 /* MYCornerLabel.m in Sources */,
+				D6D3FD791EE61AF400D628A6 /* FourthViewController.m in Sources */,
 				BE83A8831E7665290012C540 /* ViewController_BaiduMap.m in Sources */,
 				BE83A96F1E7665A50012C540 /* ViewController_SpeechURL.m in Sources */,
 				D6F774831E005EDB0089E7E9 /* MJRefreshGifHeader.m in Sources */,
@@ -3109,6 +3219,7 @@
 				D6F774891E005EDB0089E7E9 /* UIScrollView+MJExtension.m in Sources */,
 				BE83A9571E7665A50012C540 /* ViewController_Labels.m in Sources */,
 				BE83A8761E7665290012C540 /* MYUShareManager.m in Sources */,
+				D692DEF81EE61D25004CF87C /* NavigationView.m in Sources */,
 				D6F7747B1E005EDB0089E7E9 /* MJRefreshFooter.m in Sources */,
 				BE83AA4C1E7666030012C540 /* NSObject+YYModel.m in Sources */,
 				D6F774911E005EDB0089E7E9 /* MYImageScanViewController.m in Sources */,
@@ -3119,6 +3230,7 @@
 				BE83A9811E7665A50012C540 /* SliderViewControllerV2.m in Sources */,
 				BE83AA411E7666030012C540 /* SDWebImageDownloader.m in Sources */,
 				BE83A9821E7665A50012C540 /* SliderViewControllerV3.m in Sources */,
+				D6D3FD761EE61AF400D628A6 /* ViewController_MYNav.m in Sources */,
 				BE83A9501E7665A50012C540 /* ViewController_ColorfulProgressView.m in Sources */,
 				BE83A9731E7665A50012C540 /* MYViewControllerAnimatedTransitioning.m in Sources */,
 				D6F7748D1E005EDB0089E7E9 /* MYImageScanCollectionViewCell.m in Sources */,
@@ -3152,8 +3264,10 @@
 				BE83AA5A1E7666030012C540 /* FMResultSet.m in Sources */,
 				D6CC2B071E91D07800E8C444 /* RunHorseLamp_Normal.m in Sources */,
 				BE83AA301E7666030012C540 /* PersonHelper.m in Sources */,
+				D6D3FD781EE61AF400D628A6 /* ThirdViewController.m in Sources */,
 				BE83A9541E7665A50012C540 /* MYImageButton.m in Sources */,
 				BE83A9551E7665A50012C540 /* MYStateArrowView.m in Sources */,
+				D6D3FD691EE6199100D628A6 /* MYViewControllerAnimatedTransitioningV2.m in Sources */,
 				BE83A95A1E7665A50012C540 /* UIViewController+Base.m in Sources */,
 				BE83A87B1E7665290012C540 /* ViewController_UMSocial.m in Sources */,
 				BE83AA381E7666030012C540 /* MYNetworkResponse.m in Sources */,
@@ -3187,6 +3301,7 @@
 				BE83AA491E7666030012C540 /* MYGetJsonMd5Request.m in Sources */,
 				BE83A95D1E7665A50012C540 /* ViewControllerV3.m in Sources */,
 				BE83AA371E7666030012C540 /* MYNetworkUtility.m in Sources */,
+				D692DEFC1EE61E0F004CF87C /* UIView+FrameProperty.m in Sources */,
 				D6F774821E005EDB0089E7E9 /* MJRefreshBackStateFooter.m in Sources */,
 				BE83AA621E7666030012C540 /* ViewController_Plist.m in Sources */,
 				BE83A93F1E7665A50012C540 /* UITransitionViewController.m in Sources */,
@@ -3197,6 +3312,7 @@
 				BE83A9421E7665A50012C540 /* MYRefreshHeader.m in Sources */,
 				BE83AA431E7666030012C540 /* SDWebImageManager.m in Sources */,
 				D6F774811E005EDB0089E7E9 /* MJRefreshBackNormalFooter.m in Sources */,
+				D6D3FD771EE61AF400D628A6 /* SecondViewController.m in Sources */,
 				D6CC2B091E91D07800E8C444 /* RunHorseLamp_Imediately.m in Sources */,
 				D600EA0E1DF497A70054495C /* SearchHistory+CoreDataProperties.m in Sources */,
 				BE83AA521E7666030012C540 /* Person+CoreDataProperties.m in Sources */,
@@ -3226,6 +3342,7 @@
 				BE83AA481E7666030012C540 /* MYGetJobDetailRequest.m in Sources */,
 				BE83A95F1E7665A50012C540 /* MYDashLineView.m in Sources */,
 				BE83AA4D1E7666030012C540 /* YYClassInfo.m in Sources */,
+				D6D3FD671EE6199100D628A6 /* MYNavControllerTransitioningDelegateV2.m in Sources */,
 				D600EA121DF498180054495C /* MYSearchHisttoryModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
