@@ -272,6 +272,8 @@
                 [(MYSignUpTipsViewController *)controller performSelector:@selector(insertIntoParentViewController:) withObject:self.navigationController.navigationController afterDelay:0.44];
             }else if([storyName isEqualToString:@"CustomNav"]){
                 [self.navigationController.navigationController presentViewController:controller animated:YES completion:nil];
+            }else if([storyName isEqualToString:@"CustomNav"]){
+                [self.navigationController.navigationController presentViewController:controller animated:YES completion:nil];
             }else
                 [self.navigationController pushViewController:controller animated:YES];
         }
