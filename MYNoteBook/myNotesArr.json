@@ -113,8 +113,6 @@
  {"ID":616, "Name":"链式编程原理与应用(Autolayout)", "ParentID":6, "storyboardName":"", "storyboardId":""},
  {"ID":617, "Name":"使用CodeLibrary提高开发效率", "ParentID":6, "storyboardName":"", "storyboardId":""},
  {"ID":618, "Name":"给绘图添加过程动画", "ParentID":6, "storyboardName":"DrawAnimation", "storyboardId":"DrawAnimation"},
- 
- {"ID":7, "Name":"IOS编程随记3", "ParentID":-2, "storyboardName":"", "storyboardId":""},
- {"ID":71, "Name":"版本控制之gitlab服务器的搭建", "ParentID":7, "storyboardName":"", "storyboardId":""},
- {"ID":72, "Name":"版本控制之svn服务器的搭建", "ParentID":7, "storyboardName":"", "storyboardId":""},
+ {"ID":619, "Name":"版本控制之gitlab服务器的搭建", "ParentID":6, "storyboardName":"", "storyboardId":""},
+ {"ID":620, "Name":"版本控制之svn服务器的搭建", "ParentID":6, "storyboardName":"", "storyboardId":""},
  ]
