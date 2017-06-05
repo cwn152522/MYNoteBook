@@ -281,6 +281,8 @@
 		BE8F0B431EE53529008E47D9 /* webView视频如何实现全屏播放.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B421EE53529008E47D9 /* webView视频如何实现全屏播放.pdf */; };
 		BE8F0B451EE5368E008E47D9 /* 怎么正确获取当前时间.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B441EE5368E008E47D9 /* 怎么正确获取当前时间.pdf */; };
 		BE8F0B471EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B461EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf */; };
+		BE8F0B491EE5421C008E47D9 /* 可能出现内存泄漏的几种情况.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B481EE5421C008E47D9 /* 可能出现内存泄漏的几种情况.pdf */; };
+		BE8F0B4B1EE54547008E47D9 /* 页面编写习惯.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B4A1EE54547008E47D9 /* 页面编写习惯.pdf */; };
 		BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */; };
 		BEFF33B01E96051800E2A05E /* DoubleTable_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */; };
 		BEFF33B61E9608F700E2A05E /* MYDoubleTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33B31E9608F700E2A05E /* MYDoubleTableModel.m */; };
@@ -838,6 +840,8 @@
 		BE8F0B421EE53529008E47D9 /* webView视频如何实现全屏播放.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "webView视频如何实现全屏播放.pdf"; sourceTree = "<group>"; };
 		BE8F0B441EE5368E008E47D9 /* 怎么正确获取当前时间.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "怎么正确获取当前时间.pdf"; sourceTree = "<group>"; };
 		BE8F0B461EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于NumberWithInteger和NumberWithInt.pdf"; sourceTree = "<group>"; };
+		BE8F0B481EE5421C008E47D9 /* 可能出现内存泄漏的几种情况.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "可能出现内存泄漏的几种情况.pdf"; sourceTree = "<group>"; };
+		BE8F0B4A1EE54547008E47D9 /* 页面编写习惯.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "页面编写习惯.pdf"; sourceTree = "<group>"; };
 		BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoubleTable.storyboard; sourceTree = "<group>"; };
 		BEFF33AE1E96051800E2A05E /* DoubleTable_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTable_ViewController.h; sourceTree = "<group>"; };
 		BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTable_ViewController.m; sourceTree = "<group>"; };
@@ -1114,6 +1118,8 @@
 				BE8F0B421EE53529008E47D9 /* webView视频如何实现全屏播放.pdf */,
 				BE8F0B441EE5368E008E47D9 /* 怎么正确获取当前时间.pdf */,
 				BE8F0B461EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf */,
+				BE8F0B481EE5421C008E47D9 /* 可能出现内存泄漏的几种情况.pdf */,
+				BE8F0B4A1EE54547008E47D9 /* 页面编写习惯.pdf */,
 			);
 			path = "IOS编程随机3";
 			sourceTree = "<group>";
@@ -2849,6 +2855,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE83A93B1E7665A50012C540 /* CoreAnimation.storyboard in Resources */,
+				BE8F0B4B1EE54547008E47D9 /* 页面编写习惯.pdf in Resources */,
 				BE8115B61EA6FAFB002071AD /* PHP简单接口编写.pdf in Resources */,
 				BE8115B71EA6FAFB002071AD /* Swift_OC混编.pdf in Resources */,
 				BE629E131EA61F10005CC9BA /* 使用frame怎么实现autolayout.pdf in Resources */,
@@ -2914,6 +2921,7 @@
 				BE8115861EA6F218002071AD /* 绘制进度由0-1交替的旋转动画.pdf in Resources */,
 				BE8115E91EA75FF1002071AD /* 链式编程原理与应用(Autolayout).pdf in Resources */,
 				BE83AA631E7666030012C540 /* RegularExpression.storyboard in Resources */,
+				BE8F0B491EE5421C008E47D9 /* 可能出现内存泄漏的几种情况.pdf in Resources */,
 				BE8115AE1EA6FAFB002071AD /* 了解RunTime运行机制.pdf in Resources */,
 				BE629DEC1EA5C805005CC9BA /* 主从列表封装思想.pdf in Resources */,
 				BE8115D71EA7063E002071AD /* IOS下关于cookie的使用管理.pdf in Resources */,
