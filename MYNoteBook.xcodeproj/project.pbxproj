@@ -277,6 +277,10 @@
 		BE8F0B3C1EE4E675008E47D9 /* 版本控制之gitlab服务器的搭建.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B3A1EE4E675008E47D9 /* 版本控制之gitlab服务器的搭建.pdf */; };
 		BE8F0B3D1EE4E675008E47D9 /* 版本控制之svn服务器的搭建.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B3B1EE4E675008E47D9 /* 版本控制之svn服务器的搭建.pdf */; };
 		BE8F0B3F1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B3E1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf */; };
+		BE8F0B411EE52F49008E47D9 /* UIView加阴影的情况下动画很卡.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B401EE52F49008E47D9 /* UIView加阴影的情况下动画很卡.pdf */; };
+		BE8F0B431EE53529008E47D9 /* webView视频如何实现全屏播放.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B421EE53529008E47D9 /* webView视频如何实现全屏播放.pdf */; };
+		BE8F0B451EE5368E008E47D9 /* 怎么正确获取当前时间.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B441EE5368E008E47D9 /* 怎么正确获取当前时间.pdf */; };
+		BE8F0B471EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B461EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf */; };
 		BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */; };
 		BEFF33B01E96051800E2A05E /* DoubleTable_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */; };
 		BEFF33B61E9608F700E2A05E /* MYDoubleTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33B31E9608F700E2A05E /* MYDoubleTableModel.m */; };
@@ -830,6 +834,10 @@
 		BE8F0B3A1EE4E675008E47D9 /* 版本控制之gitlab服务器的搭建.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "版本控制之gitlab服务器的搭建.pdf"; sourceTree = "<group>"; };
 		BE8F0B3B1EE4E675008E47D9 /* 版本控制之svn服务器的搭建.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "版本控制之svn服务器的搭建.pdf"; sourceTree = "<group>"; };
 		BE8F0B3E1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "如何以xib方式创建自定义view.pdf"; sourceTree = "<group>"; };
+		BE8F0B401EE52F49008E47D9 /* UIView加阴影的情况下动画很卡.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "UIView加阴影的情况下动画很卡.pdf"; sourceTree = "<group>"; };
+		BE8F0B421EE53529008E47D9 /* webView视频如何实现全屏播放.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "webView视频如何实现全屏播放.pdf"; sourceTree = "<group>"; };
+		BE8F0B441EE5368E008E47D9 /* 怎么正确获取当前时间.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "怎么正确获取当前时间.pdf"; sourceTree = "<group>"; };
+		BE8F0B461EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于NumberWithInteger和NumberWithInt.pdf"; sourceTree = "<group>"; };
 		BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoubleTable.storyboard; sourceTree = "<group>"; };
 		BEFF33AE1E96051800E2A05E /* DoubleTable_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTable_ViewController.h; sourceTree = "<group>"; };
 		BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTable_ViewController.m; sourceTree = "<group>"; };
@@ -1102,6 +1110,10 @@
 			isa = PBXGroup;
 			children = (
 				BE8F0B3E1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf */,
+				BE8F0B401EE52F49008E47D9 /* UIView加阴影的情况下动画很卡.pdf */,
+				BE8F0B421EE53529008E47D9 /* webView视频如何实现全屏播放.pdf */,
+				BE8F0B441EE5368E008E47D9 /* 怎么正确获取当前时间.pdf */,
+				BE8F0B461EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf */,
 			);
 			path = "IOS编程随机3";
 			sourceTree = "<group>";
@@ -2861,6 +2873,7 @@
 				BE629DE51EA5C805005CC9BA /* 列表滑动卡顿问题.pdf in Resources */,
 				BE8115AB1EA6FAFB002071AD /* 编码规范.pdf in Resources */,
 				BE629DE71EA5C805005CC9BA /* 跑马灯动画.pdf in Resources */,
+				BE8F0B471EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf in Resources */,
 				BE629DEF1EA5C805005CC9BA /* ipad运行项目，部分页面显示不了.pdf in Resources */,
 				BE81157F1EA6F218002071AD /* 根据UIView绘制出相应Image.pdf in Resources */,
 				BE8115D51EA7063E002071AD /* IOS10-iMessage扩展.pdf in Resources */,
@@ -2868,6 +2881,7 @@
 				BE629DF41EA5D3CB005CC9BA /* UITableView刷新cell闪烁问题.pdf in Resources */,
 				BE83A9701E7665A50012C540 /* CustomNav.storyboard in Resources */,
 				BE8115881EA6F218002071AD /* 绘制虚线.pdf in Resources */,
+				BE8F0B411EE52F49008E47D9 /* UIView加阴影的情况下动画很卡.pdf in Resources */,
 				BE8115CD1EA7063E002071AD /* 利用NSCache提升效率.pdf in Resources */,
 				BE81158A1EA6F218002071AD /* 绘制正弦波形.pdf in Resources */,
 				BE8115DF1EA7063E002071AD /* Xcode7运行Xcode8项目xib问题.pdf in Resources */,
@@ -2903,6 +2917,7 @@
 				BE8115AE1EA6FAFB002071AD /* 了解RunTime运行机制.pdf in Resources */,
 				BE629DEC1EA5C805005CC9BA /* 主从列表封装思想.pdf in Resources */,
 				BE8115D71EA7063E002071AD /* IOS下关于cookie的使用管理.pdf in Resources */,
+				BE8F0B451EE5368E008E47D9 /* 怎么正确获取当前时间.pdf in Resources */,
 				BE83AA251E7666030012C540 /* radioImage.jpg in Resources */,
 				BE629E091EA61F10005CC9BA /* 按钮快速点击重复请求问题.pdf in Resources */,
 				BE81158D1EA6F218002071AD /* 启动页消失组合动画(alpha+scale).pdf in Resources */,
@@ -2924,6 +2939,7 @@
 				BE81159A1EA6F88A002071AD /* 科大讯飞语音识别v1.146.pdf in Resources */,
 				BE8115DD1EA7063E002071AD /* UIViewControllerTransitioning.pdf in Resources */,
 				D6CC2B0A1E91D07800E8C444 /* RunHorseLamp_Imediately.xib in Resources */,
+				BE8F0B431EE53529008E47D9 /* webView视频如何实现全屏播放.pdf in Resources */,
 				D6CC2B0E1E91D3CF00E8C444 /* RunHorseLamp.storyboard in Resources */,
 				BE8115871EA6F218002071AD /* 绘制可自定义图片和标签位置的按钮.pdf in Resources */,
 				BE8115B11EA6FAFB002071AD /* 系统定位.pdf in Resources */,

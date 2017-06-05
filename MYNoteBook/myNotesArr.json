@@ -118,4 +118,8 @@
  
   {"ID":7, "Name":"IOS编程随记3", "ParentID":-2, "storyboardName":"", "storyboardId":""},
   {"ID":71, "Name":"如何以xib方式创建自定义view", "ParentID":7, "storyboardName":"", "storyboardId":""},
+  {"ID":72, "Name":"UIView加阴影的情况下动画很卡", "ParentID":7, "storyboardName":"", "storyboardId":""},
+  {"ID":73, "Name":"webView视频如何实现全屏播放", "ParentID":7, "storyboardName":"", "storyboardId":""},
+  {"ID":74, "Name":"怎么正确获取当前时间", "ParentID":7, "storyboardName":"", "storyboardId":""},
+  {"ID":75, "Name":"关于NumberWithInteger和NumberWithInt", "ParentID":7, "storyboardName":"", "storyboardId":""},
  ]
