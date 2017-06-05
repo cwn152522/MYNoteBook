@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE2FE42B1EE0191A00A69298 /* 版本控制之gitlab服务器的搭建.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE2FE42A1EE0191A00A69298 /* 版本控制之gitlab服务器的搭建.pdf */; };
 		BE5AC5951EA87A73003E477F /* 给绘图添加过程动画.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5AC5941EA87A73003E477F /* 给绘图添加过程动画.pdf */; };
 		BE5AC5981EA87B0A003E477F /* DrawAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */; };
 		BE5AC59B1EA87B3B003E477F /* DrawAnimation_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */; };
@@ -275,7 +274,9 @@
 		BE83AA651E7666030012C540 /* CLLocation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE83AA201E7666030012C540 /* CLLocation.storyboard */; };
 		BE83AA661E7666030012C540 /* MYLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83AA221E7666030012C540 /* MYLocationManager.m */; };
 		BE83AA671E7666030012C540 /* ViewController_CLLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83AA241E7666030012C540 /* ViewController_CLLocation.m */; };
-		BED91BE71EE111600061D9F1 /* 版本控制之svn服务器的搭建.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED91BE61EE111600061D9F1 /* 版本控制之svn服务器的搭建.pdf */; };
+		BE8F0B3C1EE4E675008E47D9 /* 版本控制之gitlab服务器的搭建.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B3A1EE4E675008E47D9 /* 版本控制之gitlab服务器的搭建.pdf */; };
+		BE8F0B3D1EE4E675008E47D9 /* 版本控制之svn服务器的搭建.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B3B1EE4E675008E47D9 /* 版本控制之svn服务器的搭建.pdf */; };
+		BE8F0B3F1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B3E1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf */; };
 		BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */; };
 		BEFF33B01E96051800E2A05E /* DoubleTable_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */; };
 		BEFF33B61E9608F700E2A05E /* MYDoubleTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33B31E9608F700E2A05E /* MYDoubleTableModel.m */; };
@@ -412,7 +413,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BE2FE42A1EE0191A00A69298 /* 版本控制之gitlab服务器的搭建.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "版本控制之gitlab服务器的搭建.pdf"; sourceTree = "<group>"; };
 		BE5AC5941EA87A73003E477F /* 给绘图添加过程动画.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "给绘图添加过程动画.pdf"; sourceTree = "<group>"; };
 		BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DrawAnimation.storyboard; sourceTree = "<group>"; };
 		BE5AC5991EA87B3B003E477F /* DrawAnimation_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawAnimation_ViewController.h; sourceTree = "<group>"; };
@@ -827,7 +827,9 @@
 		BE83AA221E7666030012C540 /* MYLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYLocationManager.m; sourceTree = "<group>"; };
 		BE83AA231E7666030012C540 /* ViewController_CLLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_CLLocation.h; sourceTree = "<group>"; };
 		BE83AA241E7666030012C540 /* ViewController_CLLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_CLLocation.m; sourceTree = "<group>"; };
-		BED91BE61EE111600061D9F1 /* 版本控制之svn服务器的搭建.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "版本控制之svn服务器的搭建.pdf"; sourceTree = "<group>"; };
+		BE8F0B3A1EE4E675008E47D9 /* 版本控制之gitlab服务器的搭建.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "版本控制之gitlab服务器的搭建.pdf"; sourceTree = "<group>"; };
+		BE8F0B3B1EE4E675008E47D9 /* 版本控制之svn服务器的搭建.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "版本控制之svn服务器的搭建.pdf"; sourceTree = "<group>"; };
+		BE8F0B3E1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "如何以xib方式创建自定义view.pdf"; sourceTree = "<group>"; };
 		BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoubleTable.storyboard; sourceTree = "<group>"; };
 		BEFF33AE1E96051800E2A05E /* DoubleTable_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTable_ViewController.h; sourceTree = "<group>"; };
 		BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTable_ViewController.m; sourceTree = "<group>"; };
@@ -1099,8 +1101,7 @@
 		BE2FE4291EDFE7E500A69298 /* IOS编程随机3 */ = {
 			isa = PBXGroup;
 			children = (
-				BE2FE42A1EE0191A00A69298 /* 版本控制之gitlab服务器的搭建.pdf */,
-				BED91BE61EE111600061D9F1 /* 版本控制之svn服务器的搭建.pdf */,
+				BE8F0B3E1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf */,
 			);
 			path = "IOS编程随机3";
 			sourceTree = "<group>";
@@ -1138,6 +1139,8 @@
 				BE8115E81EA75FF1002071AD /* 链式编程原理与应用(Autolayout).pdf */,
 				BE8115EA1EA77E9F002071AD /* 使用CodeLibrary提高开发效率.pdf */,
 				BE5AC5941EA87A73003E477F /* 给绘图添加过程动画.pdf */,
+				BE8F0B3A1EE4E675008E47D9 /* 版本控制之gitlab服务器的搭建.pdf */,
+				BE8F0B3B1EE4E675008E47D9 /* 版本控制之svn服务器的搭建.pdf */,
 			);
 			path = "IOS编程随记2";
 			sourceTree = "<group>";
@@ -2853,7 +2856,7 @@
 				BE83AA5B1E7666030012C540 /* Info.plist in Resources */,
 				BE8115801EA6F218002071AD /* 关于IOS动画.pdf in Resources */,
 				BE8115991EA6F88A002071AD /* 极光推送v3.0.0.pdf in Resources */,
-				BE2FE42B1EE0191A00A69298 /* 版本控制之gitlab服务器的搭建.pdf in Resources */,
+				BE8F0B3C1EE4E675008E47D9 /* 版本控制之gitlab服务器的搭建.pdf in Resources */,
 				BE83A9401E7665A50012C540 /* MJRefresh.storyboard in Resources */,
 				BE629DE51EA5C805005CC9BA /* 列表滑动卡顿问题.pdf in Resources */,
 				BE8115AB1EA6FAFB002071AD /* 编码规范.pdf in Resources */,
@@ -2885,12 +2888,13 @@
 				BE83AA4E1E7666030012C540 /* MultiThread.storyboard in Resources */,
 				BE83A9451E7665A50012C540 /* Banner.storyboard in Resources */,
 				BE629DE21EA5C805005CC9BA /* 改变列表头部的frame无效.pdf in Resources */,
-				BED91BE71EE111600061D9F1 /* 版本控制之svn服务器的搭建.pdf in Resources */,
+				BE8F0B3D1EE4E675008E47D9 /* 版本控制之svn服务器的搭建.pdf in Resources */,
 				BE629DF51EA5D3CB005CC9BA /* UITextView显示网页内容(富文本).pdf in Resources */,
 				BE629E1B1EA61F10005CC9BA /* UITextView显示网页内容(富文本).pdf in Resources */,
 				BE83AA281E7666030012C540 /* JavaScriptCore.storyboard in Resources */,
 				D6F774941E005EDB0089E7E9 /* SVProgressHUD.bundle in Resources */,
 				BE8115D31EA7063E002071AD /* IOS10-通知框架UserNotification.pdf in Resources */,
+				BE8F0B3F1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf in Resources */,
 				BE83A9581E7665A50012C540 /* LoadingAnimation.storyboard in Resources */,
 				BE629E101EA61F10005CC9BA /* 列表数据本地化思想.pdf in Resources */,
 				BE8115861EA6F218002071AD /* 绘制进度由0-1交替的旋转动画.pdf in Resources */,
