@@ -283,6 +283,7 @@
 		BE8F0B471EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B461EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf */; };
 		BE8F0B491EE5421C008E47D9 /* 可能出现内存泄漏的几种情况.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B481EE5421C008E47D9 /* 可能出现内存泄漏的几种情况.pdf */; };
 		BE8F0B4B1EE54547008E47D9 /* 页面编写习惯.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B4A1EE54547008E47D9 /* 页面编写习惯.pdf */; };
+		BE8F0B4D1EE56556008E47D9 /* 本地sqlite数据库框架搭建过程.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8F0B4C1EE56556008E47D9 /* 本地sqlite数据库框架搭建过程.pdf */; };
 		BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */; };
 		BEFF33B01E96051800E2A05E /* DoubleTable_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */; };
 		BEFF33B61E9608F700E2A05E /* MYDoubleTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33B31E9608F700E2A05E /* MYDoubleTableModel.m */; };
@@ -842,6 +843,7 @@
 		BE8F0B461EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于NumberWithInteger和NumberWithInt.pdf"; sourceTree = "<group>"; };
 		BE8F0B481EE5421C008E47D9 /* 可能出现内存泄漏的几种情况.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "可能出现内存泄漏的几种情况.pdf"; sourceTree = "<group>"; };
 		BE8F0B4A1EE54547008E47D9 /* 页面编写习惯.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "页面编写习惯.pdf"; sourceTree = "<group>"; };
+		BE8F0B4C1EE56556008E47D9 /* 本地sqlite数据库框架搭建过程.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "本地sqlite数据库框架搭建过程.pdf"; sourceTree = "<group>"; };
 		BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoubleTable.storyboard; sourceTree = "<group>"; };
 		BEFF33AE1E96051800E2A05E /* DoubleTable_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTable_ViewController.h; sourceTree = "<group>"; };
 		BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTable_ViewController.m; sourceTree = "<group>"; };
@@ -1120,6 +1122,7 @@
 				BE8F0B461EE5392D008E47D9 /* 关于NumberWithInteger和NumberWithInt.pdf */,
 				BE8F0B481EE5421C008E47D9 /* 可能出现内存泄漏的几种情况.pdf */,
 				BE8F0B4A1EE54547008E47D9 /* 页面编写习惯.pdf */,
+				BE8F0B4C1EE56556008E47D9 /* 本地sqlite数据库框架搭建过程.pdf */,
 			);
 			path = "IOS编程随机3";
 			sourceTree = "<group>";
@@ -2983,6 +2986,7 @@
 				BE8115D11EA7063E002071AD /* IOS10-动态类型DynamicType.pdf in Resources */,
 				D60018681DECDC2F003017E3 /* myNotesArr.json in Resources */,
 				BE629DEE1EA5C805005CC9BA /* ios10系统app一直提示无网络.pdf in Resources */,
+				BE8F0B4D1EE56556008E47D9 /* 本地sqlite数据库框架搭建过程.pdf in Resources */,
 				BE83AA2B1E7666030012C540 /* RequestUserInfo.php in Resources */,
 				BE629E0B1EA61F10005CC9BA /* 关于面向对象编程.pdf in Resources */,
 				BE83A9521E7665A50012C540 /* Labels.storyboard in Resources */,
