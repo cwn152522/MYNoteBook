@@ -1112,7 +1112,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE2FE4291EDFE7E500A69298 /* IOS编程随机3 */ = {
+		BE2FE4291EDFE7E500A69298 /* IOS编程随记3 */ = {
 			isa = PBXGroup;
 			children = (
 				BE8F0B3E1EE51297008E47D9 /* 如何以xib方式创建自定义view.pdf */,
@@ -1124,6 +1124,7 @@
 				BE8F0B4A1EE54547008E47D9 /* 页面编写习惯.pdf */,
 				BE8F0B4C1EE56556008E47D9 /* 本地sqlite数据库框架搭建过程.pdf */,
 			);
+			name = "IOS编程随记3";
 			path = "IOS编程随机3";
 			sourceTree = "<group>";
 		};
@@ -1272,7 +1273,7 @@
 			children = (
 				BE83A7E71E7664180012C540 /* IOS编程随记1 */,
 				BE741B231E77EA2E001FD2CF /* IOS编程随记2 */,
-				BE2FE4291EDFE7E500A69298 /* IOS编程随机3 */,
+				BE2FE4291EDFE7E500A69298 /* IOS编程随记3 */,
 			);
 			name = "2017年";
 			path = "word文档/2017年";
