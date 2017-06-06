@@ -10,6 +10,7 @@
 		BE5AC5951EA87A73003E477F /* 给绘图添加过程动画.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5AC5941EA87A73003E477F /* 给绘图添加过程动画.pdf */; };
 		BE5AC5981EA87B0A003E477F /* DrawAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */; };
 		BE5AC59B1EA87B3B003E477F /* DrawAnimation_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */; };
+		BE61718A1EE660A3004767E2 /* MYNavigationViewControllerV2封装.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6171891EE660A3004767E2 /* MYNavigationViewControllerV2封装.pdf */; };
 		BE629DE21EA5C805005CC9BA /* 改变列表头部的frame无效.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE629DD41EA5C805005CC9BA /* 改变列表头部的frame无效.pdf */; };
 		BE629DE31EA5C805005CC9BA /* 关于scrollview自动布局约束问题.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE629DD51EA5C805005CC9BA /* 关于scrollview自动布局约束问题.pdf */; };
 		BE629DE41EA5C805005CC9BA /* 解析线上app崩溃报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE629DD61EA5C805005CC9BA /* 解析线上app崩溃报告.pdf */; };
@@ -439,6 +440,7 @@
 		BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DrawAnimation.storyboard; sourceTree = "<group>"; };
 		BE5AC5991EA87B3B003E477F /* DrawAnimation_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawAnimation_ViewController.h; sourceTree = "<group>"; };
 		BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawAnimation_ViewController.m; sourceTree = "<group>"; };
+		BE6171891EE660A3004767E2 /* MYNavigationViewControllerV2封装.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MYNavigationViewControllerV2封装.pdf"; sourceTree = "<group>"; };
 		BE629DD41EA5C805005CC9BA /* 改变列表头部的frame无效.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "改变列表头部的frame无效.pdf"; sourceTree = "<group>"; };
 		BE629DD51EA5C805005CC9BA /* 关于scrollview自动布局约束问题.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于scrollview自动布局约束问题.pdf"; sourceTree = "<group>"; };
 		BE629DD61EA5C805005CC9BA /* 解析线上app崩溃报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "解析线上app崩溃报告.pdf"; sourceTree = "<group>"; };
@@ -2411,6 +2413,7 @@
 				D6D3FD521EE6090200D628A6 /* 怎么正确获取当前时间.pdf */,
 				D6D3FD531EE6090200D628A6 /* 本地sqlite数据库框架搭建过程.pdf */,
 				D6D3FD541EE6090200D628A6 /* 页面编写习惯.pdf */,
+				BE6171891EE660A3004767E2 /* MYNavigationViewControllerV2封装.pdf */,
 			);
 			path = "IOS编程随记3";
 			sourceTree = "<group>";
@@ -3008,6 +3011,7 @@
 				D692DF011EE62259004CF87C /* image1.png in Resources */,
 				BE8115DE1EA7063E002071AD /* Xcode7调试IOS10设备.pdf in Resources */,
 				BE83A9791E7665A50012C540 /* MYNavigationControllerImage.xcassets in Resources */,
+				BE61718A1EE660A3004767E2 /* MYNavigationViewControllerV2封装.pdf in Resources */,
 				BE629DEA1EA5C805005CC9BA /* 怎么给View添加阴影.pdf in Resources */,
 				BE5AC5981EA87B0A003E477F /* DrawAnimation.storyboard in Resources */,
 				BE8115E71EA73236002071AD /* 正则匹配去除文本的html标签.pdf in Resources */,

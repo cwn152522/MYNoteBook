@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -31,13 +31,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="使用方法：1.storyboard只需把导航class改为MYNavigationController即可  2.代码只需使用MYNavigationController来创建导航即可" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQp-TP-R9h">
-                                <rect key="frame" x="16" y="158" width="342" height="50.5"/>
+                                <rect key="frame" x="16" y="158" width="342" height="51"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="封装目的：1.解决系统导航栏共用及pop手势存在的缺陷  2.一行代码配置全屏、边缘、禁用pop手势 3.不用任何代码让每个页面拥有独立的navigationBar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gr5-nG-RdB">
-                                <rect key="frame" x="16" y="223.5" width="342" height="50.5"/>
+                                <rect key="frame" x="16" y="224" width="342" height="51"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -81,15 +81,6 @@
                             <constraint firstItem="aza-gy-HVg" firstAttribute="centerX" secondItem="m9S-yo-icx" secondAttribute="centerX" id="urh-DO-smK"/>
                             <constraint firstItem="xkR-pV-iIR" firstAttribute="top" secondItem="saV-Fq-kFd" secondAttribute="bottom" constant="8" id="v8f-6G-faJ"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="m9S-yo-icx"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="COY-Ko-6H8"/>
-                                <exclude reference="Km9-67-7us"/>
-                            </mask>
-                        </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="m9S-yo-icx"/>
@@ -182,18 +173,6 @@
                             <constraint firstItem="cni-Mn-xGT" firstAttribute="centerX" secondItem="NKb-eB-q0W" secondAttribute="centerX" id="qfe-0O-YHE"/>
                             <constraint firstAttribute="bottomMargin" secondItem="cni-Mn-xGT" secondAttribute="bottom" constant="30" id="vAc-xa-ZVM"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="jAw-iP-q9Q"/>
-                                <exclude reference="pCU-lh-YAq"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="BmK-Gu-z9m"/>
-                                <exclude reference="JLq-1t-0Dv"/>
-                                <exclude reference="RER-EL-FRE"/>
-                                <exclude reference="TQp-Yu-H9K"/>
-                            </mask>
-                        </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="jAw-iP-q9Q"/>
@@ -271,15 +250,6 @@
                             <constraint firstItem="qdV-4g-n3y" firstAttribute="centerX" secondItem="7q3-9R-HzC" secondAttribute="centerX" id="r4s-jb-raz"/>
                             <constraint firstItem="RYF-eu-OX4" firstAttribute="centerX" secondItem="7q3-9R-HzC" secondAttribute="centerX" id="syF-vC-Arl"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="XK6-VU-czp"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="JJq-ks-cDW"/>
-                                <exclude reference="PZZ-Kb-3Uu"/>
-                            </mask>
-                        </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="XK6-VU-czp"/>
@@ -355,9 +325,9 @@
     <resources>
         <image name="Home" width="16" height="16"/>
         <image name="Home_1" width="16" height="16"/>
-        <image name="image1.png" width="16" height="16"/>
-        <image name="image2.png" width="16" height="16"/>
-        <image name="image3.png" width="16" height="16"/>
-        <image name="image4.png" width="16" height="16"/>
+        <image name="image1.png" width="463" height="108"/>
+        <image name="image2.png" width="528" height="420"/>
+        <image name="image3.png" width="532" height="359"/>
+        <image name="image4.png" width="475" height="217"/>
     </resources>
 </document>
