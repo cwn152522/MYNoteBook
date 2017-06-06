@@ -219,7 +219,11 @@
     
     if (isLast == YES){
         if([self.titleLabel.text length] > 0)
-        [self requestResult:self.keyword];
+            [self requestResult:self.keyword];
+        else{
+            [self hideRecongizering];
+            [self showEmptyResult];
+        }
     }
 }
 
