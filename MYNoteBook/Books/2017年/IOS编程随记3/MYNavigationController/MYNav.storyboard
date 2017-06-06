@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,42 +20,42 @@
                         <viewControllerLayoutGuide type="bottom" id="IiP-V7-vdm"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="JT6-ts-66E">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9S-yo-icx">
-                                <rect key="frame" x="120" y="319" width="135" height="30"/>
+                                <rect key="frame" x="140" y="353" width="135" height="30"/>
                                 <state key="normal" title="PushViewController"/>
                                 <connections>
                                     <action selector="onClickPushViewController:" destination="MXv-6Q-MOv" eventType="touchUpInside" id="npp-ot-RlD"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="使用方法：1.storyboard只需把导航class改为MYNavigationController即可  2.代码只需使用MYNavigationController来创建导航即可" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQp-TP-R9h">
-                                <rect key="frame" x="16" y="158" width="342" height="51"/>
+                                <rect key="frame" x="20" y="158" width="374" height="51"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="封装目的：1.解决系统导航栏共用及pop手势存在的缺陷  2.一行代码配置全屏、边缘、禁用pop手势 3.不用任何代码让每个页面拥有独立的navigationBar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gr5-nG-RdB">
-                                <rect key="frame" x="16" y="224" width="342" height="51"/>
+                                <rect key="frame" x="20" y="224" width="374" height="51"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1.png" translatesAutoresizingMaskIntoConstraints="NO" id="xkR-pV-iIR">
-                                <rect key="frame" x="16" y="564" width="343" height="80"/>
+                                <rect key="frame" x="20" y="626" width="374" height="87"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="xkR-pV-iIR" secondAttribute="height" multiplier="463:108" id="687-WJ-V5g"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="页面所需调用代码" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saV-Fq-kFd">
-                                <rect key="frame" x="16" y="539" width="115" height="17"/>
+                                <rect key="frame" x="20" y="601" width="115" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aza-gy-HVg">
-                                <rect key="frame" x="107" y="361" width="161" height="30"/>
+                                <rect key="frame" x="127" y="395" width="161" height="30"/>
                                 <state key="normal" title="DissmissViewController"/>
                                 <connections>
                                     <action selector="onClickDissmissViewController:" destination="MXv-6Q-MOv" eventType="touchUpInside" id="0aU-Cg-CZU"/>
@@ -123,37 +123,37 @@
                         <viewControllerLayoutGuide type="bottom" id="CI1-c6-x0V"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NKb-eB-q0W">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image2.png" translatesAutoresizingMaskIntoConstraints="NO" id="cni-Mn-xGT">
-                                <rect key="frame" x="16" y="364" width="343" height="273"/>
+                                <rect key="frame" x="20" y="409" width="374" height="297"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="cni-Mn-xGT" secondAttribute="height" multiplier="528:420" id="8TP-rN-Ukk"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAw-iP-q9Q">
-                                <rect key="frame" x="124" y="319" width="127" height="30"/>
+                                <rect key="frame" x="144" y="353" width="127" height="30"/>
                                 <state key="normal" title="popViewController"/>
                                 <connections>
                                     <action selector="onClickDismissViewController:" destination="6KR-2h-poj" eventType="touchUpInside" id="k6S-pX-459"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCU-lh-YAq">
-                                <rect key="frame" x="121" y="385" width="134" height="30"/>
+                                <rect key="frame" x="141" y="419" width="134" height="30"/>
                                 <state key="normal" title="pushViewController"/>
                                 <connections>
                                     <segue destination="EDv-fB-7oq" kind="show" id="596-uF-gfd"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="有顶部导航和边缘pop手势" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPi-AD-9XD">
-                                <rect key="frame" x="104" y="114" width="168" height="17"/>
+                                <rect key="frame" x="123" y="114" width="168" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="页面所需调用代码" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oS1-R0-17v">
-                                <rect key="frame" x="16" y="339" width="115" height="17"/>
+                                <rect key="frame" x="20" y="384" width="115" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -200,41 +200,41 @@
                         <viewControllerLayoutGuide type="bottom" id="UJ2-gf-EdO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7q3-9R-HzC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="有顶部导航和全屏pop手势" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYF-eu-OX4">
+                                <rect key="frame" x="123" y="114" width="168" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="qdV-4g-n3y">
+                                <rect key="frame" x="20" y="454" width="374" height="252"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qdV-4g-n3y" secondAttribute="height" multiplier="532:359" id="Ghy-9J-9kP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="页面所需调用代码" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wW6-di-D6s">
+                                <rect key="frame" x="20" y="429" width="115" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XK6-VU-czp">
-                                <rect key="frame" x="100" y="319" width="175" height="30"/>
+                                <rect key="frame" x="120" y="353" width="175" height="30"/>
                                 <state key="normal" title="PopToRootViewController"/>
                                 <connections>
                                     <action selector="popToRootViewController:" destination="EDv-fB-7oq" eventType="touchUpInside" id="FDO-Yd-lwV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gE8-Sk-7n2">
-                                <rect key="frame" x="120" y="273" width="135" height="30"/>
+                                <rect key="frame" x="140" y="307" width="135" height="30"/>
                                 <state key="normal" title="PushViewController"/>
                                 <connections>
                                     <segue destination="Ips-A8-beB" kind="show" id="rrW-KX-nDj"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="有顶部导航和全屏pop手势" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYF-eu-OX4">
-                                <rect key="frame" x="103" y="114" width="168" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="qdV-4g-n3y">
-                                <rect key="frame" x="16" y="406" width="343" height="231"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="qdV-4g-n3y" secondAttribute="height" multiplier="532:359" id="Ghy-9J-9kP"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="页面所需调用代码" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wW6-di-D6s">
-                                <rect key="frame" x="16" y="381" width="115" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -274,30 +274,30 @@
                         <viewControllerLayoutGuide type="bottom" id="Mj0-gc-5vG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sz7-bt-Pbh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9a4-sP-R6R">
-                                <rect key="frame" x="124" y="319" width="127" height="30"/>
+                                <rect key="frame" x="144" y="353" width="127" height="30"/>
                                 <state key="normal" title="PopViewController"/>
                                 <connections>
                                     <action selector="onClickPopBtn:" destination="Ips-A8-beB" eventType="touchUpInside" id="cFb-PM-uSO"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="隐藏顶部导航和禁用pop手势" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbG-1l-NYr">
-                                <rect key="frame" x="97" y="114" width="182" height="17"/>
+                                <rect key="frame" x="116" y="114" width="182" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image4.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vfg-FA-xKa">
-                                <rect key="frame" x="16" y="480" width="343" height="157"/>
+                                <rect key="frame" x="20" y="535" width="374" height="171"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Vfg-FA-xKa" secondAttribute="height" multiplier="475:217" id="gYf-ek-4Bt"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="页面所需调用代码" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBW-X4-lFl">
-                                <rect key="frame" x="16" y="455" width="115" height="17"/>
+                                <rect key="frame" x="20" y="510" width="115" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
