@@ -25,7 +25,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *resultEmptyLabel;
 @property (assign, nonatomic) CGFloat audioVolum;
 
-@property (copy, nonatomic) NSString *keyword;
+@property (copy, nonatomic) NSString *keyword;//语音识别结果
 
 @end
 
@@ -101,14 +101,14 @@
         //设置是否返回标点符号
         [_iFlySpeechRecognizer setParameter:@"0" forKey:[IFlySpeechConstant ASR_PTT]];
         
-        //设置听写结果格式为json
-        [_iFlySpeechRecognizer setParameter:@"json" forKey:[IFlySpeechConstant RESULT_TYPE]];
-        
-        //设置音频来源为麦克风
-        [_iFlySpeechRecognizer setParameter:IFLY_AUDIO_SOURCE_MIC forKey:@"audio_source"];
+//        //设置听写结果格式为json
+//        [_iFlySpeechRecognizer setParameter:@"json" forKey:[IFlySpeechConstant RESULT_TYPE]];
+//        
+//        //设置音频来源为麦克风
+//        [_iFlySpeechRecognizer setParameter:IFLY_AUDIO_SOURCE_MIC forKey:@"audio_source"];
     }
     
-    _iFlySpeechRecognizer.delegate = self;
+//    _iFlySpeechRecognizer.delegate = self;
 }
 
 //解析听写json格式的数据
@@ -140,6 +140,7 @@
 }
 
 - (void)requestResult:(NSString *)keyWords {
+
     [self searchManagerLoading];
     
     NSArray *array = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"(ParentID > 0) AND (Name CONTAINS[c] %@)", keyWords]];
@@ -159,21 +160,23 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+//识别页面管理
 - (void)hideRecongizering {
     [self.activityLoadingView stopAnimating];
     [self.recognizeLabel setHidden:YES];
+    [self.audioWaverView setHidden:YES];
 }
-
 - (void)showRecongizering {
     [self.activityLoadingView startAnimating];
     [self.recognizeLabel setHidden:NO];
+    [self.audioWaverView setHidden:NO];
 }
 
+//空页面管理
 - (void)showEmptyResult {
     [self.resultEmptyLabel setHidden:NO];
     [self.emptyImageView setHidden:NO];
 }
-
 - (void)hidenEmptyResult {
     [self.resultEmptyLabel setHidden:YES];
     [self.emptyImageView setHidden:YES];
@@ -193,27 +196,30 @@
         
         return ;
     }
+    
+    [self hideRecongizering];
+    [self.titleLabel setText:@"请按住说话......"];
 }
 
 //识别结果返回代理
 - (void)onResults:(NSArray *)results isLast:(BOOL)isLast {
-    if (isLast)
-        return ;
-    
     NSMutableString *resultString = [[NSMutableString alloc] init];
     NSDictionary *dic = results[0];
     for (NSString *key in dic)
         [resultString appendFormat:@"%@",key];
     
     NSString *resultFromJson =  [self stringFromJson:resultString];
+    
+    DLog(@"结果:::::::%@", resultFromJson);
 
-    if(resultString > 0){
-        [self.titleLabel setText:resultFromJson];
-        self.keyword = resultFromJson;
-        [self requestResult:resultFromJson];
-    }else{
-        [self hideRecongizering];
-        [self showEmptyResult];
+    if([resultFromJson length] > 0){
+        self.keyword = [NSString stringWithFormat:@"%@%@", self.keyword, resultFromJson];
+        [self.titleLabel setText:self.keyword];
+    }
+    
+    if (isLast == YES){
+        if([self.titleLabel.text length] > 0)
+        [self requestResult:self.keyword];
     }
 }
 
@@ -234,28 +240,39 @@
 #pragma mark EventResponed
 
 - (IBAction)onStartRecognizer:(id)sender {
-    [self.audioWaverView setHidden:NO];
      [self showRecongizering];
     [self hidenEmptyResult];
     
     if(_iFlySpeechRecognizer == nil)
         [self initRecognizer];//初始化识别对象
     
-    if (_iFlySpeechRecognizer.isListening)//正在识别
-        return;
+    [_iFlySpeechRecognizer cancel];
+    self.keyword = @"";
+    
+    //设置音频来源为麦克风
+    [_iFlySpeechRecognizer setParameter:IFLY_AUDIO_SOURCE_MIC forKey:@"audio_source"];
+    
+    //设置听写结果格式为json
+    [_iFlySpeechRecognizer setParameter:@"json" forKey:[IFlySpeechConstant RESULT_TYPE]];
+    
+    //保存录音文件，保存在sdk工作路径中，如未设置工作路径，则默认保存在library/cache下
+//    [_iFlySpeechRecognizer setParameter:@"asr.pcm" forKey:[IFlySpeechConstant ASR_AUDIO_PATH]];
+    
+    [_iFlySpeechRecognizer setDelegate:self];
 
-    [_iFlySpeechRecognizer cancel];//取消之前服务
     
     BOOL ret = [_iFlySpeechRecognizer startListening];//启动识别服务
     
     if (!ret) {
-        UIAlertView *alterView = [[UIAlertView alloc] initWithTitle:@"提示" message:@"语音识别失败" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+        //可能是上次请求未结束，暂不支持多路并发
+        UIAlertView *alterView = [[UIAlertView alloc] initWithTitle:@"提示" message:@"启动识别服务失败，请稍后重试" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
         [alterView show];
+        [self hideRecongizering];
+        [self showEmptyResult];
     }
 }
 
 - (IBAction)onEndRecognizer:(id)sender {
-    [self.audioWaverView setHidden:YES];
      [self hideRecongizering];
     
     self.audioVolum = 0.0f;
