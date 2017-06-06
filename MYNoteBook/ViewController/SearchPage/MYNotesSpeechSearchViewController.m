@@ -27,6 +27,8 @@
 
 @property (copy, nonatomic) NSString *keyword;//语音识别结果
 
+@property (assign, nonatomic) BOOL isRequesting;//正在请求，正在匹配内容
+
 @end
 
 @implementation MYNotesSpeechSearchViewController
@@ -149,7 +151,8 @@
         [self performSelector:@selector(popViewController) withObject:nil afterDelay:0.33];
     }else{
          [self showEmptyResult];
-        return;
+        self.keyword = @"";
+        _isRequesting = NO;
     }
 }
 
@@ -194,11 +197,13 @@
         UIAlertView *alterView = [[UIAlertView alloc] initWithTitle:@"提示" message:errorCode.errorDesc delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
         [alterView show];
         
+        _isRequesting = NO;
         return ;
     }
     
     [self hideRecongizering];
     [self.titleLabel setText:@"请按住说话......"];
+    _isRequesting = NO;
 }
 
 //识别结果返回代理
@@ -218,9 +223,13 @@
     }
     
     if (isLast == YES){
-        if([self.titleLabel.text length] > 0)
-            [self requestResult:self.keyword];
-        else{
+        if([self.titleLabel.text length] > 0){
+            if(self.keyword > 0){//这一次关键词输入不为空，进行数据匹配请求，且加锁
+                _isRequesting = YES;
+                [self requestResult:self.keyword];
+            }
+            return;
+        }else{
             [self hideRecongizering];
             [self showEmptyResult];
         }
@@ -244,6 +253,10 @@
 #pragma mark EventResponed
 
 - (IBAction)onStartRecognizer:(id)sender {
+    if(_isRequesting == YES){//上一次关键词不为空且正在执行数据匹配请求
+        return;
+    }
+    
      [self showRecongizering];
     [self hidenEmptyResult];
     
