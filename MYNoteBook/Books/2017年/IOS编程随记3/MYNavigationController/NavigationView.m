@@ -114,21 +114,14 @@
     [self reghtBtnSheZhiImage:image withText:text withHidden:hidded];
 }
 
--(void)Leftbtn
-{
+-(void)Leftbtn{
     if ([_delegate respondsToSelector:@selector(navigationViewLeftDlegate)]) {
         [_delegate navigationViewLeftDlegate];
     }
-    
-    
 }
--(void)reghtBtn1
-{
+-(void)reghtBtn1{
     if ([_delegate respondsToSelector:@selector(navigationViewReghtDlegate)]) {
         [_delegate navigationViewReghtDlegate];
     }
-    
-    
-    
 }
 @end

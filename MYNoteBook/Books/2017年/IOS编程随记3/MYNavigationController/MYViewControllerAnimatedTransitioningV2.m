@@ -96,7 +96,6 @@ static const float kTransitionDuration = .28;
         BOOL isCanceled = [transitionContext transitionWasCancelled];
         [transitionContext completeTransition:!isCanceled];
         if(!isCanceled){
-            
         }
     }];
 }

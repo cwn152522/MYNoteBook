@@ -125,5 +125,5 @@
   {"ID":76, "Name":"可能出现内存泄漏的几种情况", "ParentID":7, "storyboardName":"", "storyboardId":""},
   {"ID":77, "Name":"页面编写习惯", "ParentID":7, "storyboardName":"", "storyboardId":""},
   {"ID":78, "Name":"本地sqlite数据库框架搭建过程", "ParentID":7, "storyboardName":"", "storyboardId":""},
-  {"ID":79, "Name":"MYNavigationController封装", "ParentID":7, "storyboardName":"MYNav", "storyboardId":"MYNav"},
+  {"ID":79, "Name":"MYNavigationViewControllerV2封装", "ParentID":7, "storyboardName":"MYNav", "storyboardId":"MYNav"},
  ]
