@@ -118,7 +118,7 @@
         return nil;
     }
     
-    NSMutableString *tempStr = [[NSMutableString alloc] init];
+    NSMutableString *tempStr = [[NSMutableString alloc] initWithString:@""];
     NSDictionary *resultDic  = [NSJSONSerialization JSONObjectWithData:
                                 [params dataUsingEncoding:NSUTF8StringEncoding] options:kNilOptions error:nil];
     
@@ -206,11 +206,15 @@
         [resultString appendFormat:@"%@",key];
     
     NSString *resultFromJson =  [self stringFromJson:resultString];
-    
-    [self.titleLabel setText:resultFromJson];
-    self.keyword = resultFromJson;
 
-    [self requestResult:resultFromJson];
+    if(resultString > 0){
+        [self.titleLabel setText:resultFromJson];
+        self.keyword = resultFromJson;
+        [self requestResult:resultFromJson];
+    }else{
+        [self hideRecongizering];
+        [self showEmptyResult];
+    }
 }
 
 //音量回调函数
