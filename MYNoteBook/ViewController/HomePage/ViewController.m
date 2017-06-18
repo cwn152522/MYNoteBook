@@ -32,8 +32,8 @@
     [self configNavigationBar];
 //    NSArray *temp = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"Name CONTAINS '绘制'"]];
 
-        self.data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"ParentID=-100"]];
-        [self.tableView reloadData];
+    self.data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"ParentID=-100"]];
+    [self.tableView reloadData];
 
     self.tableView.tableFooterView = [[UIView alloc] init];
     [self.tableView setShowsVerticalScrollIndicator:NO];

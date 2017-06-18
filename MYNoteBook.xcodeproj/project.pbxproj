@@ -303,6 +303,7 @@
 		D64B50881E00369700E4BD41 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D64B50871E00369700E4BD41 /* libsqlite3.0.tbd */; };
 		D64B508A1E0036C000E4BD41 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D64B50891E0036C000E4BD41 /* libstdc++.6.0.9.tbd */; };
 		D64B50931E003C2400E4BD41 /* JCLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B50921E003C2400E4BD41 /* JCLineView.m */; };
+		D68A6A051EF6BC6300F50E1D /* 证书重置项目运行后闪退.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D68A6A041EF6BC6300F50E1D /* 证书重置项目运行后闪退.pdf */; };
 		D692DEF81EE61D25004CF87C /* NavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D692DEF71EE61D25004CF87C /* NavigationView.m */; };
 		D692DEFC1EE61E0F004CF87C /* UIView+FrameProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D692DEFB1EE61E0F004CF87C /* UIView+FrameProperty.m */; };
 		D692DF011EE62259004CF87C /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = D692DEFD1EE62259004CF87C /* image1.png */; };
@@ -896,6 +897,7 @@
 		D64B50891E0036C000E4BD41 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		D64B50911E003C2400E4BD41 /* JCLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLineView.h; sourceTree = "<group>"; };
 		D64B50921E003C2400E4BD41 /* JCLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLineView.m; sourceTree = "<group>"; };
+		D68A6A041EF6BC6300F50E1D /* 证书重置项目运行后闪退.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "证书重置项目运行后闪退.pdf"; sourceTree = "<group>"; };
 		D692DEF61EE61D25004CF87C /* NavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationView.h; sourceTree = "<group>"; };
 		D692DEF71EE61D25004CF87C /* NavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationView.m; sourceTree = "<group>"; };
 		D692DEFA1EE61E0F004CF87C /* UIView+FrameProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameProperty.h"; sourceTree = "<group>"; };
@@ -2414,6 +2416,7 @@
 				D6D3FD531EE6090200D628A6 /* 本地sqlite数据库框架搭建过程.pdf */,
 				D6D3FD541EE6090200D628A6 /* 页面编写习惯.pdf */,
 				BE6171891EE660A3004767E2 /* MYNavigationViewControllerV2封装.pdf */,
+				D68A6A041EF6BC6300F50E1D /* 证书重置项目运行后闪退.pdf */,
 			);
 			path = "IOS编程随记3";
 			sourceTree = "<group>";
@@ -3033,6 +3036,7 @@
 				BE8115E91EA75FF1002071AD /* 链式编程原理与应用(Autolayout).pdf in Resources */,
 				BE83AA631E7666030012C540 /* RegularExpression.storyboard in Resources */,
 				BE8115AE1EA6FAFB002071AD /* 了解RunTime运行机制.pdf in Resources */,
+				D68A6A051EF6BC6300F50E1D /* 证书重置项目运行后闪退.pdf in Resources */,
 				BE629DEC1EA5C805005CC9BA /* 主从列表封装思想.pdf in Resources */,
 				BE8115D71EA7063E002071AD /* IOS下关于cookie的使用管理.pdf in Resources */,
 				BE83AA251E7666030012C540 /* radioImage.jpg in Resources */,
