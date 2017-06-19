@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4842451EF7F97400636470 /* PHP配置.pdf */; };
 		BE5AC5981EA87B0A003E477F /* DrawAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */; };
 		BE5AC59B1EA87B3B003E477F /* DrawAnimation_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
@@ -171,6 +172,8 @@
 		BE83AA651E7666030012C540 /* CLLocation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE83AA201E7666030012C540 /* CLLocation.storyboard */; };
 		BE83AA661E7666030012C540 /* MYLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83AA221E7666030012C540 /* MYLocationManager.m */; };
 		BE83AA671E7666030012C540 /* ViewController_CLLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83AA241E7666030012C540 /* ViewController_CLLocation.m */; };
+		BE930B381EF7E6F80081CB14 /* Apache配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE930B361EF7E6F80081CB14 /* Apache配置.pdf */; };
+		BE930B391EF7E6F80081CB14 /* PHP网页运行原理.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */; };
 		BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */; };
 		BEFF33B01E96051800E2A05E /* DoubleTable_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */; };
 		BEFF33B61E9608F700E2A05E /* MYDoubleTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33B31E9608F700E2A05E /* MYDoubleTableModel.m */; };
@@ -435,6 +438,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE4842451EF7F97400636470 /* PHP配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP配置.pdf"; sourceTree = "<group>"; };
 		BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DrawAnimation.storyboard; sourceTree = "<group>"; };
 		BE5AC5991EA87B3B003E477F /* DrawAnimation_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawAnimation_ViewController.h; sourceTree = "<group>"; };
 		BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawAnimation_ViewController.m; sourceTree = "<group>"; };
@@ -746,6 +750,8 @@
 		BE83AA221E7666030012C540 /* MYLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYLocationManager.m; sourceTree = "<group>"; };
 		BE83AA231E7666030012C540 /* ViewController_CLLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_CLLocation.h; sourceTree = "<group>"; };
 		BE83AA241E7666030012C540 /* ViewController_CLLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_CLLocation.m; sourceTree = "<group>"; };
+		BE930B361EF7E6F80081CB14 /* Apache配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Apache配置.pdf"; sourceTree = "<group>"; };
+		BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP网页运行原理.pdf"; sourceTree = "<group>"; };
 		BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoubleTable.storyboard; sourceTree = "<group>"; };
 		BEFF33AE1E96051800E2A05E /* DoubleTable_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTable_ViewController.h; sourceTree = "<group>"; };
 		BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTable_ViewController.m; sourceTree = "<group>"; };
@@ -2008,6 +2014,33 @@
 			path = "系统定位";
 			sourceTree = "<group>";
 		};
+		BE930B331EF7876A0081CB14 /* PHP */ = {
+			isa = PBXGroup;
+			children = (
+				BE930B341EF7876A0081CB14 /* 2017 */,
+			);
+			name = PHP;
+			path = "word文档/PHP";
+			sourceTree = "<group>";
+		};
+		BE930B341EF7876A0081CB14 /* 2017 */ = {
+			isa = PBXGroup;
+			children = (
+				BE930B351EF7876A0081CB14 /* Day1 */,
+			);
+			path = 2017;
+			sourceTree = "<group>";
+		};
+		BE930B351EF7876A0081CB14 /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */,
+				BE930B361EF7E6F80081CB14 /* Apache配置.pdf */,
+				BE4842451EF7F97400636470 /* PHP配置.pdf */,
+			);
+			path = Day1;
+			sourceTree = "<group>";
+		};
 		BEFF33AB1E9604C900E2A05E /* 主从列表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2222,14 +2255,6 @@
 				D600D9181EF71F0800125C17 /* 页面编写习惯.pdf */,
 			);
 			path = "IOS编程随记3";
-			sourceTree = "<group>";
-		};
-		D600D9191EF71F0800125C17 /* PHP */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = PHP;
-			path = "word文档/PHP";
 			sourceTree = "<group>";
 		};
 		D600EA091DF497320054495C /* model */ = {
@@ -2644,7 +2669,7 @@
 			isa = PBXGroup;
 			children = (
 				D600D89D1EF71F0800125C17 /* IOS */,
-				D600D9191EF71F0800125C17 /* PHP */,
+				BE930B331EF7876A0081CB14 /* PHP */,
 				D6EE1EF01DCAA616003F14CD /* main.m */,
 				D6FDE5861DE8EFE600AA89EF /* MYCloudGlobal.h */,
 				D60018671DECDC2F003017E3 /* myNotesArr.json */,
@@ -3022,6 +3047,7 @@
 				D600D9381EF71F0800125C17 /* Xcode7运行Xcode8项目xib问题.pdf in Resources */,
 				D600D96A1EF71F0800125C17 /* 系统pop手势失效.pdf in Resources */,
 				D600D9621EF71F0800125C17 /* 关于苹果APNs推送机制(2).pdf in Resources */,
+				BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */,
 				D600D9461EF71F0800125C17 /* 图片轮播.pdf in Resources */,
 				D600D9561EF71F0800125C17 /* 绘制进度由0-1交替的旋转动画.pdf in Resources */,
 				D600D9481EF71F0800125C17 /* 将Image绘制到指定的区域.pdf in Resources */,
@@ -3053,6 +3079,7 @@
 				BE83AA251E7666030012C540 /* radioImage.jpg in Resources */,
 				D600D9531EF71F0800125C17 /* 绘制直线.pdf in Resources */,
 				BE83A9631E7665A50012C540 /* SearchBar.storyboard in Resources */,
+				BE930B381EF7E6F80081CB14 /* Apache配置.pdf in Resources */,
 				D600D91A1EF71F0800125C17 /* autoLayout自动布局.pdf in Resources */,
 				D6DC80BE1E03573A00F25651 /* read_me.txt in Resources */,
 				D600D95E1EF71F0800125C17 /* 使用frame怎么实现autolayout.pdf in Resources */,
@@ -3097,6 +3124,7 @@
 				D600D95F1EF71F0800125C17 /* 使用mutable属性注意事项.pdf in Resources */,
 				D600D9601EF71F0800125C17 /* 关于cell编辑状态的应用.pdf in Resources */,
 				D600D9801EF71F0800125C17 /* 链式编程原理与应用(Autolayout).pdf in Resources */,
+				BE930B391EF7E6F80081CB14 /* PHP网页运行原理.pdf in Resources */,
 				D692DF021EE62259004CF87C /* image2.png in Resources */,
 				D60018681DECDC2F003017E3 /* myNotesArr.json in Resources */,
 				D600D9451EF71F0800125C17 /* 启动页消失组合动画(alpha+scale).pdf in Resources */,

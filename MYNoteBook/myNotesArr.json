@@ -139,9 +139,8 @@
  
   {"ID":5000, "Name":"Day1", "ParentID":-21, "storyboardName":"", "storyboardId":""},
   {"ID":50001, "Name":"Day1学习报告", "ParentID":5000, "storyboardName":"", "storyboardId":""},
-  {"ID":50002, "Name":"Web运行原理", "ParentID":5000, "storyboardName":"", "storyboardId":""},
+  {"ID":50002, "Name":"PHP网页运行原理", "ParentID":5000, "storyboardName":"", "storyboardId":""},
   {"ID":50003, "Name":"Apache配置", "ParentID":5000, "storyboardName":"", "storyboardId":""},
   {"ID":50004, "Name":"PHP配置", "ParentID":5000, "storyboardName":"", "storyboardId":""},
   {"ID":50005, "Name":"MYSQL数据库配置", "ParentID":5000, "storyboardName":"", "storyboardId":""},
- 
  ]
