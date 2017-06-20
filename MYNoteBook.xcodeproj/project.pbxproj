@@ -1162,6 +1162,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE5945831EF8DCD6009DC99D /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day2;
+			sourceTree = "<group>";
+		};
 		BE5AC5961EA87ADA003E477F /* 绘图过程动画的实现 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2031,6 +2038,7 @@
 			isa = PBXGroup;
 			children = (
 				BE930B351EF7876A0081CB14 /* Day1 */,
+				BE5945831EF8DCD6009DC99D /* Day2 */,
 			);
 			path = 2017;
 			sourceTree = "<group>";
