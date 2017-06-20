@@ -145,9 +145,6 @@
   {"ID":50005, "Name":"MYSQL数据库配置", "ParentID":5000, "storyboardName":"", "storyboardId":""},
  
  {"ID":5001, "Name":"Day2", "ParentID":-21, "storyboardName":"", "storyboardId":""},
- {"ID":50011, "Name":"Day1学习报告", "ParentID":5001, "storyboardName":"", "storyboardId":""},
- {"ID":50012, "Name":"PHP网页运行原理", "ParentID":5001, "storyboardName":"", "storyboardId":""},
- {"ID":50013, "Name":"Apache配置", "ParentID":5001, "storyboardName":"", "storyboardId":""},
- {"ID":50014, "Name":"PHP配置", "ParentID":5001, "storyboardName":"", "storyboardId":""},
- {"ID":50015, "Name":"MYSQL数据库配置", "ParentID":5001, "storyboardName":"", "storyboardId":""},
+ {"ID":50011, "Name":"Day2学习报告", "ParentID":5001, "storyboardName":"", "storyboardId":""},
+ {"ID":50012, "Name":"PHP基本语法形式", "ParentID":5001, "storyboardName":"", "storyboardId":""},
  ]
