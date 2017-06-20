@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4842451EF7F97400636470 /* PHP配置.pdf */; };
+		BE5945801EF8B081009DC99D /* MYSQL数据库配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */; };
 		BE5AC5981EA87B0A003E477F /* DrawAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */; };
 		BE5AC59B1EA87B3B003E477F /* DrawAnimation_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
@@ -439,6 +440,7 @@
 
 /* Begin PBXFileReference section */
 		BE4842451EF7F97400636470 /* PHP配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP配置.pdf"; sourceTree = "<group>"; };
+		BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MYSQL数据库配置.pdf"; sourceTree = "<group>"; };
 		BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DrawAnimation.storyboard; sourceTree = "<group>"; };
 		BE5AC5991EA87B3B003E477F /* DrawAnimation_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawAnimation_ViewController.h; sourceTree = "<group>"; };
 		BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawAnimation_ViewController.m; sourceTree = "<group>"; };
@@ -2037,6 +2039,7 @@
 				BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */,
 				BE930B361EF7E6F80081CB14 /* Apache配置.pdf */,
 				BE4842451EF7F97400636470 /* PHP配置.pdf */,
+				BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */,
 			);
 			path = Day1;
 			sourceTree = "<group>";
@@ -3031,6 +3034,7 @@
 				D600D9551EF71F0800125C17 /* 绘制虚线.pdf in Resources */,
 				BE83A87A1E7665290012C540 /* UMSocial.storyboard in Resources */,
 				D600D9221EF71F0800125C17 /* 多线程.pdf in Resources */,
+				BE5945801EF8B081009DC99D /* MYSQL数据库配置.pdf in Resources */,
 				D692DF011EE62259004CF87C /* image1.png in Resources */,
 				D600D9251EF71F0800125C17 /* 正则表达式.pdf in Resources */,
 				D600D9231EF71F0800125C17 /* 应用打包发布.pdf in Resources */,
