@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4842451EF7F97400636470 /* PHP配置.pdf */; };
+		BE579AAB1EFA132200E4A8DC /* PHP变量基本理解与操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE579AAA1EFA132200E4A8DC /* PHP变量基本理解与操作.pdf */; };
 		BE5945801EF8B081009DC99D /* MYSQL数据库配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */; };
 		BE5945821EF8D5B8009DC99D /* Day1学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5945811EF8D5B8009DC99D /* Day1学习报告.pdf */; };
 		BE5945851EF93A3B009DC99D /* PHP基本语法形式.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5945841EF93A3B009DC99D /* PHP基本语法形式.pdf */; };
@@ -442,6 +443,7 @@
 
 /* Begin PBXFileReference section */
 		BE4842451EF7F97400636470 /* PHP配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP配置.pdf"; sourceTree = "<group>"; };
+		BE579AAA1EFA132200E4A8DC /* PHP变量基本理解与操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP变量基本理解与操作.pdf"; sourceTree = "<group>"; };
 		BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MYSQL数据库配置.pdf"; sourceTree = "<group>"; };
 		BE5945811EF8D5B8009DC99D /* Day1学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day1学习报告.pdf"; sourceTree = "<group>"; };
 		BE5945841EF93A3B009DC99D /* PHP基本语法形式.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP基本语法形式.pdf"; sourceTree = "<group>"; };
@@ -1168,6 +1170,7 @@
 			isa = PBXGroup;
 			children = (
 				BE5945841EF93A3B009DC99D /* PHP基本语法形式.pdf */,
+				BE579AAA1EFA132200E4A8DC /* PHP变量基本理解与操作.pdf */,
 			);
 			path = Day2;
 			sourceTree = "<group>";
@@ -3068,6 +3071,7 @@
 				BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */,
 				D600D9461EF71F0800125C17 /* 图片轮播.pdf in Resources */,
 				D600D9561EF71F0800125C17 /* 绘制进度由0-1交替的旋转动画.pdf in Resources */,
+				BE579AAB1EFA132200E4A8DC /* PHP变量基本理解与操作.pdf in Resources */,
 				D600D9481EF71F0800125C17 /* 将Image绘制到指定的区域.pdf in Resources */,
 				D600D9401EF71F0800125C17 /* 百度地图v3.1.0.pdf in Resources */,
 				BE83AA4E1E7666030012C540 /* MultiThread.storyboard in Resources */,
