@@ -29,6 +29,8 @@
 @property (strong, nonatomic) MYSearchHisttoryModel *searchModel;
 @property (assign, nonatomic) BOOL isShowHistory;
 
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *filterBtn;
+
 @end
 
 @implementation MYNotesSearchViewController
@@ -109,13 +111,40 @@
     [self.tableView reloadData];
 }
 
-- (void)searchNotesWithKeyword:(NSString *)keyword{
+- (void)searchNotesWithKeyword:(NSString *)keyword onlySee:(NSInteger)type{//1只看ios 2只看php 0看全部
     if(![keyword length])
         return;
-    
-    self.data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"(ParentID > 0) AND (Name CONTAINS[c] %@)", keyword]];
-    
-    [self.tableView reloadData];
+
+    __weak typeof(self) weakSelf = self;
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSMutableArray *array = [NSMutableArray array];
+        
+        [[[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"(Name contains[c] %@)", keyword]] enumerateObjectsUsingBlock:^(NSDictionary *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            NSArray *componets = [obj[@"ParentID"] componentsSeparatedByString:@","];
+            if([componets count] == 4){//是具体的文章
+                if(type == 0 || (type == 1 && [componets[1] integerValue] == -1) || (type == 2 && [componets[1] integerValue] == -2))
+                    [array addObject:obj];
+            }
+        }];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+                weakSelf.data = array;
+            switch (type) {
+                case 0:
+                    [weakSelf onlySeeAll];
+                    break;
+                case 1:
+                    [weakSelf onlySeeIOS];
+                    break;
+                case 2:
+                    [weakSelf onlySeePHP];
+                    break;
+                default:
+                    break;
+            }
+                [weakSelf.tableView reloadData];
+        });
+    });
 }
 
 #pragma mark UISearchBarDelegate
@@ -129,7 +158,7 @@
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
-    [self searchNotesWithKeyword:searchBar.text];
+    [self searchNotesWithKeyword:searchBar.text onlySee:0];
     [self.searchBar endEditing:YES];
     [_searchModel addHistory:searchBar.text];
 }
@@ -221,14 +250,14 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [self.searchBar endEditing:YES];
-    [self performSelector:@selector(onClickCellAtIndexPath:) withObject:indexPath afterDelay:0.54];
+    [self onClickCellAtIndexPath:indexPath];
 }
 - (void)onClickCellAtIndexPath:(NSIndexPath *)indexPath{
     if(_isShowHistory){
         _isShowHistory = NO;
         NSString *keywords = [(SearchHistory *)[_searchModel.data  objectAtIndex:indexPath.row] keyword];
         [self.searchBar setText:keywords];
-        [self searchNotesWithKeyword:keywords];
+        [self searchNotesWithKeyword:keywords onlySee:0];
         return;
     }
     
@@ -305,6 +334,30 @@
             [weakSelf performSelector:@selector(searchBarSearchButtonClicked:) withObject:weakSelf.searchBar afterDelay:0.66];
         }];
     }
+}
+
+#pragma mark 其他事件
+
+- (IBAction)onClickFilterBtn:(UIButton *)sender {
+        [self searchNotesWithKeyword:_searchBar.text onlySee:sender.tag];
+}
+
+- (void)onlySeeIOS{
+    [self.filterBtn enumerateObjectsUsingBlock:^(UIButton *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [obj setSelected:obj.tag == 1 ? YES : NO];
+    }];
+}
+
+- (void)onlySeePHP{
+    [self.filterBtn enumerateObjectsUsingBlock:^(UIButton *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [obj setSelected:obj.tag == 2 ? YES : NO];
+    }];
+}
+
+- (void)onlySeeAll{
+    [self.filterBtn enumerateObjectsUsingBlock:^(UIButton *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [obj setSelected:obj.tag == 0 ? YES : NO];
+    }];
 }
 
 

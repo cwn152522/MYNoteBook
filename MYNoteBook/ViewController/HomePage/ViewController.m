@@ -32,7 +32,7 @@
     [self configNavigationBar];
 //    NSArray *temp = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"Name CONTAINS '绘制'"]];
 
-    self.data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"ParentID=-100"]];
+    self.data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"ParentID ENDSWITH[cd] '-100'"]];
     [self.tableView reloadData];
 
     self.tableView.tableFooterView = [[UIView alloc] init];
@@ -66,7 +66,7 @@
     if(![segue.identifier isEqualToString:@"notesList"])
         return;
     MYNotesListViewController *controller = (MYNotesListViewController *)segue.destinationViewController;
-    NSArray *data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:[NSString stringWithFormat:@"ParentID=%ld", (long)[[_data[_selectIndexPath.row] objectForKey:@"ID"] integerValue]]]];
+    NSArray *data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:[NSString stringWithFormat:@"ParentID ENDSWITH[cd] '%ld'", (long)[[_data[_selectIndexPath.row] objectForKey:@"ID"] integerValue]]]];
     controller.data = data;
     controller.navigationTitle = [[_data objectAtIndex:_selectIndexPath.row] valueForKey:@"Name"];
 }

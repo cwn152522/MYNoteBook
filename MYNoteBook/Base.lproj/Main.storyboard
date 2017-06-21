@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -37,10 +38,10 @@
                                 <include reference="ZAo-y4-WyJ"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="prX-tI-sde"/>
                                 <include reference="XnT-wi-xbE"/>
                                 <include reference="yjB-Oh-Wkx"/>
                                 <include reference="zcx-MM-t9r"/>
+                                <include reference="prX-tI-sde"/>
                             </mask>
                         </variation>
                     </view>
@@ -102,10 +103,10 @@
                                 <include reference="bWy-Oa-VQg"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="hVW-Hg-ESg"/>
                                 <include reference="4mw-E0-JWn"/>
                                 <include reference="EMU-8v-IrN"/>
                                 <include reference="i5H-MY-SWg"/>
+                                <include reference="hVW-Hg-ESg"/>
                             </mask>
                         </variation>
                     </view>
@@ -140,7 +141,7 @@
                                         <rect key="frame" x="0.0" y="28" width="768" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="URv-gr-GHU" id="HyM-nJ-tLw">
-                                            <rect key="frame" x="0.0" y="0.0" width="768" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -163,10 +164,10 @@
                                 <include reference="h38-w3-fnA"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="L6M-XW-X9W"/>
                                 <include reference="4I7-ok-EkX"/>
                                 <include reference="7df-u6-YJZ"/>
                                 <include reference="u41-XB-G0h"/>
+                                <include reference="L6M-XW-X9W"/>
                             </mask>
                         </variation>
                     </view>
@@ -208,28 +209,77 @@
                                     <outlet property="delegate" destination="Vaa-WL-LVY" id="iAT-A3-cew"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDX-Mu-R0v">
+                                <rect key="frame" x="694" y="497" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="EcQ-jn-BF3"/>
+                                </constraints>
+                                <state key="normal" title="IOS"/>
+                                <state key="selected" title="IOS">
+                                    <color key="titleColor" red="0.95963541669999997" green="0.77756076389999995" blue="0.37068684899999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClickFilterBtn:" destination="Vaa-WL-LVY" eventType="touchUpInside" id="IrT-0e-b9L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dI-NE-w0W">
+                                <rect key="frame" x="694" y="439" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Mlq-o7-Q6a"/>
+                                </constraints>
+                                <state key="normal" title="全部"/>
+                                <state key="selected" title="全部">
+                                    <color key="titleColor" red="0.95963541666666663" green="0.77756076388888884" blue="0.37068684895833331" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClickFilterBtn:" destination="Vaa-WL-LVY" eventType="touchUpInside" id="IQg-h8-sui"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6P0-Ab-Igf">
+                                <rect key="frame" x="694" y="555" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="01q-cP-8U2"/>
+                                </constraints>
+                                <state key="normal" title="PHP"/>
+                                <state key="selected" title="PHP">
+                                    <color key="titleColor" red="0.95963541669999997" green="0.77756076389999995" blue="0.37068684899999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClickFilterBtn:" destination="Vaa-WL-LVY" eventType="touchUpInside" id="cN1-eU-ohc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6dI-NE-w0W" firstAttribute="trailing" secondItem="uDX-Mu-R0v" secondAttribute="trailing" id="Fvc-qr-4GX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uDX-Mu-R0v" secondAttribute="trailing" constant="4" id="HBZ-Vu-yPA"/>
                             <constraint firstItem="XFX-LF-LT1" firstAttribute="leading" secondItem="dhv-cI-RsM" secondAttribute="leading" id="KGR-xv-7hB"/>
                             <constraint firstItem="XFX-LF-LT1" firstAttribute="top" secondItem="fHD-gJ-ybJ" secondAttribute="bottom" id="OA3-6O-O5K"/>
+                            <constraint firstItem="6dI-NE-w0W" firstAttribute="width" secondItem="uDX-Mu-R0v" secondAttribute="width" id="ODW-Sj-z0m"/>
+                            <constraint firstItem="uDX-Mu-R0v" firstAttribute="top" secondItem="6dI-NE-w0W" secondAttribute="bottom" constant="28" id="ZEf-yy-xHf"/>
+                            <constraint firstItem="uDX-Mu-R0v" firstAttribute="centerY" secondItem="dhv-cI-RsM" secondAttribute="centerY" id="ZJg-R7-BFg"/>
                             <constraint firstAttribute="trailing" secondItem="XFX-LF-LT1" secondAttribute="trailing" id="dAi-0b-KPV"/>
                             <constraint firstItem="bYy-14-Hem" firstAttribute="top" secondItem="XFX-LF-LT1" secondAttribute="bottom" id="dkw-Jb-zsE"/>
+                            <constraint firstItem="6P0-Ab-Igf" firstAttribute="trailing" secondItem="uDX-Mu-R0v" secondAttribute="trailing" id="jSQ-ay-Npd"/>
+                            <constraint firstItem="6P0-Ab-Igf" firstAttribute="top" secondItem="uDX-Mu-R0v" secondAttribute="bottom" constant="28" id="xjs-P5-ble"/>
                         </constraints>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="XFX-LF-LT1"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="dkw-Jb-zsE"/>
                                 <include reference="KGR-xv-7hB"/>
                                 <include reference="OA3-6O-O5K"/>
                                 <include reference="dAi-0b-KPV"/>
+                                <include reference="dkw-Jb-zsE"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="tableView" destination="XFX-LF-LT1" id="2TB-73-mrR"/>
+                        <outletCollection property="filterBtn" destination="6dI-NE-w0W" id="0Xf-L4-CoJ"/>
+                        <outletCollection property="filterBtn" destination="uDX-Mu-R0v" id="9hs-5P-S9b"/>
+                        <outletCollection property="filterBtn" destination="6P0-Ab-Igf" id="jta-S8-92i"/>
                         <segue destination="GkY-9U-bLh" kind="show" identifier="speech" id="BpW-vi-MLT"/>
                     </connections>
                 </viewController>
@@ -393,7 +443,6 @@
                                 <include reference="mIW-27-yQp"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="fhv-LN-zar"/>
                                 <include reference="F9C-M8-zgh"/>
                                 <include reference="VJg-5v-ecx"/>
                                 <include reference="d90-B2-PeY"/>
@@ -410,6 +459,7 @@
                                 <include reference="hyf-ZC-Ijw"/>
                                 <include reference="cG5-0b-0IC"/>
                                 <include reference="kl9-WU-5RI"/>
+                                <include reference="fhv-LN-zar"/>
                             </mask>
                         </variation>
                     </view>

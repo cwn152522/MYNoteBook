@@ -122,9 +122,9 @@
 #pragma mark UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    if( [[_data[indexPath.row] objectForKey:@"ParentID"] integerValue] < 0){
+    if( [[[[_data[indexPath.row] objectForKey:@"ParentID"] componentsSeparatedByString:@","] lastObject] integerValue] < 0){
         MYNotesListViewController *controller = [[self storyboard] instantiateViewControllerWithIdentifier:@"NotesListViewController"];
-        NSArray *data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:[NSString stringWithFormat:@"ParentID=%ld", (long)[[_data[indexPath.row] objectForKey:@"ID"] integerValue]]]];
+        NSArray *data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:[NSString stringWithFormat:@"ParentID  ENDSWITH[cd] '%ld'", (long)[[_data[indexPath.row] objectForKey:@"ID"] integerValue]]]];
         controller.data = data;
         controller.navigationTitle = [[_data objectAtIndex:indexPath.row] valueForKey:@"Name"];
         
