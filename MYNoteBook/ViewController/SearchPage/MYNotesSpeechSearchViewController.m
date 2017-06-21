@@ -142,10 +142,16 @@
 }
 
 - (void)requestResult:(NSString *)keyWords {
-
     [self searchManagerLoading];
     
-    NSArray *array = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"(ParentID > 0) AND (Name CONTAINS[c] %@)", keyWords]];
+     NSMutableArray *array = [NSMutableArray array];
+    [[[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"(Name contains[c] %@)", keyWords]] enumerateObjectsUsingBlock:^(NSDictionary *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSArray *componets = [obj[@"ParentID"] componentsSeparatedByString:@","];
+        if([componets count] == 4){//是具体的文章
+                [array addObject:obj];
+        }
+    }];
+    
      [self hideRecongizering];
     if([array count]){
         [self performSelector:@selector(popViewController) withObject:nil afterDelay:0.33];
