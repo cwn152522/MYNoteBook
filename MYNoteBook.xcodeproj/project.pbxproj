@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4842451EF7F97400636470 /* PHP配置.pdf */; };
-		BE579AAB1EFA132200E4A8DC /* PHP变量基本理解与操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE579AAA1EFA132200E4A8DC /* PHP变量基本理解与操作.pdf */; };
+		BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */; };
 		BE5945801EF8B081009DC99D /* MYSQL数据库配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */; };
 		BE5945821EF8D5B8009DC99D /* Day1学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5945811EF8D5B8009DC99D /* Day1学习报告.pdf */; };
-		BE5945851EF93A3B009DC99D /* PHP基本语法形式.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5945841EF93A3B009DC99D /* PHP基本语法形式.pdf */; };
+		BE5945851EF93A3B009DC99D /* 基本语法形式.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5945841EF93A3B009DC99D /* 基本语法形式.pdf */; };
 		BE5AC5981EA87B0A003E477F /* DrawAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */; };
 		BE5AC59B1EA87B3B003E477F /* DrawAnimation_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */; };
+		BE5B3D2A1EFB7FB8004F634B /* 变量命名规则与传值方式.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5B3D291EFB7FB8004F634B /* 变量命名规则与传值方式.pdf */; };
+		BE5B3D2C1EFBD5DA004F634B /* 可变变量和预定义变量.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5B3D2B1EFBD5DA004F634B /* 可变变量和预定义变量.pdf */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
 		BE83A8761E7665290012C540 /* MYUShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8571E7665290012C540 /* MYUShareManager.m */; };
 		BE83A8771E7665290012C540 /* MYUShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A85A1E7665290012C540 /* MYUShareButton.m */; };
@@ -443,13 +445,15 @@
 
 /* Begin PBXFileReference section */
 		BE4842451EF7F97400636470 /* PHP配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP配置.pdf"; sourceTree = "<group>"; };
-		BE579AAA1EFA132200E4A8DC /* PHP变量基本理解与操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP变量基本理解与操作.pdf"; sourceTree = "<group>"; };
+		BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量基本理解与操作.pdf"; sourceTree = "<group>"; };
 		BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MYSQL数据库配置.pdf"; sourceTree = "<group>"; };
 		BE5945811EF8D5B8009DC99D /* Day1学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day1学习报告.pdf"; sourceTree = "<group>"; };
-		BE5945841EF93A3B009DC99D /* PHP基本语法形式.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP基本语法形式.pdf"; sourceTree = "<group>"; };
+		BE5945841EF93A3B009DC99D /* 基本语法形式.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "基本语法形式.pdf"; sourceTree = "<group>"; };
 		BE5AC5971EA87B0A003E477F /* DrawAnimation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DrawAnimation.storyboard; sourceTree = "<group>"; };
 		BE5AC5991EA87B3B003E477F /* DrawAnimation_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawAnimation_ViewController.h; sourceTree = "<group>"; };
 		BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawAnimation_ViewController.m; sourceTree = "<group>"; };
+		BE5B3D291EFB7FB8004F634B /* 变量命名规则与传值方式.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量命名规则与传值方式.pdf"; sourceTree = "<group>"; };
+		BE5B3D2B1EFBD5DA004F634B /* 可变变量和预定义变量.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "可变变量和预定义变量.pdf"; sourceTree = "<group>"; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -1169,8 +1173,10 @@
 		BE5945831EF8DCD6009DC99D /* Day2 */ = {
 			isa = PBXGroup;
 			children = (
-				BE5945841EF93A3B009DC99D /* PHP基本语法形式.pdf */,
-				BE579AAA1EFA132200E4A8DC /* PHP变量基本理解与操作.pdf */,
+				BE5945841EF93A3B009DC99D /* 基本语法形式.pdf */,
+				BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */,
+				BE5B3D291EFB7FB8004F634B /* 变量命名规则与传值方式.pdf */,
+				BE5B3D2B1EFBD5DA004F634B /* 可变变量和预定义变量.pdf */,
 			);
 			path = Day2;
 			sourceTree = "<group>";
@@ -3054,6 +3060,7 @@
 				BE5945801EF8B081009DC99D /* MYSQL数据库配置.pdf in Resources */,
 				D692DF011EE62259004CF87C /* image1.png in Resources */,
 				D600D9251EF71F0800125C17 /* 正则表达式.pdf in Resources */,
+				BE5B3D2A1EFB7FB8004F634B /* 变量命名规则与传值方式.pdf in Resources */,
 				D600D9231EF71F0800125C17 /* 应用打包发布.pdf in Resources */,
 				D600D96E1EF71F0800125C17 /* ipad运行项目，部分页面显示不了.pdf in Resources */,
 				BE83A9791E7665A50012C540 /* MYNavigationControllerImage.xcassets in Resources */,
@@ -3071,7 +3078,7 @@
 				BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */,
 				D600D9461EF71F0800125C17 /* 图片轮播.pdf in Resources */,
 				D600D9561EF71F0800125C17 /* 绘制进度由0-1交替的旋转动画.pdf in Resources */,
-				BE579AAB1EFA132200E4A8DC /* PHP变量基本理解与操作.pdf in Resources */,
+				BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */,
 				D600D9481EF71F0800125C17 /* 将Image绘制到指定的区域.pdf in Resources */,
 				D600D9401EF71F0800125C17 /* 百度地图v3.1.0.pdf in Resources */,
 				BE83AA4E1E7666030012C540 /* MultiThread.storyboard in Resources */,
@@ -3134,7 +3141,7 @@
 				BE5945821EF8D5B8009DC99D /* Day1学习报告.pdf in Resources */,
 				D600D96C1EF71F0800125C17 /* html富文本高度的正确计算.pdf in Resources */,
 				D600D92B1EF71F0800125C17 /* IOS10-动态类型DynamicType.pdf in Resources */,
-				BE5945851EF93A3B009DC99D /* PHP基本语法形式.pdf in Resources */,
+				BE5945851EF93A3B009DC99D /* 基本语法形式.pdf in Resources */,
 				D600D9351EF71F0800125C17 /* MYSliderView封装.pdf in Resources */,
 				D600D96B1EF71F0800125C17 /* 输入框部分文本模糊匹配.pdf in Resources */,
 				D600D97D1EF71F0800125C17 /* 给绘图添加过程动画.pdf in Resources */,
@@ -3187,6 +3194,7 @@
 				D600D92C1EF71F0800125C17 /* IOS10-地图默认导航.pdf in Resources */,
 				D600D9891EF71F0800125C17 /* 证书重置项目运行后闪退.docx in Resources */,
 				D600D93C1EF71F0800125C17 /* 列表数据请求框架搭建.pdf in Resources */,
+				BE5B3D2C1EFBD5DA004F634B /* 可变变量和预定义变量.pdf in Resources */,
 				D600D9881EF71F0800125C17 /* 本地sqlite数据库框架搭建过程.pdf in Resources */,
 				D600D92A1EF71F0800125C17 /* IOS10-ScrollView下拉刷新.pdf in Resources */,
 				D600D9271EF71F0800125C17 /* 系统定位.pdf in Resources */,
