@@ -16,6 +16,7 @@
 		BE5AC59B1EA87B3B003E477F /* DrawAnimation_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */; };
 		BE5B3D2A1EFB7FB8004F634B /* 变量命名规则与传值方式.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5B3D291EFB7FB8004F634B /* 变量命名规则与传值方式.pdf */; };
 		BE5B3D2C1EFBD5DA004F634B /* 可变变量和预定义变量.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5B3D2B1EFBD5DA004F634B /* 可变变量和预定义变量.pdf */; };
+		BE657E101EFCC16900F16020 /* Day2学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
 		BE83A8761E7665290012C540 /* MYUShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8571E7665290012C540 /* MYUShareManager.m */; };
 		BE83A8771E7665290012C540 /* MYUShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A85A1E7665290012C540 /* MYUShareButton.m */; };
@@ -454,6 +455,7 @@
 		BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawAnimation_ViewController.m; sourceTree = "<group>"; };
 		BE5B3D291EFB7FB8004F634B /* 变量命名规则与传值方式.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量命名规则与传值方式.pdf"; sourceTree = "<group>"; };
 		BE5B3D2B1EFBD5DA004F634B /* 可变变量和预定义变量.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "可变变量和预定义变量.pdf"; sourceTree = "<group>"; };
+		BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day2学习报告.pdf"; sourceTree = "<group>"; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -1177,6 +1179,7 @@
 				BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */,
 				BE5B3D291EFB7FB8004F634B /* 变量命名规则与传值方式.pdf */,
 				BE5B3D2B1EFBD5DA004F634B /* 可变变量和预定义变量.pdf */,
+				BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */,
 			);
 			path = Day2;
 			sourceTree = "<group>";
@@ -1189,6 +1192,13 @@
 				BE5AC59A1EA87B3B003E477F /* DrawAnimation_ViewController.m */,
 			);
 			path = "绘图过程动画的实现";
+			sourceTree = "<group>";
+		};
+		BE657E111EFCC1F300F16020 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day3;
 			sourceTree = "<group>";
 		};
 		BE83A84F1E7665290012C540 /* 2016年 */ = {
@@ -2051,6 +2061,7 @@
 			children = (
 				BE930B351EF7876A0081CB14 /* Day1 */,
 				BE5945831EF8DCD6009DC99D /* Day2 */,
+				BE657E111EFCC1F300F16020 /* Day3 */,
 			);
 			path = 2017;
 			sourceTree = "<group>";
@@ -3080,6 +3091,7 @@
 				D600D9561EF71F0800125C17 /* 绘制进度由0-1交替的旋转动画.pdf in Resources */,
 				BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */,
 				D600D9481EF71F0800125C17 /* 将Image绘制到指定的区域.pdf in Resources */,
+				BE657E101EFCC16900F16020 /* Day2学习报告.pdf in Resources */,
 				D600D9401EF71F0800125C17 /* 百度地图v3.1.0.pdf in Resources */,
 				BE83AA4E1E7666030012C540 /* MultiThread.storyboard in Resources */,
 				D600D9581EF71F0800125C17 /* AppStore审核指南.pdf in Resources */,
