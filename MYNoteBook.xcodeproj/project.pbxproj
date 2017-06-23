@@ -459,6 +459,7 @@
 		BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day2学习报告.pdf"; sourceTree = "<group>"; };
 		BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常量的定义和基本使用.pdf"; sourceTree = "<group>"; };
 		BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类库管理工具CocoaPods详解.pdf"; sourceTree = "<group>"; };
+		BE657E581EFD1C4600F16020 /* 数据类型总体划分.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "数据类型总体划分.docx"; sourceTree = "<group>"; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -1200,6 +1201,7 @@
 			isa = PBXGroup;
 			children = (
 				BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */,
+				BE657E581EFD1C4600F16020 /* 数据类型总体划分.docx */,
 			);
 			path = Day3;
 			sourceTree = "<group>";

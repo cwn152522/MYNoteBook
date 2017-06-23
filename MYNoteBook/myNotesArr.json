@@ -158,5 +158,4 @@
  {"ID":50023, "Name":"变量基本理解与操作", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
  {"ID":50024, "Name":"变量命名规则与传值方式", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
  {"ID":50025, "Name":"可变变量和预定义变量", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
- {"ID":50026, "Name":"类库管理工具CocoaPods详解", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
  ]
