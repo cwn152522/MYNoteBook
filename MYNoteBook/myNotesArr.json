@@ -129,6 +129,7 @@
   {"ID":78, "Name":"本地sqlite数据库框架搭建过程", "ParentID":"-100, -1, -12, 7", "storyboardName":"", "storyboardId":""},
   {"ID":79, "Name":"MYNavigationViewControllerV2封装", "ParentID":"-100, -1, -12, 7", "storyboardName":"MYNav", "storyboardId":"MYNav"},
   {"ID":710, "Name":"证书重置项目运行后闪退", "ParentID":"-100, -1, -12, 7", "storyboardName":"", "storyboardId":""},
+  {"ID":711, "Name":"类库管理工具CocoaPods详解", "ParentID":"-100, -1, -12, 7", "storyboardName":"", "storyboardId":""},
  
  
  
@@ -150,4 +151,12 @@
  {"ID":50013, "Name":"变量基本理解与操作", "ParentID":"-100, -2, -21, 5001", "storyboardName":"", "storyboardId":""},
  {"ID":50014, "Name":"变量命名规则与传值方式", "ParentID":"-100, -2, -21, 5001", "storyboardName":"", "storyboardId":""},
  {"ID":50015, "Name":"可变变量和预定义变量", "ParentID":"-100, -2, -21, 5001", "storyboardName":"", "storyboardId":""},
+ 
+ {"ID":5002, "Name":"Day3", "ParentID":"-100, -2, -21", "storyboardName":"", "storyboardId":""},
+ {"ID":50021, "Name":"Day3学习报告", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
+ {"ID":50022, "Name":"常量的定义和基本使用", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
+ {"ID":50023, "Name":"变量基本理解与操作", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
+ {"ID":50024, "Name":"变量命名规则与传值方式", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
+ {"ID":50025, "Name":"可变变量和预定义变量", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
+ {"ID":50026, "Name":"类库管理工具CocoaPods详解", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
  ]

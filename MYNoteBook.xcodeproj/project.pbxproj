@@ -17,6 +17,8 @@
 		BE5B3D2A1EFB7FB8004F634B /* 变量命名规则与传值方式.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5B3D291EFB7FB8004F634B /* 变量命名规则与传值方式.pdf */; };
 		BE5B3D2C1EFBD5DA004F634B /* 可变变量和预定义变量.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5B3D2B1EFBD5DA004F634B /* 可变变量和预定义变量.pdf */; };
 		BE657E101EFCC16900F16020 /* Day2学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */; };
+		BE657E131EFCD4EE00F16020 /* 常量的定义和基本使用.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */; };
+		BE657E561EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
 		BE83A8761E7665290012C540 /* MYUShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8571E7665290012C540 /* MYUShareManager.m */; };
 		BE83A8771E7665290012C540 /* MYUShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A85A1E7665290012C540 /* MYUShareButton.m */; };
@@ -297,7 +299,6 @@
 		D600D9861EF71F0800125C17 /* 如何以xib方式创建自定义view.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D600D9131EF71F0800125C17 /* 如何以xib方式创建自定义view.pdf */; };
 		D600D9871EF71F0800125C17 /* 怎么正确获取当前时间.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D600D9141EF71F0800125C17 /* 怎么正确获取当前时间.pdf */; };
 		D600D9881EF71F0800125C17 /* 本地sqlite数据库框架搭建过程.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D600D9151EF71F0800125C17 /* 本地sqlite数据库框架搭建过程.pdf */; };
-		D600D9891EF71F0800125C17 /* 证书重置项目运行后闪退.docx in Resources */ = {isa = PBXBuildFile; fileRef = D600D9161EF71F0800125C17 /* 证书重置项目运行后闪退.docx */; };
 		D600D98A1EF71F0800125C17 /* 证书重置项目运行后闪退.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D600D9171EF71F0800125C17 /* 证书重置项目运行后闪退.pdf */; };
 		D600D98B1EF71F0800125C17 /* 页面编写习惯.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D600D9181EF71F0800125C17 /* 页面编写习惯.pdf */; };
 		D600EA0E1DF497A70054495C /* SearchHistory+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D600EA0B1DF497A70054495C /* SearchHistory+CoreDataProperties.m */; };
@@ -456,6 +457,8 @@
 		BE5B3D291EFB7FB8004F634B /* 变量命名规则与传值方式.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量命名规则与传值方式.pdf"; sourceTree = "<group>"; };
 		BE5B3D2B1EFBD5DA004F634B /* 可变变量和预定义变量.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "可变变量和预定义变量.pdf"; sourceTree = "<group>"; };
 		BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day2学习报告.pdf"; sourceTree = "<group>"; };
+		BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常量的定义和基本使用.pdf"; sourceTree = "<group>"; };
+		BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类库管理工具CocoaPods详解.pdf"; sourceTree = "<group>"; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -886,7 +889,6 @@
 		D600D9131EF71F0800125C17 /* 如何以xib方式创建自定义view.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "如何以xib方式创建自定义view.pdf"; sourceTree = "<group>"; };
 		D600D9141EF71F0800125C17 /* 怎么正确获取当前时间.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "怎么正确获取当前时间.pdf"; sourceTree = "<group>"; };
 		D600D9151EF71F0800125C17 /* 本地sqlite数据库框架搭建过程.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "本地sqlite数据库框架搭建过程.pdf"; sourceTree = "<group>"; };
-		D600D9161EF71F0800125C17 /* 证书重置项目运行后闪退.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "证书重置项目运行后闪退.docx"; sourceTree = "<group>"; };
 		D600D9171EF71F0800125C17 /* 证书重置项目运行后闪退.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "证书重置项目运行后闪退.pdf"; sourceTree = "<group>"; };
 		D600D9181EF71F0800125C17 /* 页面编写习惯.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "页面编写习惯.pdf"; sourceTree = "<group>"; };
 		D600EA0A1DF497A70054495C /* SearchHistory+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SearchHistory+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -1197,6 +1199,7 @@
 		BE657E111EFCC1F300F16020 /* Day3 */ = {
 			isa = PBXGroup;
 			children = (
+				BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */,
 			);
 			path = Day3;
 			sourceTree = "<group>";
@@ -2287,9 +2290,9 @@
 				D600D9131EF71F0800125C17 /* 如何以xib方式创建自定义view.pdf */,
 				D600D9141EF71F0800125C17 /* 怎么正确获取当前时间.pdf */,
 				D600D9151EF71F0800125C17 /* 本地sqlite数据库框架搭建过程.pdf */,
-				D600D9161EF71F0800125C17 /* 证书重置项目运行后闪退.docx */,
 				D600D9171EF71F0800125C17 /* 证书重置项目运行后闪退.pdf */,
 				D600D9181EF71F0800125C17 /* 页面编写习惯.pdf */,
+				BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */,
 			);
 			path = "IOS编程随记3";
 			sourceTree = "<group>";
@@ -3040,6 +3043,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE657E561EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf in Resources */,
 				BE83A93B1E7665A50012C540 /* CoreAnimation.storyboard in Resources */,
 				D600D93E1EF71F0800125C17 /* 友盟社区化组件v6.1.1.pdf in Resources */,
 				D600D9361EF71F0800125C17 /* UIViewControllerTransitioning.pdf in Resources */,
@@ -3134,6 +3138,7 @@
 				D600D9631EF71F0800125C17 /* 关于苹果APNs推送机制(3).pdf in Resources */,
 				D600D9201EF71F0800125C17 /* 内存管理.pdf in Resources */,
 				D6D3FD6B1EE61A3A00D628A6 /* MYNav.storyboard in Resources */,
+				BE657E131EFCD4EE00F16020 /* 常量的定义和基本使用.pdf in Resources */,
 				D600D9641EF71F0800125C17 /* 关于面向对象编程.pdf in Resources */,
 				D600D9321EF71F0800125C17 /* MYNavigationController封装.pdf in Resources */,
 				D600D97C1EF71F0800125C17 /* 线上app闪退问题反馈流程.pdf in Resources */,
@@ -3204,7 +3209,6 @@
 				D600D9431EF71F0800125C17 /* MJRefresh用法熟悉.pdf in Resources */,
 				D6EE1EFA1DCAA616003F14CD /* Main.storyboard in Resources */,
 				D600D92C1EF71F0800125C17 /* IOS10-地图默认导航.pdf in Resources */,
-				D600D9891EF71F0800125C17 /* 证书重置项目运行后闪退.docx in Resources */,
 				D600D93C1EF71F0800125C17 /* 列表数据请求框架搭建.pdf in Resources */,
 				BE5B3D2C1EFBD5DA004F634B /* 可变变量和预定义变量.pdf in Resources */,
 				D600D9881EF71F0800125C17 /* 本地sqlite数据库框架搭建过程.pdf in Resources */,
