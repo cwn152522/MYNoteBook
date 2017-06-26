@@ -51,6 +51,14 @@
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:target action:@selector(handleNavigationTransition:)];
     [self.view addGestureRecognizer:pan];
     self.navigationController.navigationController.interactivePopGestureRecognizer.enabled = NO;
+    
+    
+    if(![_searchBar.text length]){
+        _isShowHistory = YES;
+        [self onlySeeNone];
+        [self.searchModel loadHistoryData];
+        [self.tableView reloadData];
+    }
     // Do any additional setup after loading the view.
 }
 
@@ -61,13 +69,6 @@
     if(_isToImageScanVc == YES){
     self.navigationController.navigationController.interactivePopGestureRecognizer.enabled = YES;
         _isToImageScanVc = NO;
-    }
-    
-    if(![_searchBar.text length]){
-        _isShowHistory = YES;
-        [self onlySeeNone];
-        [self.searchModel loadHistoryData];
-        [self.tableView reloadData];
     }
 }
 
