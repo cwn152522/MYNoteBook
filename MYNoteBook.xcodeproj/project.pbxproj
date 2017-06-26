@@ -181,6 +181,7 @@
 		BE83AA651E7666030012C540 /* CLLocation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE83AA201E7666030012C540 /* CLLocation.storyboard */; };
 		BE83AA661E7666030012C540 /* MYLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83AA221E7666030012C540 /* MYLocationManager.m */; };
 		BE83AA671E7666030012C540 /* ViewController_CLLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83AA241E7666030012C540 /* ViewController_CLLocation.m */; };
+		BE90901F1F00AC550011D618 /* 数据类型.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE90901E1F00AC550011D618 /* 数据类型.pdf */; };
 		BE930B381EF7E6F80081CB14 /* Apache配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE930B361EF7E6F80081CB14 /* Apache配置.pdf */; };
 		BE930B391EF7E6F80081CB14 /* PHP网页运行原理.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */; };
 		BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */; };
@@ -459,7 +460,6 @@
 		BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day2学习报告.pdf"; sourceTree = "<group>"; };
 		BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常量的定义和基本使用.pdf"; sourceTree = "<group>"; };
 		BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类库管理工具CocoaPods详解.pdf"; sourceTree = "<group>"; };
-		BE657E581EFD1C4600F16020 /* 数据类型总体划分.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "数据类型总体划分.docx"; sourceTree = "<group>"; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -768,6 +768,7 @@
 		BE83AA221E7666030012C540 /* MYLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYLocationManager.m; sourceTree = "<group>"; };
 		BE83AA231E7666030012C540 /* ViewController_CLLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_CLLocation.h; sourceTree = "<group>"; };
 		BE83AA241E7666030012C540 /* ViewController_CLLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_CLLocation.m; sourceTree = "<group>"; };
+		BE90901E1F00AC550011D618 /* 数据类型.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据类型.pdf"; sourceTree = "<group>"; };
 		BE930B361EF7E6F80081CB14 /* Apache配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Apache配置.pdf"; sourceTree = "<group>"; };
 		BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP网页运行原理.pdf"; sourceTree = "<group>"; };
 		BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoubleTable.storyboard; sourceTree = "<group>"; };
@@ -1201,7 +1202,7 @@
 			isa = PBXGroup;
 			children = (
 				BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */,
-				BE657E581EFD1C4600F16020 /* 数据类型总体划分.docx */,
+				BE90901E1F00AC550011D618 /* 数据类型.pdf */,
 			);
 			path = Day3;
 			sourceTree = "<group>";
@@ -3197,6 +3198,7 @@
 				D6EE1EFC1DCAA616003F14CD /* Assets.xcassets in Resources */,
 				BE83AA291E7666030012C540 /* JSCallOC.html in Resources */,
 				D600D91D1EF71F0800125C17 /* Swift_OC混编.pdf in Resources */,
+				BE90901F1F00AC550011D618 /* 数据类型.pdf in Resources */,
 				BE83AA551E7666030012C540 /* DataStorage.storyboard in Resources */,
 				D600D97F1EF71F0800125C17 /* 跑马灯动画.pdf in Resources */,
 				D600D93A1EF71F0800125C17 /* YYModel-Json解析.pdf in Resources */,

@@ -155,7 +155,7 @@
  {"ID":5002, "Name":"Day3", "ParentID":"-100, -2, -21", "storyboardName":"", "storyboardId":""},
  {"ID":50021, "Name":"Day3学习报告", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
  {"ID":50022, "Name":"常量的定义和基本使用", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
- {"ID":50023, "Name":"变量基本理解与操作", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
- {"ID":50024, "Name":"变量命名规则与传值方式", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
- {"ID":50025, "Name":"可变变量和预定义变量", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
+ {"ID":50023, "Name":"数据类型", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
+ {"ID":50024, "Name":"进制转换", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
+ {"ID":50025, "Name":"类型转换", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
  ]

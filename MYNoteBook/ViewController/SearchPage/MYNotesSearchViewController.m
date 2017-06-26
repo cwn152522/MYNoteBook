@@ -147,6 +147,43 @@
     });
 }
 
+- (void)searchAllNotesWithOnlySee:(NSInteger)type{//查看所有文章，1只看ios 2只看php 0看全部
+    if([_searchBar.text length] > 0)
+        return;
+    
+    __weak typeof(self) weakSelf = self;
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSMutableArray *array = [NSMutableArray array];
+        
+        [[[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"ID > -100"]] enumerateObjectsUsingBlock:^(NSDictionary *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            NSArray *componets = [obj[@"ParentID"] componentsSeparatedByString:@","];
+            if([[componets lastObject] integerValue] > 0){//是具体的文章
+                if(type == 0 || (type == 1 && [componets[1] integerValue] == -1) || (type == 2 && [componets[1] integerValue] == -2))
+                    [array addObject:obj];
+            }
+        }];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            weakSelf.data = array;
+            switch (type) {
+                case 0:
+                    [weakSelf onlySeeAll];
+                    break;
+                case 1:
+                    [weakSelf onlySeeIOS];
+                    break;
+                case 2:
+                    [weakSelf onlySeePHP];
+                    break;
+                default:
+                    break;
+            }
+            weakSelf.isShowHistory = NO;
+            [weakSelf.tableView reloadData];
+        });
+    });
+}
+
 #pragma mark UISearchBarDelegate
 
 - (void)searchBarBookmarkButtonClicked:(UISearchBar *)searchBar{
@@ -339,7 +376,10 @@
 #pragma mark 其他事件
 
 - (IBAction)onClickFilterBtn:(UIButton *)sender {
+    if([_searchBar.text length] > 0)
         [self searchNotesWithKeyword:_searchBar.text onlySee:sender.tag];
+    else
+        [self searchAllNotesWithOnlySee:sender.tag];
 }
 
 - (void)onlySeeIOS{
