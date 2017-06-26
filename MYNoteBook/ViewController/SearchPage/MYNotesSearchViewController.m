@@ -65,6 +65,7 @@
     
     if(![_searchBar.text length]){
         _isShowHistory = YES;
+        [self onlySeeNone];
         [self.searchModel loadHistoryData];
         [self.tableView reloadData];
     }
@@ -397,6 +398,12 @@
 - (void)onlySeeAll{
     [self.filterBtn enumerateObjectsUsingBlock:^(UIButton *obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [obj setSelected:obj.tag == 0 ? YES : NO];
+    }];
+}
+
+- (void)onlySeeNone{
+    [self.filterBtn enumerateObjectsUsingBlock:^(UIButton *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [obj setSelected:0];
     }];
 }
 
