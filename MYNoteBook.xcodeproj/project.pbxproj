@@ -20,6 +20,7 @@
 		BE657E131EFCD4EE00F16020 /* 常量的定义和基本使用.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */; };
 		BE657E561EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */; };
 		BE72AF3D1F0F2E5C00A79201 /* 进制转换.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */; };
+		BE72AF3F1F0F582600A79201 /* Day3学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF3E1F0F582600A79201 /* Day3学习报告.pdf */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
 		BE83A8761E7665290012C540 /* MYUShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8571E7665290012C540 /* MYUShareManager.m */; };
 		BE83A8771E7665290012C540 /* MYUShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A85A1E7665290012C540 /* MYUShareButton.m */; };
@@ -463,6 +464,7 @@
 		BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常量的定义和基本使用.pdf"; sourceTree = "<group>"; };
 		BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类库管理工具CocoaPods详解.pdf"; sourceTree = "<group>"; };
 		BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "进制转换.pdf"; sourceTree = "<group>"; };
+		BE72AF3E1F0F582600A79201 /* Day3学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day3学习报告.pdf"; sourceTree = "<group>"; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -1183,11 +1185,11 @@
 		BE5945831EF8DCD6009DC99D /* Day2 */ = {
 			isa = PBXGroup;
 			children = (
+				BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */,
 				BE5945841EF93A3B009DC99D /* 基本语法形式.pdf */,
 				BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */,
 				BE5B3D291EFB7FB8004F634B /* 变量命名规则与传值方式.pdf */,
 				BE5B3D2B1EFBD5DA004F634B /* 可变变量和预定义变量.pdf */,
-				BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */,
 			);
 			path = Day2;
 			sourceTree = "<group>";
@@ -1205,12 +1207,20 @@
 		BE657E111EFCC1F300F16020 /* Day3 */ = {
 			isa = PBXGroup;
 			children = (
+				BE72AF3E1F0F582600A79201 /* Day3学习报告.pdf */,
 				BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */,
 				BE90901E1F00AC550011D618 /* 数据类型.pdf */,
 				BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */,
 				D649490B1F0F4C98000D2A45 /* 类型转换.pdf */,
 			);
 			path = Day3;
+			sourceTree = "<group>";
+		};
+		BE72AF401F0F586800A79201 /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day4;
 			sourceTree = "<group>";
 		};
 		BE83A84F1E7665290012C540 /* 2016年 */ = {
@@ -2074,6 +2084,7 @@
 				BE930B351EF7876A0081CB14 /* Day1 */,
 				BE5945831EF8DCD6009DC99D /* Day2 */,
 				BE657E111EFCC1F300F16020 /* Day3 */,
+				BE72AF401F0F586800A79201 /* Day4 */,
 			);
 			path = 2017;
 			sourceTree = "<group>";
@@ -3072,6 +3083,7 @@
 				D6D3FD661EE6199100D628A6 /* MYNav.xcassets in Resources */,
 				D600D95B1EF71F0800125C17 /* UITableView刷新cell闪烁问题.pdf in Resources */,
 				D600D9341EF71F0800125C17 /* MYNetwork网络库1.0版.pdf in Resources */,
+				BE72AF3F1F0F582600A79201 /* Day3学习报告.pdf in Resources */,
 				BE83A9701E7665A50012C540 /* CustomNav.storyboard in Resources */,
 				D600D9701EF71F0800125C17 /* 主从列表封装思想.pdf in Resources */,
 				D600D98A1EF71F0800125C17 /* 证书重置项目运行后闪退.pdf in Resources */,
