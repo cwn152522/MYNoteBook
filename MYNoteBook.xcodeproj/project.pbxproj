@@ -19,6 +19,7 @@
 		BE657E101EFCC16900F16020 /* Day2学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */; };
 		BE657E131EFCD4EE00F16020 /* 常量的定义和基本使用.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */; };
 		BE657E561EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */; };
+		BE72AF3D1F0F2E5C00A79201 /* 进制转换.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
 		BE83A8761E7665290012C540 /* MYUShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8571E7665290012C540 /* MYUShareManager.m */; };
 		BE83A8771E7665290012C540 /* MYUShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A85A1E7665290012C540 /* MYUShareButton.m */; };
@@ -460,6 +461,7 @@
 		BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day2学习报告.pdf"; sourceTree = "<group>"; };
 		BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常量的定义和基本使用.pdf"; sourceTree = "<group>"; };
 		BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类库管理工具CocoaPods详解.pdf"; sourceTree = "<group>"; };
+		BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "进制转换.pdf"; sourceTree = "<group>"; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -1203,6 +1205,7 @@
 			children = (
 				BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */,
 				BE90901E1F00AC550011D618 /* 数据类型.pdf */,
+				BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */,
 			);
 			path = Day3;
 			sourceTree = "<group>";
@@ -2999,7 +3002,7 @@
 				TargetAttributes = {
 					D6EE1EEB1DCAA616003F14CD = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 3TQC24HTXA;
+						DevelopmentTeam = P6247WX9N5;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -3084,6 +3087,7 @@
 				BE83A9791E7665A50012C540 /* MYNavigationControllerImage.xcassets in Resources */,
 				D600D94A1EF71F0800125C17 /* 根据UIView绘制出相应Image.pdf in Resources */,
 				D600D9811EF71F0800125C17 /* MYNavigationViewControllerV2封装.pdf in Resources */,
+				BE72AF3D1F0F2E5C00A79201 /* 进制转换.pdf in Resources */,
 				D600D94B1EF71F0800125C17 /* 根据缩放系数绘制缩放后的Image.pdf in Resources */,
 				BE5AC5981EA87B0A003E477F /* DrawAnimation.storyboard in Resources */,
 				D600D9731EF71F0800125C17 /* 列表滑动卡顿问题.pdf in Resources */,
@@ -3584,7 +3588,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 3TQC24HTXA;
+				DEVELOPMENT_TEAM = P6247WX9N5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3618,7 +3622,7 @@
 					"$(PROJECT_DIR)/MYNoteBook/Frameworks/JPush",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chenweinan.MYNoteBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenweinan.NoteBook;
 				PRODUCT_MODULE_NAME = OC_Swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -3637,7 +3641,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 3TQC24HTXA;
+				DEVELOPMENT_TEAM = P6247WX9N5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3671,7 +3675,7 @@
 					"$(PROJECT_DIR)/MYNoteBook/Frameworks/JPush",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chenweinan.MYNoteBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenweinan.NoteBook;
 				PRODUCT_MODULE_NAME = OC_Swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
