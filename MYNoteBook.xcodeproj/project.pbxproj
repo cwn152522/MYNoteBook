@@ -316,6 +316,7 @@
 		D61625671DF46C4E0091DCC6 /* MYNotesSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61625661DF46C4E0091DCC6 /* MYNotesSearchViewController.m */; };
 		D63B75BD1DE8736A00585FE6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D63B75BB1DE8736A00585FE6 /* Model.xcdatamodeld */; };
 		D63EDA2A1DCBC24800144278 /* myNotes.json in Resources */ = {isa = PBXBuildFile; fileRef = D63EDA291DCBC24800144278 /* myNotes.json */; };
+		D649490C1F0F4C98000D2A45 /* 类型转换.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D649490B1F0F4C98000D2A45 /* 类型转换.pdf */; };
 		D64B50741E00349C00E4BD41 /* UITabBarItem+Universal.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B50731E00349C00E4BD41 /* UITabBarItem+Universal.m */; };
 		D64B50771E0034A900E4BD41 /* JCContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B50761E0034A900E4BD41 /* JCContext.m */; };
 		D64B50841E00362500E4BD41 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64B50831E00362500E4BD41 /* OpenGLES.framework */; };
@@ -919,6 +920,7 @@
 		D61625661DF46C4E0091DCC6 /* MYNotesSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNotesSearchViewController.m; sourceTree = "<group>"; };
 		D63B75BC1DE8736A00585FE6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		D63EDA291DCBC24800144278 /* myNotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myNotes.json; sourceTree = "<group>"; };
+		D649490B1F0F4C98000D2A45 /* 类型转换.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类型转换.pdf"; sourceTree = "<group>"; };
 		D64B50721E00349C00E4BD41 /* UITabBarItem+Universal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Universal.h"; sourceTree = "<group>"; };
 		D64B50731E00349C00E4BD41 /* UITabBarItem+Universal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Universal.m"; sourceTree = "<group>"; };
 		D64B50751E0034A900E4BD41 /* JCContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCContext.h; sourceTree = "<group>"; };
@@ -1206,6 +1208,7 @@
 				BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */,
 				BE90901E1F00AC550011D618 /* 数据类型.pdf */,
 				BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */,
+				D649490B1F0F4C98000D2A45 /* 类型转换.pdf */,
 			);
 			path = Day3;
 			sourceTree = "<group>";
@@ -3063,6 +3066,7 @@
 				D600D9511EF71F0800125C17 /* 绘制带填充色的圆角箭头标签.pdf in Resources */,
 				D600D93D1EF71F0800125C17 /* 利用NSCache提升效率.pdf in Resources */,
 				BE83AA5B1E7666030012C540 /* Info.plist in Resources */,
+				D649490C1F0F4C98000D2A45 /* 类型转换.pdf in Resources */,
 				BE83A9401E7665A50012C540 /* MJRefresh.storyboard in Resources */,
 				D600D93F1EF71F0800125C17 /* 极光推送v3.0.0.pdf in Resources */,
 				D6D3FD661EE6199100D628A6 /* MYNav.xcassets in Resources */,
