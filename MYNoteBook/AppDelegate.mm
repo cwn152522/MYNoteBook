@@ -185,7 +185,7 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
     
     // Required,For systems with less than or equal to iOS6
-    [JPUSHService handleRemoteNotification:userInfo];
+    [JPUSHService handleRemoteNotification:userInfo]; 
 }
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{

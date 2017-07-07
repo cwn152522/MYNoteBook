@@ -22,6 +22,7 @@
 		BE72AF3D1F0F2E5C00A79201 /* 进制转换.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */; };
 		BE72AF3F1F0F582600A79201 /* Day3学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF3E1F0F582600A79201 /* Day3学习报告.pdf */; };
 		BE72AF421F0F6B1000A79201 /* 代码注释提高程序可读性.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF411F0F6B1000A79201 /* 代码注释提高程序可读性.pdf */; };
+		BE72AF441F0F711400A79201 /* 怎么让文本左右对齐.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF431F0F711400A79201 /* 怎么让文本左右对齐.pdf */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
 		BE83A8761E7665290012C540 /* MYUShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8571E7665290012C540 /* MYUShareManager.m */; };
 		BE83A8771E7665290012C540 /* MYUShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A85A1E7665290012C540 /* MYUShareButton.m */; };
@@ -467,6 +468,7 @@
 		BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "进制转换.pdf"; sourceTree = "<group>"; };
 		BE72AF3E1F0F582600A79201 /* Day3学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day3学习报告.pdf"; sourceTree = "<group>"; };
 		BE72AF411F0F6B1000A79201 /* 代码注释提高程序可读性.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "代码注释提高程序可读性.pdf"; sourceTree = "<group>"; };
+		BE72AF431F0F711400A79201 /* 怎么让文本左右对齐.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "怎么让文本左右对齐.pdf"; sourceTree = "<group>"; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -2316,6 +2318,7 @@
 				D600D9181EF71F0800125C17 /* 页面编写习惯.pdf */,
 				BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */,
 				BE72AF411F0F6B1000A79201 /* 代码注释提高程序可读性.pdf */,
+				BE72AF431F0F711400A79201 /* 怎么让文本左右对齐.pdf */,
 			);
 			path = "IOS编程随记3";
 			sourceTree = "<group>";
@@ -3156,6 +3159,7 @@
 				D6DC80BE1E03573A00F25651 /* read_me.txt in Resources */,
 				D600D95E1EF71F0800125C17 /* 使用frame怎么实现autolayout.pdf in Resources */,
 				D600D9211EF71F0800125C17 /* 创建framework静态库.pdf in Resources */,
+				BE72AF441F0F711400A79201 /* 怎么让文本左右对齐.pdf in Resources */,
 				D6DC80B71E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				D6DC80BA1E03573A00F25651 /* WeiboSDK.bundle in Resources */,
 				D600D9541EF71F0800125C17 /* 绘制纯背景的UISearchBar.pdf in Resources */,
