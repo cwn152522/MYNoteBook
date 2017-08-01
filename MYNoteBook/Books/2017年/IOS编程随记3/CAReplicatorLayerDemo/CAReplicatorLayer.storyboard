@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Replicator Layer View Controller-->
+        <scene sceneID="T54-dV-Nuj">
+            <objects>
+                <viewController storyboardIdentifier="CAReplicatorLayer" id="wSt-Dk-1RW" customClass="CAReplicatorLayer_ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jVs-Tm-VOf"/>
+                        <viewControllerLayoutGuide type="bottom" id="aBI-Xb-PEb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9U4-kp-Q3o">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n4d-qu-ewA" customClass="LoadingView">
+                                <rect key="frame" x="162" y="309" width="50" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="n4d-qu-ewA" secondAttribute="height" multiplier="1:1" id="byJ-Jr-s26"/>
+                                    <constraint firstAttribute="height" constant="50" id="vVp-ZC-QkN"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uV2-q7-HaT" customClass="LoadingView1">
+                                <rect key="frame" x="162" y="369" width="50" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ImG-5A-dh6"/>
+                                    <constraint firstAttribute="width" secondItem="uV2-q7-HaT" secondAttribute="height" multiplier="1:1" id="Lck-fc-KMy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="n4d-qu-ewA" firstAttribute="centerY" secondItem="9U4-kp-Q3o" secondAttribute="centerY" id="WKW-Du-zOT"/>
+                            <constraint firstItem="uV2-q7-HaT" firstAttribute="centerX" secondItem="n4d-qu-ewA" secondAttribute="centerX" id="jP4-08-gGN"/>
+                            <constraint firstItem="uV2-q7-HaT" firstAttribute="top" secondItem="n4d-qu-ewA" secondAttribute="bottom" constant="10" id="mbG-Jn-iyU"/>
+                            <constraint firstItem="uV2-q7-HaT" firstAttribute="width" secondItem="uV2-q7-HaT" secondAttribute="height" multiplier="1:1" id="nr9-NW-z2p"/>
+                            <constraint firstItem="n4d-qu-ewA" firstAttribute="centerX" secondItem="9U4-kp-Q3o" secondAttribute="centerX" id="rmC-vQ-q75"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loadingView1" destination="n4d-qu-ewA" id="UUd-P7-CZw"/>
+                        <outlet property="loadingView2" destination="uV2-q7-HaT" id="HTS-BU-c8m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nPf-Sf-xog" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="45"/>
+        </scene>
+    </scenes>
+</document>

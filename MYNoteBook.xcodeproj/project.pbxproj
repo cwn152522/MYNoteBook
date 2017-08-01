@@ -19,6 +19,11 @@
 		BE657E101EFCC16900F16020 /* Day2学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */; };
 		BE657E131EFCD4EE00F16020 /* 常量的定义和基本使用.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */; };
 		BE657E561EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */; };
+		BE6F48DD1F303FE200A48AD0 /* CAReplicatorLayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6F48DC1F303FE200A48AD0 /* CAReplicatorLayer.storyboard */; };
+		BE6F48E11F30401000A48AD0 /* CAReplicatorLayer_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6F48DF1F30401000A48AD0 /* CAReplicatorLayer_ViewController.m */; };
+		BE6F48E71F3040D000A48AD0 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6F48E41F3040D000A48AD0 /* LoadingView.m */; };
+		BE6F48E81F3040D000A48AD0 /* LoadingView1.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6F48E61F3040D000A48AD0 /* LoadingView1.m */; };
+		BE6F48EA1F30445700A48AD0 /* 图层复制思想.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6F48E91F30445700A48AD0 /* 图层复制思想.pdf */; };
 		BE72AF3D1F0F2E5C00A79201 /* 进制转换.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */; };
 		BE72AF3F1F0F582600A79201 /* Day3学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF3E1F0F582600A79201 /* Day3学习报告.pdf */; };
 		BE72AF421F0F6B1000A79201 /* 代码注释提高程序可读性.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF411F0F6B1000A79201 /* 代码注释提高程序可读性.pdf */; };
@@ -466,6 +471,14 @@
 		BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day2学习报告.pdf"; sourceTree = "<group>"; };
 		BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常量的定义和基本使用.pdf"; sourceTree = "<group>"; };
 		BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类库管理工具CocoaPods详解.pdf"; sourceTree = "<group>"; };
+		BE6F48DC1F303FE200A48AD0 /* CAReplicatorLayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CAReplicatorLayer.storyboard; sourceTree = "<group>"; };
+		BE6F48DE1F30401000A48AD0 /* CAReplicatorLayer_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayer_ViewController.h; sourceTree = "<group>"; };
+		BE6F48DF1F30401000A48AD0 /* CAReplicatorLayer_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayer_ViewController.m; sourceTree = "<group>"; };
+		BE6F48E31F3040D000A48AD0 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		BE6F48E41F3040D000A48AD0 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		BE6F48E51F3040D000A48AD0 /* LoadingView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView1.h; sourceTree = "<group>"; };
+		BE6F48E61F3040D000A48AD0 /* LoadingView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView1.m; sourceTree = "<group>"; };
+		BE6F48E91F30445700A48AD0 /* 图层复制思想.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "图层复制思想.pdf"; sourceTree = "<group>"; };
 		BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "进制转换.pdf"; sourceTree = "<group>"; };
 		BE72AF3E1F0F582600A79201 /* Day3学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day3学习报告.pdf"; sourceTree = "<group>"; };
 		BE72AF411F0F6B1000A79201 /* 代码注释提高程序可读性.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "代码注释提高程序可读性.pdf"; sourceTree = "<group>"; };
@@ -1220,6 +1233,20 @@
 				D649490B1F0F4C98000D2A45 /* 类型转换.pdf */,
 			);
 			path = Day3;
+			sourceTree = "<group>";
+		};
+		BE6F48DB1F303FC700A48AD0 /* CAReplicatorLayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BE6F48E31F3040D000A48AD0 /* LoadingView.h */,
+				BE6F48E41F3040D000A48AD0 /* LoadingView.m */,
+				BE6F48E51F3040D000A48AD0 /* LoadingView1.h */,
+				BE6F48E61F3040D000A48AD0 /* LoadingView1.m */,
+				BE6F48DE1F30401000A48AD0 /* CAReplicatorLayer_ViewController.h */,
+				BE6F48DF1F30401000A48AD0 /* CAReplicatorLayer_ViewController.m */,
+				BE6F48DC1F303FE200A48AD0 /* CAReplicatorLayer.storyboard */,
+			);
+			path = CAReplicatorLayerDemo;
 			sourceTree = "<group>";
 		};
 		BE72AF401F0F586800A79201 /* Day4 */ = {
@@ -2322,6 +2349,7 @@
 				BE72AF411F0F6B1000A79201 /* 代码注释提高程序可读性.pdf */,
 				BE72AF431F0F711400A79201 /* 怎么让文本左右对齐.pdf */,
 				BE72AF451F0F905000A79201 /* 修改状态栏字体颜色.pdf */,
+				BE6F48E91F30445700A48AD0 /* 图层复制思想.pdf */,
 			);
 			path = "IOS编程随记3";
 			sourceTree = "<group>";
@@ -2531,6 +2559,7 @@
 			isa = PBXGroup;
 			children = (
 				D6D3FD5E1EE6199100D628A6 /* MYNavigationController */,
+				BE6F48DB1F303FC700A48AD0 /* CAReplicatorLayerDemo */,
 			);
 			path = "IOS编程随记3";
 			sourceTree = "<group>";
@@ -3121,6 +3150,7 @@
 				D600D9751EF71F0800125C17 /* 怎么给View添加阴影.pdf in Resources */,
 				D600D9381EF71F0800125C17 /* Xcode7运行Xcode8项目xib问题.pdf in Resources */,
 				D600D96A1EF71F0800125C17 /* 系统pop手势失效.pdf in Resources */,
+				BE6F48EA1F30445700A48AD0 /* 图层复制思想.pdf in Resources */,
 				D600D9621EF71F0800125C17 /* 关于苹果APNs推送机制(2).pdf in Resources */,
 				BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */,
 				D600D9461EF71F0800125C17 /* 图片轮播.pdf in Resources */,
@@ -3185,6 +3215,7 @@
 				D600D9411EF71F0800125C17 /* 百度统计v4.3.0.pdf in Resources */,
 				D600D9471EF71F0800125C17 /* 实现NavigationBar的alpha渐变.pdf in Resources */,
 				D692DF041EE62259004CF87C /* image4.png in Resources */,
+				BE6F48DD1F303FE200A48AD0 /* CAReplicatorLayer.storyboard in Resources */,
 				D600D9821EF71F0800125C17 /* UIView加阴影的情况下动画很卡.pdf in Resources */,
 				D600D94C1EF71F0800125C17 /* 绘制不带填充色的圆角边框标签.pdf in Resources */,
 				D600D97A1EF71F0800125C17 /* 版本控制之gitlab服务器的搭建.pdf in Resources */,
@@ -3338,6 +3369,7 @@
 				BE83A8831E7665290012C540 /* ViewController_BaiduMap.m in Sources */,
 				BE83A96F1E7665A50012C540 /* ViewController_SpeechURL.m in Sources */,
 				D6F774831E005EDB0089E7E9 /* MJRefreshGifHeader.m in Sources */,
+				BE6F48E81F3040D000A48AD0 /* LoadingView1.m in Sources */,
 				BE83AA441E7666030012C540 /* UIButton+WebCache.m in Sources */,
 				BE83A9371E7665A50012C540 /* CAKeyframeAnimationViewController.m in Sources */,
 				D6CC2AFC1E91D02400E8C444 /* RunHorseLampViewController.m in Sources */,
@@ -3400,6 +3432,7 @@
 				D6D3FD691EE6199100D628A6 /* MYViewControllerAnimatedTransitioningV2.m in Sources */,
 				BE83A95A1E7665A50012C540 /* UIViewController+Base.m in Sources */,
 				BE83A87B1E7665290012C540 /* ViewController_UMSocial.m in Sources */,
+				BE6F48E11F30401000A48AD0 /* CAReplicatorLayer_ViewController.m in Sources */,
 				BE83AA381E7666030012C540 /* MYNetworkResponse.m in Sources */,
 				BE83A94F1E7665A50012C540 /* MYNormalCircleProgressView.m in Sources */,
 				BE83AA3B1E7666030012C540 /* MYURLSessionTask.m in Sources */,
@@ -3464,6 +3497,7 @@
 				BE83A96B1E7665A50012C540 /* ViewController_DefaultMapLeading.m in Sources */,
 				BE83A9351E7665A50012C540 /* CAAnimationGroupViewController.m in Sources */,
 				BE83AA4B1E7666030012C540 /* MYGetJsonMd5Responed.m in Sources */,
+				BE6F48E71F3040D000A48AD0 /* LoadingView.m in Sources */,
 				BE83A87F1E7665290012C540 /* MYBaiduMapManager.m in Sources */,
 				D61625381DF46B960091DCC6 /* MYNoteDetailWebViewController.m in Sources */,
 				BE83A9661E7665A50012C540 /* MYSignUpTipsViewController.m in Sources */,
