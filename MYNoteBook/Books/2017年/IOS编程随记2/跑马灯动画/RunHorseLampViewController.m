@@ -7,10 +7,12 @@
 //
 
 #import "RunHorseLampViewController.h"
-#import "RunHorseLamp_Normal.h"
-#import "RunHorseLamp_Imediately.h"
+#import "RunHorseLampView.h"
+#import "UIView+CWNView.h"
 
 @interface RunHorseLampViewController ()
+
+@property (strong, nonatomic) RunHorseLampView *lampView;//跑马灯
 
 @end
 
@@ -19,7 +21,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self configNavigationBar];
+    
+    
+    __weak typeof(self) weakSelf = self;
+    [self.view addSubview:self.lampView];
+    [self.lampView cwn_makeConstraints:^(UIView *maker) {
+        maker.centerXtoSuper(0).centerYtoSuper(0).width(weakSelf.view.frame.size.width).height(30);
+    }];
+    
+    [self.lampView startRuning:[NSString stringWithFormat:@"%@", @"测试啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊哦哦哦哦                      "]];
+    
+    [self.lampView setRunHourseLampViewClickBlock:^{
+    }];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
 }
 
 - (void)configNavigationBar{
@@ -39,20 +57,12 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark 事件处理
-
-- (IBAction)onClickNormalState:(UIButton *)sender {
-    RunHorseLamp_Normal *vc = [[RunHorseLamp_Normal alloc] initWithNibName:@"RunHorseLamp_Normal" bundle:nil];
-    vc.title = @"跑马灯 - 正常模式";
-    [self.navigationController pushViewController:vc animated:YES];
+- (RunHorseLampView *)lampView{
+    if(!_lampView){
+        _lampView = [[RunHorseLampView alloc] init];
+    }
+    return _lampView;
 }
-
-- (IBAction)onClickImediatelyState:(UIButton *)sender {
-    RunHorseLamp_Imediately *vc = [[RunHorseLamp_Imediately alloc] initWithNibName:@"RunHorseLamp_Imediately" bundle:nil];
-    vc.title = @"跑马灯 - 立即模式";
-    [self.navigationController pushViewController:vc animated:YES];;
-}
-
 /*
 #pragma mark - Navigation
 

@@ -352,10 +352,6 @@
 		D6B88F571E060AA200741102 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B88F561E060AA200741102 /* libresolv.tbd */; };
 		D6CC2AFC1E91D02400E8C444 /* RunHorseLampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC2AFA1E91D02400E8C444 /* RunHorseLampViewController.m */; };
 		D6CC2B001E91D06000E8C444 /* RunHorseLampView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC2AFF1E91D06000E8C444 /* RunHorseLampView.m */; };
-		D6CC2B071E91D07800E8C444 /* RunHorseLamp_Normal.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC2B021E91D07800E8C444 /* RunHorseLamp_Normal.m */; };
-		D6CC2B081E91D07800E8C444 /* RunHorseLamp_Normal.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6CC2B031E91D07800E8C444 /* RunHorseLamp_Normal.xib */; };
-		D6CC2B091E91D07800E8C444 /* RunHorseLamp_Imediately.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC2B051E91D07800E8C444 /* RunHorseLamp_Imediately.m */; };
-		D6CC2B0A1E91D07800E8C444 /* RunHorseLamp_Imediately.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6CC2B061E91D07800E8C444 /* RunHorseLamp_Imediately.xib */; };
 		D6CC2B0E1E91D3CF00E8C444 /* RunHorseLamp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CC2B0D1E91D3CF00E8C444 /* RunHorseLamp.storyboard */; };
 		D6D3FD661EE6199100D628A6 /* MYNav.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D3FD5F1EE6199100D628A6 /* MYNav.xcassets */; };
 		D6D3FD671EE6199100D628A6 /* MYNavControllerTransitioningDelegateV2.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D3FD611EE6199100D628A6 /* MYNavControllerTransitioningDelegateV2.m */; };
@@ -981,12 +977,6 @@
 		D6CC2AFA1E91D02400E8C444 /* RunHorseLampViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunHorseLampViewController.m; sourceTree = "<group>"; };
 		D6CC2AFE1E91D06000E8C444 /* RunHorseLampView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunHorseLampView.h; sourceTree = "<group>"; };
 		D6CC2AFF1E91D06000E8C444 /* RunHorseLampView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunHorseLampView.m; sourceTree = "<group>"; };
-		D6CC2B011E91D07800E8C444 /* RunHorseLamp_Normal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunHorseLamp_Normal.h; sourceTree = "<group>"; };
-		D6CC2B021E91D07800E8C444 /* RunHorseLamp_Normal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunHorseLamp_Normal.m; sourceTree = "<group>"; };
-		D6CC2B031E91D07800E8C444 /* RunHorseLamp_Normal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunHorseLamp_Normal.xib; sourceTree = "<group>"; };
-		D6CC2B041E91D07800E8C444 /* RunHorseLamp_Imediately.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunHorseLamp_Imediately.h; sourceTree = "<group>"; };
-		D6CC2B051E91D07800E8C444 /* RunHorseLamp_Imediately.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunHorseLamp_Imediately.m; sourceTree = "<group>"; };
-		D6CC2B061E91D07800E8C444 /* RunHorseLamp_Imediately.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunHorseLamp_Imediately.xib; sourceTree = "<group>"; };
 		D6CC2B0D1E91D3CF00E8C444 /* RunHorseLamp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RunHorseLamp.storyboard; sourceTree = "<group>"; };
 		D6D3FD5F1EE6199100D628A6 /* MYNav.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MYNav.xcassets; sourceTree = "<group>"; };
 		D6D3FD601EE6199100D628A6 /* MYNavControllerTransitioningDelegateV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNavControllerTransitioningDelegateV2.h; sourceTree = "<group>"; };
@@ -2560,12 +2550,6 @@
 				D6CC2AF91E91D02400E8C444 /* RunHorseLampViewController.h */,
 				D6CC2AFA1E91D02400E8C444 /* RunHorseLampViewController.m */,
 				D6CC2B0D1E91D3CF00E8C444 /* RunHorseLamp.storyboard */,
-				D6CC2B011E91D07800E8C444 /* RunHorseLamp_Normal.h */,
-				D6CC2B021E91D07800E8C444 /* RunHorseLamp_Normal.m */,
-				D6CC2B031E91D07800E8C444 /* RunHorseLamp_Normal.xib */,
-				D6CC2B041E91D07800E8C444 /* RunHorseLamp_Imediately.h */,
-				D6CC2B051E91D07800E8C444 /* RunHorseLamp_Imediately.m */,
-				D6CC2B061E91D07800E8C444 /* RunHorseLamp_Imediately.xib */,
 			);
 			path = "跑马灯动画";
 			sourceTree = "<group>";
@@ -3222,7 +3206,6 @@
 				D600D9641EF71F0800125C17 /* 关于面向对象编程.pdf in Resources */,
 				D600D9321EF71F0800125C17 /* MYNavigationController封装.pdf in Resources */,
 				D600D97C1EF71F0800125C17 /* 线上app闪退问题反馈流程.pdf in Resources */,
-				D6CC2B0A1E91D07800E8C444 /* RunHorseLamp_Imediately.xib in Resources */,
 				D6CC2B0E1E91D3CF00E8C444 /* RunHorseLamp.storyboard in Resources */,
 				D600D9661EF71F0800125C17 /* 单元测试.pdf in Resources */,
 				D6DC80BF1E03573A00F25651 /* README.txt in Resources */,
@@ -3271,7 +3254,6 @@
 				BE83A94C1E7665A50012C540 /* ColorfulProgress.storyboard in Resources */,
 				D600D9291EF71F0800125C17 /* IOS10-iMessage扩展.pdf in Resources */,
 				D600D9241EF71F0800125C17 /* 数据持久化.pdf in Resources */,
-				D6CC2B081E91D07800E8C444 /* RunHorseLamp_Normal.xib in Resources */,
 				D692DF031EE62259004CF87C /* image3.png in Resources */,
 				D600D91F1EF71F0800125C17 /* 了解RunTime运行机制.pdf in Resources */,
 				D600D9591EF71F0800125C17 /* cell渐变色背景闪烁动画及重用问题.pdf in Resources */,
@@ -3444,7 +3426,6 @@
 				BEFF33B01E96051800E2A05E /* DoubleTable_ViewController.m in Sources */,
 				BE83AA5E1E7666030012C540 /* ViewController_FMDB.m in Sources */,
 				BE83AA5A1E7666030012C540 /* FMResultSet.m in Sources */,
-				D6CC2B071E91D07800E8C444 /* RunHorseLamp_Normal.m in Sources */,
 				BE83AA301E7666030012C540 /* PersonHelper.m in Sources */,
 				D6D3FD781EE61AF400D628A6 /* ThirdViewController.m in Sources */,
 				BE83A9541E7665A50012C540 /* MYImageButton.m in Sources */,
@@ -3496,7 +3477,6 @@
 				BE83AA431E7666030012C540 /* SDWebImageManager.m in Sources */,
 				D6F774811E005EDB0089E7E9 /* MJRefreshBackNormalFooter.m in Sources */,
 				D6D3FD771EE61AF400D628A6 /* SecondViewController.m in Sources */,
-				D6CC2B091E91D07800E8C444 /* RunHorseLamp_Imediately.m in Sources */,
 				D600EA0E1DF497A70054495C /* SearchHistory+CoreDataProperties.m in Sources */,
 				BE83AA521E7666030012C540 /* Person+CoreDataProperties.m in Sources */,
 				D61625371DF46B960091DCC6 /* IndexPageViewController.m in Sources */,
