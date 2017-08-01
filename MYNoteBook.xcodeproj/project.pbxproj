@@ -24,6 +24,7 @@
 		BE6F48E71F3040D000A48AD0 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6F48E41F3040D000A48AD0 /* LoadingView.m */; };
 		BE6F48E81F3040D000A48AD0 /* LoadingView1.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6F48E61F3040D000A48AD0 /* LoadingView1.m */; };
 		BE6F48EA1F30445700A48AD0 /* 图层复制思想.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6F48E91F30445700A48AD0 /* 图层复制思想.pdf */; };
+		BE6F48EC1F3052F900A48AD0 /* 蒙版(高斯模糊)的实现.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6F48EB1F3052F900A48AD0 /* 蒙版(高斯模糊)的实现.pdf */; };
 		BE72AF3D1F0F2E5C00A79201 /* 进制转换.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */; };
 		BE72AF3F1F0F582600A79201 /* Day3学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF3E1F0F582600A79201 /* Day3学习报告.pdf */; };
 		BE72AF421F0F6B1000A79201 /* 代码注释提高程序可读性.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF411F0F6B1000A79201 /* 代码注释提高程序可读性.pdf */; };
@@ -479,6 +480,7 @@
 		BE6F48E51F3040D000A48AD0 /* LoadingView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView1.h; sourceTree = "<group>"; };
 		BE6F48E61F3040D000A48AD0 /* LoadingView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView1.m; sourceTree = "<group>"; };
 		BE6F48E91F30445700A48AD0 /* 图层复制思想.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "图层复制思想.pdf"; sourceTree = "<group>"; };
+		BE6F48EB1F3052F900A48AD0 /* 蒙版(高斯模糊)的实现.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "蒙版(高斯模糊)的实现.pdf"; sourceTree = "<group>"; };
 		BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "进制转换.pdf"; sourceTree = "<group>"; };
 		BE72AF3E1F0F582600A79201 /* Day3学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day3学习报告.pdf"; sourceTree = "<group>"; };
 		BE72AF411F0F6B1000A79201 /* 代码注释提高程序可读性.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "代码注释提高程序可读性.pdf"; sourceTree = "<group>"; };
@@ -2350,6 +2352,7 @@
 				BE72AF431F0F711400A79201 /* 怎么让文本左右对齐.pdf */,
 				BE72AF451F0F905000A79201 /* 修改状态栏字体颜色.pdf */,
 				BE6F48E91F30445700A48AD0 /* 图层复制思想.pdf */,
+				BE6F48EB1F3052F900A48AD0 /* 蒙版(高斯模糊)的实现.pdf */,
 			);
 			path = "IOS编程随记3";
 			sourceTree = "<group>";
@@ -3151,6 +3154,7 @@
 				D600D9381EF71F0800125C17 /* Xcode7运行Xcode8项目xib问题.pdf in Resources */,
 				D600D96A1EF71F0800125C17 /* 系统pop手势失效.pdf in Resources */,
 				BE6F48EA1F30445700A48AD0 /* 图层复制思想.pdf in Resources */,
+				BE6F48EC1F3052F900A48AD0 /* 蒙版(高斯模糊)的实现.pdf in Resources */,
 				D600D9621EF71F0800125C17 /* 关于苹果APNs推送机制(2).pdf in Resources */,
 				BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */,
 				D600D9461EF71F0800125C17 /* 图片轮播.pdf in Resources */,

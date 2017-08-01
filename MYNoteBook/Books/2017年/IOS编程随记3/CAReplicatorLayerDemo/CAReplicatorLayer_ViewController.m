@@ -21,6 +21,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"图层复制思想";
+    
+    id target = self.navigationController.navigationController.interactivePopGestureRecognizer.delegate;
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:target action:@selector(handleNavigationTransition:)];
+    [self.view addGestureRecognizer:pan];
+    self.navigationController.navigationController.interactivePopGestureRecognizer.enabled = NO;
     
     [self.loadingView1 startAnimation];
     [self.loadingView2 startAnimation];
