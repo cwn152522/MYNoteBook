@@ -122,10 +122,19 @@
 #pragma mark UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    if( [[[[_data[indexPath.row] objectForKey:@"ParentID"] componentsSeparatedByString:@","] lastObject] integerValue] < 0){
+    NSDictionary *item = _data[indexPath.row];
+    
+    if( [[[[item objectForKey:@"ParentID"] componentsSeparatedByString:@","] lastObject] integerValue] < 0){
         MYNotesListViewController *controller = [[self storyboard] instantiateViewControllerWithIdentifier:@"NotesListViewController"];
-        NSArray *data = [[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:[NSString stringWithFormat:@"ParentID  ENDSWITH[cd] '%ld'", (long)[[_data[indexPath.row] objectForKey:@"ID"] integerValue]]]];
-        controller.data = data;
+        NSMutableArray *data = [[[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:[NSString stringWithFormat:@"ParentID  ENDSWITH[cd] '%ld'", (long)[[item objectForKey:@"ID"] integerValue]]]] mutableCopy];
+        
+        NSMutableArray  *array = [NSMutableArray array];
+        [data enumerateObjectsUsingBlock:^(NSDictionary *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            NSArray *parentids = [obj[@"ParentID"] componentsSeparatedByString:@","];
+            if([[parentids lastObject] integerValue] == [item[@"ID"] integerValue])
+                [array addObject:obj];
+        }];
+        controller.data = [array copy];
         controller.navigationTitle = [[_data objectAtIndex:indexPath.row] valueForKey:@"Name"];
         
         CATransition *animation = [CATransition animation];
@@ -136,7 +145,6 @@
         return;
     }
     
-    id item = [_data objectAtIndex:indexPath.row];
         NSString *storyName = [item objectForKey:@"storyboardName"];
         if([storyName length]){
             _selectItem = item;
