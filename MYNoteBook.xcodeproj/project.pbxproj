@@ -26,6 +26,7 @@
 		BE6F48EA1F30445700A48AD0 /* 图层复制思想.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6F48E91F30445700A48AD0 /* 图层复制思想.pdf */; };
 		BE6F48EC1F3052F900A48AD0 /* 蒙版(高斯模糊)的实现.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6F48EB1F3052F900A48AD0 /* 蒙版(高斯模糊)的实现.pdf */; };
 		BE6F48EE1F3082C900A48AD0 /* WKWebview和缓存清理.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6F48ED1F3082C900A48AD0 /* WKWebview和缓存清理.pdf */; };
+		BE6F48F01F30867300A48AD0 /* searchbar主题色修改.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6F48EF1F30867300A48AD0 /* searchbar主题色修改.pdf */; };
 		BE72AF3D1F0F2E5C00A79201 /* 进制转换.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */; };
 		BE72AF3F1F0F582600A79201 /* Day3学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF3E1F0F582600A79201 /* Day3学习报告.pdf */; };
 		BE72AF421F0F6B1000A79201 /* 代码注释提高程序可读性.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF411F0F6B1000A79201 /* 代码注释提高程序可读性.pdf */; };
@@ -483,6 +484,7 @@
 		BE6F48E91F30445700A48AD0 /* 图层复制思想.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "图层复制思想.pdf"; sourceTree = "<group>"; };
 		BE6F48EB1F3052F900A48AD0 /* 蒙版(高斯模糊)的实现.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "蒙版(高斯模糊)的实现.pdf"; sourceTree = "<group>"; };
 		BE6F48ED1F3082C900A48AD0 /* WKWebview和缓存清理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "WKWebview和缓存清理.pdf"; sourceTree = "<group>"; };
+		BE6F48EF1F30867300A48AD0 /* searchbar主题色修改.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "searchbar主题色修改.pdf"; sourceTree = "<group>"; };
 		BE72AF3C1F0F2E5C00A79201 /* 进制转换.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "进制转换.pdf"; sourceTree = "<group>"; };
 		BE72AF3E1F0F582600A79201 /* Day3学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day3学习报告.pdf"; sourceTree = "<group>"; };
 		BE72AF411F0F6B1000A79201 /* 代码注释提高程序可读性.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "代码注释提高程序可读性.pdf"; sourceTree = "<group>"; };
@@ -2356,6 +2358,7 @@
 				BE6F48E91F30445700A48AD0 /* 图层复制思想.pdf */,
 				BE6F48EB1F3052F900A48AD0 /* 蒙版(高斯模糊)的实现.pdf */,
 				BE6F48ED1F3082C900A48AD0 /* WKWebview和缓存清理.pdf */,
+				BE6F48EF1F30867300A48AD0 /* searchbar主题色修改.pdf */,
 			);
 			path = "IOS编程随记3";
 			sourceTree = "<group>";
@@ -3255,6 +3258,7 @@
 				D600D9281EF71F0800125C17 /* 编码规范.pdf in Resources */,
 				BE83AA2B1E7666030012C540 /* RequestUserInfo.php in Resources */,
 				BE83A9521E7665A50012C540 /* Labels.storyboard in Resources */,
+				BE6F48F01F30867300A48AD0 /* searchbar主题色修改.pdf in Resources */,
 				BE83A97F1E7665A50012C540 /* SliderView.storyboard in Resources */,
 				BE83A94C1E7665A50012C540 /* ColorfulProgress.storyboard in Resources */,
 				D600D9291EF71F0800125C17 /* IOS10-iMessage扩展.pdf in Resources */,
