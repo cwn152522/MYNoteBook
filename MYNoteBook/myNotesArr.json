@@ -134,7 +134,7 @@
   {"ID":713, "Name":"怎么让文本左右对齐", "ParentID":"-100, -1, -12, 7", "storyboardName":"", "storyboardId":""},
   {"ID":714, "Name":"修改状态栏字体颜色", "ParentID":"-100, -1, -12, 7", "storyboardName":"", "storyboardId":""},
   {"ID":715, "Name":"图层复制思想", "ParentID":"-100, -1, -12, 7", "storyboardName":"CAReplicatorLayer", "storyboardId":"CAReplicatorLayer"},
-  {"ID":716, "Name":"蒙版(高斯模糊)的实现", "ParentID":"-100, -1, -12, 7", "storyboardName":"CAReplicatorLayer", "storyboardId":"CAReplicatorLayer"},
+  {"ID":716, "Name":"蒙版(高斯模糊)的实现", "ParentID":"-100, -1, -12, 7", "storyboardName":"", "storyboardId":""},
  
  
   {"ID":-2, "Name":"PHP", "ParentID":"-100", "storyboardName":"", "storyboardId":""},
