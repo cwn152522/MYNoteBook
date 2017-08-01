@@ -52,6 +52,17 @@
 #ifndef DEBUG
     [[BaiduMobStat defaultStat] pageviewEndWithName:self.title];
 #endif
+    
+    
+    //OC注册供JS调用的方法
+//    [[(WKWebView *)_webView configuration].userContentController addScriptMessageHandler:self name:@"closeMe"];
+//    //OC在JS调用方法做的处理
+//    - (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message {
+//        NSLog(@"JS 调用了 %@ 方法，传回参数 %@",message.name,message.body);
+//    }
+//    
+    //JS调用 window.webkit.messageHandlers.closeMe.postMessage(null);
+
 }
 
 - (void)dealloc{
