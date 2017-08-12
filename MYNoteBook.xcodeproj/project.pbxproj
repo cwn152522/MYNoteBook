@@ -391,6 +391,7 @@
 		D6EE1F151DCAA616003F14CD /* MYNoteBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EE1F141DCAA616003F14CD /* MYNoteBookUITests.m */; };
 		D6EEB2391F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6EEB2381F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf */; };
 		D6EEB23B1F3F4F7F00ADF585 /* 比较运算符.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6EEB23A1F3F4F7F00ADF585 /* 比较运算符.pdf */; };
+		D6EEB23D1F3F564B00ADF585 /* 逻辑运算符.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6EEB23C1F3F564B00ADF585 /* 逻辑运算符.pdf */; };
 		D6F774701E005EDB0089E7E9 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F773F91E005EDA0089E7E9 /* BaiduMapAPI_Base.framework */; };
 		D6F774711E005EDB0089E7E9 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F773FA1E005EDA0089E7E9 /* BaiduMapAPI_Cloud.framework */; };
 		D6F774721E005EDB0089E7E9 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F773FB1E005EDA0089E7E9 /* BaiduMapAPI_Location.framework */; };
@@ -1051,6 +1052,7 @@
 		D6EE1F161DCAA616003F14CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6EEB2381F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "算术运算符与自增运算.pdf"; sourceTree = "<group>"; };
 		D6EEB23A1F3F4F7F00ADF585 /* 比较运算符.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "比较运算符.pdf"; sourceTree = "<group>"; };
+		D6EEB23C1F3F564B00ADF585 /* 逻辑运算符.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "逻辑运算符.pdf"; sourceTree = "<group>"; };
 		D6F773F91E005EDA0089E7E9 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
 		D6F773FA1E005EDA0089E7E9 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
 		D6F773FB1E005EDA0089E7E9 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
@@ -1258,6 +1260,7 @@
 			children = (
 				D6EEB2381F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf */,
 				D6EEB23A1F3F4F7F00ADF585 /* 比较运算符.pdf */,
+				D6EEB23C1F3F564B00ADF585 /* 逻辑运算符.pdf */,
 			);
 			path = Day4;
 			sourceTree = "<group>";
@@ -3208,6 +3211,7 @@
 				BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */,
 				D600D9631EF71F0800125C17 /* 关于苹果APNs推送机制(3).pdf in Resources */,
 				D600D9201EF71F0800125C17 /* 内存管理.pdf in Resources */,
+				D6EEB23D1F3F564B00ADF585 /* 逻辑运算符.pdf in Resources */,
 				D6D3FD6B1EE61A3A00D628A6 /* MYNav.storyboard in Resources */,
 				BE657E131EFCD4EE00F16020 /* 常量的定义和基本使用.pdf in Resources */,
 				D600D9641EF71F0800125C17 /* 关于面向对象编程.pdf in Resources */,
