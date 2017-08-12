@@ -168,5 +168,7 @@
  {"ID":50025, "Name":"类型转换", "ParentID":"-100, -2, -21, 5002", "storyboardName":"", "storyboardId":""},
  
  {"ID":5003, "Name":"Day4", "ParentID":"-100, -2, -21", "storyboardName":"", "storyboardId":""},
- {"ID":50021, "Name":"Day4学习报告", "ParentID":"-100, -2, -21, 5003", "storyboardName":"", "storyboardId":""},
+ {"ID":50031, "Name":"Day4学习报告", "ParentID":"-100, -2, -21, 5003", "storyboardName":"", "storyboardId":""},
+ {"ID":50032, "Name":"算术运算符与自增运算", "ParentID":"-100, -2, -21, 5003", "storyboardName":"", "storyboardId":""},
+ {"ID":50033, "Name":"比较运算符", "ParentID":"-100, -2, -21, 5003", "storyboardName":"", "storyboardId":""},
  ]

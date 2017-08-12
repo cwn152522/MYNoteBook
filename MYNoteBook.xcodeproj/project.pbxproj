@@ -389,6 +389,8 @@
 		D6EE1EFC1DCAA616003F14CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6EE1EFB1DCAA616003F14CD /* Assets.xcassets */; };
 		D6EE1F0A1DCAA616003F14CD /* MYNoteBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EE1F091DCAA616003F14CD /* MYNoteBookTests.m */; };
 		D6EE1F151DCAA616003F14CD /* MYNoteBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EE1F141DCAA616003F14CD /* MYNoteBookUITests.m */; };
+		D6EEB2391F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6EEB2381F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf */; };
+		D6EEB23B1F3F4F7F00ADF585 /* 比较运算符.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6EEB23A1F3F4F7F00ADF585 /* 比较运算符.pdf */; };
 		D6F774701E005EDB0089E7E9 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F773F91E005EDA0089E7E9 /* BaiduMapAPI_Base.framework */; };
 		D6F774711E005EDB0089E7E9 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F773FA1E005EDA0089E7E9 /* BaiduMapAPI_Cloud.framework */; };
 		D6F774721E005EDB0089E7E9 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F773FB1E005EDA0089E7E9 /* BaiduMapAPI_Location.framework */; };
@@ -1047,6 +1049,8 @@
 		D6EE1F101DCAA616003F14CD /* MYNoteBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYNoteBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6EE1F141DCAA616003F14CD /* MYNoteBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYNoteBookUITests.m; sourceTree = "<group>"; };
 		D6EE1F161DCAA616003F14CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6EEB2381F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "算术运算符与自增运算.pdf"; sourceTree = "<group>"; };
+		D6EEB23A1F3F4F7F00ADF585 /* 比较运算符.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "比较运算符.pdf"; sourceTree = "<group>"; };
 		D6F773F91E005EDA0089E7E9 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
 		D6F773FA1E005EDA0089E7E9 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
 		D6F773FB1E005EDA0089E7E9 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
@@ -1252,6 +1256,8 @@
 		BE72AF401F0F586800A79201 /* Day4 */ = {
 			isa = PBXGroup;
 			children = (
+				D6EEB2381F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf */,
+				D6EEB23A1F3F4F7F00ADF585 /* 比较运算符.pdf */,
 			);
 			path = Day4;
 			sourceTree = "<group>";
@@ -3194,6 +3200,7 @@
 				D600D9211EF71F0800125C17 /* 创建framework静态库.pdf in Resources */,
 				BE72AF441F0F711400A79201 /* 怎么让文本左右对齐.pdf in Resources */,
 				D6DC80B71E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				D6EEB2391F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf in Resources */,
 				D6DC80BA1E03573A00F25651 /* WeiboSDK.bundle in Resources */,
 				D600D9541EF71F0800125C17 /* 绘制纯背景的UISearchBar.pdf in Resources */,
 				D600D9441EF71F0800125C17 /* 关于IOS动画.pdf in Resources */,
@@ -3214,6 +3221,7 @@
 				D600D9411EF71F0800125C17 /* 百度统计v4.3.0.pdf in Resources */,
 				D600D9471EF71F0800125C17 /* 实现NavigationBar的alpha渐变.pdf in Resources */,
 				D692DF041EE62259004CF87C /* image4.png in Resources */,
+				D6EEB23B1F3F4F7F00ADF585 /* 比较运算符.pdf in Resources */,
 				BE6F48DD1F303FE200A48AD0 /* CAReplicatorLayer.storyboard in Resources */,
 				D600D9821EF71F0800125C17 /* UIView加阴影的情况下动画很卡.pdf in Resources */,
 				D600D94C1EF71F0800125C17 /* 绘制不带填充色的圆角边框标签.pdf in Resources */,
