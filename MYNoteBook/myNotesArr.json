@@ -172,4 +172,5 @@
  {"ID":50032, "Name":"算术运算符与自增运算", "ParentID":"-100, -2, -21, 5003", "storyboardName":"", "storyboardId":""},
  {"ID":50033, "Name":"比较运算符", "ParentID":"-100, -2, -21, 5003", "storyboardName":"", "storyboardId":""},
  {"ID":50034, "Name":"逻辑运算符", "ParentID":"-100, -2, -21, 5003", "storyboardName":"", "storyboardId":""},
+ {"ID":50035, "Name":"连接、赋值、条件运算符", "ParentID":"-100, -2, -21, 5003", "storyboardName":"", "storyboardId":""},
  ]

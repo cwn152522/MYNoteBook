@@ -322,6 +322,7 @@
 		D600EA121DF498180054495C /* MYSearchHisttoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D600EA111DF498180054495C /* MYSearchHisttoryModel.m */; };
 		D600EA151DF4DE680054495C /* MYNotesSpeechSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D600EA141DF4DE680054495C /* MYNotesSpeechSearchViewController.m */; };
 		D600EA1B1DF4E09C0054495C /* Waver.m in Sources */ = {isa = PBXBuildFile; fileRef = D600EA1A1DF4E09C0054495C /* Waver.m */; };
+		D60558201F403B9100CACA60 /* 连接、赋值、条件运算符.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D605581F1F403B9100CACA60 /* 连接、赋值、条件运算符.pdf */; };
 		D61625271DF46B880091DCC6 /* MYNotesUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D61625261DF46B880091DCC6 /* MYNotesUtility.m */; };
 		D61625361DF46B960091DCC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D616252B1DF46B960091DCC6 /* ViewController.m */; };
 		D61625371DF46B960091DCC6 /* IndexPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D616252E1DF46B960091DCC6 /* IndexPageViewController.m */; };
@@ -936,6 +937,7 @@
 		D600EA141DF4DE680054495C /* MYNotesSpeechSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNotesSpeechSearchViewController.m; sourceTree = "<group>"; };
 		D600EA191DF4E09C0054495C /* Waver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waver.h; sourceTree = "<group>"; };
 		D600EA1A1DF4E09C0054495C /* Waver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waver.m; sourceTree = "<group>"; };
+		D605581F1F403B9100CACA60 /* 连接、赋值、条件运算符.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "连接、赋值、条件运算符.pdf"; sourceTree = "<group>"; };
 		D61625251DF46B880091DCC6 /* MYNotesUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNotesUtility.h; sourceTree = "<group>"; };
 		D61625261DF46B880091DCC6 /* MYNotesUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNotesUtility.m; sourceTree = "<group>"; };
 		D616252A1DF46B960091DCC6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -1261,6 +1263,7 @@
 				D6EEB2381F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf */,
 				D6EEB23A1F3F4F7F00ADF585 /* 比较运算符.pdf */,
 				D6EEB23C1F3F564B00ADF585 /* 逻辑运算符.pdf */,
+				D605581F1F403B9100CACA60 /* 连接、赋值、条件运算符.pdf */,
 			);
 			path = Day4;
 			sourceTree = "<group>";
@@ -3184,6 +3187,7 @@
 				D6F774941E005EDB0089E7E9 /* SVProgressHUD.bundle in Resources */,
 				BE83A9581E7665A50012C540 /* LoadingAnimation.storyboard in Resources */,
 				D600D9711EF71F0800125C17 /* 使用CodeLibrary提高开发效率.pdf in Resources */,
+				D60558201F403B9100CACA60 /* 连接、赋值、条件运算符.pdf in Resources */,
 				D600D95A1EF71F0800125C17 /* IOS相关基础知识整理.pdf in Resources */,
 				D600D96D1EF71F0800125C17 /* ios10系统app一直提示无网络.pdf in Resources */,
 				D600D9771EF71F0800125C17 /* 排序接口返回乱序的字典数据.pdf in Resources */,
