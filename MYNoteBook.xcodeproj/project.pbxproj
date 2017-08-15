@@ -34,6 +34,7 @@
 		BE72AF421F0F6B1000A79201 /* 代码注释提高程序可读性.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF411F0F6B1000A79201 /* 代码注释提高程序可读性.pdf */; };
 		BE72AF441F0F711400A79201 /* 怎么让文本左右对齐.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF431F0F711400A79201 /* 怎么让文本左右对齐.pdf */; };
 		BE72AF461F0F905000A79201 /* 修改状态栏字体颜色.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE72AF451F0F905000A79201 /* 修改状态栏字体颜色.pdf */; };
+		BE7BB9241F4295F300C22582 /* 位运算符应用-一组开关.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE7BB9231F4295F300C22582 /* 位运算符应用-一组开关.pdf */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
 		BE83A8761E7665290012C540 /* MYUShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8571E7665290012C540 /* MYUShareManager.m */; };
 		BE83A8771E7665290012C540 /* MYUShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A85A1E7665290012C540 /* MYUShareButton.m */; };
@@ -495,6 +496,7 @@
 		BE72AF411F0F6B1000A79201 /* 代码注释提高程序可读性.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "代码注释提高程序可读性.pdf"; sourceTree = "<group>"; };
 		BE72AF431F0F711400A79201 /* 怎么让文本左右对齐.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "怎么让文本左右对齐.pdf"; sourceTree = "<group>"; };
 		BE72AF451F0F905000A79201 /* 修改状态栏字体颜色.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "修改状态栏字体颜色.pdf"; sourceTree = "<group>"; };
+		BE7BB9231F4295F300C22582 /* 位运算符应用-一组开关.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "位运算符应用-一组开关.pdf"; sourceTree = "<group>"; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -1267,6 +1269,7 @@
 				D6EEB23C1F3F564B00ADF585 /* 逻辑运算符.pdf */,
 				D605581F1F403B9100CACA60 /* 连接、赋值、条件运算符.pdf */,
 				D60558211F4065C800CACA60 /* 位运算符基础.pdf */,
+				BE7BB9231F4295F300C22582 /* 位运算符应用-一组开关.pdf */,
 			);
 			path = Day4;
 			sourceTree = "<group>";
@@ -3211,6 +3214,7 @@
 				D600D9211EF71F0800125C17 /* 创建framework静态库.pdf in Resources */,
 				BE72AF441F0F711400A79201 /* 怎么让文本左右对齐.pdf in Resources */,
 				D6DC80B71E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				BE7BB9241F4295F300C22582 /* 位运算符应用-一组开关.pdf in Resources */,
 				D6EEB2391F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf in Resources */,
 				D6DC80BA1E03573A00F25651 /* WeiboSDK.bundle in Resources */,
 				D600D9541EF71F0800125C17 /* 绘制纯背景的UISearchBar.pdf in Resources */,
