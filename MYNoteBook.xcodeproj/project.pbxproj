@@ -20,6 +20,7 @@
 		BE657E131EFCD4EE00F16020 /* 常量的定义和基本使用.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */; };
 		BE657E561EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */; };
 		BE6D98C51F43D56A0013CCE2 /* 流程控制.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */; };
+		BE6D98C71F43E0E50013CCE2 /* Day4学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C61F43E0E50013CCE2 /* Day4学习报告.pdf */; };
 		BE6F48DD1F303FE200A48AD0 /* CAReplicatorLayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6F48DC1F303FE200A48AD0 /* CAReplicatorLayer.storyboard */; };
 		BE6F48E11F30401000A48AD0 /* CAReplicatorLayer_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6F48DF1F30401000A48AD0 /* CAReplicatorLayer_ViewController.m */; };
 		BE6F48E71F3040D000A48AD0 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6F48E41F3040D000A48AD0 /* LoadingView.m */; };
@@ -482,6 +483,7 @@
 		BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常量的定义和基本使用.pdf"; sourceTree = "<group>"; };
 		BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类库管理工具CocoaPods详解.pdf"; sourceTree = "<group>"; };
 		BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "流程控制.pdf"; sourceTree = "<group>"; };
+		BE6D98C61F43E0E50013CCE2 /* Day4学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day4学习报告.pdf"; sourceTree = "<group>"; };
 		BE6F48DC1F303FE200A48AD0 /* CAReplicatorLayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CAReplicatorLayer.storyboard; sourceTree = "<group>"; };
 		BE6F48DE1F30401000A48AD0 /* CAReplicatorLayer_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayer_ViewController.h; sourceTree = "<group>"; };
 		BE6F48DF1F30401000A48AD0 /* CAReplicatorLayer_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayer_ViewController.m; sourceTree = "<group>"; };
@@ -1270,6 +1272,7 @@
 		BE72AF401F0F586800A79201 /* Day4 */ = {
 			isa = PBXGroup;
 			children = (
+				BE6D98C61F43E0E50013CCE2 /* Day4学习报告.pdf */,
 				D6EEB2381F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf */,
 				D6EEB23A1F3F4F7F00ADF585 /* 比较运算符.pdf */,
 				D6EEB23C1F3F564B00ADF585 /* 逻辑运算符.pdf */,
@@ -3226,6 +3229,7 @@
 				BE7BB9241F4295F300C22582 /* 位运算符应用-一组开关.pdf in Resources */,
 				D6EEB2391F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf in Resources */,
 				D6DC80BA1E03573A00F25651 /* WeiboSDK.bundle in Resources */,
+				BE6D98C71F43E0E50013CCE2 /* Day4学习报告.pdf in Resources */,
 				D600D9541EF71F0800125C17 /* 绘制纯背景的UISearchBar.pdf in Resources */,
 				BE7BB9281F43097600C22582 /* 数组、错误控制运算符及优先级.pdf in Resources */,
 				D600D9441EF71F0800125C17 /* 关于IOS动画.pdf in Resources */,
