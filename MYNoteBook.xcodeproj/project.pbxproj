@@ -21,6 +21,7 @@
 		BE657E561EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */; };
 		BE6D98C51F43D56A0013CCE2 /* 流程控制.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */; };
 		BE6D98C71F43E0E50013CCE2 /* Day4学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C61F43E0E50013CCE2 /* Day4学习报告.pdf */; };
+		BE6D98CA1F4408E00013CCE2 /* 循环的中断.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */; };
 		BE6F48DD1F303FE200A48AD0 /* CAReplicatorLayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6F48DC1F303FE200A48AD0 /* CAReplicatorLayer.storyboard */; };
 		BE6F48E11F30401000A48AD0 /* CAReplicatorLayer_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6F48DF1F30401000A48AD0 /* CAReplicatorLayer_ViewController.m */; };
 		BE6F48E71F3040D000A48AD0 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6F48E41F3040D000A48AD0 /* LoadingView.m */; };
@@ -484,6 +485,7 @@
 		BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类库管理工具CocoaPods详解.pdf"; sourceTree = "<group>"; };
 		BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "流程控制.pdf"; sourceTree = "<group>"; };
 		BE6D98C61F43E0E50013CCE2 /* Day4学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day4学习报告.pdf"; sourceTree = "<group>"; };
+		BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "循环的中断.pdf"; sourceTree = "<group>"; };
 		BE6F48DC1F303FE200A48AD0 /* CAReplicatorLayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CAReplicatorLayer.storyboard; sourceTree = "<group>"; };
 		BE6F48DE1F30401000A48AD0 /* CAReplicatorLayer_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayer_ViewController.h; sourceTree = "<group>"; };
 		BE6F48DF1F30401000A48AD0 /* CAReplicatorLayer_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayer_ViewController.m; sourceTree = "<group>"; };
@@ -1258,6 +1260,7 @@
 		BE6D98C81F43E2250013CCE2 /* Day5 */ = {
 			isa = PBXGroup;
 			children = (
+				BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */,
 			);
 			path = Day5;
 			sourceTree = "<group>";
@@ -3214,6 +3217,7 @@
 				D6F774941E005EDB0089E7E9 /* SVProgressHUD.bundle in Resources */,
 				BE83A9581E7665A50012C540 /* LoadingAnimation.storyboard in Resources */,
 				D600D9711EF71F0800125C17 /* 使用CodeLibrary提高开发效率.pdf in Resources */,
+				BE6D98CA1F4408E00013CCE2 /* 循环的中断.pdf in Resources */,
 				D60558201F403B9100CACA60 /* 连接、赋值、条件运算符.pdf in Resources */,
 				D600D95A1EF71F0800125C17 /* IOS相关基础知识整理.pdf in Resources */,
 				D600D96D1EF71F0800125C17 /* ios10系统app一直提示无网络.pdf in Resources */,
