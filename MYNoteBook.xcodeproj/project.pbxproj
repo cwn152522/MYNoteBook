@@ -19,6 +19,7 @@
 		BE657E101EFCC16900F16020 /* Day2学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */; };
 		BE657E131EFCD4EE00F16020 /* 常量的定义和基本使用.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */; };
 		BE657E561EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */; };
+		BE6D98C51F43D56A0013CCE2 /* 流程控制.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */; };
 		BE6F48DD1F303FE200A48AD0 /* CAReplicatorLayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6F48DC1F303FE200A48AD0 /* CAReplicatorLayer.storyboard */; };
 		BE6F48E11F30401000A48AD0 /* CAReplicatorLayer_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6F48DF1F30401000A48AD0 /* CAReplicatorLayer_ViewController.m */; };
 		BE6F48E71F3040D000A48AD0 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6F48E41F3040D000A48AD0 /* LoadingView.m */; };
@@ -480,6 +481,7 @@
 		BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day2学习报告.pdf"; sourceTree = "<group>"; };
 		BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常量的定义和基本使用.pdf"; sourceTree = "<group>"; };
 		BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类库管理工具CocoaPods详解.pdf"; sourceTree = "<group>"; };
+		BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "流程控制.pdf"; sourceTree = "<group>"; };
 		BE6F48DC1F303FE200A48AD0 /* CAReplicatorLayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CAReplicatorLayer.storyboard; sourceTree = "<group>"; };
 		BE6F48DE1F30401000A48AD0 /* CAReplicatorLayer_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayer_ViewController.h; sourceTree = "<group>"; };
 		BE6F48DF1F30401000A48AD0 /* CAReplicatorLayer_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayer_ViewController.m; sourceTree = "<group>"; };
@@ -1276,6 +1278,7 @@
 				BE7BB9231F4295F300C22582 /* 位运算符应用-一组开关.pdf */,
 				BE7BB9251F42B46700C22582 /* 输出数组、字典的json数据.pdf */,
 				BE7BB9271F43097600C22582 /* 数组、错误控制运算符及优先级.pdf */,
+				BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */,
 			);
 			path = Day4;
 			sourceTree = "<group>";
@@ -3277,6 +3280,7 @@
 				D600D9671EF71F0800125C17 /* 怎么正确绘制一像素线.pdf in Resources */,
 				D600D9311EF71F0800125C17 /* MVC、MVVM浅谈.pdf in Resources */,
 				D600D9521EF71F0800125C17 /* 绘制正弦波形.pdf in Resources */,
+				BE6D98C51F43D56A0013CCE2 /* 流程控制.pdf in Resources */,
 				BE6F48F21F308A6B00A48AD0 /* tableHeaderView显示问题.pdf in Resources */,
 				D600D9281EF71F0800125C17 /* 编码规范.pdf in Resources */,
 				BE83AA2B1E7666030012C540 /* RequestUserInfo.php in Resources */,
