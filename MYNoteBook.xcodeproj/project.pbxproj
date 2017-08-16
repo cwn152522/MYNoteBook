@@ -1255,6 +1255,13 @@
 			path = Day3;
 			sourceTree = "<group>";
 		};
+		BE6D98C81F43E2250013CCE2 /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day5;
+			sourceTree = "<group>";
+		};
 		BE6F48DB1F303FC700A48AD0 /* CAReplicatorLayerDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -2148,6 +2155,7 @@
 				BE5945831EF8DCD6009DC99D /* Day2 */,
 				BE657E111EFCC1F300F16020 /* Day3 */,
 				BE72AF401F0F586800A79201 /* Day4 */,
+				BE6D98C81F43E2250013CCE2 /* Day5 */,
 			);
 			path = 2017;
 			sourceTree = "<group>";
