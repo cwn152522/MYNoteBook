@@ -184,4 +184,5 @@
   {"ID":50042, "Name":"循环的中断", "ParentID":"-100, -2, -21, 5004", "storyboardName":"", "storyboardId":""},
   {"ID":50043, "Name":"控制脚本执行进度", "ParentID":"-100, -2, -21, 5004", "storyboardName":"", "storyboardId":""},
   {"ID":50044, "Name":"文件加载", "ParentID":"-100, -2, -21, 5004", "storyboardName":"", "storyboardId":""},
+  {"ID":50045, "Name":"错误处理", "ParentID":"-100, -2, -21, 5004", "storyboardName":"", "storyboardId":""},
 ]

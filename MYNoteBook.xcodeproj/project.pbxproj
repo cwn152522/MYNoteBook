@@ -338,6 +338,7 @@
 		D61625671DF46C4E0091DCC6 /* MYNotesSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61625661DF46C4E0091DCC6 /* MYNotesSearchViewController.m */; };
 		D61F1D0C1F49290300524D14 /* 控制脚本执行进度.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D61F1D0B1F49290300524D14 /* 控制脚本执行进度.pdf */; };
 		D61F1D0E1F493B6800524D14 /* 文件加载.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D61F1D0D1F493B6800524D14 /* 文件加载.pdf */; };
+		D61F1D101F4958E000524D14 /* 错误处理.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D61F1D0F1F4958E000524D14 /* 错误处理.pdf */; };
 		D63B75BD1DE8736A00585FE6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D63B75BB1DE8736A00585FE6 /* Model.xcdatamodeld */; };
 		D63EDA2A1DCBC24800144278 /* myNotes.json in Resources */ = {isa = PBXBuildFile; fileRef = D63EDA291DCBC24800144278 /* myNotes.json */; };
 		D649490C1F0F4C98000D2A45 /* 类型转换.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D649490B1F0F4C98000D2A45 /* 类型转换.pdf */; };
@@ -968,6 +969,7 @@
 		D61625661DF46C4E0091DCC6 /* MYNotesSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNotesSearchViewController.m; sourceTree = "<group>"; };
 		D61F1D0B1F49290300524D14 /* 控制脚本执行进度.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "控制脚本执行进度.pdf"; sourceTree = "<group>"; };
 		D61F1D0D1F493B6800524D14 /* 文件加载.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "文件加载.pdf"; sourceTree = "<group>"; };
+		D61F1D0F1F4958E000524D14 /* 错误处理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "错误处理.pdf"; sourceTree = "<group>"; };
 		D63B75BC1DE8736A00585FE6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		D63EDA291DCBC24800144278 /* myNotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myNotes.json; sourceTree = "<group>"; };
 		D649490B1F0F4C98000D2A45 /* 类型转换.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类型转换.pdf"; sourceTree = "<group>"; };
@@ -1267,6 +1269,7 @@
 				BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */,
 				D61F1D0B1F49290300524D14 /* 控制脚本执行进度.pdf */,
 				D61F1D0D1F493B6800524D14 /* 文件加载.pdf */,
+				D61F1D0F1F4958E000524D14 /* 错误处理.pdf */,
 			);
 			path = Day5;
 			sourceTree = "<group>";
@@ -3264,6 +3267,7 @@
 				D600D9321EF71F0800125C17 /* MYNavigationController封装.pdf in Resources */,
 				D600D97C1EF71F0800125C17 /* 线上app闪退问题反馈流程.pdf in Resources */,
 				D6CC2B0E1E91D3CF00E8C444 /* RunHorseLamp.storyboard in Resources */,
+				D61F1D101F4958E000524D14 /* 错误处理.pdf in Resources */,
 				D600D9661EF71F0800125C17 /* 单元测试.pdf in Resources */,
 				D6DC80BF1E03573A00F25651 /* README.txt in Resources */,
 				D600D92F1EF71F0800125C17 /* IOS10-通知框架UserNotification.pdf in Resources */,
