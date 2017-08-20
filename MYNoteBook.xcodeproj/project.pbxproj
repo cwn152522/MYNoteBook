@@ -336,6 +336,7 @@
 		D61625381DF46B960091DCC6 /* MYNoteDetailWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61625311DF46B960091DCC6 /* MYNoteDetailWebViewController.m */; };
 		D61625391DF46B960091DCC6 /* MYNotesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61625341DF46B960091DCC6 /* MYNotesListViewController.m */; };
 		D61625671DF46C4E0091DCC6 /* MYNotesSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61625661DF46C4E0091DCC6 /* MYNotesSearchViewController.m */; };
+		D61F1D0C1F49290300524D14 /* 控制脚本执行进度.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D61F1D0B1F49290300524D14 /* 控制脚本执行进度.pdf */; };
 		D63B75BD1DE8736A00585FE6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D63B75BB1DE8736A00585FE6 /* Model.xcdatamodeld */; };
 		D63EDA2A1DCBC24800144278 /* myNotes.json in Resources */ = {isa = PBXBuildFile; fileRef = D63EDA291DCBC24800144278 /* myNotes.json */; };
 		D649490C1F0F4C98000D2A45 /* 类型转换.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D649490B1F0F4C98000D2A45 /* 类型转换.pdf */; };
@@ -964,6 +965,7 @@
 		D61625341DF46B960091DCC6 /* MYNotesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNotesListViewController.m; sourceTree = "<group>"; };
 		D61625651DF46C4E0091DCC6 /* MYNotesSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNotesSearchViewController.h; sourceTree = "<group>"; };
 		D61625661DF46C4E0091DCC6 /* MYNotesSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNotesSearchViewController.m; sourceTree = "<group>"; };
+		D61F1D0B1F49290300524D14 /* 控制脚本执行进度.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "控制脚本执行进度.pdf"; sourceTree = "<group>"; };
 		D63B75BC1DE8736A00585FE6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		D63EDA291DCBC24800144278 /* myNotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myNotes.json; sourceTree = "<group>"; };
 		D649490B1F0F4C98000D2A45 /* 类型转换.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类型转换.pdf"; sourceTree = "<group>"; };
@@ -1261,6 +1263,7 @@
 			isa = PBXGroup;
 			children = (
 				BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */,
+				D61F1D0B1F49290300524D14 /* 控制脚本执行进度.pdf */,
 			);
 			path = Day5;
 			sourceTree = "<group>";
@@ -3312,6 +3315,7 @@
 				D63EDA2A1DCBC24800144278 /* myNotes.json in Resources */,
 				BE6F48EE1F3082C900A48AD0 /* WKWebview和缓存清理.pdf in Resources */,
 				D6EE1EFC1DCAA616003F14CD /* Assets.xcassets in Resources */,
+				D61F1D0C1F49290300524D14 /* 控制脚本执行进度.pdf in Resources */,
 				BE83AA291E7666030012C540 /* JSCallOC.html in Resources */,
 				D600D91D1EF71F0800125C17 /* Swift_OC混编.pdf in Resources */,
 				BE90901F1F00AC550011D618 /* 数据类型.pdf in Resources */,
