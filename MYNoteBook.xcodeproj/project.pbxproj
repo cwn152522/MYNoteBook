@@ -337,6 +337,7 @@
 		D61625391DF46B960091DCC6 /* MYNotesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61625341DF46B960091DCC6 /* MYNotesListViewController.m */; };
 		D61625671DF46C4E0091DCC6 /* MYNotesSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D61625661DF46C4E0091DCC6 /* MYNotesSearchViewController.m */; };
 		D61F1D0C1F49290300524D14 /* 控制脚本执行进度.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D61F1D0B1F49290300524D14 /* 控制脚本执行进度.pdf */; };
+		D61F1D0E1F493B6800524D14 /* 文件加载.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D61F1D0D1F493B6800524D14 /* 文件加载.pdf */; };
 		D63B75BD1DE8736A00585FE6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D63B75BB1DE8736A00585FE6 /* Model.xcdatamodeld */; };
 		D63EDA2A1DCBC24800144278 /* myNotes.json in Resources */ = {isa = PBXBuildFile; fileRef = D63EDA291DCBC24800144278 /* myNotes.json */; };
 		D649490C1F0F4C98000D2A45 /* 类型转换.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D649490B1F0F4C98000D2A45 /* 类型转换.pdf */; };
@@ -966,6 +967,7 @@
 		D61625651DF46C4E0091DCC6 /* MYNotesSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNotesSearchViewController.h; sourceTree = "<group>"; };
 		D61625661DF46C4E0091DCC6 /* MYNotesSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNotesSearchViewController.m; sourceTree = "<group>"; };
 		D61F1D0B1F49290300524D14 /* 控制脚本执行进度.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "控制脚本执行进度.pdf"; sourceTree = "<group>"; };
+		D61F1D0D1F493B6800524D14 /* 文件加载.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "文件加载.pdf"; sourceTree = "<group>"; };
 		D63B75BC1DE8736A00585FE6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		D63EDA291DCBC24800144278 /* myNotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myNotes.json; sourceTree = "<group>"; };
 		D649490B1F0F4C98000D2A45 /* 类型转换.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类型转换.pdf"; sourceTree = "<group>"; };
@@ -1264,6 +1266,7 @@
 			children = (
 				BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */,
 				D61F1D0B1F49290300524D14 /* 控制脚本执行进度.pdf */,
+				D61F1D0D1F493B6800524D14 /* 文件加载.pdf */,
 			);
 			path = Day5;
 			sourceTree = "<group>";
@@ -3198,6 +3201,7 @@
 				D600D9621EF71F0800125C17 /* 关于苹果APNs推送机制(2).pdf in Resources */,
 				BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */,
 				D600D9461EF71F0800125C17 /* 图片轮播.pdf in Resources */,
+				D61F1D0E1F493B6800524D14 /* 文件加载.pdf in Resources */,
 				D600D9561EF71F0800125C17 /* 绘制进度由0-1交替的旋转动画.pdf in Resources */,
 				BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */,
 				D600D9481EF71F0800125C17 /* 将Image绘制到指定的区域.pdf in Resources */,
