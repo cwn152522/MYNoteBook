@@ -339,6 +339,7 @@
 		D61F1D0C1F49290300524D14 /* 控制脚本执行进度.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D61F1D0B1F49290300524D14 /* 控制脚本执行进度.pdf */; };
 		D61F1D0E1F493B6800524D14 /* 文件加载.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D61F1D0D1F493B6800524D14 /* 文件加载.pdf */; };
 		D61F1D101F4958E000524D14 /* 错误处理.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D61F1D0F1F4958E000524D14 /* 错误处理.pdf */; };
+		D61F1D131F4999FA00524D14 /* Day5学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D61F1D121F4999FA00524D14 /* Day5学习报告.pdf */; };
 		D63B75BD1DE8736A00585FE6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D63B75BB1DE8736A00585FE6 /* Model.xcdatamodeld */; };
 		D63EDA2A1DCBC24800144278 /* myNotes.json in Resources */ = {isa = PBXBuildFile; fileRef = D63EDA291DCBC24800144278 /* myNotes.json */; };
 		D649490C1F0F4C98000D2A45 /* 类型转换.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D649490B1F0F4C98000D2A45 /* 类型转换.pdf */; };
@@ -970,6 +971,7 @@
 		D61F1D0B1F49290300524D14 /* 控制脚本执行进度.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "控制脚本执行进度.pdf"; sourceTree = "<group>"; };
 		D61F1D0D1F493B6800524D14 /* 文件加载.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "文件加载.pdf"; sourceTree = "<group>"; };
 		D61F1D0F1F4958E000524D14 /* 错误处理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "错误处理.pdf"; sourceTree = "<group>"; };
+		D61F1D121F4999FA00524D14 /* Day5学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day5学习报告.pdf"; sourceTree = "<group>"; };
 		D63B75BC1DE8736A00585FE6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		D63EDA291DCBC24800144278 /* myNotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myNotes.json; sourceTree = "<group>"; };
 		D649490B1F0F4C98000D2A45 /* 类型转换.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类型转换.pdf"; sourceTree = "<group>"; };
@@ -1266,6 +1268,7 @@
 		BE6D98C81F43E2250013CCE2 /* Day5 */ = {
 			isa = PBXGroup;
 			children = (
+				D61F1D121F4999FA00524D14 /* Day5学习报告.pdf */,
 				BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */,
 				D61F1D0B1F49290300524D14 /* 控制脚本执行进度.pdf */,
 				D61F1D0D1F493B6800524D14 /* 文件加载.pdf */,
@@ -2168,6 +2171,7 @@
 				BE657E111EFCC1F300F16020 /* Day3 */,
 				BE72AF401F0F586800A79201 /* Day4 */,
 				BE6D98C81F43E2250013CCE2 /* Day5 */,
+				D61F1D111F495A3200524D14 /* Day6 */,
 			);
 			path = 2017;
 			sourceTree = "<group>";
@@ -2501,6 +2505,13 @@
 				D600EA141DF4DE680054495C /* MYNotesSpeechSearchViewController.m */,
 			);
 			path = SearchPage;
+			sourceTree = "<group>";
+		};
+		D61F1D111F495A3200524D14 /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day6;
 			sourceTree = "<group>";
 		};
 		D63B75781DE8425F00585FE6 /* Books */ = {
@@ -3202,6 +3213,7 @@
 				BE6F48EA1F30445700A48AD0 /* 图层复制思想.pdf in Resources */,
 				BE6F48EC1F3052F900A48AD0 /* 蒙版(高斯模糊)的实现.pdf in Resources */,
 				D600D9621EF71F0800125C17 /* 关于苹果APNs推送机制(2).pdf in Resources */,
+				D61F1D131F4999FA00524D14 /* Day5学习报告.pdf in Resources */,
 				BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */,
 				D600D9461EF71F0800125C17 /* 图片轮播.pdf in Resources */,
 				D61F1D0E1F493B6800524D14 /* 文件加载.pdf in Resources */,
