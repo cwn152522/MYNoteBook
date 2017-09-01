@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE2ADA351F5921D80008010A /* 函数基础.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE2ADA341F5921D80008010A /* 函数基础.pdf */; };
 		BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4842451EF7F97400636470 /* PHP配置.pdf */; };
 		BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */; };
 		BE5945801EF8B081009DC99D /* MYSQL数据库配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */; };
@@ -474,6 +475,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE2ADA341F5921D80008010A /* 函数基础.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "函数基础.pdf"; sourceTree = "<group>"; };
 		BE4842451EF7F97400636470 /* PHP配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP配置.pdf"; sourceTree = "<group>"; };
 		BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量基本理解与操作.pdf"; sourceTree = "<group>"; };
 		BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MYSQL数据库配置.pdf"; sourceTree = "<group>"; };
@@ -2510,6 +2512,7 @@
 		D61F1D111F495A3200524D14 /* Day6 */ = {
 			isa = PBXGroup;
 			children = (
+				BE2ADA341F5921D80008010A /* 函数基础.pdf */,
 			);
 			path = Day6;
 			sourceTree = "<group>";
@@ -3262,6 +3265,7 @@
 				D6DC80B71E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				BE7BB9241F4295F300C22582 /* 位运算符应用-一组开关.pdf in Resources */,
 				D6EEB2391F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf in Resources */,
+				BE2ADA351F5921D80008010A /* 函数基础.pdf in Resources */,
 				D6DC80BA1E03573A00F25651 /* WeiboSDK.bundle in Resources */,
 				BE6D98C71F43E0E50013CCE2 /* Day4学习报告.pdf in Resources */,
 				D600D9541EF71F0800125C17 /* 绘制纯背景的UISearchBar.pdf in Resources */,

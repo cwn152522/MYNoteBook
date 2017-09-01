@@ -188,4 +188,5 @@
   
   {"ID":5005, "Name":"Day6", "ParentID":"-100, -2, -21", "storyboardName":"", "storyboardId":""},
   {"ID":50051, "Name":"Day6学习报告", "ParentID":"-100, -2, -21, 5005", "storyboardName":"", "storyboardId":""},
+  {"ID":50052, "Name":"函数基础", "ParentID":"-100, -2, -21, 5005", "storyboardName":"", "storyboardId":""},
 ]
