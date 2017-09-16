@@ -375,6 +375,7 @@
 		D6D3FD771EE61AF400D628A6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D3FD711EE61AF400D628A6 /* SecondViewController.m */; };
 		D6D3FD781EE61AF400D628A6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D3FD731EE61AF400D628A6 /* ThirdViewController.m */; };
 		D6D3FD791EE61AF400D628A6 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D3FD751EE61AF400D628A6 /* FourthViewController.m */; };
+		D6D6D9371F6CB569005609FF /* 可变函数及其应用.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6D6D9361F6CB569005609FF /* 可变函数及其应用.pdf */; };
 		D6DC80B51E03573A00F25651 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DC808F1E03573A00F25651 /* libSocialQQ.a */; };
 		D6DC80B61E03573A00F25651 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DC80901E03573A00F25651 /* TencentOpenAPI.framework */; };
 		D6DC80B71E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6DC80911E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle */; };
@@ -1023,6 +1024,7 @@
 		D6D3FD731EE61AF400D628A6 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		D6D3FD741EE61AF400D628A6 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
 		D6D3FD751EE61AF400D628A6 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		D6D6D9361F6CB569005609FF /* 可变函数及其应用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "可变函数及其应用.pdf"; sourceTree = "<group>"; };
 		D6DC808F1E03573A00F25651 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
 		D6DC80901E03573A00F25651 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		D6DC80911E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
@@ -2513,6 +2515,7 @@
 			isa = PBXGroup;
 			children = (
 				BE2ADA341F5921D80008010A /* 函数基础.pdf */,
+				D6D6D9361F6CB569005609FF /* 可变函数及其应用.pdf */,
 			);
 			path = Day6;
 			sourceTree = "<group>";
@@ -3232,6 +3235,7 @@
 				D600D92D1EF71F0800125C17 /* IOS10-属性动画器.pdf in Resources */,
 				D600D9491EF71F0800125C17 /* 根据UIColor绘制相应纯色Image.pdf in Resources */,
 				D600D92E1EF71F0800125C17 /* IOS10-语音识别.pdf in Resources */,
+				D6D6D9371F6CB569005609FF /* 可变函数及其应用.pdf in Resources */,
 				BE83A9451E7665A50012C540 /* Banner.storyboard in Resources */,
 				D600D97E1EF71F0800125C17 /* 解析线上app崩溃报告.pdf in Resources */,
 				D600D95C1EF71F0800125C17 /* UITextView显示网页内容(富文本).pdf in Resources */,
