@@ -192,4 +192,5 @@
   {"ID":50053, "Name":"可变函数及其应用", "ParentID":"-100, -2, -21, 5005", "storyboardName":"", "storyboardId":""},
   {"ID":50054, "Name":"匿名函数", "ParentID":"-100, -2, -21, 5005", "storyboardName":"", "storyboardId":""},
   {"ID":50055, "Name":"变量作用域", "ParentID":"-100, -2, -21, 5005", "storyboardName":"", "storyboardId":""},
+  {"ID":50056, "Name":"常用系统函数及递归思想", "ParentID":"-100, -2, -21, 5005", "storyboardName":"", "storyboardId":""},
 ]
