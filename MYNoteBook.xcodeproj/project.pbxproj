@@ -343,6 +343,7 @@
 		D61F1D131F4999FA00524D14 /* Day5学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D61F1D121F4999FA00524D14 /* Day5学习报告.pdf */; };
 		D63B75BD1DE8736A00585FE6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D63B75BB1DE8736A00585FE6 /* Model.xcdatamodeld */; };
 		D63EDA2A1DCBC24800144278 /* myNotes.json in Resources */ = {isa = PBXBuildFile; fileRef = D63EDA291DCBC24800144278 /* myNotes.json */; };
+		D6427D351F6E14EB009BA083 /* 变量作用域.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6427D341F6E14EB009BA083 /* 变量作用域.pdf */; };
 		D649490C1F0F4C98000D2A45 /* 类型转换.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D649490B1F0F4C98000D2A45 /* 类型转换.pdf */; };
 		D64B50741E00349C00E4BD41 /* UITabBarItem+Universal.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B50731E00349C00E4BD41 /* UITabBarItem+Universal.m */; };
 		D64B50771E0034A900E4BD41 /* JCContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B50761E0034A900E4BD41 /* JCContext.m */; };
@@ -978,6 +979,7 @@
 		D61F1D121F4999FA00524D14 /* Day5学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day5学习报告.pdf"; sourceTree = "<group>"; };
 		D63B75BC1DE8736A00585FE6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		D63EDA291DCBC24800144278 /* myNotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myNotes.json; sourceTree = "<group>"; };
+		D6427D341F6E14EB009BA083 /* 变量作用域.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量作用域.pdf"; sourceTree = "<group>"; };
 		D649490B1F0F4C98000D2A45 /* 类型转换.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类型转换.pdf"; sourceTree = "<group>"; };
 		D64B50721E00349C00E4BD41 /* UITabBarItem+Universal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Universal.h"; sourceTree = "<group>"; };
 		D64B50731E00349C00E4BD41 /* UITabBarItem+Universal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Universal.m"; sourceTree = "<group>"; };
@@ -2519,6 +2521,7 @@
 				BE2ADA341F5921D80008010A /* 函数基础.pdf */,
 				D6D6D9361F6CB569005609FF /* 可变函数及其应用.pdf */,
 				D6D6D9381F6D88B8005609FF /* 匿名函数.pdf */,
+				D6427D341F6E14EB009BA083 /* 变量作用域.pdf */,
 			);
 			path = Day6;
 			sourceTree = "<group>";
@@ -3271,6 +3274,7 @@
 				BE72AF441F0F711400A79201 /* 怎么让文本左右对齐.pdf in Resources */,
 				D6DC80B71E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				BE7BB9241F4295F300C22582 /* 位运算符应用-一组开关.pdf in Resources */,
+				D6427D351F6E14EB009BA083 /* 变量作用域.pdf in Resources */,
 				D6EEB2391F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf in Resources */,
 				BE2ADA351F5921D80008010A /* 函数基础.pdf in Resources */,
 				D6DC80BA1E03573A00F25651 /* WeiboSDK.bundle in Resources */,
