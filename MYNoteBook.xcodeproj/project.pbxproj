@@ -1243,6 +1243,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE4243331F6F59D700B6034B /* Day7 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day7;
+			sourceTree = "<group>";
+		};
 		BE5945831EF8DCD6009DC99D /* Day2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2184,6 +2191,7 @@
 				BE72AF401F0F586800A79201 /* Day4 */,
 				BE6D98C81F43E2250013CCE2 /* Day5 */,
 				D61F1D111F495A3200524D14 /* Day6 */,
+				BE4243331F6F59D700B6034B /* Day7 */,
 			);
 			path = 2017;
 			sourceTree = "<group>";

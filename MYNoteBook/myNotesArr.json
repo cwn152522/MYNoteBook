@@ -193,4 +193,7 @@
   {"ID":50054, "Name":"匿名函数", "ParentID":"-100, -2, -21, 5005", "storyboardName":"", "storyboardId":""},
   {"ID":50055, "Name":"变量作用域", "ParentID":"-100, -2, -21, 5005", "storyboardName":"", "storyboardId":""},
   {"ID":50056, "Name":"常用系统函数及递归思想", "ParentID":"-100, -2, -21, 5005", "storyboardName":"", "storyboardId":""},
+  
+  {"ID":5006, "Name":"Day7", "ParentID":"-100, -2, -21", "storyboardName":"", "storyboardId":""},
+  {"ID":50061, "Name":"Day7学习报告", "ParentID":"-100, -2, -21, 5006", "storyboardName":"", "storyboardId":""},
 ]
