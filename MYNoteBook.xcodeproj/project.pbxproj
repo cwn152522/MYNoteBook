@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE2ADA351F5921D80008010A /* 函数基础.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE2ADA341F5921D80008010A /* 函数基础.pdf */; };
+		BE4243321F6F591E00B6034B /* Day6学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4243311F6F591E00B6034B /* Day6学习报告.pdf */; };
 		BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4842451EF7F97400636470 /* PHP配置.pdf */; };
 		BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */; };
 		BE5945801EF8B081009DC99D /* MYSQL数据库配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */; };
@@ -480,6 +481,7 @@
 
 /* Begin PBXFileReference section */
 		BE2ADA341F5921D80008010A /* 函数基础.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "函数基础.pdf"; sourceTree = "<group>"; };
+		BE4243311F6F591E00B6034B /* Day6学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day6学习报告.pdf"; sourceTree = "<group>"; };
 		BE4842451EF7F97400636470 /* PHP配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP配置.pdf"; sourceTree = "<group>"; };
 		BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量基本理解与操作.pdf"; sourceTree = "<group>"; };
 		BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MYSQL数据库配置.pdf"; sourceTree = "<group>"; };
@@ -2520,6 +2522,7 @@
 		D61F1D111F495A3200524D14 /* Day6 */ = {
 			isa = PBXGroup;
 			children = (
+				BE4243311F6F591E00B6034B /* Day6学习报告.pdf */,
 				BE2ADA341F5921D80008010A /* 函数基础.pdf */,
 				D6D6D9361F6CB569005609FF /* 可变函数及其应用.pdf */,
 				D6D6D9381F6D88B8005609FF /* 匿名函数.pdf */,
@@ -3257,6 +3260,7 @@
 				BE83A9581E7665A50012C540 /* LoadingAnimation.storyboard in Resources */,
 				D600D9711EF71F0800125C17 /* 使用CodeLibrary提高开发效率.pdf in Resources */,
 				BE6D98CA1F4408E00013CCE2 /* 循环的中断.pdf in Resources */,
+				BE4243321F6F591E00B6034B /* Day6学习报告.pdf in Resources */,
 				D60558201F403B9100CACA60 /* 连接、赋值、条件运算符.pdf in Resources */,
 				D600D95A1EF71F0800125C17 /* IOS相关基础知识整理.pdf in Resources */,
 				D600D96D1EF71F0800125C17 /* ios10系统app一直提示无网络.pdf in Resources */,
