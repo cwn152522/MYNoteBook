@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BE2ADA351F5921D80008010A /* 函数基础.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE2ADA341F5921D80008010A /* 函数基础.pdf */; };
 		BE4243321F6F591E00B6034B /* Day6学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4243311F6F591E00B6034B /* Day6学习报告.pdf */; };
+		BE42433A1F7001C000B6034B /* 数组初步.docx in Resources */ = {isa = PBXBuildFile; fileRef = BE4243391F7001AF00B6034B /* 数组初步.docx */; };
 		BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4842451EF7F97400636470 /* PHP配置.pdf */; };
 		BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */; };
 		BE5945801EF8B081009DC99D /* MYSQL数据库配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */; };
@@ -482,6 +483,7 @@
 /* Begin PBXFileReference section */
 		BE2ADA341F5921D80008010A /* 函数基础.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "函数基础.pdf"; sourceTree = "<group>"; };
 		BE4243311F6F591E00B6034B /* Day6学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day6学习报告.pdf"; sourceTree = "<group>"; };
+		BE4243391F7001AF00B6034B /* 数组初步.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "数组初步.docx"; sourceTree = "<group>"; };
 		BE4842451EF7F97400636470 /* PHP配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP配置.pdf"; sourceTree = "<group>"; };
 		BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量基本理解与操作.pdf"; sourceTree = "<group>"; };
 		BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MYSQL数据库配置.pdf"; sourceTree = "<group>"; };
@@ -1246,6 +1248,7 @@
 		BE4243331F6F59D700B6034B /* Day7 */ = {
 			isa = PBXGroup;
 			children = (
+				BE4243391F7001AF00B6034B /* 数组初步.docx */,
 			);
 			path = Day7;
 			sourceTree = "<group>";
@@ -3187,6 +3190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE42433A1F7001C000B6034B /* 数组初步.docx in Resources */,
 				BE657E561EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf in Resources */,
 				BE83A93B1E7665A50012C540 /* CoreAnimation.storyboard in Resources */,
 				D600D93E1EF71F0800125C17 /* 友盟社区化组件v6.1.1.pdf in Resources */,
