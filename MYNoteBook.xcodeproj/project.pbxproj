@@ -11,6 +11,7 @@
 		BE4243321F6F591E00B6034B /* Day6学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4243311F6F591E00B6034B /* Day6学习报告.pdf */; };
 		BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4842451EF7F97400636470 /* PHP配置.pdf */; };
 		BE573FC51F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */; };
+		BE573FC71F7382A800B97C83 /* 常用系统函数及递归思想.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE573FC61F7382A800B97C83 /* 常用系统函数及递归思想.pdf */; };
 		BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */; };
 		BE5945801EF8B081009DC99D /* MYSQL数据库配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */; };
 		BE5945821EF8D5B8009DC99D /* Day1学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5945811EF8D5B8009DC99D /* Day1学习报告.pdf */; };
@@ -346,7 +347,6 @@
 		D63B75BD1DE8736A00585FE6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D63B75BB1DE8736A00585FE6 /* Model.xcdatamodeld */; };
 		D63EDA2A1DCBC24800144278 /* myNotes.json in Resources */ = {isa = PBXBuildFile; fileRef = D63EDA291DCBC24800144278 /* myNotes.json */; };
 		D6427D351F6E14EB009BA083 /* 变量作用域.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6427D341F6E14EB009BA083 /* 变量作用域.pdf */; };
-		D6427D371F6ECAA1009BA083 /* 常用系统函数及递归思想.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D6427D361F6ECAA1009BA083 /* 常用系统函数及递归思想.pdf */; };
 		D649490C1F0F4C98000D2A45 /* 类型转换.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D649490B1F0F4C98000D2A45 /* 类型转换.pdf */; };
 		D64B50741E00349C00E4BD41 /* UITabBarItem+Universal.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B50731E00349C00E4BD41 /* UITabBarItem+Universal.m */; };
 		D64B50771E0034A900E4BD41 /* JCContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B50761E0034A900E4BD41 /* JCContext.m */; };
@@ -486,6 +486,7 @@
 		BE4243311F6F591E00B6034B /* Day6学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day6学习报告.pdf"; sourceTree = "<group>"; };
 		BE4842451EF7F97400636470 /* PHP配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP配置.pdf"; sourceTree = "<group>"; };
 		BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组的基本遍历和指针操作.pdf"; sourceTree = "<group>"; };
+		BE573FC61F7382A800B97C83 /* 常用系统函数及递归思想.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常用系统函数及递归思想.pdf"; sourceTree = "<group>"; };
 		BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量基本理解与操作.pdf"; sourceTree = "<group>"; };
 		BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MYSQL数据库配置.pdf"; sourceTree = "<group>"; };
 		BE5945811EF8D5B8009DC99D /* Day1学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day1学习报告.pdf"; sourceTree = "<group>"; };
@@ -986,7 +987,6 @@
 		D63B75BC1DE8736A00585FE6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		D63EDA291DCBC24800144278 /* myNotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myNotes.json; sourceTree = "<group>"; };
 		D6427D341F6E14EB009BA083 /* 变量作用域.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量作用域.pdf"; sourceTree = "<group>"; };
-		D6427D361F6ECAA1009BA083 /* 常用系统函数及递归思想.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常用系统函数及递归思想.pdf"; sourceTree = "<group>"; };
 		D649490B1F0F4C98000D2A45 /* 类型转换.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类型转换.pdf"; sourceTree = "<group>"; };
 		D64B50721E00349C00E4BD41 /* UITabBarItem+Universal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Universal.h"; sourceTree = "<group>"; };
 		D64B50731E00349C00E4BD41 /* UITabBarItem+Universal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Universal.m"; sourceTree = "<group>"; };
@@ -2541,7 +2541,7 @@
 				D6D6D9361F6CB569005609FF /* 可变函数及其应用.pdf */,
 				D6D6D9381F6D88B8005609FF /* 匿名函数.pdf */,
 				D6427D341F6E14EB009BA083 /* 变量作用域.pdf */,
-				D6427D361F6ECAA1009BA083 /* 常用系统函数及递归思想.pdf */,
+				BE573FC61F7382A800B97C83 /* 常用系统函数及递归思想.pdf */,
 			);
 			path = Day6;
 			sourceTree = "<group>";
@@ -3265,7 +3265,6 @@
 				D6D6D9371F6CB569005609FF /* 可变函数及其应用.pdf in Resources */,
 				BE83A9451E7665A50012C540 /* Banner.storyboard in Resources */,
 				D600D97E1EF71F0800125C17 /* 解析线上app崩溃报告.pdf in Resources */,
-				D6427D371F6ECAA1009BA083 /* 常用系统函数及递归思想.pdf in Resources */,
 				D600D95C1EF71F0800125C17 /* UITextView显示网页内容(富文本).pdf in Resources */,
 				D600D94D1EF71F0800125C17 /* 绘制可自定义图片和标签位置的按钮.pdf in Resources */,
 				BE83AA281E7666030012C540 /* JavaScriptCore.storyboard in Resources */,
@@ -3320,6 +3319,7 @@
 				D61F1D101F4958E000524D14 /* 错误处理.pdf in Resources */,
 				D600D9661EF71F0800125C17 /* 单元测试.pdf in Resources */,
 				D6DC80BF1E03573A00F25651 /* README.txt in Resources */,
+				BE573FC71F7382A800B97C83 /* 常用系统函数及递归思想.pdf in Resources */,
 				D600D92F1EF71F0800125C17 /* IOS10-通知框架UserNotification.pdf in Resources */,
 				D6F774861E005EDB0089E7E9 /* MJRefresh.bundle in Resources */,
 				D600D9411EF71F0800125C17 /* 百度统计v4.3.0.pdf in Resources */,
