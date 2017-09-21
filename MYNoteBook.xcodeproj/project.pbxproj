@@ -10,6 +10,7 @@
 		BE2ADA351F5921D80008010A /* 函数基础.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE2ADA341F5921D80008010A /* 函数基础.pdf */; };
 		BE4243321F6F591E00B6034B /* Day6学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4243311F6F591E00B6034B /* Day6学习报告.pdf */; };
 		BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4842451EF7F97400636470 /* PHP配置.pdf */; };
+		BE573FC51F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */; };
 		BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */; };
 		BE5945801EF8B081009DC99D /* MYSQL数据库配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */; };
 		BE5945821EF8D5B8009DC99D /* Day1学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE5945811EF8D5B8009DC99D /* Day1学习报告.pdf */; };
@@ -484,6 +485,7 @@
 		BE2ADA341F5921D80008010A /* 函数基础.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "函数基础.pdf"; sourceTree = "<group>"; };
 		BE4243311F6F591E00B6034B /* Day6学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day6学习报告.pdf"; sourceTree = "<group>"; };
 		BE4842451EF7F97400636470 /* PHP配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP配置.pdf"; sourceTree = "<group>"; };
+		BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组的基本遍历和指针操作.pdf"; sourceTree = "<group>"; };
 		BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量基本理解与操作.pdf"; sourceTree = "<group>"; };
 		BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MYSQL数据库配置.pdf"; sourceTree = "<group>"; };
 		BE5945811EF8D5B8009DC99D /* Day1学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day1学习报告.pdf"; sourceTree = "<group>"; };
@@ -1249,6 +1251,7 @@
 			isa = PBXGroup;
 			children = (
 				D65561051F7021250020D2F4 /* 数组初步.pdf */,
+				BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */,
 			);
 			path = Day7;
 			sourceTree = "<group>";
@@ -3373,6 +3376,7 @@
 				D6EE1EFC1DCAA616003F14CD /* Assets.xcassets in Resources */,
 				D61F1D0C1F49290300524D14 /* 控制脚本执行进度.pdf in Resources */,
 				BE83AA291E7666030012C540 /* JSCallOC.html in Resources */,
+				BE573FC51F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf in Resources */,
 				D600D91D1EF71F0800125C17 /* Swift_OC混编.pdf in Resources */,
 				BE90901F1F00AC550011D618 /* 数据类型.pdf in Resources */,
 				BE72AF461F0F905000A79201 /* 修改状态栏字体颜色.pdf in Resources */,
