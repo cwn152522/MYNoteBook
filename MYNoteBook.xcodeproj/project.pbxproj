@@ -355,6 +355,7 @@
 		D64B50881E00369700E4BD41 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D64B50871E00369700E4BD41 /* libsqlite3.0.tbd */; };
 		D64B508A1E0036C000E4BD41 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D64B50891E0036C000E4BD41 /* libstdc++.6.0.9.tbd */; };
 		D64B50931E003C2400E4BD41 /* JCLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B50921E003C2400E4BD41 /* JCLineView.m */; };
+		D654768B1F7E8EC400200007 /* 数组排序算法.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D654768A1F7E8EC400200007 /* 数组排序算法.pdf */; };
 		D65561061F7021250020D2F4 /* 数组初步.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D65561051F7021250020D2F4 /* 数组初步.pdf */; };
 		D692DEF81EE61D25004CF87C /* NavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D692DEF71EE61D25004CF87C /* NavigationView.m */; };
 		D692DEFC1EE61E0F004CF87C /* UIView+FrameProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D692DEFB1EE61E0F004CF87C /* UIView+FrameProperty.m */; };
@@ -998,6 +999,7 @@
 		D64B50891E0036C000E4BD41 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		D64B50911E003C2400E4BD41 /* JCLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLineView.h; sourceTree = "<group>"; };
 		D64B50921E003C2400E4BD41 /* JCLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCLineView.m; sourceTree = "<group>"; };
+		D654768A1F7E8EC400200007 /* 数组排序算法.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组排序算法.pdf"; sourceTree = "<group>"; };
 		D65561051F7021250020D2F4 /* 数组初步.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组初步.pdf"; sourceTree = "<group>"; };
 		D692DEF61EE61D25004CF87C /* NavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationView.h; sourceTree = "<group>"; };
 		D692DEF71EE61D25004CF87C /* NavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationView.m; sourceTree = "<group>"; };
@@ -1252,6 +1254,7 @@
 			children = (
 				D65561051F7021250020D2F4 /* 数组初步.pdf */,
 				BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */,
+				D654768A1F7E8EC400200007 /* 数组排序算法.pdf */,
 			);
 			path = Day7;
 			sourceTree = "<group>";
@@ -3273,6 +3276,7 @@
 				D6F774941E005EDB0089E7E9 /* SVProgressHUD.bundle in Resources */,
 				BE83A9581E7665A50012C540 /* LoadingAnimation.storyboard in Resources */,
 				D600D9711EF71F0800125C17 /* 使用CodeLibrary提高开发效率.pdf in Resources */,
+				D654768B1F7E8EC400200007 /* 数组排序算法.pdf in Resources */,
 				BE6D98CA1F4408E00013CCE2 /* 循环的中断.pdf in Resources */,
 				BE4243321F6F591E00B6034B /* Day6学习报告.pdf in Resources */,
 				D60558201F403B9100CACA60 /* 连接、赋值、条件运算符.pdf in Resources */,
