@@ -71,9 +71,6 @@
   { "ID":419, "Name":"列表数据请求框架搭建", "ParentID":"-100, -1, -11, 4", "storyboardName":"", "storyboardId":""},
   { "ID":420, "Name":"MYNetwork网络库1.0版", "ParentID":"-100, -1, -11, 4", "storyboardName":"", "storyboardId":""},
   
-  {"ID":5, "Name":"IOS编程随记3", "ParentID":"-100, -1, -11", "storyboardName":"", "storyboardId":""},
-  {"ID":51, "Name":"如何正确计算文本高度", "ParentID":"-100, -1, -11, 5", "storyboardName":"", "storyboardId":""},
-  
   
   {"ID":-12, "Name":"2017年", "ParentID":"-100, -1", "storyboardName":"", "storyboardId":""},
   
@@ -142,6 +139,10 @@
   {"ID":718, "Name":"searchbar主题色修改", "ParentID":"-100, -1, -12, 7", "storyboardName":"", "storyboardId":""},
   {"ID":719, "Name":"tableHeaderView显示问题", "ParentID":"-100, -1, -12, 7", "storyboardName":"", "storyboardId":""},
   {"ID":720, "Name":"超出父视图事件响应", "ParentID":"-100, -1, -12, 7", "storyboardName":"", "storyboardId":""},
+  
+  
+  {"ID":8, "Name":"IOS编程随记4", "ParentID":"-100, -1, -12", "storyboardName":"", "storyboardId":""},
+  {"ID":81, "Name":"如何正确计算文本高度", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   
   
   
