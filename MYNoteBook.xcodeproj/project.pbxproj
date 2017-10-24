@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE2ADA351F5921D80008010A /* 函数基础.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE2ADA341F5921D80008010A /* 函数基础.pdf */; };
+		BE31B49E1F9F6E020083480E /* 如何正确计算文本高度.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE31B49D1F9F6E020083480E /* 如何正确计算文本高度.pdf */; };
 		BE4243321F6F591E00B6034B /* Day6学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4243311F6F591E00B6034B /* Day6学习报告.pdf */; };
 		BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4842451EF7F97400636470 /* PHP配置.pdf */; };
 		BE573FC51F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */; };
@@ -484,6 +485,7 @@
 
 /* Begin PBXFileReference section */
 		BE2ADA341F5921D80008010A /* 函数基础.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "函数基础.pdf"; sourceTree = "<group>"; };
+		BE31B49D1F9F6E020083480E /* 如何正确计算文本高度.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "如何正确计算文本高度.pdf"; sourceTree = "<group>"; };
 		BE4243311F6F591E00B6034B /* Day6学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day6学习报告.pdf"; sourceTree = "<group>"; };
 		BE4842451EF7F97400636470 /* PHP配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP配置.pdf"; sourceTree = "<group>"; };
 		BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组的基本遍历和指针操作.pdf"; sourceTree = "<group>"; };
@@ -2438,6 +2440,7 @@
 				BE6F48EF1F30867300A48AD0 /* searchbar主题色修改.pdf */,
 				BE6F48F11F308A6B00A48AD0 /* tableHeaderView显示问题.pdf */,
 				BE6F48F31F308CC600A48AD0 /* 超出父视图事件响应.pdf */,
+				BE31B49D1F9F6E020083480E /* 如何正确计算文本高度.pdf */,
 			);
 			path = "IOS编程随记3";
 			sourceTree = "<group>";
@@ -3315,6 +3318,7 @@
 				D600D9201EF71F0800125C17 /* 内存管理.pdf in Resources */,
 				D6EEB23D1F3F564B00ADF585 /* 逻辑运算符.pdf in Resources */,
 				D6D3FD6B1EE61A3A00D628A6 /* MYNav.storyboard in Resources */,
+				BE31B49E1F9F6E020083480E /* 如何正确计算文本高度.pdf in Resources */,
 				BE657E131EFCD4EE00F16020 /* 常量的定义和基本使用.pdf in Resources */,
 				D600D9641EF71F0800125C17 /* 关于面向对象编程.pdf in Resources */,
 				D600D9321EF71F0800125C17 /* MYNavigationController封装.pdf in Resources */,
