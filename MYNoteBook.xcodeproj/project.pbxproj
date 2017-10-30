@@ -25,6 +25,7 @@
 		BE657E131EFCD4EE00F16020 /* 常量的定义和基本使用.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */; };
 		BE657E561EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */; };
 		BE65CD7C1FA6BFD300A953A2 /* 只读属性self调用.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE65CD7B1FA6BFD300A953A2 /* 只读属性self调用.pdf */; };
+		BE65CD7E1FA6E9CF00A953A2 /* frame视图屏幕循转的适配.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE65CD7D1FA6E9CF00A953A2 /* frame视图屏幕循转的适配.pdf */; };
 		BE6D98C51F43D56A0013CCE2 /* 流程控制.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */; };
 		BE6D98C71F43E0E50013CCE2 /* Day4学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C61F43E0E50013CCE2 /* Day4学习报告.pdf */; };
 		BE6D98CA1F4408E00013CCE2 /* 循环的中断.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */; };
@@ -504,6 +505,7 @@
 		BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常量的定义和基本使用.pdf"; sourceTree = "<group>"; };
 		BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类库管理工具CocoaPods详解.pdf"; sourceTree = "<group>"; };
 		BE65CD7B1FA6BFD300A953A2 /* 只读属性self调用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "只读属性self调用.pdf"; sourceTree = "<group>"; };
+		BE65CD7D1FA6E9CF00A953A2 /* frame视图屏幕循转的适配.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "frame视图屏幕循转的适配.pdf"; sourceTree = "<group>"; };
 		BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "流程控制.pdf"; sourceTree = "<group>"; };
 		BE6D98C61F43E0E50013CCE2 /* Day4学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day4学习报告.pdf"; sourceTree = "<group>"; };
 		BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "循环的中断.pdf"; sourceTree = "<group>"; };
@@ -1260,6 +1262,7 @@
 				BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */,
 				D654768A1F7E8EC400200007 /* 数组排序算法.pdf */,
 				BE65CD7B1FA6BFD300A953A2 /* 只读属性self调用.pdf */,
+				BE65CD7D1FA6E9CF00A953A2 /* frame视图屏幕循转的适配.pdf */,
 			);
 			path = Day7;
 			sourceTree = "<group>";
@@ -3228,6 +3231,7 @@
 				D600D98A1EF71F0800125C17 /* 证书重置项目运行后闪退.pdf in Resources */,
 				D6DC80C21E03573A00F25651 /* UMSocialSDKResources.bundle in Resources */,
 				D600D9791EF71F0800125C17 /* 正则匹配去除文本的html标签.pdf in Resources */,
+				BE65CD7E1FA6E9CF00A953A2 /* frame视图屏幕循转的适配.pdf in Resources */,
 				BE83AA651E7666030012C540 /* CLLocation.storyboard in Resources */,
 				D600D9831EF71F0800125C17 /* webView视频如何实现全屏播放.pdf in Resources */,
 				D600D9551EF71F0800125C17 /* 绘制虚线.pdf in Resources */,

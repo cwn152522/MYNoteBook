@@ -144,6 +144,7 @@
   {"ID":8, "Name":"IOS编程随记4", "ParentID":"-100, -1, -12", "storyboardName":"", "storyboardId":""},
   {"ID":81, "Name":"如何正确计算文本高度", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   {"ID":82, "Name":"只读属性self调用", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
+  {"ID":83, "Name":"frame视图屏幕循转的适配", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   
   
   
