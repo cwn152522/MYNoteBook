@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BE2ADA351F5921D80008010A /* 函数基础.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE2ADA341F5921D80008010A /* 函数基础.pdf */; };
-		BE31B49E1F9F6E020083480E /* 如何正确计算文本高度.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE31B49D1F9F6E020083480E /* 如何正确计算文本高度.pdf */; };
 		BE4243321F6F591E00B6034B /* Day6学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4243311F6F591E00B6034B /* Day6学习报告.pdf */; };
 		BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4842451EF7F97400636470 /* PHP配置.pdf */; };
 		BE573FC51F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */; };
@@ -24,8 +23,9 @@
 		BE657E101EFCC16900F16020 /* Day2学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */; };
 		BE657E131EFCD4EE00F16020 /* 常量的定义和基本使用.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */; };
 		BE657E561EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */; };
-		BE65CD7C1FA6BFD300A953A2 /* 只读属性self调用.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE65CD7B1FA6BFD300A953A2 /* 只读属性self调用.pdf */; };
-		BE65CD7E1FA6E9CF00A953A2 /* frame视图屏幕循转的适配.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE65CD7D1FA6E9CF00A953A2 /* frame视图屏幕循转的适配.pdf */; };
+		BE65CD831FA6EB0900A953A2 /* frame视图屏幕循转的适配.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE65CD801FA6EB0900A953A2 /* frame视图屏幕循转的适配.pdf */; };
+		BE65CD841FA6EB0900A953A2 /* 只读属性self调用.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE65CD811FA6EB0900A953A2 /* 只读属性self调用.pdf */; };
+		BE65CD851FA6EB0900A953A2 /* 如何正确计算文本高度.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE65CD821FA6EB0900A953A2 /* 如何正确计算文本高度.pdf */; };
 		BE6D98C51F43D56A0013CCE2 /* 流程控制.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */; };
 		BE6D98C71F43E0E50013CCE2 /* Day4学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C61F43E0E50013CCE2 /* Day4学习报告.pdf */; };
 		BE6D98CA1F4408E00013CCE2 /* 循环的中断.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */; };
@@ -487,7 +487,6 @@
 
 /* Begin PBXFileReference section */
 		BE2ADA341F5921D80008010A /* 函数基础.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "函数基础.pdf"; sourceTree = "<group>"; };
-		BE31B49D1F9F6E020083480E /* 如何正确计算文本高度.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "如何正确计算文本高度.pdf"; sourceTree = "<group>"; };
 		BE4243311F6F591E00B6034B /* Day6学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day6学习报告.pdf"; sourceTree = "<group>"; };
 		BE4842451EF7F97400636470 /* PHP配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP配置.pdf"; sourceTree = "<group>"; };
 		BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组的基本遍历和指针操作.pdf"; sourceTree = "<group>"; };
@@ -504,8 +503,9 @@
 		BE657E0F1EFCC16900F16020 /* Day2学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day2学习报告.pdf"; sourceTree = "<group>"; };
 		BE657E121EFCD4EE00F16020 /* 常量的定义和基本使用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常量的定义和基本使用.pdf"; sourceTree = "<group>"; };
 		BE657E551EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类库管理工具CocoaPods详解.pdf"; sourceTree = "<group>"; };
-		BE65CD7B1FA6BFD300A953A2 /* 只读属性self调用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "只读属性self调用.pdf"; sourceTree = "<group>"; };
-		BE65CD7D1FA6E9CF00A953A2 /* frame视图屏幕循转的适配.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "frame视图屏幕循转的适配.pdf"; sourceTree = "<group>"; };
+		BE65CD801FA6EB0900A953A2 /* frame视图屏幕循转的适配.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "frame视图屏幕循转的适配.pdf"; sourceTree = "<group>"; };
+		BE65CD811FA6EB0900A953A2 /* 只读属性self调用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "只读属性self调用.pdf"; sourceTree = "<group>"; };
+		BE65CD821FA6EB0900A953A2 /* 如何正确计算文本高度.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "如何正确计算文本高度.pdf"; sourceTree = "<group>"; };
 		BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "流程控制.pdf"; sourceTree = "<group>"; };
 		BE6D98C61F43E0E50013CCE2 /* Day4学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day4学习报告.pdf"; sourceTree = "<group>"; };
 		BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "循环的中断.pdf"; sourceTree = "<group>"; };
@@ -1261,8 +1261,6 @@
 				D65561051F7021250020D2F4 /* 数组初步.pdf */,
 				BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */,
 				D654768A1F7E8EC400200007 /* 数组排序算法.pdf */,
-				BE65CD7B1FA6BFD300A953A2 /* 只读属性self调用.pdf */,
-				BE65CD7D1FA6E9CF00A953A2 /* frame视图屏幕循转的适配.pdf */,
 			);
 			path = Day7;
 			sourceTree = "<group>";
@@ -1299,6 +1297,16 @@
 				D649490B1F0F4C98000D2A45 /* 类型转换.pdf */,
 			);
 			path = Day3;
+			sourceTree = "<group>";
+		};
+		BE65CD7F1FA6EB0900A953A2 /* IOS编程随记4 */ = {
+			isa = PBXGroup;
+			children = (
+				BE65CD801FA6EB0900A953A2 /* frame视图屏幕循转的适配.pdf */,
+				BE65CD811FA6EB0900A953A2 /* 只读属性self调用.pdf */,
+				BE65CD821FA6EB0900A953A2 /* 如何正确计算文本高度.pdf */,
+			);
+			path = "IOS编程随记4";
 			sourceTree = "<group>";
 		};
 		BE6D98C81F43E2250013CCE2 /* Day5 */ = {
@@ -2364,6 +2372,7 @@
 				D600D8E21EF71F0800125C17 /* IOS编程随记1 */,
 				D600D8F71EF71F0800125C17 /* IOS编程随记2 */,
 				D600D90D1EF71F0800125C17 /* IOS编程随记3 */,
+				BE65CD7F1FA6EB0900A953A2 /* IOS编程随记4 */,
 			);
 			path = "2017年";
 			sourceTree = "<group>";
@@ -2446,7 +2455,6 @@
 				BE6F48EF1F30867300A48AD0 /* searchbar主题色修改.pdf */,
 				BE6F48F11F308A6B00A48AD0 /* tableHeaderView显示问题.pdf */,
 				BE6F48F31F308CC600A48AD0 /* 超出父视图事件响应.pdf */,
-				BE31B49D1F9F6E020083480E /* 如何正确计算文本高度.pdf */,
 			);
 			path = "IOS编程随记3";
 			sourceTree = "<group>";
@@ -3231,7 +3239,6 @@
 				D600D98A1EF71F0800125C17 /* 证书重置项目运行后闪退.pdf in Resources */,
 				D6DC80C21E03573A00F25651 /* UMSocialSDKResources.bundle in Resources */,
 				D600D9791EF71F0800125C17 /* 正则匹配去除文本的html标签.pdf in Resources */,
-				BE65CD7E1FA6E9CF00A953A2 /* frame视图屏幕循转的适配.pdf in Resources */,
 				BE83AA651E7666030012C540 /* CLLocation.storyboard in Resources */,
 				D600D9831EF71F0800125C17 /* webView视频如何实现全屏播放.pdf in Resources */,
 				D600D9551EF71F0800125C17 /* 绘制虚线.pdf in Resources */,
@@ -3244,6 +3251,7 @@
 				D600D9231EF71F0800125C17 /* 应用打包发布.pdf in Resources */,
 				D600D96E1EF71F0800125C17 /* ipad运行项目，部分页面显示不了.pdf in Resources */,
 				BE83A9791E7665A50012C540 /* MYNavigationControllerImage.xcassets in Resources */,
+				BE65CD831FA6EB0900A953A2 /* frame视图屏幕循转的适配.pdf in Resources */,
 				D600D94A1EF71F0800125C17 /* 根据UIView绘制出相应Image.pdf in Resources */,
 				D600D9811EF71F0800125C17 /* MYNavigationViewControllerV2封装.pdf in Resources */,
 				BE72AF3D1F0F2E5C00A79201 /* 进制转换.pdf in Resources */,
@@ -3264,6 +3272,7 @@
 				D61F1D0E1F493B6800524D14 /* 文件加载.pdf in Resources */,
 				D600D9561EF71F0800125C17 /* 绘制进度由0-1交替的旋转动画.pdf in Resources */,
 				BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */,
+				BE65CD851FA6EB0900A953A2 /* 如何正确计算文本高度.pdf in Resources */,
 				D600D9481EF71F0800125C17 /* 将Image绘制到指定的区域.pdf in Resources */,
 				BE657E101EFCC16900F16020 /* Day2学习报告.pdf in Resources */,
 				D60558221F4065C800CACA60 /* 位运算符基础.pdf in Resources */,
@@ -3303,8 +3312,8 @@
 				D600D9531EF71F0800125C17 /* 绘制直线.pdf in Resources */,
 				BE83A9631E7665A50012C540 /* SearchBar.storyboard in Resources */,
 				BE930B381EF7E6F80081CB14 /* Apache配置.pdf in Resources */,
+				BE65CD841FA6EB0900A953A2 /* 只读属性self调用.pdf in Resources */,
 				D600D91A1EF71F0800125C17 /* autoLayout自动布局.pdf in Resources */,
-				BE65CD7C1FA6BFD300A953A2 /* 只读属性self调用.pdf in Resources */,
 				D6DC80BE1E03573A00F25651 /* read_me.txt in Resources */,
 				D600D95E1EF71F0800125C17 /* 使用frame怎么实现autolayout.pdf in Resources */,
 				D600D9211EF71F0800125C17 /* 创建framework静态库.pdf in Resources */,
@@ -3326,7 +3335,6 @@
 				D600D9201EF71F0800125C17 /* 内存管理.pdf in Resources */,
 				D6EEB23D1F3F564B00ADF585 /* 逻辑运算符.pdf in Resources */,
 				D6D3FD6B1EE61A3A00D628A6 /* MYNav.storyboard in Resources */,
-				BE31B49E1F9F6E020083480E /* 如何正确计算文本高度.pdf in Resources */,
 				BE657E131EFCD4EE00F16020 /* 常量的定义和基本使用.pdf in Resources */,
 				D600D9641EF71F0800125C17 /* 关于面向对象编程.pdf in Resources */,
 				D600D9321EF71F0800125C17 /* MYNavigationController封装.pdf in Resources */,
