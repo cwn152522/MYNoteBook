@@ -209,6 +209,7 @@
 		BE83AA651E7666030012C540 /* CLLocation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE83AA201E7666030012C540 /* CLLocation.storyboard */; };
 		BE83AA661E7666030012C540 /* MYLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83AA221E7666030012C540 /* MYLocationManager.m */; };
 		BE83AA671E7666030012C540 /* ViewController_CLLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83AA241E7666030012C540 /* ViewController_CLLocation.m */; };
+		BE8A36241FA8235200537E33 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8A36231FA8235200537E33 /* UserNotifications.framework */; };
 		BE90901F1F00AC550011D618 /* 数据类型.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE90901E1F00AC550011D618 /* 数据类型.pdf */; };
 		BE930B381EF7E6F80081CB14 /* Apache配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE930B361EF7E6F80081CB14 /* Apache配置.pdf */; };
 		BE930B391EF7E6F80081CB14 /* PHP网页运行原理.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */; };
@@ -838,6 +839,8 @@
 		BE83AA221E7666030012C540 /* MYLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYLocationManager.m; sourceTree = "<group>"; };
 		BE83AA231E7666030012C540 /* ViewController_CLLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_CLLocation.h; sourceTree = "<group>"; };
 		BE83AA241E7666030012C540 /* ViewController_CLLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_CLLocation.m; sourceTree = "<group>"; };
+		BE8A36231FA8235200537E33 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		BE8A36251FA8256D00537E33 /* MYNoteBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MYNoteBook.entitlements; sourceTree = "<group>"; };
 		BE90901E1F00AC550011D618 /* 数据类型.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据类型.pdf"; sourceTree = "<group>"; };
 		BE930B361EF7E6F80081CB14 /* Apache配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Apache配置.pdf"; sourceTree = "<group>"; };
 		BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP网页运行原理.pdf"; sourceTree = "<group>"; };
@@ -1189,6 +1192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8A36241FA8235200537E33 /* UserNotifications.framework in Frameworks */,
 				D6B88F571E060AA200741102 /* libresolv.tbd in Frameworks */,
 				D6B88F551E060A8F00741102 /* UIKit.framework in Frameworks */,
 				D6F774B01E0062DB0089E7E9 /* Foundation.framework in Frameworks */,
@@ -2860,6 +2864,7 @@
 		D6EE1EEE1DCAA616003F14CD /* MYNoteBook */ = {
 			isa = PBXGroup;
 			children = (
+				BE8A36251FA8256D00537E33 /* MYNoteBook.entitlements */,
 				D63B75781DE8425F00585FE6 /* Books */,
 				D61625241DF46B880091DCC6 /* Utility */,
 				D64B50901E003C1700E4BD41 /* View */,
@@ -2909,6 +2914,7 @@
 		D6F773F71E005EDA0089E7E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE8A36231FA8235200537E33 /* UserNotifications.framework */,
 				D6B88F561E060AA200741102 /* libresolv.tbd */,
 				D64B50891E0036C000E4BD41 /* libstdc++.6.0.9.tbd */,
 				D6DC80D61E03707800F25651 /* libstdc++.tbd */,
@@ -3788,6 +3794,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImages;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MYNoteBook/MYNoteBook.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = P6247WX9N5;
@@ -3841,6 +3848,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImages;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MYNoteBook/MYNoteBook.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = P6247WX9N5;

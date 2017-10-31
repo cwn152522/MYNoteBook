@@ -49,7 +49,7 @@
 #define BAIDUMAPKEY                     @"knok59Xb6WklTEGVAqoVun5HecLN7sSh"//百度地图appkey
 #define UMENGSOCIALKEY             @"5852acd2f43e4822b10022be"//友盟appKey
 #define BAIDUMTJKEY                      @"e1f4000bea"//百度统计appkey
-#define JPUSHKEY                              @"2c8e6b900261d8df258ca486"//极光推送appkey
+#define JPUSHKEY                              @"c8627472583b5234e232c86e"//极光推送appkey
 #define IFLYMSCKEY                         @"584445ae"//科大讯飞语音识别key
 
 //正式外网ip地址
