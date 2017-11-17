@@ -216,6 +216,7 @@
 		BEA939F51FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEA939F41FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf */; };
 		BECA29371FBE8606000E17D0 /* 关于野指针崩溃.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA29361FBE8606000E17D0 /* 关于野指针崩溃.pdf */; };
 		BECA29391FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA29381FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf */; };
+		BECA293B1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA293A1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf */; };
 		BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */; };
 		BEFF33B01E96051800E2A05E /* DoubleTable_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */; };
 		BEFF33B61E9608F700E2A05E /* MYDoubleTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33B31E9608F700E2A05E /* MYDoubleTableModel.m */; };
@@ -850,6 +851,7 @@
 		BEA939F41FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "kvo观察者注意事项.pdf"; sourceTree = "<group>"; };
 		BECA29361FBE8606000E17D0 /* 关于野指针崩溃.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于野指针崩溃.pdf"; sourceTree = "<group>"; };
 		BECA29381FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Xcode9静态库Xcode8报错.pdf"; sourceTree = "<group>"; };
+		BECA293A1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "列表多区懒加载实现.pdf"; sourceTree = "<group>"; };
 		BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoubleTable.storyboard; sourceTree = "<group>"; };
 		BEFF33AE1E96051800E2A05E /* DoubleTable_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTable_ViewController.h; sourceTree = "<group>"; };
 		BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTable_ViewController.m; sourceTree = "<group>"; };
@@ -1318,6 +1320,7 @@
 				BEA939F41FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf */,
 				BECA29361FBE8606000E17D0 /* 关于野指针崩溃.pdf */,
 				BECA29381FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf */,
+				BECA293A1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf */,
 			);
 			path = "IOS编程随记4";
 			sourceTree = "<group>";
@@ -3335,6 +3338,7 @@
 				D600D9211EF71F0800125C17 /* 创建framework静态库.pdf in Resources */,
 				BE72AF441F0F711400A79201 /* 怎么让文本左右对齐.pdf in Resources */,
 				D6DC80B71E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				BECA293B1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf in Resources */,
 				BE7BB9241F4295F300C22582 /* 位运算符应用-一组开关.pdf in Resources */,
 				D6427D351F6E14EB009BA083 /* 变量作用域.pdf in Resources */,
 				D6EEB2391F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf in Resources */,
