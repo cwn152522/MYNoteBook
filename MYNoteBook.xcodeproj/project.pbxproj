@@ -218,6 +218,7 @@
 		BECA29391FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA29381FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf */; };
 		BECA293B1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA293A1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf */; };
 		BECA293D1FBF0D80000E17D0 /* textField和TextView限字数.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA293C1FBF0D80000E17D0 /* textField和TextView限字数.pdf */; };
+		BECA293F1FBF101C000E17D0 /* TableHeaderFooterView修改背景色.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA293E1FBF101C000E17D0 /* TableHeaderFooterView修改背景色.pdf */; };
 		BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */; };
 		BEFF33B01E96051800E2A05E /* DoubleTable_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */; };
 		BEFF33B61E9608F700E2A05E /* MYDoubleTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33B31E9608F700E2A05E /* MYDoubleTableModel.m */; };
@@ -854,6 +855,7 @@
 		BECA29381FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Xcode9静态库Xcode8报错.pdf"; sourceTree = "<group>"; };
 		BECA293A1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "列表多区懒加载实现.pdf"; sourceTree = "<group>"; };
 		BECA293C1FBF0D80000E17D0 /* textField和TextView限字数.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "textField和TextView限字数.pdf"; sourceTree = "<group>"; };
+		BECA293E1FBF101C000E17D0 /* TableHeaderFooterView修改背景色.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TableHeaderFooterView修改背景色.pdf"; sourceTree = "<group>"; };
 		BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoubleTable.storyboard; sourceTree = "<group>"; };
 		BEFF33AE1E96051800E2A05E /* DoubleTable_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTable_ViewController.h; sourceTree = "<group>"; };
 		BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTable_ViewController.m; sourceTree = "<group>"; };
@@ -1324,6 +1326,7 @@
 				BECA29381FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf */,
 				BECA293A1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf */,
 				BECA293C1FBF0D80000E17D0 /* textField和TextView限字数.pdf */,
+				BECA293E1FBF101C000E17D0 /* TableHeaderFooterView修改背景色.pdf */,
 			);
 			path = "IOS编程随记4";
 			sourceTree = "<group>";
@@ -3351,6 +3354,7 @@
 				D600D9541EF71F0800125C17 /* 绘制纯背景的UISearchBar.pdf in Resources */,
 				BE7BB9281F43097600C22582 /* 数组、错误控制运算符及优先级.pdf in Resources */,
 				BEA939F51FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf in Resources */,
+				BECA293F1FBF101C000E17D0 /* TableHeaderFooterView修改背景色.pdf in Resources */,
 				D600D9441EF71F0800125C17 /* 关于IOS动画.pdf in Resources */,
 				D600D9421EF71F0800125C17 /* 科大讯飞语音识别v1.146.pdf in Resources */,
 				BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */,
