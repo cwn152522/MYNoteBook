@@ -147,7 +147,7 @@
   {"ID":802, "Name":"frame视图屏幕循转的适配", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   {"ID":803, "Name":"kvo观察者注意事项", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   {"ID":804, "Name":"关于野指针崩溃", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
-  
+  {"ID":805, "Name":"Xcode9静态库Xcode8报错", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   
   
   {"ID":-2, "Name":"PHP", "ParentID":"-100", "storyboardName":"", "storyboardId":""},
