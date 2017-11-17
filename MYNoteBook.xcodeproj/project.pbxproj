@@ -213,6 +213,8 @@
 		BE90901F1F00AC550011D618 /* 数据类型.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE90901E1F00AC550011D618 /* 数据类型.pdf */; };
 		BE930B381EF7E6F80081CB14 /* Apache配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE930B361EF7E6F80081CB14 /* Apache配置.pdf */; };
 		BE930B391EF7E6F80081CB14 /* PHP网页运行原理.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */; };
+		BEA939F51FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEA939F41FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf */; };
+		BECA29371FBE8606000E17D0 /* 关于野指针崩溃.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA29361FBE8606000E17D0 /* 关于野指针崩溃.pdf */; };
 		BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */; };
 		BEFF33B01E96051800E2A05E /* DoubleTable_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */; };
 		BEFF33B61E9608F700E2A05E /* MYDoubleTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33B31E9608F700E2A05E /* MYDoubleTableModel.m */; };
@@ -844,6 +846,8 @@
 		BE90901E1F00AC550011D618 /* 数据类型.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据类型.pdf"; sourceTree = "<group>"; };
 		BE930B361EF7E6F80081CB14 /* Apache配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Apache配置.pdf"; sourceTree = "<group>"; };
 		BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP网页运行原理.pdf"; sourceTree = "<group>"; };
+		BEA939F41FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "kvo观察者注意事项.pdf"; sourceTree = "<group>"; };
+		BECA29361FBE8606000E17D0 /* 关于野指针崩溃.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于野指针崩溃.pdf"; sourceTree = "<group>"; };
 		BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoubleTable.storyboard; sourceTree = "<group>"; };
 		BEFF33AE1E96051800E2A05E /* DoubleTable_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTable_ViewController.h; sourceTree = "<group>"; };
 		BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTable_ViewController.m; sourceTree = "<group>"; };
@@ -1309,6 +1313,8 @@
 				BE65CD801FA6EB0900A953A2 /* frame视图屏幕循转的适配.pdf */,
 				BE65CD811FA6EB0900A953A2 /* 只读属性self调用.pdf */,
 				BE65CD821FA6EB0900A953A2 /* 如何正确计算文本高度.pdf */,
+				BEA939F41FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf */,
+				BECA29361FBE8606000E17D0 /* 关于野指针崩溃.pdf */,
 			);
 			path = "IOS编程随记4";
 			sourceTree = "<group>";
@@ -3264,6 +3270,7 @@
 				D600D94B1EF71F0800125C17 /* 根据缩放系数绘制缩放后的Image.pdf in Resources */,
 				BE5AC5981EA87B0A003E477F /* DrawAnimation.storyboard in Resources */,
 				D600D9731EF71F0800125C17 /* 列表滑动卡顿问题.pdf in Resources */,
+				BECA29371FBE8606000E17D0 /* 关于野指针崩溃.pdf in Resources */,
 				D600D9501EF71F0800125C17 /* 绘制带填充色的圆角标签.pdf in Resources */,
 				D600D91B1EF71F0800125C17 /* JavaScriptCore实现JS交互.pdf in Resources */,
 				D600D9751EF71F0800125C17 /* 怎么给View添加阴影.pdf in Resources */,
@@ -3333,6 +3340,7 @@
 				BE6D98C71F43E0E50013CCE2 /* Day4学习报告.pdf in Resources */,
 				D600D9541EF71F0800125C17 /* 绘制纯背景的UISearchBar.pdf in Resources */,
 				BE7BB9281F43097600C22582 /* 数组、错误控制运算符及优先级.pdf in Resources */,
+				BEA939F51FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf in Resources */,
 				D600D9441EF71F0800125C17 /* 关于IOS动画.pdf in Resources */,
 				D600D9421EF71F0800125C17 /* 科大讯飞语音识别v1.146.pdf in Resources */,
 				BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */,

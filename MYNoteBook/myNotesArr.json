@@ -145,6 +145,8 @@
   {"ID":800, "Name":"如何正确计算文本高度", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   {"ID":801, "Name":"只读属性self调用", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   {"ID":802, "Name":"frame视图屏幕循转的适配", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
+  {"ID":803, "Name":"kvo观察者注意事项", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
+  {"ID":804, "Name":"关于野指针崩溃", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   
   
   
