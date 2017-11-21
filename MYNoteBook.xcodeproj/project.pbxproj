@@ -869,7 +869,6 @@
 		D600D8A11EF71F0800125C17 /* JavaScriptCore实现JS交互.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "JavaScriptCore实现JS交互.pdf"; sourceTree = "<group>"; };
 		D600D8A21EF71F0800125C17 /* PHP简单接口编写.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP简单接口编写.pdf"; sourceTree = "<group>"; };
 		D600D8A31EF71F0800125C17 /* Swift_OC混编.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Swift_OC混编.pdf"; sourceTree = "<group>"; };
-		D600D8A41EF71F0800125C17 /* ~$数据持久化.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "~$数据持久化.docx"; sourceTree = "<absolute>"; };
 		D600D8A51EF71F0800125C17 /* 了解RunTime运行机制.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "了解RunTime运行机制.pdf"; sourceTree = "<group>"; };
 		D600D8A61EF71F0800125C17 /* 内存管理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "内存管理.pdf"; sourceTree = "<group>"; };
 		D600D8A71EF71F0800125C17 /* 创建framework静态库.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "创建framework静态库.pdf"; sourceTree = "<group>"; };
@@ -2305,7 +2304,6 @@
 				D600D8A11EF71F0800125C17 /* JavaScriptCore实现JS交互.pdf */,
 				D600D8A21EF71F0800125C17 /* PHP简单接口编写.pdf */,
 				D600D8A31EF71F0800125C17 /* Swift_OC混编.pdf */,
-				D600D8A41EF71F0800125C17 /* ~$数据持久化.docx */,
 				D600D8A51EF71F0800125C17 /* 了解RunTime运行机制.pdf */,
 				D600D8A61EF71F0800125C17 /* 内存管理.pdf */,
 				D600D8A71EF71F0800125C17 /* 创建framework静态库.pdf */,
