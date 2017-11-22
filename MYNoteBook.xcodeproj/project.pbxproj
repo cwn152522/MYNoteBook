@@ -49,6 +49,7 @@
 		BE7BB9281F43097600C22582 /* 数组、错误控制运算符及优先级.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE7BB9271F43097600C22582 /* 数组、错误控制运算符及优先级.pdf */; };
 		BE82E22E1FC5093F00BC147A /* Rsa加密解密.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE82E22D1FC5093F00BC147A /* Rsa加密解密.pdf */; };
 		BE82E2331FC55CE500BC147A /* 页面旋转和Frame纠正.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE82E2321FC55CE500BC147A /* 页面旋转和Frame纠正.pdf */; };
+		BE82E2351FC57E6F00BC147A /* cell自定义按钮删除崩溃.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE82E2341FC57E6F00BC147A /* cell自定义按钮删除崩溃.pdf */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
 		BE83A8761E7665290012C540 /* MYUShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8571E7665290012C540 /* MYUShareManager.m */; };
 		BE83A8771E7665290012C540 /* MYUShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A85A1E7665290012C540 /* MYUShareButton.m */; };
@@ -542,6 +543,7 @@
 		BE7BB9271F43097600C22582 /* 数组、错误控制运算符及优先级.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组、错误控制运算符及优先级.pdf"; sourceTree = "<group>"; };
 		BE82E22D1FC5093F00BC147A /* Rsa加密解密.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Rsa加密解密.pdf"; sourceTree = "<group>"; };
 		BE82E2321FC55CE500BC147A /* 页面旋转和Frame纠正.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "页面旋转和Frame纠正.pdf"; sourceTree = "<group>"; };
+		BE82E2341FC57E6F00BC147A /* cell自定义按钮删除崩溃.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "cell自定义按钮删除崩溃.pdf"; sourceTree = "<group>"; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -1335,6 +1337,7 @@
 				BE894ED11FC42E3B00030F7E /* iphoneX适配.pdf */,
 				BE82E22D1FC5093F00BC147A /* Rsa加密解密.pdf */,
 				BE82E2321FC55CE500BC147A /* 页面旋转和Frame纠正.pdf */,
+				BE82E2341FC57E6F00BC147A /* cell自定义按钮删除崩溃.pdf */,
 			);
 			path = "IOS编程随记4";
 			sourceTree = "<group>";
@@ -3345,6 +3348,7 @@
 				BE83AA251E7666030012C540 /* radioImage.jpg in Resources */,
 				D600D9531EF71F0800125C17 /* 绘制直线.pdf in Resources */,
 				BE83A9631E7665A50012C540 /* SearchBar.storyboard in Resources */,
+				BE82E2351FC57E6F00BC147A /* cell自定义按钮删除崩溃.pdf in Resources */,
 				BE930B381EF7E6F80081CB14 /* Apache配置.pdf in Resources */,
 				BE65CD841FA6EB0900A953A2 /* 只读属性self调用.pdf in Resources */,
 				D600D91A1EF71F0800125C17 /* autoLayout自动布局.pdf in Resources */,
