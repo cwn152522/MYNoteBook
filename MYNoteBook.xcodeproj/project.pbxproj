@@ -48,6 +48,7 @@
 		BE7BB9261F42B46700C22582 /* 输出数组、字典的json数据.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE7BB9251F42B46700C22582 /* 输出数组、字典的json数据.pdf */; };
 		BE7BB9281F43097600C22582 /* 数组、错误控制运算符及优先级.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE7BB9271F43097600C22582 /* 数组、错误控制运算符及优先级.pdf */; };
 		BE82E22E1FC5093F00BC147A /* Rsa加密解密.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE82E22D1FC5093F00BC147A /* Rsa加密解密.pdf */; };
+		BE82E2331FC55CE500BC147A /* 页面旋转和Frame纠正.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE82E2321FC55CE500BC147A /* 页面旋转和Frame纠正.pdf */; };
 		BE83A8751E7665290012C540 /* MYULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8551E7665290012C540 /* MYULoginManager.m */; };
 		BE83A8761E7665290012C540 /* MYUShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A8571E7665290012C540 /* MYUShareManager.m */; };
 		BE83A8771E7665290012C540 /* MYUShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE83A85A1E7665290012C540 /* MYUShareButton.m */; };
@@ -540,6 +541,7 @@
 		BE7BB9251F42B46700C22582 /* 输出数组、字典的json数据.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "输出数组、字典的json数据.pdf"; sourceTree = "<group>"; };
 		BE7BB9271F43097600C22582 /* 数组、错误控制运算符及优先级.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组、错误控制运算符及优先级.pdf"; sourceTree = "<group>"; };
 		BE82E22D1FC5093F00BC147A /* Rsa加密解密.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Rsa加密解密.pdf"; sourceTree = "<group>"; };
+		BE82E2321FC55CE500BC147A /* 页面旋转和Frame纠正.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "页面旋转和Frame纠正.pdf"; sourceTree = "<group>"; };
 		BE83A8541E7665290012C540 /* MYULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYULoginManager.h; sourceTree = "<group>"; };
 		BE83A8551E7665290012C540 /* MYULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYULoginManager.m; sourceTree = "<group>"; };
 		BE83A8561E7665290012C540 /* MYUShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYUShareManager.h; sourceTree = "<group>"; };
@@ -1332,6 +1334,7 @@
 				BECA293E1FBF101C000E17D0 /* TableHeaderFooterView修改背景色.pdf */,
 				BE894ED11FC42E3B00030F7E /* iphoneX适配.pdf */,
 				BE82E22D1FC5093F00BC147A /* Rsa加密解密.pdf */,
+				BE82E2321FC55CE500BC147A /* 页面旋转和Frame纠正.pdf */,
 			);
 			path = "IOS编程随记4";
 			sourceTree = "<group>";
@@ -3413,6 +3416,7 @@
 				D60018681DECDC2F003017E3 /* myNotesArr.json in Resources */,
 				D600D9451EF71F0800125C17 /* 启动页消失组合动画(alpha+scale).pdf in Resources */,
 				D600D9861EF71F0800125C17 /* 如何以xib方式创建自定义view.pdf in Resources */,
+				BE82E2331FC55CE500BC147A /* 页面旋转和Frame纠正.pdf in Resources */,
 				D600D9671EF71F0800125C17 /* 怎么正确绘制一像素线.pdf in Resources */,
 				D600D9311EF71F0800125C17 /* MVC、MVVM浅谈.pdf in Resources */,
 				D600D9521EF71F0800125C17 /* 绘制正弦波形.pdf in Resources */,

@@ -153,7 +153,7 @@
   {"ID":808, "Name":"TableHeaderFooterView修改背景色", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   {"ID":809, "Name":"iphoneX适配", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   {"ID":810, "Name":"Rsa加密解密", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
-  
+  {"ID":811, "Name":"页面旋转和Frame纠正", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   
   
   {"ID":-2, "Name":"PHP", "ParentID":"-100", "storyboardName":"", "storyboardId":""},
