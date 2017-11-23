@@ -215,6 +215,7 @@
 		BE894ED21FC42E3B00030F7E /* iphoneX适配.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE894ED11FC42E3B00030F7E /* iphoneX适配.pdf */; };
 		BE8A36241FA8235200537E33 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8A36231FA8235200537E33 /* UserNotifications.framework */; };
 		BE8BEF7C1FC65B8F00C016B5 /* Alert弹窗方式.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8BEF7B1FC65B8F00C016B5 /* Alert弹窗方式.pdf */; };
+		BE8BEF7E1FC6840C00C016B5 /* 低版xcode编译新版本api报错.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE8BEF7D1FC6840C00C016B5 /* 低版xcode编译新版本api报错.pdf */; };
 		BE90901F1F00AC550011D618 /* 数据类型.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE90901E1F00AC550011D618 /* 数据类型.pdf */; };
 		BE930B381EF7E6F80081CB14 /* Apache配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE930B361EF7E6F80081CB14 /* Apache配置.pdf */; };
 		BE930B391EF7E6F80081CB14 /* PHP网页运行原理.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */; };
@@ -857,6 +858,7 @@
 		BE8A36231FA8235200537E33 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		BE8A36251FA8256D00537E33 /* MYNoteBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MYNoteBook.entitlements; sourceTree = "<group>"; };
 		BE8BEF7B1FC65B8F00C016B5 /* Alert弹窗方式.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Alert弹窗方式.pdf"; sourceTree = "<group>"; };
+		BE8BEF7D1FC6840C00C016B5 /* 低版xcode编译新版本api报错.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "低版xcode编译新版本api报错.pdf"; sourceTree = "<group>"; };
 		BE90901E1F00AC550011D618 /* 数据类型.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据类型.pdf"; sourceTree = "<group>"; };
 		BE930B361EF7E6F80081CB14 /* Apache配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Apache配置.pdf"; sourceTree = "<group>"; };
 		BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP网页运行原理.pdf"; sourceTree = "<group>"; };
@@ -1341,6 +1343,7 @@
 				BE82E2321FC55CE500BC147A /* 页面旋转和Frame纠正.pdf */,
 				BE82E2341FC57E6F00BC147A /* cell自定义按钮删除崩溃.pdf */,
 				BE8BEF7B1FC65B8F00C016B5 /* Alert弹窗方式.pdf */,
+				BE8BEF7D1FC6840C00C016B5 /* 低版xcode编译新版本api报错.pdf */,
 			);
 			path = "IOS编程随记4";
 			sourceTree = "<group>";
@@ -2536,7 +2539,8 @@
 				D61625321DF46B960091DCC6 /* NotesListPage */,
 				D61625351DF46B960091DCC6 /* SearchPage */,
 			);
-			path = ViewController;
+			name = ViewController;
+			path = ../ViewController;
 			sourceTree = "<group>";
 		};
 		D61625291DF46B960091DCC6 /* HomePage */ = {
@@ -2613,6 +2617,7 @@
 		D64B50711E00347600E4BD41 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D61625281DF46B960091DCC6 /* ViewController */,
 				D64B50721E00349C00E4BD41 /* UITabBarItem+Universal.h */,
 				D64B50731E00349C00E4BD41 /* UITabBarItem+Universal.m */,
 			);
@@ -2900,7 +2905,6 @@
 				D61625241DF46B880091DCC6 /* Utility */,
 				D64B50901E003C1700E4BD41 /* View */,
 				D64B50711E00347600E4BD41 /* Category */,
-				D61625281DF46B960091DCC6 /* ViewController */,
 				D6EE1EF21DCAA616003F14CD /* AppDelegate.h */,
 				D6EE1EF31DCAA616003F14CD /* AppDelegate.mm */,
 				D6EE1EF81DCAA616003F14CD /* Main.storyboard */,
@@ -3457,6 +3461,7 @@
 				D600D93A1EF71F0800125C17 /* YYModel-Json解析.pdf in Resources */,
 				D600D9261EF71F0800125C17 /* 版本控制.pdf in Resources */,
 				D600D9331EF71F0800125C17 /* MYNetwork网络库(基于AFNetworking).pdf in Resources */,
+				BE8BEF7E1FC6840C00C016B5 /* 低版xcode编译新版本api报错.pdf in Resources */,
 				D600D9781EF71F0800125C17 /* 改变列表头部的frame无效.pdf in Resources */,
 				D600D9301EF71F0800125C17 /* IOS下关于cookie的使用管理.pdf in Resources */,
 				BE83A95E1E7665A50012C540 /* DrawLine.storyboard in Resources */,
