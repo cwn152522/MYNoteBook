@@ -155,6 +155,7 @@
   {"ID":810, "Name":"Rsa加密解密", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   {"ID":811, "Name":"页面旋转和Frame纠正", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   {"ID":812, "Name":"cell自定义按钮删除崩溃", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
+  {"ID":813, "Name":"Alert弹窗方式", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   
   
   
