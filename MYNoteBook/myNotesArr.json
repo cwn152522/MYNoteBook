@@ -157,7 +157,8 @@
   {"ID":812, "Name":"cell自定义按钮删除崩溃", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   {"ID":813, "Name":"Alert弹窗方式", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
   {"ID":814, "Name":"低版xcode编译新版本api报错", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
-  
+  {"ID":815, "Name":"关于事件响应链", "ParentID":"-100, -1, -12, 8", "storyboardName":"", "storyboardId":""},
+
   
   
   {"ID":-2, "Name":"PHP", "ParentID":"-100", "storyboardName":"", "storyboardId":""},
