@@ -404,6 +404,7 @@
 
 - (void)onlySeeTCP_IP{
     [self.filterBtn enumerateObjectsUsingBlock:^(UIButton *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        DLog(@"%ld", obj.tag);
         [obj setSelected:obj.tag == 3 ? YES : NO];
     }];
 }

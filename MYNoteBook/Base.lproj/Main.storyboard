@@ -295,6 +295,7 @@
                         <outletCollection property="filterBtn" destination="6dI-NE-w0W" id="0Xf-L4-CoJ"/>
                         <outletCollection property="filterBtn" destination="uDX-Mu-R0v" id="9hs-5P-S9b"/>
                         <outletCollection property="filterBtn" destination="6P0-Ab-Igf" id="jta-S8-92i"/>
+                        <outletCollection property="filterBtn" destination="M8Q-dt-iBo" id="lCK-yl-NrI"/>
                         <segue destination="GkY-9U-bLh" kind="show" identifier="speech" id="BpW-vi-MLT"/>
                     </connections>
                 </viewController>
