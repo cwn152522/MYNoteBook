@@ -124,7 +124,7 @@
         [[[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"(Name contains[c] %@)", keyword]] enumerateObjectsUsingBlock:^(NSDictionary *obj, NSUInteger idx, BOOL * _Nonnull stop) {
             NSArray *componets = [obj[@"ParentID"] componentsSeparatedByString:@","];
             if([componets count] == 4){//是具体的文章
-                if(type == 0 || (type == 1 && [componets[1] integerValue] == -1) || (type == 2 && [componets[1] integerValue] == -2))
+                if(type == 0 || (type == 1 && [componets[1] integerValue] == -1) || (type == 2 && [componets[1] integerValue] == -2) || (type == 3 && [componets[1] integerValue] == -3))
                     [array addObject:obj];
             }
         }];
@@ -141,6 +141,9 @@
                 case 2:
                     [weakSelf onlySeePHP];
                     break;
+                case 3:
+                    [weakSelf onlySeePHP];
+                    break;
                 default:
                     break;
             }
@@ -149,7 +152,7 @@
     });
 }
 
-- (void)searchAllNotesWithOnlySee:(NSInteger)type{//查看所有文章，1只看ios 2只看php 0看全部
+- (void)searchAllNotesWithOnlySee:(NSInteger)type{//查看所有文章，1只看ios 2只看php 3只看TCP_IP 0看全部
     if([_searchBar.text length] > 0)
         return;
     
@@ -160,7 +163,7 @@
         [[[MYNotesUtility defaultUtility] filterArrayWithPredicate:[NSPredicate predicateWithFormat:@"ID > -100"]] enumerateObjectsUsingBlock:^(NSDictionary *obj, NSUInteger idx, BOOL * _Nonnull stop) {
             NSArray *componets = [obj[@"ParentID"] componentsSeparatedByString:@","];
             if([[componets lastObject] integerValue] > 0){//是具体的文章
-                if(type == 0 || (type == 1 && [componets[1] integerValue] == -1) || (type == 2 && [componets[1] integerValue] == -2))
+                if(type == 0 || (type == 1 && [componets[1] integerValue] == -1) || (type == 2 && [componets[1] integerValue] == -2) || (type == 3 && [componets[1] integerValue] == -3))
                     [array addObject:obj];
             }
         }];
@@ -176,6 +179,9 @@
                     break;
                 case 2:
                     [weakSelf onlySeePHP];
+                    break;
+                case 3:
+                    [weakSelf onlySeeTCP_IP];
                     break;
                 default:
                     break;
@@ -393,6 +399,12 @@
 - (void)onlySeePHP{
     [self.filterBtn enumerateObjectsUsingBlock:^(UIButton *obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [obj setSelected:obj.tag == 2 ? YES : NO];
+    }];
+}
+
+- (void)onlySeeTCP_IP{
+    [self.filterBtn enumerateObjectsUsingBlock:^(UIButton *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [obj setSelected:obj.tag == 3 ? YES : NO];
     }];
 }
 
