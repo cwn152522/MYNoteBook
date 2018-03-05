@@ -482,6 +482,7 @@
 		D6F774B81E00631A0089E7E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F774B71E00631A0089E7E9 /* QuartzCore.framework */; };
 		D6F774BA1E0063230089E7E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F774B91E0063230089E7E9 /* CoreGraphics.framework */; };
 		D6F774BC1E0066040089E7E9 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6F774BB1E0066040089E7E9 /* mapapi.bundle */; };
+		F4003DF9204D978A0084E61E /* mysql介绍及系统级操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F4003DF8204D978A0084E61E /* mysql介绍及系统级操作.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -870,7 +871,6 @@
 		BEA939F41FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "kvo观察者注意事项.pdf"; sourceTree = "<group>"; };
 		BEB05D4D204D13C300AEBAE3 /* Day7学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day7学习报告.pdf"; sourceTree = "<group>"; };
 		BEB05D4F204D278500AEBAE3 /* 数组查找(二分法).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组查找(二分法).pdf"; sourceTree = "<group>"; };
-		BEB05D51204D4F2200AEBAE3 /* mysql介绍及系统级操作.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mysql介绍及系统级操作.docx"; sourceTree = "<group>"; };
 		BECA29361FBE8606000E17D0 /* 关于野指针崩溃.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于野指针崩溃.pdf"; sourceTree = "<group>"; };
 		BECA29381FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Xcode9静态库Xcode8报错.pdf"; sourceTree = "<group>"; };
 		BECA293A1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "列表多区懒加载实现.pdf"; sourceTree = "<group>"; };
@@ -1216,6 +1216,7 @@
 		D6F774B91E0063230089E7E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D6F774BB1E0066040089E7E9 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapAPI_Map.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
 		D6FDE5861DE8EFE600AA89EF /* MYCloudGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYCloudGlobal.h; sourceTree = "<group>"; };
+		F4003DF8204D978A0084E61E /* mysql介绍及系统级操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "mysql介绍及系统级操作.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2253,6 +2254,7 @@
 			isa = PBXGroup;
 			children = (
 				BE930B341EF7876A0081CB14 /* 2017 */,
+				F4003DF6204D95D10084E61E /* 2018 */,
 			);
 			name = PHP;
 			path = "word文档/PHP";
@@ -2268,7 +2270,6 @@
 				BE6D98C81F43E2250013CCE2 /* Day5 */,
 				D61F1D111F495A3200524D14 /* Day6 */,
 				BE4243331F6F59D700B6034B /* Day7 */,
-				BEB05D4C204D032700AEBAE3 /* Day8 */,
 			);
 			path = 2017;
 			sourceTree = "<group>";
@@ -2283,14 +2284,6 @@
 				BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */,
 			);
 			path = Day1;
-			sourceTree = "<group>";
-		};
-		BEB05D4C204D032700AEBAE3 /* Day8 */ = {
-			isa = PBXGroup;
-			children = (
-				BEB05D51204D4F2200AEBAE3 /* mysql介绍及系统级操作.docx */,
-			);
-			path = Day8;
 			sourceTree = "<group>";
 		};
 		BEFF33AB1E9604C900E2A05E /* 主从列表 */ = {
@@ -3162,6 +3155,22 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
+		F4003DF6204D95D10084E61E /* 2018 */ = {
+			isa = PBXGroup;
+			children = (
+				F4003DF7204D95D10084E61E /* Day8 */,
+			);
+			path = 2018;
+			sourceTree = "<group>";
+		};
+		F4003DF7204D95D10084E61E /* Day8 */ = {
+			isa = PBXGroup;
+			children = (
+				F4003DF8204D978A0084E61E /* mysql介绍及系统级操作.pdf */,
+			);
+			path = Day8;
+			sourceTree = "<group>";
+		};
 		F4FA1DF220445A450061C0F0 /* 2018年 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3402,6 +3411,7 @@
 				BE83A9581E7665A50012C540 /* LoadingAnimation.storyboard in Resources */,
 				D600D9711EF71F0800125C17 /* 使用CodeLibrary提高开发效率.pdf in Resources */,
 				D654768B1F7E8EC400200007 /* 数组排序算法.pdf in Resources */,
+				F4003DF9204D978A0084E61E /* mysql介绍及系统级操作.pdf in Resources */,
 				BE6D98CA1F4408E00013CCE2 /* 循环的中断.pdf in Resources */,
 				BE4243321F6F591E00B6034B /* Day6学习报告.pdf in Resources */,
 				D60558201F403B9100CACA60 /* 连接、赋值、条件运算符.pdf in Resources */,
