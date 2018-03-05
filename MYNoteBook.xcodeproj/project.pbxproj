@@ -221,6 +221,7 @@
 		BE930B381EF7E6F80081CB14 /* Apache配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE930B361EF7E6F80081CB14 /* Apache配置.pdf */; };
 		BE930B391EF7E6F80081CB14 /* PHP网页运行原理.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */; };
 		BEA939F51FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEA939F41FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf */; };
+		BEB05D4E204D13C300AEBAE3 /* Day7学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEB05D4D204D13C300AEBAE3 /* Day7学习报告.pdf */; };
 		BECA29371FBE8606000E17D0 /* 关于野指针崩溃.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA29361FBE8606000E17D0 /* 关于野指针崩溃.pdf */; };
 		BECA29391FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA29381FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf */; };
 		BECA293B1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA293A1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf */; };
@@ -866,6 +867,7 @@
 		BE930B361EF7E6F80081CB14 /* Apache配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Apache配置.pdf"; sourceTree = "<group>"; };
 		BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP网页运行原理.pdf"; sourceTree = "<group>"; };
 		BEA939F41FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "kvo观察者注意事项.pdf"; sourceTree = "<group>"; };
+		BEB05D4D204D13C300AEBAE3 /* Day7学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day7学习报告.pdf"; sourceTree = "<group>"; };
 		BECA29361FBE8606000E17D0 /* 关于野指针崩溃.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于野指针崩溃.pdf"; sourceTree = "<group>"; };
 		BECA29381FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Xcode9静态库Xcode8报错.pdf"; sourceTree = "<group>"; };
 		BECA293A1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "列表多区懒加载实现.pdf"; sourceTree = "<group>"; };
@@ -1288,6 +1290,7 @@
 		BE4243331F6F59D700B6034B /* Day7 */ = {
 			isa = PBXGroup;
 			children = (
+				BEB05D4D204D13C300AEBAE3 /* Day7学习报告.pdf */,
 				D65561051F7021250020D2F4 /* 数组初步.pdf */,
 				BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */,
 				D654768A1F7E8EC400200007 /* 数组排序算法.pdf */,
@@ -2261,6 +2264,7 @@
 				BE6D98C81F43E2250013CCE2 /* Day5 */,
 				D61F1D111F495A3200524D14 /* Day6 */,
 				BE4243331F6F59D700B6034B /* Day7 */,
+				BEB05D4C204D032700AEBAE3 /* Day8 */,
 			);
 			path = 2017;
 			sourceTree = "<group>";
@@ -2275,6 +2279,13 @@
 				BE59457F1EF8B081009DC99D /* MYSQL数据库配置.pdf */,
 			);
 			path = Day1;
+			sourceTree = "<group>";
+		};
+		BEB05D4C204D032700AEBAE3 /* Day8 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day8;
 			sourceTree = "<group>";
 		};
 		BEFF33AB1E9604C900E2A05E /* 主从列表 */ = {
@@ -3329,6 +3340,7 @@
 				BE83AA651E7666030012C540 /* CLLocation.storyboard in Resources */,
 				D600D9831EF71F0800125C17 /* webView视频如何实现全屏播放.pdf in Resources */,
 				D600D9551EF71F0800125C17 /* 绘制虚线.pdf in Resources */,
+				BEB05D4E204D13C300AEBAE3 /* Day7学习报告.pdf in Resources */,
 				BE83A87A1E7665290012C540 /* UMSocial.storyboard in Resources */,
 				D600D9221EF71F0800125C17 /* 多线程.pdf in Resources */,
 				BE5945801EF8B081009DC99D /* MYSQL数据库配置.pdf in Resources */,
