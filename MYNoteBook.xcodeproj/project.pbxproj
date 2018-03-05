@@ -870,6 +870,7 @@
 		BEA939F41FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "kvo观察者注意事项.pdf"; sourceTree = "<group>"; };
 		BEB05D4D204D13C300AEBAE3 /* Day7学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day7学习报告.pdf"; sourceTree = "<group>"; };
 		BEB05D4F204D278500AEBAE3 /* 数组查找(二分法).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组查找(二分法).pdf"; sourceTree = "<group>"; };
+		BEB05D51204D4F2200AEBAE3 /* mysql介绍及系统级操作.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mysql介绍及系统级操作.docx"; sourceTree = "<group>"; };
 		BECA29361FBE8606000E17D0 /* 关于野指针崩溃.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于野指针崩溃.pdf"; sourceTree = "<group>"; };
 		BECA29381FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Xcode9静态库Xcode8报错.pdf"; sourceTree = "<group>"; };
 		BECA293A1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "列表多区懒加载实现.pdf"; sourceTree = "<group>"; };
@@ -2287,6 +2288,7 @@
 		BEB05D4C204D032700AEBAE3 /* Day8 */ = {
 			isa = PBXGroup;
 			children = (
+				BEB05D51204D4F2200AEBAE3 /* mysql介绍及系统级操作.docx */,
 			);
 			path = Day8;
 			sourceTree = "<group>";
