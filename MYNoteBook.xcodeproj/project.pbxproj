@@ -222,6 +222,7 @@
 		BE930B391EF7E6F80081CB14 /* PHP网页运行原理.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */; };
 		BEA939F51FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEA939F41FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf */; };
 		BEB05D4E204D13C300AEBAE3 /* Day7学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEB05D4D204D13C300AEBAE3 /* Day7学习报告.pdf */; };
+		BEB05D50204D278500AEBAE3 /* 数组查找(二分法).pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEB05D4F204D278500AEBAE3 /* 数组查找(二分法).pdf */; };
 		BECA29371FBE8606000E17D0 /* 关于野指针崩溃.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA29361FBE8606000E17D0 /* 关于野指针崩溃.pdf */; };
 		BECA29391FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA29381FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf */; };
 		BECA293B1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA293A1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf */; };
@@ -868,6 +869,7 @@
 		BE930B371EF7E6F80081CB14 /* PHP网页运行原理.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP网页运行原理.pdf"; sourceTree = "<group>"; };
 		BEA939F41FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "kvo观察者注意事项.pdf"; sourceTree = "<group>"; };
 		BEB05D4D204D13C300AEBAE3 /* Day7学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day7学习报告.pdf"; sourceTree = "<group>"; };
+		BEB05D4F204D278500AEBAE3 /* 数组查找(二分法).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组查找(二分法).pdf"; sourceTree = "<group>"; };
 		BECA29361FBE8606000E17D0 /* 关于野指针崩溃.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于野指针崩溃.pdf"; sourceTree = "<group>"; };
 		BECA29381FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Xcode9静态库Xcode8报错.pdf"; sourceTree = "<group>"; };
 		BECA293A1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "列表多区懒加载实现.pdf"; sourceTree = "<group>"; };
@@ -1294,6 +1296,7 @@
 				D65561051F7021250020D2F4 /* 数组初步.pdf */,
 				BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */,
 				D654768A1F7E8EC400200007 /* 数组排序算法.pdf */,
+				BEB05D4F204D278500AEBAE3 /* 数组查找(二分法).pdf */,
 			);
 			path = Day7;
 			sourceTree = "<group>";
@@ -3503,6 +3506,7 @@
 				D692DF031EE62259004CF87C /* image3.png in Resources */,
 				D600D91F1EF71F0800125C17 /* 了解RunTime运行机制.pdf in Resources */,
 				D600D9591EF71F0800125C17 /* cell渐变色背景闪烁动画及重用问题.pdf in Resources */,
+				BEB05D50204D278500AEBAE3 /* 数组查找(二分法).pdf in Resources */,
 				BECA29391FBE8976000E17D0 /* Xcode9静态库Xcode8报错.pdf in Resources */,
 				D63EDA2A1DCBC24800144278 /* myNotes.json in Resources */,
 				BE6F48EE1F3082C900A48AD0 /* WKWebview和缓存清理.pdf in Resources */,

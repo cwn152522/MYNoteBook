@@ -228,12 +228,12 @@
   {"ID":50062, "Name":"数组初步", "ParentID":"-100, -2, -21, 5006", "storyboardName":"", "storyboardId":""},
   {"ID":50063, "Name":"数组的基本遍历和指针操作", "ParentID":"-100, -2, -21, 5006", "storyboardName":"", "storyboardId":""},
   {"ID":50064, "Name":"数组排序算法", "ParentID":"-100, -2, -21, 5006", "storyboardName":"", "storyboardId":""},
-
+  {"ID":50065, "Name":"数组查找(二分法)", "ParentID":"-100, -2, -21, 5006", "storyboardName":"", "storyboardId":""},
   
   {"ID":-22, "Name":"2018年", "ParentID":"-100, -2", "storyboardName":"", "storyboardId":""},
   
   {"ID":5007, "Name":"Day8", "ParentID":"-100, -2, -22", "storyboardName":"", "storyboardId":""},
-  {"ID":50071, "Name":"数组排序算法", "ParentID":"-100, -2, -22, 5007", "storyboardName":"", "storyboardId":""},
+  {"ID":50071, "Name":"Day8学习报告", "ParentID":"-100, -2, -22, 5007", "storyboardName":"", "storyboardId":""},
   
   
   
