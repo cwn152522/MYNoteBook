@@ -235,7 +235,7 @@
   {"ID":5007, "Name":"Day8", "ParentID":"-100, -2, -22", "storyboardName":"", "storyboardId":""},
   {"ID":50071, "Name":"Day8学习报告", "ParentID":"-100, -2, -22, 5007", "storyboardName":"", "storyboardId":""},
   {"ID":50072, "Name":"mysql介绍及系统级操作", "ParentID":"-100, -2, -22, 5007", "storyboardName":"", "storyboardId":""},
-  
+  {"ID":50073, "Name":"数据库定义语句及字段类型", "ParentID":"-100, -2, -22, 5007", "storyboardName":"", "storyboardId":""},
   
   
   
