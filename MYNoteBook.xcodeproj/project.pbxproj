@@ -27,6 +27,9 @@
 		BE65CD841FA6EB0900A953A2 /* 只读属性self调用.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE65CD811FA6EB0900A953A2 /* 只读属性self调用.pdf */; };
 		BE65CD851FA6EB0900A953A2 /* 如何正确计算文本高度.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE65CD821FA6EB0900A953A2 /* 如何正确计算文本高度.pdf */; };
 		BE67E0AE204E3FCF00063005 /* 数据库定义语句及字段类型.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE67E0AD204E3FCF00063005 /* 数据库定义语句及字段类型.pdf */; };
+		BE67E0B0204E537200063005 /* phpMyAdmin站点配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE67E0AF204E537200063005 /* phpMyAdmin站点配置.pdf */; };
+		BE67E0B7204E8B3500063005 /* php数据库相关函数.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE67E0B6204E8B3500063005 /* php数据库相关函数.pdf */; };
+		BE67E0B9204EA1AA00063005 /* Day8学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE67E0B8204EA1AA00063005 /* Day8学习报告.pdf */; };
 		BE6D98C51F43D56A0013CCE2 /* 流程控制.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */; };
 		BE6D98C71F43E0E50013CCE2 /* Day4学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C61F43E0E50013CCE2 /* Day4学习报告.pdf */; };
 		BE6D98CA1F4408E00013CCE2 /* 循环的中断.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */; };
@@ -525,6 +528,9 @@
 		BE65CD811FA6EB0900A953A2 /* 只读属性self调用.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "只读属性self调用.pdf"; sourceTree = "<group>"; };
 		BE65CD821FA6EB0900A953A2 /* 如何正确计算文本高度.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "如何正确计算文本高度.pdf"; sourceTree = "<group>"; };
 		BE67E0AD204E3FCF00063005 /* 数据库定义语句及字段类型.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据库定义语句及字段类型.pdf"; sourceTree = "<group>"; };
+		BE67E0AF204E537200063005 /* phpMyAdmin站点配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "phpMyAdmin站点配置.pdf"; sourceTree = "<group>"; };
+		BE67E0B6204E8B3500063005 /* php数据库相关函数.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "php数据库相关函数.pdf"; sourceTree = "<group>"; };
+		BE67E0B8204EA1AA00063005 /* Day8学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day8学习报告.pdf"; sourceTree = "<group>"; };
 		BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "流程控制.pdf"; sourceTree = "<group>"; };
 		BE6D98C61F43E0E50013CCE2 /* Day4学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day4学习报告.pdf"; sourceTree = "<group>"; };
 		BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "循环的中断.pdf"; sourceTree = "<group>"; };
@@ -1361,6 +1367,13 @@
 				BE74EE4D1FCD8719008AE2C9 /* 多重列表嵌套页面搭建.docx */,
 			);
 			path = "IOS编程随记4";
+			sourceTree = "<group>";
+		};
+		BE67E0B3204E865600063005 /* Day9 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day9;
 			sourceTree = "<group>";
 		};
 		BE6D98C81F43E2250013CCE2 /* Day5 */ = {
@@ -3161,6 +3174,7 @@
 			isa = PBXGroup;
 			children = (
 				F4003DF7204D95D10084E61E /* Day8 */,
+				BE67E0B3204E865600063005 /* Day9 */,
 			);
 			path = 2018;
 			sourceTree = "<group>";
@@ -3168,8 +3182,11 @@
 		F4003DF7204D95D10084E61E /* Day8 */ = {
 			isa = PBXGroup;
 			children = (
+				BE67E0B8204EA1AA00063005 /* Day8学习报告.pdf */,
 				F4003DF8204D978A0084E61E /* mysql介绍及系统级操作.pdf */,
 				BE67E0AD204E3FCF00063005 /* 数据库定义语句及字段类型.pdf */,
+				BE67E0AF204E537200063005 /* phpMyAdmin站点配置.pdf */,
+				BE67E0B6204E8B3500063005 /* php数据库相关函数.pdf */,
 			);
 			path = Day8;
 			sourceTree = "<group>";
@@ -3353,6 +3370,7 @@
 				D600D98A1EF71F0800125C17 /* 证书重置项目运行后闪退.pdf in Resources */,
 				D6DC80C21E03573A00F25651 /* UMSocialSDKResources.bundle in Resources */,
 				BE894ED21FC42E3B00030F7E /* iphoneX适配.pdf in Resources */,
+				BE67E0B7204E8B3500063005 /* php数据库相关函数.pdf in Resources */,
 				D600D9791EF71F0800125C17 /* 正则匹配去除文本的html标签.pdf in Resources */,
 				BE83AA651E7666030012C540 /* CLLocation.storyboard in Resources */,
 				D600D9831EF71F0800125C17 /* webView视频如何实现全屏播放.pdf in Resources */,
@@ -3441,6 +3459,7 @@
 				D6DC80B71E03573A00F25651 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				BE67E0AE204E3FCF00063005 /* 数据库定义语句及字段类型.pdf in Resources */,
 				BECA293B1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf in Resources */,
+				BE67E0B0204E537200063005 /* phpMyAdmin站点配置.pdf in Resources */,
 				BE7BB9241F4295F300C22582 /* 位运算符应用-一组开关.pdf in Resources */,
 				D6427D351F6E14EB009BA083 /* 变量作用域.pdf in Resources */,
 				D6EEB2391F3F4F7A00ADF585 /* 算术运算符与自增运算.pdf in Resources */,
@@ -3480,6 +3499,7 @@
 				D600D97A1EF71F0800125C17 /* 版本控制之gitlab服务器的搭建.pdf in Resources */,
 				D600D94F1EF71F0800125C17 /* 绘制对话框样式的标签.pdf in Resources */,
 				BE6F48F41F308CC600A48AD0 /* 超出父视图事件响应.pdf in Resources */,
+				BE67E0B9204EA1AA00063005 /* Day8学习报告.pdf in Resources */,
 				BE5945821EF8D5B8009DC99D /* Day1学习报告.pdf in Resources */,
 				D600D96C1EF71F0800125C17 /* html富文本高度的正确计算.pdf in Resources */,
 				D600D92B1EF71F0800125C17 /* IOS10-动态类型DynamicType.pdf in Resources */,

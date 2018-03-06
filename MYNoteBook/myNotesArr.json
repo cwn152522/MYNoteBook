@@ -236,9 +236,11 @@
   {"ID":50071, "Name":"Day8学习报告", "ParentID":"-100, -2, -22, 5007", "storyboardName":"", "storyboardId":""},
   {"ID":50072, "Name":"mysql介绍及系统级操作", "ParentID":"-100, -2, -22, 5007", "storyboardName":"", "storyboardId":""},
   {"ID":50073, "Name":"数据库定义语句及字段类型", "ParentID":"-100, -2, -22, 5007", "storyboardName":"", "storyboardId":""},
+  {"ID":50074, "Name":"phpMyAdmin站点配置", "ParentID":"-100, -2, -22, 5007", "storyboardName":"", "storyboardId":""},
   
-  
-  
+  {"ID":5008, "Name":"Day9", "ParentID":"-100, -2, -22, -22", "storyboardName":"", "storyboardId":""},
+  {"ID":50081, "Name":"Day9学习报告", "ParentID":"-100, -2, -22, 5008", "storyboardName":"", "storyboardId":""},
+  {"ID":50082, "Name":"php数据库相关函数", "ParentID":"-100, -2, -22, 5008", "storyboardName":"", "storyboardId":""},
   
   
   {"ID":-3, "Name":"TCP/IP", "ParentID":"-100", "storyboardName":"", "storyboardId":""},
