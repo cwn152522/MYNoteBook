@@ -241,6 +241,7 @@
   {"ID":5008, "Name":"Day9", "ParentID":"-100, -2, -22, -22", "storyboardName":"", "storyboardId":""},
   {"ID":50081, "Name":"Day9学习报告", "ParentID":"-100, -2, -22, 5008", "storyboardName":"", "storyboardId":""},
   {"ID":50082, "Name":"表的定义及修改", "ParentID":"-100, -2, -22, 5008", "storyboardName":"", "storyboardId":""},
+  {"ID":50083, "Name":"索引及应用", "ParentID":"-100, -2, -22, 5008", "storyboardName":"", "storyboardId":""},
   
   
   {"ID":-3, "Name":"TCP/IP", "ParentID":"-100", "storyboardName":"", "storyboardId":""},
