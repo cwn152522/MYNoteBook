@@ -30,6 +30,7 @@
 		BE67E0B0204E537200063005 /* phpMyAdmin站点配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE67E0AF204E537200063005 /* phpMyAdmin站点配置.pdf */; };
 		BE67E0B7204E8B3500063005 /* php数据库相关函数.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE67E0B6204E8B3500063005 /* php数据库相关函数.pdf */; };
 		BE67E0B9204EA1AA00063005 /* Day8学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE67E0B8204EA1AA00063005 /* Day8学习报告.pdf */; };
+		BE698FE5204F8081003D47D2 /* 表的定义及修改.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE698FE4204F8081003D47D2 /* 表的定义及修改.pdf */; };
 		BE6D98C51F43D56A0013CCE2 /* 流程控制.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */; };
 		BE6D98C71F43E0E50013CCE2 /* Day4学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C61F43E0E50013CCE2 /* Day4学习报告.pdf */; };
 		BE6D98CA1F4408E00013CCE2 /* 循环的中断.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */; };
@@ -531,6 +532,7 @@
 		BE67E0AF204E537200063005 /* phpMyAdmin站点配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "phpMyAdmin站点配置.pdf"; sourceTree = "<group>"; };
 		BE67E0B6204E8B3500063005 /* php数据库相关函数.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "php数据库相关函数.pdf"; sourceTree = "<group>"; };
 		BE67E0B8204EA1AA00063005 /* Day8学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day8学习报告.pdf"; sourceTree = "<group>"; };
+		BE698FE4204F8081003D47D2 /* 表的定义及修改.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "表的定义及修改.pdf"; sourceTree = "<group>"; };
 		BE6D98C41F43D56A0013CCE2 /* 流程控制.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "流程控制.pdf"; sourceTree = "<group>"; };
 		BE6D98C61F43E0E50013CCE2 /* Day4学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day4学习报告.pdf"; sourceTree = "<group>"; };
 		BE6D98C91F4408E00013CCE2 /* 循环的中断.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "循环的中断.pdf"; sourceTree = "<group>"; };
@@ -1372,6 +1374,7 @@
 		BE67E0B3204E865600063005 /* Day9 */ = {
 			isa = PBXGroup;
 			children = (
+				BE698FE4204F8081003D47D2 /* 表的定义及修改.pdf */,
 			);
 			path = Day9;
 			sourceTree = "<group>";
@@ -3344,6 +3347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE698FE5204F8081003D47D2 /* 表的定义及修改.pdf in Resources */,
 				BE657E561EFCEC6600F16020 /* 类库管理工具CocoaPods详解.pdf in Resources */,
 				BE83A93B1E7665A50012C540 /* CoreAnimation.storyboard in Resources */,
 				D600D93E1EF71F0800125C17 /* 友盟社区化组件v6.1.1.pdf in Resources */,
