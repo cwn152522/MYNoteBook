@@ -561,7 +561,6 @@
 		BE72AF431F0F711400A79201 /* 怎么让文本左右对齐.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "怎么让文本左右对齐.pdf"; sourceTree = "<group>"; };
 		BE72AF451F0F905000A79201 /* 修改状态栏字体颜色.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "修改状态栏字体颜色.pdf"; sourceTree = "<group>"; };
 		BE74EE4B1FCD5EC6008AE2C9 /* 关于事件响应链.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "关于事件响应链.pdf"; sourceTree = "<group>"; };
-		BE74EE4D1FCD8719008AE2C9 /* 多重列表嵌套页面搭建.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "多重列表嵌套页面搭建.docx"; sourceTree = "<group>"; };
 		BE7BB9231F4295F300C22582 /* 位运算符应用-一组开关.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "位运算符应用-一组开关.pdf"; sourceTree = "<group>"; };
 		BE7BB9251F42B46700C22582 /* 输出数组、字典的json数据.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "输出数组、字典的json数据.pdf"; sourceTree = "<group>"; };
 		BE7BB9271F43097600C22582 /* 数组、错误控制运算符及优先级.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组、错误控制运算符及优先级.pdf"; sourceTree = "<group>"; };
@@ -1372,7 +1371,6 @@
 				BE8BEF7B1FC65B8F00C016B5 /* Alert弹窗方式.pdf */,
 				BE8BEF7D1FC6840C00C016B5 /* 低版xcode编译新版本api报错.pdf */,
 				BE74EE4B1FCD5EC6008AE2C9 /* 关于事件响应链.pdf */,
-				BE74EE4D1FCD8719008AE2C9 /* 多重列表嵌套页面搭建.docx */,
 			);
 			path = "IOS编程随记4";
 			sourceTree = "<group>";
