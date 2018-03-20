@@ -491,6 +491,7 @@
 		D6F774BA1E0063230089E7E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F774B91E0063230089E7E9 /* CoreGraphics.framework */; };
 		D6F774BC1E0066040089E7E9 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6F774BB1E0066040089E7E9 /* mapapi.bundle */; };
 		F4003DF9204D978A0084E61E /* mysql介绍及系统级操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F4003DF8204D978A0084E61E /* mysql介绍及系统级操作.pdf */; };
+		F4160ED6206166E8002F5926 /* 数据库设计3范式.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F4160ED5206166E8002F5926 /* 数据库设计3范式.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1232,6 +1233,7 @@
 		D6F774BB1E0066040089E7E9 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapAPI_Map.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
 		D6FDE5861DE8EFE600AA89EF /* MYCloudGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYCloudGlobal.h; sourceTree = "<group>"; };
 		F4003DF8204D978A0084E61E /* mysql介绍及系统级操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "mysql介绍及系统级操作.pdf"; sourceTree = "<group>"; };
+		F4160ED5206166E8002F5926 /* 数据库设计3范式.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据库设计3范式.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1389,6 +1391,7 @@
 		BE698FEC204FAE52003D47D2 /* Day10 */ = {
 			isa = PBXGroup;
 			children = (
+				F4160ED5206166E8002F5926 /* 数据库设计3范式.pdf */,
 			);
 			path = Day10;
 			sourceTree = "<group>";
@@ -3501,6 +3504,7 @@
 				D6EEB23D1F3F564B00ADF585 /* 逻辑运算符.pdf in Resources */,
 				D6D3FD6B1EE61A3A00D628A6 /* MYNav.storyboard in Resources */,
 				BE657E131EFCD4EE00F16020 /* 常量的定义和基本使用.pdf in Resources */,
+				F4160ED6206166E8002F5926 /* 数据库设计3范式.pdf in Resources */,
 				D600D9641EF71F0800125C17 /* 关于面向对象编程.pdf in Resources */,
 				D600D9321EF71F0800125C17 /* MYNavigationController封装.pdf in Resources */,
 				D600D97C1EF71F0800125C17 /* 线上app闪退问题反馈流程.pdf in Resources */,
