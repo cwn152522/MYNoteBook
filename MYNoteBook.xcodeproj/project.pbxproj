@@ -491,6 +491,8 @@
 		D6F774BA1E0063230089E7E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F774B91E0063230089E7E9 /* CoreGraphics.framework */; };
 		D6F774BC1E0066040089E7E9 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D6F774BB1E0066040089E7E9 /* mapapi.bundle */; };
 		F4003DF9204D978A0084E61E /* mysql介绍及系统级操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F4003DF8204D978A0084E61E /* mysql介绍及系统级操作.pdf */; };
+		F4142AEE20679A01007A95AC /* 数据增删改.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F4142AED20679A01007A95AC /* 数据增删改.pdf */; };
+		F4142AF02067A58F007A95AC /* 数据基本查询.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F4142AEF2067A58F007A95AC /* 数据基本查询.pdf */; };
 		F4160ED6206166E8002F5926 /* 数据库设计3范式.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F4160ED5206166E8002F5926 /* 数据库设计3范式.pdf */; };
 /* End PBXBuildFile section */
 
@@ -1233,6 +1235,8 @@
 		D6F774BB1E0066040089E7E9 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapAPI_Map.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
 		D6FDE5861DE8EFE600AA89EF /* MYCloudGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYCloudGlobal.h; sourceTree = "<group>"; };
 		F4003DF8204D978A0084E61E /* mysql介绍及系统级操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "mysql介绍及系统级操作.pdf"; sourceTree = "<group>"; };
+		F4142AED20679A01007A95AC /* 数据增删改.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据增删改.pdf"; sourceTree = "<group>"; };
+		F4142AEF2067A58F007A95AC /* 数据基本查询.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据基本查询.pdf"; sourceTree = "<group>"; };
 		F4160ED5206166E8002F5926 /* 数据库设计3范式.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据库设计3范式.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1392,6 +1396,8 @@
 			isa = PBXGroup;
 			children = (
 				F4160ED5206166E8002F5926 /* 数据库设计3范式.pdf */,
+				F4142AED20679A01007A95AC /* 数据增删改.pdf */,
+				F4142AEF2067A58F007A95AC /* 数据基本查询.pdf */,
 			);
 			path = Day10;
 			sourceTree = "<group>";
@@ -3379,6 +3385,7 @@
 				BE83A9681E7665A50012C540 /* Tips.storyboard in Resources */,
 				D600D9651EF71F0800125C17 /* 列表数据本地化思想.pdf in Resources */,
 				D600D9691EF71F0800125C17 /* 模糊搜索数据加载出错问题.pdf in Resources */,
+				F4142AEE20679A01007A95AC /* 数据增删改.pdf in Resources */,
 				D600D9511EF71F0800125C17 /* 绘制带填充色的圆角箭头标签.pdf in Resources */,
 				D600D93D1EF71F0800125C17 /* 利用NSCache提升效率.pdf in Resources */,
 				BE83AA5B1E7666030012C540 /* Info.plist in Resources */,
@@ -3576,6 +3583,7 @@
 				D6EE1EFC1DCAA616003F14CD /* Assets.xcassets in Resources */,
 				D61F1D0C1F49290300524D14 /* 控制脚本执行进度.pdf in Resources */,
 				BE83AA291E7666030012C540 /* JSCallOC.html in Resources */,
+				F4142AF02067A58F007A95AC /* 数据基本查询.pdf in Resources */,
 				BE573FC51F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf in Resources */,
 				D600D91D1EF71F0800125C17 /* Swift_OC混编.pdf in Resources */,
 				BE90901F1F00AC550011D618 /* 数据类型.pdf in Resources */,

@@ -245,8 +245,9 @@
   {"ID":50084, "Name":"约束、表选项及视图", "ParentID":"-100, -2, -22, 5008", "storyboardName":"", "storyboardId":""},
   
   {"ID":5009, "Name":"Day10", "ParentID":"-100, -2, -22, -22", "storyboardName":"", "storyboardId":""},
-  {"ID":50091, "Name":"Day10学习报告", "ParentID":"-100, -2, -22, 5009", "storyboardName":"", "storyboardId":""},
-  {"ID":50092, "Name":"数据库设计3范式", "ParentID":"-100, -2, -22, 5009", "storyboardName":"", "storyboardId":""},
+  {"ID":50091, "Name":"数据库设计3范式", "ParentID":"-100, -2, -22, 5009", "storyboardName":"", "storyboardId":""},
+  {"ID":50092, "Name":"数据增删改", "ParentID":"-100, -2, -22, 5009", "storyboardName":"", "storyboardId":""},
+  {"ID":50093, "Name":"数据基本查询", "ParentID":"-100, -2, -22, 5009", "storyboardName":"", "storyboardId":""},
   
   
   
