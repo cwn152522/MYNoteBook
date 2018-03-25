@@ -249,6 +249,8 @@
   {"ID":50092, "Name":"数据增删改", "ParentID":"-100, -2, -22, 5009", "storyboardName":"", "storyboardId":""},
   {"ID":50093, "Name":"数据基本查询", "ParentID":"-100, -2, -22, 5009", "storyboardName":"", "storyboardId":""},
   
+  {"ID":5010, "Name":"Day11", "ParentID":"-100, -2, -22, -22", "storyboardName":"", "storyboardId":""},
+  
   
   
   {"ID":-3, "Name":"TCP/IP", "ParentID":"-100", "storyboardName":"", "storyboardId":""},
