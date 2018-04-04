@@ -256,7 +256,7 @@
   
   {"ID":5011, "Name":"Day12", "ParentID":"-100, -2, -22", "storyboardName":"", "storyboardId":""},
   {"ID":50111, "Name":"数据控制语言(DCL)", "ParentID":"-100, -2, -22, 5011", "storyboardName":"", "storyboardId":""},
-  {"ID":50112, "Name":"事务控制语言(DTL)", "ParentID":"-100, -2, -22, 5011", "storyboardName":"", "storyboardId":""},
+  {"ID":50112, "Name":"数据事务语言(DTL)", "ParentID":"-100, -2, -22, 5011", "storyboardName":"", "storyboardId":""},
   {"ID":50113, "Name":"变量与流程控制", "ParentID":"-100, -2, -22, 5011", "storyboardName":"", "storyboardId":""},
   {"ID":50114, "Name":"mysql编程", "ParentID":"-100, -2, -22, 5011", "storyboardName":"", "storyboardId":""},
   

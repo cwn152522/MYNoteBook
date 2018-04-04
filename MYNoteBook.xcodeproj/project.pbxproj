@@ -14,6 +14,7 @@
 		BE4928132074CB0200ADB9CA /* 子查询.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4928122074CB0200ADB9CA /* 子查询.pdf */; };
 		BE4928152074CE3600ADB9CA /* 联合查询.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4928142074CE3600ADB9CA /* 联合查询.pdf */; };
 		BE49281A2074D47000ADB9CA /* 数据控制语言(DCL).pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4928192074D47000ADB9CA /* 数据控制语言(DCL).pdf */; };
+		BE49281C2074DCD400ADB9CA /* 数据事务语言(DTL).pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE49281B2074DCD400ADB9CA /* 数据事务语言(DTL).pdf */; };
 		BE573FC51F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */; };
 		BE573FC71F7382A800B97C83 /* 常用系统函数及递归思想.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE573FC61F7382A800B97C83 /* 常用系统函数及递归思想.pdf */; };
 		BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */; };
@@ -525,6 +526,7 @@
 		BE4928122074CB0200ADB9CA /* 子查询.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "子查询.pdf"; sourceTree = "<group>"; };
 		BE4928142074CE3600ADB9CA /* 联合查询.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "联合查询.pdf"; sourceTree = "<group>"; };
 		BE4928192074D47000ADB9CA /* 数据控制语言(DCL).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据控制语言(DCL).pdf"; sourceTree = "<group>"; };
+		BE49281B2074DCD400ADB9CA /* 数据事务语言(DTL).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据事务语言(DTL).pdf"; sourceTree = "<group>"; };
 		BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组的基本遍历和指针操作.pdf"; sourceTree = "<group>"; };
 		BE573FC61F7382A800B97C83 /* 常用系统函数及递归思想.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常用系统函数及递归思想.pdf"; sourceTree = "<group>"; };
 		BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量基本理解与操作.pdf"; sourceTree = "<group>"; };
@@ -1336,6 +1338,7 @@
 			isa = PBXGroup;
 			children = (
 				BE4928192074D47000ADB9CA /* 数据控制语言(DCL).pdf */,
+				BE49281B2074DCD400ADB9CA /* 数据事务语言(DTL).pdf */,
 			);
 			path = Day12;
 			sourceTree = "<group>";
@@ -3550,6 +3553,7 @@
 				D600D9661EF71F0800125C17 /* 单元测试.pdf in Resources */,
 				D6DC80BF1E03573A00F25651 /* README.txt in Resources */,
 				BE573FC71F7382A800B97C83 /* 常用系统函数及递归思想.pdf in Resources */,
+				BE49281C2074DCD400ADB9CA /* 数据事务语言(DTL).pdf in Resources */,
 				D600D92F1EF71F0800125C17 /* IOS10-通知框架UserNotification.pdf in Resources */,
 				D6F774861E005EDB0089E7E9 /* MJRefresh.bundle in Resources */,
 				D600D9411EF71F0800125C17 /* 百度统计v4.3.0.pdf in Resources */,
