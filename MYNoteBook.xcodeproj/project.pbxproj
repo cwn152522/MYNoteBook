@@ -11,6 +11,7 @@
 		BE4243321F6F591E00B6034B /* Day6学习报告.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4243311F6F591E00B6034B /* Day6学习报告.pdf */; };
 		BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4842451EF7F97400636470 /* PHP配置.pdf */; };
 		BE4928112074BE5100ADB9CA /* 连接查询.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4928102074BE5100ADB9CA /* 连接查询.pdf */; };
+		BE4928132074CB0200ADB9CA /* 子查询.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4928122074CB0200ADB9CA /* 子查询.pdf */; };
 		BE573FC51F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */; };
 		BE573FC71F7382A800B97C83 /* 常用系统函数及递归思想.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE573FC61F7382A800B97C83 /* 常用系统函数及递归思想.pdf */; };
 		BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */; };
@@ -519,6 +520,7 @@
 		BE4243311F6F591E00B6034B /* Day6学习报告.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Day6学习报告.pdf"; sourceTree = "<group>"; };
 		BE4842451EF7F97400636470 /* PHP配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP配置.pdf"; sourceTree = "<group>"; };
 		BE4928102074BE5100ADB9CA /* 连接查询.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "连接查询.pdf"; sourceTree = "<group>"; };
+		BE4928122074CB0200ADB9CA /* 子查询.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "子查询.pdf"; sourceTree = "<group>"; };
 		BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组的基本遍历和指针操作.pdf"; sourceTree = "<group>"; };
 		BE573FC61F7382A800B97C83 /* 常用系统函数及递归思想.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常用系统函数及递归思想.pdf"; sourceTree = "<group>"; };
 		BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量基本理解与操作.pdf"; sourceTree = "<group>"; };
@@ -3225,6 +3227,7 @@
 			isa = PBXGroup;
 			children = (
 				BE4928102074BE5100ADB9CA /* 连接查询.pdf */,
+				BE4928122074CB0200ADB9CA /* 子查询.pdf */,
 			);
 			path = Day11;
 			sourceTree = "<group>";
@@ -3611,6 +3614,7 @@
 				BE83A95E1E7665A50012C540 /* DrawLine.storyboard in Resources */,
 				D600D95D1EF71F0800125C17 /* 使用autolayout后获取frame不正确.pdf in Resources */,
 				D600D9761EF71F0800125C17 /* 怎么让个别页面支持旋转.pdf in Resources */,
+				BE4928132074CB0200ADB9CA /* 子查询.pdf in Resources */,
 				D600D98B1EF71F0800125C17 /* 页面编写习惯.pdf in Resources */,
 				D600D9431EF71F0800125C17 /* MJRefresh用法熟悉.pdf in Resources */,
 				D6EE1EFA1DCAA616003F14CD /* Main.storyboard in Resources */,
