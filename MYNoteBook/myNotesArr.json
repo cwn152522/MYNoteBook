@@ -254,6 +254,9 @@
   {"ID":500102, "Name":"子查询", "ParentID":"-100, -2, -22, 5010", "storyboardName":"", "storyboardId":""},
   {"ID":500103, "Name":"联合查询", "ParentID":"-100, -2, -22, 5010", "storyboardName":"", "storyboardId":""},
   
+  {"ID":5011, "Name":"Day12", "ParentID":"-100, -2, -22", "storyboardName":"", "storyboardId":""},
+  {"ID":50111, "Name":"数据控制语言(DCL)", "ParentID":"-100, -2, -22, 5011", "storyboardName":"", "storyboardId":""},
+  {"ID":50112, "Name":"事物控制语言(DTL)", "ParentID":"-100, -2, -22, 5011", "storyboardName":"", "storyboardId":""},
   
   
   {"ID":-3, "Name":"TCP/IP", "ParentID":"-100", "storyboardName":"", "storyboardId":""},

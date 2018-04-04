@@ -1330,6 +1330,13 @@
 			path = Day7;
 			sourceTree = "<group>";
 		};
+		BE4928162074CF4B00ADB9CA /* Day12 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day12;
+			sourceTree = "<group>";
+		};
 		BE5945831EF8DCD6009DC99D /* Day2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3209,6 +3216,7 @@
 				BE67E0B3204E865600063005 /* Day9 */,
 				BE698FEC204FAE52003D47D2 /* Day10 */,
 				F4142AF12067A712007A95AC /* Day11 */,
+				BE4928162074CF4B00ADB9CA /* Day12 */,
 			);
 			path = 2018;
 			sourceTree = "<group>";
