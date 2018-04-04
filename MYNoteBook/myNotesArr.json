@@ -252,6 +252,7 @@
   {"ID":5010, "Name":"Day11", "ParentID":"-100, -2, -22", "storyboardName":"", "storyboardId":""},
   {"ID":500101, "Name":"连接查询", "ParentID":"-100, -2, -22, 5010", "storyboardName":"", "storyboardId":""},
   {"ID":500102, "Name":"子查询", "ParentID":"-100, -2, -22, 5010", "storyboardName":"", "storyboardId":""},
+  {"ID":500103, "Name":"联合查询", "ParentID":"-100, -2, -22, 5010", "storyboardName":"", "storyboardId":""},
   
   
   

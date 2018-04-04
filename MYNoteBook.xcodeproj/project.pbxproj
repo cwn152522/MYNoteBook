@@ -12,6 +12,7 @@
 		BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4842451EF7F97400636470 /* PHP配置.pdf */; };
 		BE4928112074BE5100ADB9CA /* 连接查询.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4928102074BE5100ADB9CA /* 连接查询.pdf */; };
 		BE4928132074CB0200ADB9CA /* 子查询.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4928122074CB0200ADB9CA /* 子查询.pdf */; };
+		BE4928152074CE3600ADB9CA /* 联合查询.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4928142074CE3600ADB9CA /* 联合查询.pdf */; };
 		BE573FC51F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */; };
 		BE573FC71F7382A800B97C83 /* 常用系统函数及递归思想.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE573FC61F7382A800B97C83 /* 常用系统函数及递归思想.pdf */; };
 		BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */; };
@@ -521,6 +522,7 @@
 		BE4842451EF7F97400636470 /* PHP配置.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHP配置.pdf"; sourceTree = "<group>"; };
 		BE4928102074BE5100ADB9CA /* 连接查询.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "连接查询.pdf"; sourceTree = "<group>"; };
 		BE4928122074CB0200ADB9CA /* 子查询.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "子查询.pdf"; sourceTree = "<group>"; };
+		BE4928142074CE3600ADB9CA /* 联合查询.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "联合查询.pdf"; sourceTree = "<group>"; };
 		BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组的基本遍历和指针操作.pdf"; sourceTree = "<group>"; };
 		BE573FC61F7382A800B97C83 /* 常用系统函数及递归思想.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常用系统函数及递归思想.pdf"; sourceTree = "<group>"; };
 		BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量基本理解与操作.pdf"; sourceTree = "<group>"; };
@@ -3228,6 +3230,7 @@
 			children = (
 				BE4928102074BE5100ADB9CA /* 连接查询.pdf */,
 				BE4928122074CB0200ADB9CA /* 子查询.pdf */,
+				BE4928142074CE3600ADB9CA /* 联合查询.pdf */,
 			);
 			path = Day11;
 			sourceTree = "<group>";
@@ -3516,6 +3519,7 @@
 				BE4928112074BE5100ADB9CA /* 连接查询.pdf in Resources */,
 				BE7BB9281F43097600C22582 /* 数组、错误控制运算符及优先级.pdf in Resources */,
 				BEA939F51FBC2C4B00EDBAEF /* kvo观察者注意事项.pdf in Resources */,
+				BE4928152074CE3600ADB9CA /* 联合查询.pdf in Resources */,
 				BECA293F1FBF101C000E17D0 /* TableHeaderFooterView修改背景色.pdf in Resources */,
 				D600D9441EF71F0800125C17 /* 关于IOS动画.pdf in Resources */,
 				D600D9421EF71F0800125C17 /* 科大讯飞语音识别v1.146.pdf in Resources */,
