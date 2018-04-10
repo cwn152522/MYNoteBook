@@ -15,6 +15,8 @@
 		BE4928152074CE3600ADB9CA /* 联合查询.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4928142074CE3600ADB9CA /* 联合查询.pdf */; };
 		BE49281A2074D47000ADB9CA /* 数据控制语言(DCL).pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4928192074D47000ADB9CA /* 数据控制语言(DCL).pdf */; };
 		BE49281C2074DCD400ADB9CA /* 数据事务语言(DTL).pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE49281B2074DCD400ADB9CA /* 数据事务语言(DTL).pdf */; };
+		BE4EA169207C7A21005AF36D /* 变量与流程控制.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4EA168207C7A21005AF36D /* 变量与流程控制.pdf */; };
+		BE4EA16B207C81A9005AF36D /* mysql编程.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE4EA16A207C81A9005AF36D /* mysql编程.pdf */; };
 		BE573FC51F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */; };
 		BE573FC71F7382A800B97C83 /* 常用系统函数及递归思想.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE573FC61F7382A800B97C83 /* 常用系统函数及递归思想.pdf */; };
 		BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */; };
@@ -527,6 +529,8 @@
 		BE4928142074CE3600ADB9CA /* 联合查询.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "联合查询.pdf"; sourceTree = "<group>"; };
 		BE4928192074D47000ADB9CA /* 数据控制语言(DCL).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据控制语言(DCL).pdf"; sourceTree = "<group>"; };
 		BE49281B2074DCD400ADB9CA /* 数据事务语言(DTL).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据事务语言(DTL).pdf"; sourceTree = "<group>"; };
+		BE4EA168207C7A21005AF36D /* 变量与流程控制.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量与流程控制.pdf"; sourceTree = "<group>"; };
+		BE4EA16A207C81A9005AF36D /* mysql编程.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "mysql编程.pdf"; sourceTree = "<group>"; };
 		BE573FC41F737A0200B97C83 /* 数组的基本遍历和指针操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数组的基本遍历和指针操作.pdf"; sourceTree = "<group>"; };
 		BE573FC61F7382A800B97C83 /* 常用系统函数及递归思想.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "常用系统函数及递归思想.pdf"; sourceTree = "<group>"; };
 		BE579AAA1EFA132200E4A8DC /* 变量基本理解与操作.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "变量基本理解与操作.pdf"; sourceTree = "<group>"; };
@@ -1339,6 +1343,8 @@
 			children = (
 				BE4928192074D47000ADB9CA /* 数据控制语言(DCL).pdf */,
 				BE49281B2074DCD400ADB9CA /* 数据事务语言(DTL).pdf */,
+				BE4EA168207C7A21005AF36D /* 变量与流程控制.pdf */,
+				BE4EA16A207C81A9005AF36D /* mysql编程.pdf */,
 			);
 			path = Day12;
 			sourceTree = "<group>";
@@ -3540,6 +3546,7 @@
 				BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */,
 				BE7BB9261F42B46700C22582 /* 输出数组、字典的json数据.pdf in Resources */,
 				D600D9631EF71F0800125C17 /* 关于苹果APNs推送机制(3).pdf in Resources */,
+				BE4EA169207C7A21005AF36D /* 变量与流程控制.pdf in Resources */,
 				D600D9201EF71F0800125C17 /* 内存管理.pdf in Resources */,
 				D6EEB23D1F3F564B00ADF585 /* 逻辑运算符.pdf in Resources */,
 				D6D3FD6B1EE61A3A00D628A6 /* MYNav.storyboard in Resources */,
@@ -3607,6 +3614,7 @@
 				D600D9291EF71F0800125C17 /* IOS10-iMessage扩展.pdf in Resources */,
 				D600D9241EF71F0800125C17 /* 数据持久化.pdf in Resources */,
 				D692DF031EE62259004CF87C /* image3.png in Resources */,
+				BE4EA16B207C81A9005AF36D /* mysql编程.pdf in Resources */,
 				D600D91F1EF71F0800125C17 /* 了解RunTime运行机制.pdf in Resources */,
 				D600D9591EF71F0800125C17 /* cell渐变色背景闪烁动画及重用问题.pdf in Resources */,
 				BEB05D50204D278500AEBAE3 /* 数组查找(二分法).pdf in Resources */,
