@@ -275,6 +275,13 @@
   {"ID":50142, "Name":"重载技术", "ParentID":"-100, -2, -22, 5014", "storyboardName":"", "storyboardId":""},
   {"ID":50143, "Name":"接口", "ParentID":"-100, -2, -22, 5014", "storyboardName":"", "storyboardId":""},
   
+  {"ID":5015, "Name":"Day16", "ParentID":"-100, -2, -22", "storyboardName":"", "storyboardId":""},
+  {"ID":50151, "Name":"自动加载和克隆技术", "ParentID":"-100, -2, -22, 5015", "storyboardName":"", "storyboardId":""},
+  {"ID":50152, "Name":"对象遍历及内部标准", "ParentID":"-100, -2, -22, 5015", "storyboardName":"", "storyboardId":""},
+  {"ID":50153, "Name":"数据转模型及类型约束", "ParentID":"-100, -2, -22, 5015", "storyboardName":"", "storyboardId":""},
+  {"ID":50154, "Name":"数据序列化", "ParentID":"-100, -2, -22, 5015", "storyboardName":"", "storyboardId":""},
+  {"ID":50155, "Name":"类对象系统函数运算符", "ParentID":"-100, -2, -22, 5015", "storyboardName":"", "storyboardId":""},
+  
   
   {"ID":-3, "Name":"TCP/IP", "ParentID":"-100", "storyboardName":"", "storyboardId":""},
   

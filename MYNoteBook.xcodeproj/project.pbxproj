@@ -252,6 +252,11 @@
 		BED522BE208489CA00D172E3 /* 抽象类和抽象方法.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522BD208489CA00D172E3 /* 抽象类和抽象方法.pdf */; };
 		BED522C22084915000D172E3 /* 重载技术.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522C12084915000D172E3 /* 重载技术.pdf */; };
 		BED522C42084996100D172E3 /* 接口.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522C32084996100D172E3 /* 接口.pdf */; };
+		BED522C72084A8EB00D172E3 /* 自动加载和克隆技术.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522C62084A8EB00D172E3 /* 自动加载和克隆技术.pdf */; };
+		BED522C92084B5F700D172E3 /* 对象遍历及内部标准.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522C82084B5F700D172E3 /* 对象遍历及内部标准.pdf */; };
+		BED522CB2084C25A00D172E3 /* 数据转模型及类型约束.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522CA2084C25A00D172E3 /* 数据转模型及类型约束.pdf */; };
+		BED522CD2084C6C400D172E3 /* 数据序列化.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522CC2084C6C400D172E3 /* 数据序列化.pdf */; };
+		BED522CF2084CDF100D172E3 /* 类对象系统函数运算符.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522CE2084CDF100D172E3 /* 类对象系统函数运算符.pdf */; };
 		BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */; };
 		BEFF33B01E96051800E2A05E /* DoubleTable_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */; };
 		BEFF33B61E9608F700E2A05E /* MYDoubleTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33B31E9608F700E2A05E /* MYDoubleTableModel.m */; };
@@ -926,6 +931,11 @@
 		BED522BD208489CA00D172E3 /* 抽象类和抽象方法.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "抽象类和抽象方法.pdf"; sourceTree = "<group>"; };
 		BED522C12084915000D172E3 /* 重载技术.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "重载技术.pdf"; sourceTree = "<group>"; };
 		BED522C32084996100D172E3 /* 接口.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "接口.pdf"; sourceTree = "<group>"; };
+		BED522C62084A8EB00D172E3 /* 自动加载和克隆技术.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "自动加载和克隆技术.pdf"; sourceTree = "<group>"; };
+		BED522C82084B5F700D172E3 /* 对象遍历及内部标准.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "对象遍历及内部标准.pdf"; sourceTree = "<group>"; };
+		BED522CA2084C25A00D172E3 /* 数据转模型及类型约束.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据转模型及类型约束.pdf"; sourceTree = "<group>"; };
+		BED522CC2084C6C400D172E3 /* 数据序列化.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "数据序列化.pdf"; sourceTree = "<group>"; };
+		BED522CE2084CDF100D172E3 /* 类对象系统函数运算符.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类对象系统函数运算符.pdf"; sourceTree = "<group>"; };
 		BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoubleTable.storyboard; sourceTree = "<group>"; };
 		BEFF33AE1E96051800E2A05E /* DoubleTable_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTable_ViewController.h; sourceTree = "<group>"; };
 		BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTable_ViewController.m; sourceTree = "<group>"; };
@@ -2400,6 +2410,18 @@
 			path = Day15;
 			sourceTree = "<group>";
 		};
+		BED522C52084A8E300D172E3 /* Day16 */ = {
+			isa = PBXGroup;
+			children = (
+				BED522C62084A8EB00D172E3 /* 自动加载和克隆技术.pdf */,
+				BED522C82084B5F700D172E3 /* 对象遍历及内部标准.pdf */,
+				BED522CA2084C25A00D172E3 /* 数据转模型及类型约束.pdf */,
+				BED522CC2084C6C400D172E3 /* 数据序列化.pdf */,
+				BED522CE2084CDF100D172E3 /* 类对象系统函数运算符.pdf */,
+			);
+			path = Day16;
+			sourceTree = "<group>";
+		};
 		BEFF33AB1E9604C900E2A05E /* 主从列表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3280,6 +3302,7 @@
 				BED522AE2084396300D172E3 /* Day13 */,
 				BED522B52084660600D172E3 /* Day14 */,
 				BED522BC208483D500D172E3 /* Day15 */,
+				BED522C52084A8E300D172E3 /* Day16 */,
 			);
 			path = 2018;
 			sourceTree = "<group>";
@@ -3508,11 +3531,13 @@
 				BE83A9791E7665A50012C540 /* MYNavigationControllerImage.xcassets in Resources */,
 				BE65CD831FA6EB0900A953A2 /* frame视图屏幕循转的适配.pdf in Resources */,
 				D600D94A1EF71F0800125C17 /* 根据UIView绘制出相应Image.pdf in Resources */,
+				BED522CF2084CDF100D172E3 /* 类对象系统函数运算符.pdf in Resources */,
 				D600D9811EF71F0800125C17 /* MYNavigationViewControllerV2封装.pdf in Resources */,
 				BE72AF3D1F0F2E5C00A79201 /* 进制转换.pdf in Resources */,
 				D600D94B1EF71F0800125C17 /* 根据缩放系数绘制缩放后的Image.pdf in Resources */,
 				BE5AC5981EA87B0A003E477F /* DrawAnimation.storyboard in Resources */,
 				D600D9731EF71F0800125C17 /* 列表滑动卡顿问题.pdf in Resources */,
+				BED522CD2084C6C400D172E3 /* 数据序列化.pdf in Resources */,
 				BECA29371FBE8606000E17D0 /* 关于野指针崩溃.pdf in Resources */,
 				D600D9501EF71F0800125C17 /* 绘制带填充色的圆角标签.pdf in Resources */,
 				D600D91B1EF71F0800125C17 /* JavaScriptCore实现JS交互.pdf in Resources */,
@@ -3524,9 +3549,11 @@
 				D600D9621EF71F0800125C17 /* 关于苹果APNs推送机制(2).pdf in Resources */,
 				D61F1D131F4999FA00524D14 /* Day5学习报告.pdf in Resources */,
 				BE82E22E1FC5093F00BC147A /* Rsa加密解密.pdf in Resources */,
+				BED522CB2084C25A00D172E3 /* 数据转模型及类型约束.pdf in Resources */,
 				BE4842461EF7F97400636470 /* PHP配置.pdf in Resources */,
 				D600D9461EF71F0800125C17 /* 图片轮播.pdf in Resources */,
 				D61F1D0E1F493B6800524D14 /* 文件加载.pdf in Resources */,
+				BED522C72084A8EB00D172E3 /* 自动加载和克隆技术.pdf in Resources */,
 				D600D9561EF71F0800125C17 /* 绘制进度由0-1交替的旋转动画.pdf in Resources */,
 				BE579AAB1EFA132200E4A8DC /* 变量基本理解与操作.pdf in Resources */,
 				BE65CD851FA6EB0900A953A2 /* 如何正确计算文本高度.pdf in Resources */,
@@ -3667,6 +3694,7 @@
 				BE83AA2B1E7666030012C540 /* RequestUserInfo.php in Resources */,
 				BE83A9521E7665A50012C540 /* Labels.storyboard in Resources */,
 				BE6F48F01F30867300A48AD0 /* searchbar主题色修改.pdf in Resources */,
+				BED522C92084B5F700D172E3 /* 对象遍历及内部标准.pdf in Resources */,
 				BE83A97F1E7665A50012C540 /* SliderView.storyboard in Resources */,
 				D6D6D9391F6D88B8005609FF /* 匿名函数.pdf in Resources */,
 				BE83A94C1E7665A50012C540 /* ColorfulProgress.storyboard in Resources */,
