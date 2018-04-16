@@ -249,6 +249,9 @@
 		BED522B72084660B00D172E3 /* 类的继承.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522B62084660B00D172E3 /* 类的继承.pdf */; };
 		BED522B92084836000D172E3 /* 工厂模式和单例模式.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522B82084836000D172E3 /* 工厂模式和单例模式.pdf */; };
 		BED522BB2084838000D172E3 /* MySQLManager类封装.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522BA2084838000D172E3 /* MySQLManager类封装.pdf */; };
+		BED522BE208489CA00D172E3 /* 抽象类和抽象方法.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522BD208489CA00D172E3 /* 抽象类和抽象方法.pdf */; };
+		BED522C22084915000D172E3 /* 重载技术.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522C12084915000D172E3 /* 重载技术.pdf */; };
+		BED522C42084996100D172E3 /* 接口.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522C32084996100D172E3 /* 接口.pdf */; };
 		BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */; };
 		BEFF33B01E96051800E2A05E /* DoubleTable_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */; };
 		BEFF33B61E9608F700E2A05E /* MYDoubleTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33B31E9608F700E2A05E /* MYDoubleTableModel.m */; };
@@ -920,6 +923,9 @@
 		BED522B62084660B00D172E3 /* 类的继承.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类的继承.pdf"; sourceTree = "<group>"; };
 		BED522B82084836000D172E3 /* 工厂模式和单例模式.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "工厂模式和单例模式.pdf"; sourceTree = "<group>"; };
 		BED522BA2084838000D172E3 /* MySQLManager类封装.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MySQLManager类封装.pdf"; sourceTree = "<group>"; };
+		BED522BD208489CA00D172E3 /* 抽象类和抽象方法.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "抽象类和抽象方法.pdf"; sourceTree = "<group>"; };
+		BED522C12084915000D172E3 /* 重载技术.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "重载技术.pdf"; sourceTree = "<group>"; };
+		BED522C32084996100D172E3 /* 接口.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "接口.pdf"; sourceTree = "<group>"; };
 		BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoubleTable.storyboard; sourceTree = "<group>"; };
 		BEFF33AE1E96051800E2A05E /* DoubleTable_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTable_ViewController.h; sourceTree = "<group>"; };
 		BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTable_ViewController.m; sourceTree = "<group>"; };
@@ -2387,6 +2393,9 @@
 		BED522BC208483D500D172E3 /* Day15 */ = {
 			isa = PBXGroup;
 			children = (
+				BED522BD208489CA00D172E3 /* 抽象类和抽象方法.pdf */,
+				BED522C12084915000D172E3 /* 重载技术.pdf */,
+				BED522C32084996100D172E3 /* 接口.pdf */,
 			);
 			path = Day15;
 			sourceTree = "<group>";
@@ -3579,6 +3588,7 @@
 				BE2ADA351F5921D80008010A /* 函数基础.pdf in Resources */,
 				D6DC80BA1E03573A00F25651 /* WeiboSDK.bundle in Resources */,
 				BE6D98C71F43E0E50013CCE2 /* Day4学习报告.pdf in Resources */,
+				BED522C22084915000D172E3 /* 重载技术.pdf in Resources */,
 				D600D9541EF71F0800125C17 /* 绘制纯背景的UISearchBar.pdf in Resources */,
 				BE4928112074BE5100ADB9CA /* 连接查询.pdf in Resources */,
 				BE7BB9281F43097600C22582 /* 数组、错误控制运算符及优先级.pdf in Resources */,
@@ -3597,6 +3607,7 @@
 				BE657E131EFCD4EE00F16020 /* 常量的定义和基本使用.pdf in Resources */,
 				F4160ED6206166E8002F5926 /* 数据库设计3范式.pdf in Resources */,
 				D600D9641EF71F0800125C17 /* 关于面向对象编程.pdf in Resources */,
+				BED522BE208489CA00D172E3 /* 抽象类和抽象方法.pdf in Resources */,
 				D600D9321EF71F0800125C17 /* MYNavigationController封装.pdf in Resources */,
 				D600D97C1EF71F0800125C17 /* 线上app闪退问题反馈流程.pdf in Resources */,
 				D6CC2B0E1E91D3CF00E8C444 /* RunHorseLamp.storyboard in Resources */,
@@ -3630,6 +3641,7 @@
 				D600D97D1EF71F0800125C17 /* 给绘图添加过程动画.pdf in Resources */,
 				D600D9391EF71F0800125C17 /* Xcode8项目兼容IOS7设备.pdf in Resources */,
 				BECA293D1FBF0D80000E17D0 /* textField和TextView限字数.pdf in Resources */,
+				BED522C42084996100D172E3 /* 接口.pdf in Resources */,
 				D600D9681EF71F0800125C17 /* 按钮快速点击重复请求问题.pdf in Resources */,
 				BE83A87C1E7665290012C540 /* BaiduMap.storyboard in Resources */,
 				D600D9851EF71F0800125C17 /* 可能出现内存泄漏的几种情况.pdf in Resources */,
