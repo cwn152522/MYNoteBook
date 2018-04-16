@@ -243,6 +243,12 @@
 		BECA293B1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA293A1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf */; };
 		BECA293D1FBF0D80000E17D0 /* textField和TextView限字数.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA293C1FBF0D80000E17D0 /* textField和TextView限字数.pdf */; };
 		BECA293F1FBF101C000E17D0 /* TableHeaderFooterView修改背景色.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BECA293E1FBF101C000E17D0 /* TableHeaderFooterView修改背景色.pdf */; };
+		BED522B0208448E200D172E3 /* 面向对象基本概念.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522AF208448E200D172E3 /* 面向对象基本概念.pdf */; };
+		BED522B220844EA900D172E3 /* 静态属性和静态方法.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522B120844EA900D172E3 /* 静态属性和静态方法.pdf */; };
+		BED522B42084522100D172E3 /* 构造方法和析构方法.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522B32084522100D172E3 /* 构造方法和析构方法.pdf */; };
+		BED522B72084660B00D172E3 /* 类的继承.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522B62084660B00D172E3 /* 类的继承.pdf */; };
+		BED522B92084836000D172E3 /* 工厂模式和单例模式.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522B82084836000D172E3 /* 工厂模式和单例模式.pdf */; };
+		BED522BB2084838000D172E3 /* MySQLManager类封装.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BED522BA2084838000D172E3 /* MySQLManager类封装.pdf */; };
 		BEFF33AD1E9604E700E2A05E /* DoubleTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */; };
 		BEFF33B01E96051800E2A05E /* DoubleTable_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */; };
 		BEFF33B61E9608F700E2A05E /* MYDoubleTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFF33B31E9608F700E2A05E /* MYDoubleTableModel.m */; };
@@ -908,6 +914,12 @@
 		BECA293A1FBEA4A5000E17D0 /* 列表多区懒加载实现.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "列表多区懒加载实现.pdf"; sourceTree = "<group>"; };
 		BECA293C1FBF0D80000E17D0 /* textField和TextView限字数.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "textField和TextView限字数.pdf"; sourceTree = "<group>"; };
 		BECA293E1FBF101C000E17D0 /* TableHeaderFooterView修改背景色.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "TableHeaderFooterView修改背景色.pdf"; sourceTree = "<group>"; };
+		BED522AF208448E200D172E3 /* 面向对象基本概念.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "面向对象基本概念.pdf"; sourceTree = "<group>"; };
+		BED522B120844EA900D172E3 /* 静态属性和静态方法.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "静态属性和静态方法.pdf"; sourceTree = "<group>"; };
+		BED522B32084522100D172E3 /* 构造方法和析构方法.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "构造方法和析构方法.pdf"; sourceTree = "<group>"; };
+		BED522B62084660B00D172E3 /* 类的继承.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "类的继承.pdf"; sourceTree = "<group>"; };
+		BED522B82084836000D172E3 /* 工厂模式和单例模式.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "工厂模式和单例模式.pdf"; sourceTree = "<group>"; };
+		BED522BA2084838000D172E3 /* MySQLManager类封装.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MySQLManager类封装.pdf"; sourceTree = "<group>"; };
 		BEFF33AC1E9604E700E2A05E /* DoubleTable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DoubleTable.storyboard; sourceTree = "<group>"; };
 		BEFF33AE1E96051800E2A05E /* DoubleTable_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTable_ViewController.h; sourceTree = "<group>"; };
 		BEFF33AF1E96051800E2A05E /* DoubleTable_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTable_ViewController.m; sourceTree = "<group>"; };
@@ -2352,6 +2364,33 @@
 			path = Day1;
 			sourceTree = "<group>";
 		};
+		BED522AE2084396300D172E3 /* Day13 */ = {
+			isa = PBXGroup;
+			children = (
+				BED522AF208448E200D172E3 /* 面向对象基本概念.pdf */,
+				BED522B120844EA900D172E3 /* 静态属性和静态方法.pdf */,
+				BED522B32084522100D172E3 /* 构造方法和析构方法.pdf */,
+			);
+			path = Day13;
+			sourceTree = "<group>";
+		};
+		BED522B52084660600D172E3 /* Day14 */ = {
+			isa = PBXGroup;
+			children = (
+				BED522B62084660B00D172E3 /* 类的继承.pdf */,
+				BED522B82084836000D172E3 /* 工厂模式和单例模式.pdf */,
+				BED522BA2084838000D172E3 /* MySQLManager类封装.pdf */,
+			);
+			path = Day14;
+			sourceTree = "<group>";
+		};
+		BED522BC208483D500D172E3 /* Day15 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day15;
+			sourceTree = "<group>";
+		};
 		BEFF33AB1E9604C900E2A05E /* 主从列表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3229,6 +3268,9 @@
 				BE698FEC204FAE52003D47D2 /* Day10 */,
 				F4142AF12067A712007A95AC /* Day11 */,
 				BE4928162074CF4B00ADB9CA /* Day12 */,
+				BED522AE2084396300D172E3 /* Day13 */,
+				BED522B52084660600D172E3 /* Day14 */,
+				BED522BC208483D500D172E3 /* Day15 */,
 			);
 			path = 2018;
 			sourceTree = "<group>";
@@ -3430,6 +3472,7 @@
 				BE83A9401E7665A50012C540 /* MJRefresh.storyboard in Resources */,
 				D600D93F1EF71F0800125C17 /* 极光推送v3.0.0.pdf in Resources */,
 				D6D3FD661EE6199100D628A6 /* MYNav.xcassets in Resources */,
+				BED522B92084836000D172E3 /* 工厂模式和单例模式.pdf in Resources */,
 				D600D95B1EF71F0800125C17 /* UITableView刷新cell闪烁问题.pdf in Resources */,
 				D600D9341EF71F0800125C17 /* MYNetwork网络库1.0版.pdf in Resources */,
 				BE72AF3F1F0F582600A79201 /* Day3学习报告.pdf in Resources */,
@@ -3442,6 +3485,7 @@
 				D600D9791EF71F0800125C17 /* 正则匹配去除文本的html标签.pdf in Resources */,
 				BE83AA651E7666030012C540 /* CLLocation.storyboard in Resources */,
 				D600D9831EF71F0800125C17 /* webView视频如何实现全屏播放.pdf in Resources */,
+				BED522BB2084838000D172E3 /* MySQLManager类封装.pdf in Resources */,
 				D600D9551EF71F0800125C17 /* 绘制虚线.pdf in Resources */,
 				BEB05D4E204D13C300AEBAE3 /* Day7学习报告.pdf in Resources */,
 				BE83A87A1E7665290012C540 /* UMSocial.storyboard in Resources */,
@@ -3566,6 +3610,7 @@
 				D600D9411EF71F0800125C17 /* 百度统计v4.3.0.pdf in Resources */,
 				D600D9471EF71F0800125C17 /* 实现NavigationBar的alpha渐变.pdf in Resources */,
 				D692DF041EE62259004CF87C /* image4.png in Resources */,
+				BED522B0208448E200D172E3 /* 面向对象基本概念.pdf in Resources */,
 				D6EEB23B1F3F4F7F00ADF585 /* 比较运算符.pdf in Resources */,
 				BE6F48DD1F303FE200A48AD0 /* CAReplicatorLayer.storyboard in Resources */,
 				D600D9821EF71F0800125C17 /* UIView加阴影的情况下动画很卡.pdf in Resources */,
@@ -3580,6 +3625,7 @@
 				BE5945851EF93A3B009DC99D /* 基本语法形式.pdf in Resources */,
 				D600D9351EF71F0800125C17 /* MYSliderView封装.pdf in Resources */,
 				BE8BEF7C1FC65B8F00C016B5 /* Alert弹窗方式.pdf in Resources */,
+				BED522B72084660B00D172E3 /* 类的继承.pdf in Resources */,
 				D600D96B1EF71F0800125C17 /* 输入框部分文本模糊匹配.pdf in Resources */,
 				D600D97D1EF71F0800125C17 /* 给绘图添加过程动画.pdf in Resources */,
 				D600D9391EF71F0800125C17 /* Xcode8项目兼容IOS7设备.pdf in Resources */,
@@ -3589,6 +3635,7 @@
 				D600D9851EF71F0800125C17 /* 可能出现内存泄漏的几种情况.pdf in Resources */,
 				D600D91C1EF71F0800125C17 /* PHP简单接口编写.pdf in Resources */,
 				D600D93B1EF71F0800125C17 /* 使用BundleURL找不到文件.pdf in Resources */,
+				BED522B220844EA900D172E3 /* 静态属性和静态方法.pdf in Resources */,
 				D600D9371EF71F0800125C17 /* Xcode7调试IOS10设备.pdf in Resources */,
 				D600D95F1EF71F0800125C17 /* 使用mutable属性注意事项.pdf in Resources */,
 				D600D9601EF71F0800125C17 /* 关于cell编辑状态的应用.pdf in Resources */,
@@ -3615,6 +3662,7 @@
 				D600D9241EF71F0800125C17 /* 数据持久化.pdf in Resources */,
 				D692DF031EE62259004CF87C /* image3.png in Resources */,
 				BE4EA16B207C81A9005AF36D /* mysql编程.pdf in Resources */,
+				BED522B42084522100D172E3 /* 构造方法和析构方法.pdf in Resources */,
 				D600D91F1EF71F0800125C17 /* 了解RunTime运行机制.pdf in Resources */,
 				D600D9591EF71F0800125C17 /* cell渐变色背景闪烁动画及重用问题.pdf in Resources */,
 				BEB05D50204D278500AEBAE3 /* 数组查找(二分法).pdf in Resources */,
